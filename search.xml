@@ -319,212 +319,6 @@
       </tags>
   </entry>
   <entry>
-    <title>MMD的简单使用</title>
-    <url>/wytblog/2023/08/24/%E6%8A%80%E8%83%BD%E5%BA%93/MMD/</url>
-    <content><![CDATA[<h1 id="chu-ci-jian-dan-zhi-zuo-mmd">💖 初次简单制作MMD</h1>
-<p>最近对MMD产生了浓厚的兴趣，想入手了解一下，就有了这篇文章，关键是记录一下学习的历程…</p>
-<p>MMD的全称<wavy>MikuMikuDance</wavy>，是一款简易3D动画软件。一般在电脑端使用，可以用来导入MMD模型场景动作渲染插件等素材。联合MME——MikuMikuEffect（特效）、MMM——MikuMikuMoving（动作？）、Ray-Ray-mmd（渲染器）。梳理下制作流程，除去必须的制作软件之外，主要是<wavy>模型 → 动作 → 场景 → 镜头 → 特效 → 音乐 → 渲染</wavy>。简单制作的话，这些都有素材，可直接用。也可升级为自己建模、K帧、镜头运用…，感觉里面还包含很多知识，比如<wavy>布料、头发、渲染、K帧</wavy>等吧很多…一定要有耐心，一步步的来不要着急（对自己说的（<sup>_</sup>））。</p>
-<h1 id="xia-zai-pian">💓 下载篇</h1>
-<h2 id="ruan-jian-de-xia-zai" id="软件的下载">软件的下载</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主体软件MMD，V9.26版本（MikuMikuDance 926 CHS）是汉化之后的，没法与其它软件联动；十周年版本（MikuMikuDance 10th Anniversary Version MMD）UP主推荐使用的，可以导出调节文件与Blender或其它3D软件联动;所以使用十周年版本是最好的选择。</p><p>PE（PmxEditor）软件，是用来编辑模型的，可以换头改衣服；</p><p>Ray—mmd渲染插件：其实也可以全流程在Blender里面制作渲染。（之后就迈入了Blender）</p>
-              </div>
-            </details>
-<h2 id="mo-xing-de-xia-zai" id="模型的下载">模型的下载</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>下模型时，有些专业术语得搞懂，要不然会出问题的…还有制作完视频一定要署名借物表。毕竟素材都不是自己制作的。<br>配布：指素材创作者将素材分发给其他人使用。<br>二次配布：不能二次传播模型。<br>借物表：这意思应该就是下载下来的模型都是正规渠道，能溯源的，要在视频标注作者，从哪里引用来的模型。<br>下载下来的压缩包里XXX.pmx后缀是人物的主体文件，使用的话就是这个文件；</p>
-              </div>
-            </details>
-<h1 id="mmd-jian-dan-shi-yong">💙 MMD简单使用</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>一句话说来就是：拖拖拖…</p><p>① 在 To model模式下，将下载的人物模型中的.pmx文件拖入MMD，下载的动作文件.vmd文件拖入，下载的场景模型中的.pmx文件拖入MMD。</p><p>② 先点击 to model 转到To Camera 镜头模式下，将镜头文件.vmd拖入。</p><p>③ 音乐最后拖入支持.wav。</p><p>④ 右上角MME，加点特效</p><p>⑤ 导出视频即可</p>
-              </div>
-            </details>
-<h2 id="blender-jian-dan-zhi-zuo-mmd-zhong-zhi" id="💙-Blender简单制作MMD（重置）">💙 Blender简单制作MMD（重置）</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>前置条件：要完成.pmx模型的导入，必须要有blender_mmd_tools这个插件。<br>下载地址：<a class="btn-anzhiyu " href="https://github.com/UuuNyaa/blender_mmd_tools/releases"   title="blender_mmd_tools"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>blender_mmd_tools</span></a><br>安装插件：编辑-偏好设置-（左侧）插件-安装-下载下来的blender插件压缩包，完成后，搜索栏搜“MMD”，打上对勾。</p><div class="note primary modern"><p>1、导入模型</p><ul><li>方法①：安装完成后，快捷键N出现mmd面板，导入模型（人物＆场景）</li><li>方法②：文件——导入——pmx模型</li></ul></div><div class="note primary modern"><p>2、导入动作<br>导入动作：先把骨骼绑定（新版本可不绑）<br>导入动作文件：在模型视图下，导入之前一定要选父级，不要点人物。<br>在姿态模式下（ctrl+tab），修改穿模问题。</p></div><div class="note primary modern"><p>3、打开物理：MMDtools里面的物理点一下，如果模型有问题，物理也是有问题的，而且物理一开，电脑会变得很慢~~这一点上MMD有绝对的优势</p></div>最后调整材质效果，开始渲染
-              </div>
-            </details>
-<h2 id="jian-dan-cheng-pin" id="💜-简单成品">💜 简单成品</h2>
-<div class="note primary modern"><p>primary 由于时间问题没有渲染全部，只渲染了几张作为留念…</p>
-</div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品1.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品2.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品3.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品4.png" style="width:600px;"/></div></div>
-<h2 id="zeng-jia-liao-mme-de-jian-dan-cheng-pin" id="💦-增加了MME的简单成品">💦 增加了MME的简单成品</h2>
-<p>这个作品目前来说只有拖拖拖，maya，上传后就没仔细看，糊糊糊！画质怎么会这么糊啊😱😱😱！！！下次渲染一定要把画质调高！1080P已经满足不了…</p>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; ">
-    <iframe src="//player.bilibili.com/player.html?bvid=BV1qg4y197Tc&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
-</div>
-
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>MMD</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo网站更新日志</title>
-    <url>/wytblog/2024/02/21/%E6%8A%80%E8%83%BD%E5%BA%93/hexo_%E7%BD%91%E7%AB%99%E5%B0%8F%E6%9B%B4%E6%96%B0/</url>
-    <content><![CDATA[<h2 id="dai-zeng" id="待增">待增</h2>
-<div class='checkbox red'><input type="checkbox" />
-            <p>自定义侧边栏</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>GitHub提交贡献图</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>不蒜子IP计数</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>首页卡片式播放器</p>
-            </div>
-<hr>
-<p>文章-Blender篇：</p>
-<div class='checkbox blue'><input type="checkbox" />
-            <p>Blender几何节点</p>
-            </div>
-<div class='checkbox blue'><input type="checkbox" />
-            <p>Blender修改器</p>
-            </div>
-<div class='checkbox blue'><input type="checkbox" />
-            <p>Blender物理与布料</p>
-            </div>
-<div class='checkbox blue'><input type="checkbox" />
-            <p>Blender场景建模</p>
-            </div>
-<div class='checkbox blue'><input type="checkbox" />
-            <p>Blender人物建模</p>
-            </div>
-<div class='checkbox blue'><input type="checkbox" />
-            <p>Blender材质灯光（产品级）</p>
-            </div>
-<p>文章-绘画篇：</p>
-<div class='checkbox blue'><input type="checkbox" />
-            <p>人体比例</p>
-            </div>
-<h2 id="yi-geng-xin" id="已更新">已更新</h2>
-<div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>网站更新日志 2024</p>
-</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.15</strong></p>
-</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>增加音乐播放器页面</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>增加动态图标</p>
-            </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.17</strong></p>
-</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>文章添加emoji表情支持</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>一篇文章添加多标签设置</p>
-            </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.18</strong></p>
-</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>更改和风插件</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>自定义字体</p>
-            </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.19</strong></p>
-</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>文章加密</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>哔哩哔哩视频嵌入</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>页脚渐变</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>滚动条样式</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>增加动态图标</p>
-            </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.20</strong></p>
-</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>绘制网站icon</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>本地搜索系统</p>
-            </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.21</strong></p>
-</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>切换背景</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>live2D</p>
-            </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.22</strong></p>
-</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>网站首页随机二次元风景图</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>修复白天黑夜切换动画bug</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>新增手写字体</p>
-            </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.23</strong></p>
-</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>首页样式更新</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>新增文章Blender节点中英对照</p>
-            </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.24</strong></p>
-</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>新增全屏切换功能</p>
-            </div>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>按钮实现背景字体切换</p>
-            </div>
-</div></div></div>
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo遇到的问题以及解决</title>
-    <url>/wytblog/2024/02/19/%E6%8A%80%E8%83%BD%E5%BA%93/hexo_%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E8%A7%A3%E5%86%B3/</url>
-    <content><![CDATA[<h1 id="toc-wen-zhang-mu-lu-wu-fa-tiao-zhuan">Toc文章目录无法跳转</h1>
-<p>这个问题要从使用emoji表情说起，照着教程卸载原来的markdown插件，安装新版的markdown-it插件，会发生点击左侧文章目录不跳转的问题。检查“页面元素”，发现目录一级标题的’toc-link’后没有正常生成href属性，因此无法实现跳转。出现此问题的原因是markdown-it插件的 bug，butterfly主题的博客是由markdown-it渲染的，而这个插件并未渲染 heading 的 id 所以导致锚点失效，目录无法正常跳转。在网页的控制台上的报错如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Uncaught TypeError: Cannot read properties of null (reading &#x27;offsetTop&#x27;)</span><br><span class="line">    at Object.getEleTop (utils.js:208:25)</span><br><span class="line">    at HTMLDivElement.&lt;anonymous&gt; (main.js:369:30)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>首先安装 markdown-it-named-headings 插件：</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install markdown-it-named-headings --save </span><br><span class="line">or</span><br><span class="line">npm in markdown-it-named-headings --save</span><br></pre></td></tr></table></figure>
-<ul>
-<li>然后进入项目的根目录，修改根目录下 node_modules\hexo-renderer-markdown-it\lib\renderer.js 文件，在 renderer.js 中添加一行以使用此插件：</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">this.parser.use(require(&#x27;markdown-it-named-headings&#x27;))</span><br></pre></td></tr></table></figure>
-<p>代码粘贴位置如下，记得保存修改，重新运行后即可正常实现目录一级标题的跳转：</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解决toc不跳转.png" style="width:800px;"/></div></div>
-<h1 id="chang-jian-de-dao-ru-live-2-d-bu-zhi-chi-moc-3-ge-shi">常见的导入live2d不支持moc3格式</h1>
-<p>最常见，或者说网上搜索最多人推荐的插件是hexo-helper-live2d，但是下载后不支持moc3的模型格式。然后又在网上搜索找到了hexo-oh-my-live2d插件，这个插件之前在vuepress中也用过，很好用，支持现在主流的moc3格式，具体使用方法参照美化篇里使用。</p>
-<h1 id="mei-hua-she-zhi-an-niu-bu-fan-ying-chu-xian-uncaught-type-error-winbox-is-not-a-function">美化设置按钮不反应，出现Uncaught TypeError: winbox is not a function</h1>
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Blender节点中英对照参考</title>
     <url>/wytblog/2024/02/23/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%20%E8%8A%82%E7%82%B9%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7%E7%BB%84/</url>
     <content><![CDATA[<p>看教程时，有些博主用的是英文版的节点，有的用的是中文版的节点，有时候对不上号，就翻翻这个手册。</p>
@@ -1007,49 +801,126 @@
       </tags>
   </entry>
   <entry>
-    <title>idea整理区</title>
-    <url>/wytblog/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/idea%E9%9B%86%E5%90%88/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="10ab817d83a0ba4f434504d1edc45f5b14b79670baf9f9a41d0c8d5519f3cfc7">4f9329f92667f126694ae84c350d6ad4a13160df7c95341e837de4bf5863c72f5823a1272391f290db7c882f1402a02a83a347ef0b7005a6ac51cbfe9661f43b702348d7b88254900900b5548aff2ca33f0cc33f983824fd2b9035c4d6091e526edf0801f5096cf464959a33dfec2f7f7aadf6388f58f656f377a6a994fdab0880845984e67f0fc94141b30ad240b2c8d367253dbac609ca7138651e027381e39c9f590b1f1c4ce8cd62edbe883aa5437371b0ad7023d1f4500b6d974d8bf8fee3f75e50355064c72c250c0fe873276314824666b32df25bb6e6b1352bffe06cd666729912b06279c318d0b620e8cd6320049bf059e502cf1fb8fbee81b4e28633a18cd8e7dd45e10398d2346238db974250fee5c7d1ea67adf0a47b7d53946659dff371b5ec1253c2562f0da8584071fc851171c1caf98b6c8d96edf7ccf84f58c1cfd16df323a1955c3e29f5277d95da37276e022d929415c4b6bb417eefa620e0cc8c1f375daa52b04c69e78d393c827bcfbdbeffabe3ffbda1d92264ed0abf3c01eb00b93475e0d0c50599954fe3448df438f0e84d0600d6fb22d5af7c59ad114ee01b530e48c91dc1fb31be23092501b3facef793240aca46b5cee960f01053dcdd953d7d644ff362775a94cf5338d1c7dac29138adfb875033f2fd37fcd382013dd9eba2accf4daf54f5d53391c4f225e51658f64330a6d44ee7c41e22c15da34d64ed89718376a77a6901030523a0413f18bca91a57a9ef095841f73c28bbc3d8158f359b113fdd9442da2c137fe78b5005c06087b28a4410212109e3cba65576f03b495b8db1f67e035b689a36615c9e75cfb7d7a825e9b5050912348af00a16e275e647f07256fe3118ffae11a796bdd007fc2c92c6e6658e84e94b26f880a89a86f03399e54fec606af73a1a2dd44c4c66c056b8d9643ca7c15fab089e5d92c715293977076beaf5f7c3ce44fe38074debf680ec2301762f515d1a684a66ac789e73c69e7afcc8d4bd7dc8609f0dec36601ac335455ab804d597d7488e385ca555845478805529fefef6424d4c212184a218772b1c4e6be880c14e911c664308f31ced52ab39fff7609aa8493b35265c5a52445ac1d14ddf7893115dcc5637b9451c1929029c909a42b4097fac14dab73c937c7d8c4e050c1fecd56ea55e13366c6d48d8aa2974147f6578cf2db3f781ee20aef3d2202bcb177aaca878906161f9ab307f9e0e8d456a4ea2bbe5307d3fc014956459c644a905802f0aac191a9a9502bfb76916af95ead44de3e6c270b97438be8a8e27ceed0cf9a51d66a06c1ebb7278d56cbf8ff292c7e3594ad41f0fa246688eca7be02afc544422299972ca3a6cb0dcd35b9ca3a8e6de2d10cc53610225c941dc6a53372c994e40dc8da3a3528b6b2c162109eef41b3656c957154bbdaf0ffe4920bcae4763ec56b9660ff2f4c6c168d3717b5889a21fa5c2e78a373dc5daccece236a604d89c1afbb457cf5a50ebb99430f8ed4eb34c44f80e5f1945366d75f10c44f4b2518bb774e6490ddfcc1eb26e1de75f7f4aeda139f1ce4c31365ef7b0958d1a6b7203883a75414d10e784b2a6f66826a9e59b4185b0c973504db3205df85c120552a56185556ad152e360a2d734e67dedd313ce45a4108a673c60551ee25689827eeccbb84f940431e089a8c81290ce13882f925c4a4044590334fe7b8fdaefea06b16544fe3ced85896841aa10d62f04450dcc65f96b9c20f809e83ffdf45914df84a124c92bb5d594100116db203bbb1aeae2f9c3785c23ad00f4df50201807a0e7e54c151b71c1d2c909b4e3cbe7b933451313c7c178a0e9ee7bcd5e0f57c3e1254f2ed69272f558b96a2b875e9297ddf17c99df43a39cdbed231882391df144748862714e2958ffd55b1f72c3b575540a916eb5ccf559538be9606e894a8eecea6b1786540ddee5fc671bef83ed1daeb0de3db5e2272875dc33ed0a61d088e0fb3837e79a3f9c6c4ac3ec0fc4fa6f83c660cde92762551605edf44e48483cf7c7268c226eab261556528a179ce342c0a94e7203a8f7df5da103e50b8f1331fd27e2ee91ff3a4a33aa3c97fc7e9059b863069f207af1a11c0782bdeb58c9e86bdaeaa163f93756f18dd9f0226ca32ea2d115a5c6010826bd6f739e78258ade96f09862617f539fe4dc13e871c14a1d73091215a595844ba0ce8b613f88d7a6c6584bfb27d5a443aa0b8c5644476890230470c3c6d1d7d94f2bcfb42f95f7d65df9924cdddddb76ec98bfedce26ee88f3028044c0dc7bf428eb6ced0d122a30205974852b464923218f4e5b6bce623614cee06674dbe7261baee6b57234b7d7a677de5103624d2e5fd7f834c4cae8ce77d795af96269cfc3e9a863ac18629f99886f0c9176d4b4930bd2194f5db4962c839d1db8f61043157cb923af79398304d0c4510590930e0199cb1fc97c4c4b6867e0609237c87b9f0acb28c091a29128ebf185e9f8f4c85e7680ab292855bccfb8fe051ea62eb27cf208a1823ed123eaa28a34a8a7ab81e9a1837744b7f6c7453aa9a904b019c80a89a988538e267dc0107b3a5d4eeffe4ffb7bb4cf05428fed692bea57c35a41af72810693623718cbfdabf3901cdcafca2d7f7acc89a65403e1ec08d1768ec923a49f698e45f226799ec5f5d371bc7165ca7482fce2f7d2aa849d341ff100aaeb20530388c803066a2ca7c2cb1211359d4746ec101abc8389d9398786f5df8cab5e4bb059e1352b2b51d21e8891941832fea919c8a73e089d6dd42c524bc101b23aad8b75fe0e14b5ea74dc851bc56de71addcbcf9b3a04674492de31594a07fe0147a4ed9bdce0b075bdb56f63236b696cf88f7828c7af7a53495699d4fbdb8b86028e157ee9d7d0c7d6c58423a0a117202144dae87433f0cc4d5e91de9aa7112ae5d9ebf68638def863c6a47024129f86a40908143134979df71fbb8524fb9cbe33d3ac4c3a9f379a65870dfbfad41eb48335a763352206fbba56a564c3800cd89c7a024e5c1abd7e8ec37ffdaa58f76ca28443d86944022d3615d6314609d1bc0c62c242e0c0fc678bbcf3c4a86f4d181239d191b53f38b7e6f9826895c749482a53662d77ae5fe2d813099044290395c15df7fb8d4b60a1c0b5b1d8fbbcdcd4ed58e03f28e2a6c3b1c3403632086f7485179fc773ef427ee56d7191e5da5c12c23924fe65789d70baf7cbfd8e59b4a06aa807bdf05c0ead6a2d2ca90d2289eff28ecb5cd82aec2f65dbbc1df9db331989cfe90eeae70c91927e9c000c5089d9fb5c29da44b0715768e286b93eeaa5463a68274360259f9bddcd06fbaa13b6e9b9d45a4b932a9c26a5491010b641206a4e103193df2a8b8e04dff36c92080413bc6c4c0a7eb72eac8aea8e3aa2f97666849afc95f062dc58f75f4e9aa6c9dc93a2971f6ae437782e01987eedf4d0a8f63897ca5290b20ca746ec787c10ba78dafab105fe798e4aca4d085ac312a116b4e78d4d555fe420165995c50f6cb3ac36de117e1d9ac73fcd247296be0878e825bb8c797653ae2872723275e6cd8760dc2aa4c93fd3c16556c20f36923f6fc6c87b7f596c8f1e742bd51facd7a43a580688138d8752951f997d94c4d4de77767cc6f6a32c56bb167bc97dba7637659e067b7ae255fdc9bc5c0a67c6a9fed23a7a1261813a3b88762ad439d72f5df00b6ecef5748fd13afcb4d50dd4dccc95fdfa01245b99988e4d1294a29eeb9c197268bb6ad57d45448e762e3a34aec07dfeae4204603aacd19beb2ccfaab8eaa77c416ca4f250253375a44</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/wytblog/lib/hbe.js"></script><link href="/wytblog/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>基于komikaze预设的动漫风格人物渲染模板</title>
+    <url>/wytblog/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%E6%B8%B2%E6%9F%93%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<h1 id="qian-yan">🌺 前言</h1>
+<p>此模板的渲染效果包括二分光影、金属效果、丝袜效果、SDF脸部阴影平滑（通用）、透明衣料、珠宝、皮肤效果等。材质的颜色能够受灯光影响。这个模板唯一的优点是方便多人物流程的使用。（以前用过Merlin大佬的卡渲密咒，一个工程中只能一个模型渲染，因为是节点是打包好供整体使用的。这个插件真的很好用，如果有两个模型的话会有点麻烦。）所以这个模板比较符合自己的需求，更容易改动，可以多光源进行更改，自定义的自由度很高。不需要理解原理就能实现比较理想的效果。</p>
+<p>渲染出来的效果是这样的（自我感觉还不错嘿嘿）：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染演示.gif" style="width:300px;"/></div></div>
+<p>平时积累一些好看的图片，绘画作品，看看怎么打光的，什么情景下打什么光比较好。可以配合这套节点联系下氛围感的图片。</p>
+<h1 id="xuan-ran-she-zhi">🌺 渲染设置</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>① 渲染设置中的辉光参考：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设辉光设置.png" style="width:500px;"/></div></div><p>① <mark class="hl-label blue">阈值：0.9</mark> 、<mark class="hl-label pink">屈伸度：1</mark> 、<mark class="hl-label green">半径：3.51</mark> 、<mark class="hl-label red">颜色（HEX）：FFA5A4</mark> 、强度自定义，一般0.18左右</p><p>② 环境遮蔽不用打开可以自己用节点控制，不然渲染速度会变慢</p><p>③ 色彩管理：SRGB+标准（默认是Filmic）</p><p>④ 新建的灯光设置：<mark class="hl-label purple">颜色（HEX）：FFE1D6</mark> 、<mark class="hl-label blue">强度：10、8、5、3（常用的数值）</mark></p><p>位置信息：Z轴放到头顶即可，人物不一样看身高（1.2m-1.9m）;旋转只更改<strong>X轴：50°</strong>感觉还不错，既能体现光影而且人物还很亮</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设基本设置.png" style="width:600px;"/></div></div><p>⑤ 材质连接已整理成预设，分为：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/节点整合.png" style="width:600px;"/></div></div><p>人物方面：<strong>脸部、头发、衣服、皮肤、金属、丝袜、表情、透明处理、衣服细节、表情、珠宝；</strong>（直接连贴图即可）</p><p>光照方面：<strong>边缘光、环境遮蔽、高光；</strong> FCE2CC或 FFCBAF比较接近皮肤肤色——ffd4c7（平面）；</p><p>高光节点：有两种一种是用<strong>兰伯特照明</strong>，另一种是用<strong>Komikaze里面的各种高光节点</strong>，真的很好用；</p><p>关于节点的一些操作：Modulo 取模运算、Sign符号函数、大于小于运算能把贴图的黑白信息提取出来</p>
+              </div>
+            </details>
+<h1 id="miao-bian-she-zhi">🌺 描边设置</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>（本质上是使用另一UP主的几何描边处理的动态描边，由于卡渲密咒这个插件这个整合好了，所以很好用）：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置1.png" style="width:600px;"/></div></div><p>使用【卡渲密咒】里的“描边咒”，一键描边，但是需要一些处理：</p><p>首先在属性里的数据里把默认的“描边权重”更改为自己命名；</p><p>在修改器里，添加<mark class="hl-label pink">焊接</mark> 、<mark class="hl-label pink">平滑</mark> 、<mark class="hl-label pink">加权法向</mark> （注意：属性里的面的接触改为拐角的角度）；</p><p>在描边属性里，将描边权重改为自己命名的定点组（一定要吻合和顶点组里的）；</p><p>进行一些修改，转到权重模式，用ADD的画笔进行一些细节的处理。右上方的可见性可关掉，处理时方便观察效果；</p><p>PS：描边之后，刘海还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边效果.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h1 id="yan-jing-tou-guo-liu-hai">🌺 眼睛透过刘海</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<p>PS:头发的混合模式时Blend，眉毛的时Hash。<strong>头发一定要勾掉显示背面，一定！！</strong> 这可是废了一天的时间发现的问题！！眉毛以防万一也勾掉。真是让自己给蠢死了</p>
+<h1 id="si-wa-she-zhi">🌺 丝袜设置</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div><p>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div><p>2、增加漫反射使光照变换时产生二分光影效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div><p>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div><p>有贴图or无贴图都可：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h1 id="sdf-lian-bu-yin-ying-ping-hua">🌺 SDF脸部阴影平滑</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>优点：通用便捷SDF脸部阴影平滑解决方案（不用设置头部驱动器）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF演示.gif" style="width:200px;"/></div></div><p>1、插件准备：  <a class="btn-anzhiyu " href="https://github.com/EmuMan/npr-face-shader"   title="npr-face-shader插件"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>npr-face-shader插件</span></a></p><p>2、导入模型后按材质分离，只保留面部，不要进行其它的合并操作。</p><p>3、SDF插件面板以及使用方法：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF插件使用.png" style="width:600px;"/></div></div><p>4、SDF蜡笔线绘制方法：</p><p>参考图：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度1参考.png" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度2参考.png" style="height:200px"/></p><p>Shift+A，新建蜡笔，进入编辑模式全选所有的画笔，X删除蜡笔。再进入“自由线”模式进行绘制，要在面部绘制三条蜡笔线。首先是面部引导线（弧线），一共要绘制7条，从人物脸部的最上方的中心位置开始到下巴结束。从左至右进行绘制。一条穿过右侧眼尾位置，一条穿过右侧眼部中心位置，一条穿过右侧眼角位置。一条是面部正中心的位置。脸部左侧三条线与右侧位置一致。再者，就是面部高光区域，绘制如下。最后是鼻子阴影位置，绘制如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF绘制.png" style="width:600px;"/></div></div><p>5、如果只生成图，节点没有生成成功。自行连接也行</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF连接参考.png" style="width:600px;"/></div></div><p>绑定灯光旋转和绑定灯光颜色：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF头部绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光颜色绑定.png" style="height:280px"/></p>
+              </div>
+            </details>
+<h1 id="yi-fu-wen-li-xi-jie">🌺 衣服纹理细节</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>衣服的细节，主要是用凹凸法线贴图实现。以卡芙卡为例，使她肩膀上的花纹有突出的感觉并且衣服有纹理的细节（具体如图所示）。</p><p>1、用PS生成凹凸贴图和法线贴图。PS操作：打开图像后Ctrl+J复制一层，选择滤镜—3D—生成凹凸图/生成法线图。</p><p>2、在Blender的节点连接如下。数值均可自行调整，而且已经打包成节点组，直接接入即可。</p>
+              </div>
+            </details>
+<h1 id="bian-yuan-guang-you-hua">🌺 边缘光优化</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>本模板的边缘光默认是关闭的。等着在优化优化。<br>边缘光的原理主要是通过菲涅尔，没解决的问题是没办法受光照影响，现在是全局发边缘光，想实现的结果：有光的地方有边缘光，没光的地方没边缘光</p>
+              </div>
+            </details>
+<h1 id="die-dai-guo-cheng">🌺 迭代过程</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <ul><li>迭代：第一版<br>实现光影、头发、脸部、衣服、皮肤、金属饰品。实现描边效果。<br>问题：脸部阴影不平滑、丝袜没有设置材质、刘海没有透过眼睛</li><li>迭代：第二版<br>新增丝袜设置、实现刘海透明效果。新增前发+丝袜节点（实验：卡芙卡）<br>问题：脸部阴影不平滑</li><li>迭代：第三版<br>实现通用脸部SDF阴影平滑效果（姬子为例），所有模型理论上均可使用。<br>问题：头发衣服细节不多，没有光照图。</li><li>迭代：第四版<br>实现衣服的细节纹理，凹凸与法线贴图的使用。新增衣服细节纹理（卡芙卡为例）<br>新增珠宝饰品的节点组。</li><li>迭代：第五版<br>要解决的问题：头发和衣服的阴影细节（不提取游戏中的贴图方法）衣服光照图ilm与ramp图的运用。（可舍）</li></ul>
+              </div>
+            </details>
+<!-- <details class="folding-tag" ><summary> 查看内容 </summary>
+              <div class='content'>
+              
+              </div>
+            </details> -->]]></content>
       <categories>
         <category>点亮技能树</category>
       </categories>
       <tags>
         <tag>Blender</tag>
+        <tag>渲染</tag>
       </tags>
   </entry>
   <entry>
-    <title>构建记忆宫殿——电子笔记软件测评</title>
-    <url>/wytblog/2024/02/29/%E6%8A%80%E8%83%BD%E5%BA%93/%E5%90%84%E7%B1%BB%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%84/</url>
-    <content><![CDATA[<p>自从上了大学之后，笔记软件就没有固定使用过一款，已经用过好多笔记软件了。像安卓端的幕布、印象笔记、有道云笔记。电脑端的OneNote、Xmind、语雀、obsidian。ios端的goodnote以及notability。自制网站版的笔记：vuepress或者Hexo搭建静态网站。</p>
-<ul>
-<li>幕布</li>
-<li>印象笔记</li>
-<li>有道云笔记</li>
-<li>OneNote</li>
-<li>Xmind</li>
-<li>语雀</li>
-<li>obsidian</li>
-<li>GoodNote</li>
-<li>Notability</li>
-<li>网站搭建知识库</li>
-</ul>
+    <title>MMD的简单使用</title>
+    <url>/wytblog/2023/08/24/%E6%8A%80%E8%83%BD%E5%BA%93/MMD/</url>
+    <content><![CDATA[<h1 id="chu-ci-jian-dan-zhi-zuo-mmd">💖 初次简单制作MMD</h1>
+<p>最近对MMD产生了浓厚的兴趣，想入手了解一下，就有了这篇文章，关键是记录一下学习的历程…</p>
+<p>MMD的全称<wavy>MikuMikuDance</wavy>，是一款简易3D动画软件。一般在电脑端使用，可以用来导入MMD模型场景动作渲染插件等素材。联合MME——MikuMikuEffect（特效）、MMM——MikuMikuMoving（动作？）、Ray-Ray-mmd（渲染器）。梳理下制作流程，除去必须的制作软件之外，主要是<wavy>模型 → 动作 → 场景 → 镜头 → 特效 → 音乐 → 渲染</wavy>。简单制作的话，这些都有素材，可直接用。也可升级为自己建模、K帧、镜头运用…，感觉里面还包含很多知识，比如<wavy>布料、头发、渲染、K帧</wavy>等吧很多…一定要有耐心，一步步的来不要着急（对自己说的（<sup>_</sup>））。</p>
+<h1 id="xia-zai-pian">💓 下载篇</h1>
+<h2 id="ruan-jian-de-xia-zai" id="软件的下载">软件的下载</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主体软件MMD，V9.26版本（MikuMikuDance 926 CHS）是汉化之后的，没法与其它软件联动；十周年版本（MikuMikuDance 10th Anniversary Version MMD）UP主推荐使用的，可以导出调节文件与Blender或其它3D软件联动;所以使用十周年版本是最好的选择。</p><p>PE（PmxEditor）软件，是用来编辑模型的，可以换头改衣服；</p><p>Ray—mmd渲染插件：其实也可以全流程在Blender里面制作渲染。（之后就迈入了Blender）</p>
+              </div>
+            </details>
+<h2 id="mo-xing-de-xia-zai" id="模型的下载">模型的下载</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>下模型时，有些专业术语得搞懂，要不然会出问题的…还有制作完视频一定要署名借物表。毕竟素材都不是自己制作的。<br>配布：指素材创作者将素材分发给其他人使用。<br>二次配布：不能二次传播模型。<br>借物表：这意思应该就是下载下来的模型都是正规渠道，能溯源的，要在视频标注作者，从哪里引用来的模型。<br>下载下来的压缩包里XXX.pmx后缀是人物的主体文件，使用的话就是这个文件；</p>
+              </div>
+            </details>
+<h1 id="mmd-jian-dan-shi-yong">💙 MMD简单使用</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>一句话说来就是：拖拖拖…</p><p>① 在 To model模式下，将下载的人物模型中的.pmx文件拖入MMD，下载的动作文件.vmd文件拖入，下载的场景模型中的.pmx文件拖入MMD。</p><p>② 先点击 to model 转到To Camera 镜头模式下，将镜头文件.vmd拖入。</p><p>③ 音乐最后拖入支持.wav。</p><p>④ 右上角MME，加点特效</p><p>⑤ 导出视频即可</p>
+              </div>
+            </details>
+<h2 id="blender-jian-dan-zhi-zuo-mmd-zhong-zhi" id="💙-Blender简单制作MMD（重置）">💙 Blender简单制作MMD（重置）</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>前置条件：要完成.pmx模型的导入，必须要有blender_mmd_tools这个插件。<br>下载地址：<a class="btn-anzhiyu " href="https://github.com/UuuNyaa/blender_mmd_tools/releases"   title="blender_mmd_tools"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>blender_mmd_tools</span></a><br>安装插件：编辑-偏好设置-（左侧）插件-安装-下载下来的blender插件压缩包，完成后，搜索栏搜“MMD”，打上对勾。</p><div class="note primary modern"><p>1、导入模型</p><ul><li>方法①：安装完成后，快捷键N出现mmd面板，导入模型（人物＆场景）</li><li>方法②：文件——导入——pmx模型</li></ul></div><div class="note primary modern"><p>2、导入动作<br>导入动作：先把骨骼绑定（新版本可不绑）<br>导入动作文件：在模型视图下，导入之前一定要选父级，不要点人物。<br>在姿态模式下（ctrl+tab），修改穿模问题。</p></div><div class="note primary modern"><p>3、打开物理：MMDtools里面的物理点一下，如果模型有问题，物理也是有问题的，而且物理一开，电脑会变得很慢~~这一点上MMD有绝对的优势</p></div>最后调整材质效果，开始渲染
+              </div>
+            </details>
+<h2 id="jian-dan-cheng-pin" id="💜-简单成品">💜 简单成品</h2>
+<div class="note primary modern"><p>primary 由于时间问题没有渲染全部，只渲染了几张作为留念…</p>
+</div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品1.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品2.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品3.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品4.png" style="width:600px;"/></div></div>
+<h2 id="zeng-jia-liao-mme-de-jian-dan-cheng-pin" id="💦-增加了MME的简单成品">💦 增加了MME的简单成品</h2>
+<p>这个作品目前来说只有拖拖拖，maya，上传后就没仔细看，糊糊糊！画质怎么会这么糊啊😱😱😱！！！下次渲染一定要把画质调高！1080P已经满足不了…</p>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; ">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1qg4y197Tc&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
+</div>
+
 ]]></content>
       <categories>
         <category>点亮技能树</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>MMD</tag>
       </tags>
   </entry>
   <entry>
@@ -1373,6 +1244,205 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo遇到的问题以及解决</title>
+    <url>/wytblog/2024/02/19/%E6%8A%80%E8%83%BD%E5%BA%93/hexo_%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E8%A7%A3%E5%86%B3/</url>
+    <content><![CDATA[<h1 id="toc-wen-zhang-mu-lu-wu-fa-tiao-zhuan">Toc文章目录无法跳转</h1>
+<p>这个问题要从使用emoji表情说起，照着教程卸载原来的markdown插件，安装新版的markdown-it插件，会发生点击左侧文章目录不跳转的问题。检查“页面元素”，发现目录一级标题的’toc-link’后没有正常生成href属性，因此无法实现跳转。出现此问题的原因是markdown-it插件的 bug，butterfly主题的博客是由markdown-it渲染的，而这个插件并未渲染 heading 的 id 所以导致锚点失效，目录无法正常跳转。在网页的控制台上的报错如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Uncaught TypeError: Cannot read properties of null (reading &#x27;offsetTop&#x27;)</span><br><span class="line">    at Object.getEleTop (utils.js:208:25)</span><br><span class="line">    at HTMLDivElement.&lt;anonymous&gt; (main.js:369:30)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>首先安装 markdown-it-named-headings 插件：</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install markdown-it-named-headings --save </span><br><span class="line">or</span><br><span class="line">npm in markdown-it-named-headings --save</span><br></pre></td></tr></table></figure>
+<ul>
+<li>然后进入项目的根目录，修改根目录下 node_modules\hexo-renderer-markdown-it\lib\renderer.js 文件，在 renderer.js 中添加一行以使用此插件：</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">this.parser.use(require(&#x27;markdown-it-named-headings&#x27;))</span><br></pre></td></tr></table></figure>
+<p>代码粘贴位置如下，记得保存修改，重新运行后即可正常实现目录一级标题的跳转：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解决toc不跳转.png" style="width:800px;"/></div></div>
+<h1 id="chang-jian-de-dao-ru-live-2-d-bu-zhi-chi-moc-3-ge-shi">常见的导入live2d不支持moc3格式</h1>
+<p>最常见，或者说网上搜索最多人推荐的插件是hexo-helper-live2d，但是下载后不支持moc3的模型格式。然后又在网上搜索找到了hexo-oh-my-live2d插件，这个插件之前在vuepress中也用过，很好用，支持现在主流的moc3格式，具体使用方法参照美化篇里使用。</p>
+<h1 id="mei-hua-she-zhi-an-niu-bu-fan-ying-chu-xian-uncaught-type-error-winbox-is-not-a-function">美化设置按钮不反应，出现Uncaught TypeError: winbox is not a function</h1>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>idea整理区</title>
+    <url>/wytblog/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/idea%E9%9B%86%E5%90%88/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="10ab817d83a0ba4f434504d1edc45f5b14b79670baf9f9a41d0c8d5519f3cfc7">4f9329f92667f126694ae84c350d6ad4a13160df7c95341e837de4bf5863c72f5823a1272391f290db7c882f1402a02a83a347ef0b7005a6ac51cbfe9661f43b702348d7b88254900900b5548aff2ca33f0cc33f983824fd2b9035c4d6091e526edf0801f5096cf464959a33dfec2f7f7aadf6388f58f656f377a6a994fdab0880845984e67f0fc94141b30ad240b2c8d367253dbac609ca7138651e027381e39c9f590b1f1c4ce8cd62edbe883aa5437371b0ad7023d1f4500b6d974d8bf8fee3f75e50355064c72c250c0fe873276314824666b32df25bb6e6b1352bffe06cd666729912b06279c318d0b620e8cd6320049bf059e502cf1fb8fbee81b4e28633a18cd8e7dd45e10398d2346238db974250fee5c7d1ea67adf0a47b7d53946659dff371b5ec1253c2562f0da8584071fc851171c1caf98b6c8d96edf7ccf84f58c1cfd16df323a1955c3e29f5277d95da37276e022d929415c4b6bb417eefa620e0cc8c1f375daa52b04c69e78d393c827bcfbdbeffabe3ffbda1d92264ed0abf3c01eb00b93475e0d0c50599954fe3448df438f0e84d0600d6fb22d5af7c59ad114ee01b530e48c91dc1fb31be23092501b3facef793240aca46b5cee960f01053dcdd953d7d644ff362775a94cf5338d1c7dac29138adfb875033f2fd37fcd382013dd9eba2accf4daf54f5d53391c4f225e51658f64330a6d44ee7c41e22c15da34d64ed89718376a77a6901030523a0413f18bca91a57a9ef095841f73c28bbc3d8158f359b113fdd9442da2c137fe78b5005c06087b28a4410212109e3cba65576f03b495b8db1f67e035b689a36615c9e75cfb7d7a825e9b5050912348af00a16e275e647f07256fe3118ffae11a796bdd007fc2c92c6e6658e84e94b26f880a89a86f03399e54fec606af73a1a2dd44c4c66c056b8d9643ca7c15fab089e5d92c715293977076beaf5f7c3ce44fe38074debf680ec2301762f515d1a684a66ac789e73c69e7afcc8d4bd7dc8609f0dec36601ac335455ab804d597d7488e385ca555845478805529fefef6424d4c212184a218772b1c4e6be880c14e911c664308f31ced52ab39fff7609aa8493b35265c5a52445ac1d14ddf7893115dcc5637b9451c1929029c909a42b4097fac14dab73c937c7d8c4e050c1fecd56ea55e13366c6d48d8aa2974147f6578cf2db3f781ee20aef3d2202bcb177aaca878906161f9ab307f9e0e8d456a4ea2bbe5307d3fc014956459c644a905802f0aac191a9a9502bfb76916af95ead44de3e6c270b97438be8a8e27ceed0cf9a51d66a06c1ebb7278d56cbf8ff292c7e3594ad41f0fa246688eca7be02afc544422299972ca3a6cb0dcd35b9ca3a8e6de2d10cc53610225c941dc6a53372c994e40dc8da3a3528b6b2c162109eef41b3656c957154bbdaf0ffe4920bcae4763ec56b9660ff2f4c6c168d3717b5889a21fa5c2e78a373dc5daccece236a604d89c1afbb457cf5a50ebb99430f8ed4eb34c44f80e5f1945366d75f10c44f4b2518bb774e6490ddfcc1eb26e1de75f7f4aeda139f1ce4c31365ef7b0958d1a6b7203883a75414d10e784b2a6f66826a9e59b4185b0c973504db3205df85c120552a56185556ad152e360a2d734e67dedd313ce45a4108a673c60551ee25689827eeccbb84f940431e089a8c81290ce13882f925c4a4044590334fe7b8fdaefea06b16544fe3ced85896841aa10d62f04450dcc65f96b9c20f809e83ffdf45914df84a124c92bb5d594100116db203bbb1aeae2f9c3785c23ad00f4df50201807a0e7e54c151b71c1d2c909b4e3cbe7b933451313c7c178a0e9ee7bcd5e0f57c3e1254f2ed69272f558b96a2b875e9297ddf17c99df43a39cdbed231882391df144748862714e2958ffd55b1f72c3b575540a916eb5ccf559538be9606e894a8eecea6b1786540ddee5fc671bef83ed1daeb0de3db5e2272875dc33ed0a61d088e0fb3837e79a3f9c6c4ac3ec0fc4fa6f83c660cde92762551605edf44e48483cf7c7268c226eab261556528a179ce342c0a94e7203a8f7df5da103e50b8f1331fd27e2ee91ff3a4a33aa3c97fc7e9059b863069f207af1a11c0782bdeb58c9e86bdaeaa163f93756f18dd9f0226ca32ea2d115a5c6010826bd6f739e78258ade96f09862617f539fe4dc13e871c14a1d73091215a595844ba0ce8b613f88d7a6c6584bfb27d5a443aa0b8c5644476890230470c3c6d1d7d94f2bcfb42f95f7d65df9924cdddddb76ec98bfedce26ee88f3028044c0dc7bf428eb6ced0d122a30205974852b464923218f4e5b6bce623614cee06674dbe7261baee6b57234b7d7a677de5103624d2e5fd7f834c4cae8ce77d795af96269cfc3e9a863ac18629f99886f0c9176d4b4930bd2194f5db4962c839d1db8f61043157cb923af79398304d0c4510590930e0199cb1fc97c4c4b6867e0609237c87b9f0acb28c091a29128ebf185e9f8f4c85e7680ab292855bccfb8fe051ea62eb27cf208a1823ed123eaa28a34a8a7ab81e9a1837744b7f6c7453aa9a904b019c80a89a988538e267dc0107b3a5d4eeffe4ffb7bb4cf05428fed692bea57c35a41af72810693623718cbfdabf3901cdcafca2d7f7acc89a65403e1ec08d1768ec923a49f698e45f226799ec5f5d371bc7165ca7482fce2f7d2aa849d341ff100aaeb20530388c803066a2ca7c2cb1211359d4746ec101abc8389d9398786f5df8cab5e4bb059e1352b2b51d21e8891941832fea919c8a73e089d6dd42c524bc101b23aad8b75fe0e14b5ea74dc851bc56de71addcbcf9b3a04674492de31594a07fe0147a4ed9bdce0b075bdb56f63236b696cf88f7828c7af7a53495699d4fbdb8b86028e157ee9d7d0c7d6c58423a0a117202144dae87433f0cc4d5e91de9aa7112ae5d9ebf68638def863c6a47024129f86a40908143134979df71fbb8524fb9cbe33d3ac4c3a9f379a65870dfbfad41eb48335a763352206fbba56a564c3800cd89c7a024e5c1abd7e8ec37ffdaa58f76ca28443d86944022d3615d6314609d1bc0c62c242e0c0fc678bbcf3c4a86f4d181239d191b53f38b7e6f9826895c749482a53662d77ae5fe2d813099044290395c15df7fb8d4b60a1c0b5b1d8fbbcdcd4ed58e03f28e2a6c3b1c3403632086f7485179fc773ef427ee56d7191e5da5c12c23924fe65789d70baf7cbfd8e59b4a06aa807bdf05c0ead6a2d2ca90d2289eff28ecb5cd82aec2f65dbbc1df9db331989cfe90eeae70c91927e9c000c5089d9fb5c29da44b0715768e286b93eeaa5463a68274360259f9bddcd06fbaa13b6e9b9d45a4b932a9c26a5491010b641206a4e103193df2a8b8e04dff36c92080413bc6c4c0a7eb72eac8aea8e3aa2f97666849afc95f062dc58f75f4e9aa6c9dc93a2971f6ae437782e01987eedf4d0a8f63897ca5290b20ca746ec787c10ba78dafab105fe798e4aca4d085ac312a116b4e78d4d555fe420165995c50f6cb3ac36de117e1d9ac73fcd247296be0878e825bb8c797653ae2872723275e6cd8760dc2aa4c93fd3c16556c20f36923f6fc6c87b7f596c8f1e742bd51facd7a43a580688138d8752951f997d94c4d4de77767cc6f6a32c56bb167bc97dba7637659e067b7ae255fdc9bc5c0a67c6a9fed23a7a1261813a3b88762ad439d72f5df00b6ecef5748fd13afcb4d50dd4dccc95fdfa01245b99988e4d1294a29eeb9c197268bb6ad57d45448e762e3a34aec07dfeae4204603aacd19beb2ccfaab8eaa77c416ca4f250253375a44</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/wytblog/lib/hbe.js"></script><link href="/wytblog/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo网站更新日志</title>
+    <url>/wytblog/2024/02/21/%E6%8A%80%E8%83%BD%E5%BA%93/hexo_%E7%BD%91%E7%AB%99%E5%B0%8F%E6%9B%B4%E6%96%B0/</url>
+    <content><![CDATA[<h2 id="dai-zeng" id="待增">待增</h2>
+<div class='checkbox red'><input type="checkbox" />
+            <p>自定义侧边栏</p>
+            </div>
+<div class='checkbox red'><input type="checkbox" />
+            <p>GitHub提交贡献图</p>
+            </div>
+<div class='checkbox red'><input type="checkbox" />
+            <p>不蒜子IP计数</p>
+            </div>
+<div class='checkbox red'><input type="checkbox" />
+            <p>首页卡片式播放器</p>
+            </div>
+<hr>
+<p>文章-Blender篇：</p>
+<div class='checkbox blue'><input type="checkbox" />
+            <p>Blender几何节点</p>
+            </div>
+<div class='checkbox blue'><input type="checkbox" />
+            <p>Blender修改器</p>
+            </div>
+<div class='checkbox blue'><input type="checkbox" />
+            <p>Blender物理与布料</p>
+            </div>
+<div class='checkbox blue'><input type="checkbox" />
+            <p>Blender场景建模</p>
+            </div>
+<div class='checkbox blue'><input type="checkbox" />
+            <p>Blender人物建模</p>
+            </div>
+<div class='checkbox blue'><input type="checkbox" />
+            <p>Blender材质灯光（产品级）</p>
+            </div>
+<p>文章-绘画篇：</p>
+<div class='checkbox blue'><input type="checkbox" />
+            <p>人体比例</p>
+            </div>
+<h2 id="yi-geng-xin" id="已更新">已更新</h2>
+<div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>网站更新日志 2024</p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.15</strong></p>
+</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>增加音乐播放器页面</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>增加动态图标</p>
+            </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.17</strong></p>
+</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>文章添加emoji表情支持</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>一篇文章添加多标签设置</p>
+            </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.18</strong></p>
+</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>更改和风插件</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>自定义字体</p>
+            </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.19</strong></p>
+</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>文章加密</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>哔哩哔哩视频嵌入</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>页脚渐变</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>滚动条样式</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>增加动态图标</p>
+            </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.20</strong></p>
+</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>绘制网站icon</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>本地搜索系统</p>
+            </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.21</strong></p>
+</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>切换背景</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>live2D</p>
+            </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.22</strong></p>
+</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>网站首页随机二次元风景图</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>修复白天黑夜切换动画bug</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>新增手写字体</p>
+            </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.23</strong></p>
+</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>首页样式更新</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>新增文章Blender节点中英对照</p>
+            </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.24</strong></p>
+</div></div><div class='timeline-item-content'><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>新增全屏切换功能</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>按钮实现背景字体切换</p>
+            </div>
+</div></div></div>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>构建记忆宫殿——电子笔记软件测评</title>
+    <url>/wytblog/2024/02/29/%E6%8A%80%E8%83%BD%E5%BA%93/%E5%90%84%E7%B1%BB%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%84/</url>
+    <content><![CDATA[<p>自从上了大学之后，笔记软件就没有固定使用过一款，已经用过好多笔记软件了。像安卓端的幕布、印象笔记、有道云笔记。电脑端的OneNote、Xmind、语雀、obsidian。ios端的goodnote以及notability。自制网站版的笔记：vuepress或者Hexo搭建静态网站。</p>
+<ul>
+<li>幕布</li>
+<li>印象笔记</li>
+<li>有道云笔记</li>
+<li>OneNote</li>
+<li>Xmind</li>
+<li>语雀</li>
+<li>obsidian</li>
+<li>GoodNote</li>
+<li>Notability</li>
+<li>网站搭建知识库</li>
+</ul>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>拆机与装机</title>
     <url>/wytblog/2024/02/05/%E6%8A%80%E8%83%BD%E5%BA%93/%E6%8B%86%E6%9C%BA%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<p>在一个阳白风低的中午，吃饱了撑的慌的我对家里一台十几年前的主机进行了残忍的拆机行为，由于本人实在是好奇主机里的主板是什么样的。然后找出了家里的小螺丝刀套装对它进行了一番操作。</p>
@@ -1385,76 +1455,6 @@
       </categories>
       <tags>
         <tag>电脑硬件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基于komikaze预设的动漫风格人物渲染模板</title>
-    <url>/wytblog/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%E6%B8%B2%E6%9F%93%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="qian-yan">🌺 前言</h1>
-<p>此模板的渲染效果包括二分光影、金属效果、丝袜效果、SDF脸部阴影平滑（通用）、透明衣料、珠宝、皮肤效果等。材质的颜色能够受灯光影响。这个模板唯一的优点是方便多人物流程的使用。（以前用过Merlin大佬的卡渲密咒，一个工程中只能一个模型渲染，因为是节点是打包好供整体使用的。这个插件真的很好用，如果有两个模型的话会有点麻烦。）所以这个模板比较符合自己的需求，更容易改动，可以多光源进行更改，自定义的自由度很高。不需要理解原理就能实现比较理想的效果。</p>
-<p>渲染出来的效果是这样的（自我感觉还不错嘿嘿）：</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染演示.gif" style="width:300px;"/></div></div>
-<p>平时积累一些好看的图片，绘画作品，看看怎么打光的，什么情景下打什么光比较好。可以配合这套节点联系下氛围感的图片。</p>
-<h1 id="xuan-ran-she-zhi">🌺 渲染设置</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>① 渲染设置中的辉光参考：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设辉光设置.png" style="width:500px;"/></div></div><p>① <mark class="hl-label blue">阈值：0.9</mark> 、<mark class="hl-label pink">屈伸度：1</mark> 、<mark class="hl-label green">半径：3.51</mark> 、<mark class="hl-label red">颜色（HEX）：FFA5A4</mark> 、强度自定义，一般0.18左右</p><p>② 环境遮蔽不用打开可以自己用节点控制，不然渲染速度会变慢</p><p>③ 色彩管理：SRGB+标准（默认是Filmic）</p><p>④ 新建的灯光设置：<mark class="hl-label purple">颜色（HEX）：FFE1D6</mark> 、<mark class="hl-label blue">强度：10、8、5、3（常用的数值）</mark></p><p>位置信息：Z轴放到头顶即可，人物不一样看身高（1.2m-1.9m）;旋转只更改<strong>X轴：50°</strong>感觉还不错，既能体现光影而且人物还很亮</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设基本设置.png" style="width:600px;"/></div></div><p>⑤ 材质连接已整理成预设，分为：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/节点整合.png" style="width:600px;"/></div></div><p>人物方面：<strong>脸部、头发、衣服、皮肤、金属、丝袜、表情、透明处理、衣服细节、表情、珠宝；</strong>（直接连贴图即可）</p><p>光照方面：<strong>边缘光、环境遮蔽、高光；</strong> FCE2CC或 FFCBAF比较接近皮肤肤色——ffd4c7（平面）；</p><p>高光节点：有两种一种是用<strong>兰伯特照明</strong>，另一种是用<strong>Komikaze里面的各种高光节点</strong>，真的很好用；</p><p>关于节点的一些操作：Modulo 取模运算、Sign符号函数、大于小于运算能把贴图的黑白信息提取出来</p>
-              </div>
-            </details>
-<h1 id="miao-bian-she-zhi">🌺 描边设置</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>（本质上是使用另一UP主的几何描边处理的动态描边，由于卡渲密咒这个插件这个整合好了，所以很好用）：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置1.png" style="width:600px;"/></div></div><p>使用【卡渲密咒】里的“描边咒”，一键描边，但是需要一些处理：</p><p>首先在属性里的数据里把默认的“描边权重”更改为自己命名；</p><p>在修改器里，添加<mark class="hl-label pink">焊接</mark> 、<mark class="hl-label pink">平滑</mark> 、<mark class="hl-label pink">加权法向</mark> （注意：属性里的面的接触改为拐角的角度）；</p><p>在描边属性里，将描边权重改为自己命名的定点组（一定要吻合和顶点组里的）；</p><p>进行一些修改，转到权重模式，用ADD的画笔进行一些细节的处理。右上方的可见性可关掉，处理时方便观察效果；</p><p>PS：描边之后，刘海还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边效果.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h1 id="yan-jing-tou-guo-liu-hai">🌺 眼睛透过刘海</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<p>PS:头发的混合模式时Blend，眉毛的时Hash。<strong>头发一定要勾掉显示背面，一定！！</strong> 这可是废了一天的时间发现的问题！！眉毛以防万一也勾掉。真是让自己给蠢死了</p>
-<h1 id="si-wa-she-zhi">🌺 丝袜设置</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div><p>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div><p>2、增加漫反射使光照变换时产生二分光影效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div><p>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div><p>有贴图or无贴图都可：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h1 id="sdf-lian-bu-yin-ying-ping-hua">🌺 SDF脸部阴影平滑</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>优点：通用便捷SDF脸部阴影平滑解决方案（不用设置头部驱动器）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF演示.gif" style="width:200px;"/></div></div><p>1、插件准备：  <a class="btn-anzhiyu " href="https://github.com/EmuMan/npr-face-shader"   title="npr-face-shader插件"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>npr-face-shader插件</span></a></p><p>2、导入模型后按材质分离，只保留面部，不要进行其它的合并操作。</p><p>3、SDF插件面板以及使用方法：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF插件使用.png" style="width:600px;"/></div></div><p>4、SDF蜡笔线绘制方法：</p><p>参考图：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度1参考.png" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度2参考.png" style="height:200px"/></p><p>Shift+A，新建蜡笔，进入编辑模式全选所有的画笔，X删除蜡笔。再进入“自由线”模式进行绘制，要在面部绘制三条蜡笔线。首先是面部引导线（弧线），一共要绘制7条，从人物脸部的最上方的中心位置开始到下巴结束。从左至右进行绘制。一条穿过右侧眼尾位置，一条穿过右侧眼部中心位置，一条穿过右侧眼角位置。一条是面部正中心的位置。脸部左侧三条线与右侧位置一致。再者，就是面部高光区域，绘制如下。最后是鼻子阴影位置，绘制如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF绘制.png" style="width:600px;"/></div></div><p>5、如果只生成图，节点没有生成成功。自行连接也行</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF连接参考.png" style="width:600px;"/></div></div><p>绑定灯光旋转和绑定灯光颜色：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF头部绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光颜色绑定.png" style="height:280px"/></p>
-              </div>
-            </details>
-<h1 id="yi-fu-wen-li-xi-jie">🌺 衣服纹理细节</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>衣服的细节，主要是用凹凸法线贴图实现。以卡芙卡为例，使她肩膀上的花纹有突出的感觉并且衣服有纹理的细节（具体如图所示）。</p><p>1、用PS生成凹凸贴图和法线贴图。PS操作：打开图像后Ctrl+J复制一层，选择滤镜—3D—生成凹凸图/生成法线图。</p><p>2、在Blender的节点连接如下。数值均可自行调整，而且已经打包成节点组，直接接入即可。</p>
-              </div>
-            </details>
-<h1 id="bian-yuan-guang-you-hua">🌺 边缘光优化</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>本模板的边缘光默认是关闭的。等着在优化优化。<br>边缘光的原理主要是通过菲涅尔，没解决的问题是没办法受光照影响，现在是全局发边缘光，想实现的结果：有光的地方有边缘光，没光的地方没边缘光</p>
-              </div>
-            </details>
-<h1 id="die-dai-guo-cheng">🌺 迭代过程</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <ul><li>迭代：第一版<br>实现光影、头发、脸部、衣服、皮肤、金属饰品。实现描边效果。<br>问题：脸部阴影不平滑、丝袜没有设置材质、刘海没有透过眼睛</li><li>迭代：第二版<br>新增丝袜设置、实现刘海透明效果。新增前发+丝袜节点（实验：卡芙卡）<br>问题：脸部阴影不平滑</li><li>迭代：第三版<br>实现通用脸部SDF阴影平滑效果（姬子为例），所有模型理论上均可使用。<br>问题：头发衣服细节不多，没有光照图。</li><li>迭代：第四版<br>实现衣服的细节纹理，凹凸与法线贴图的使用。新增衣服细节纹理（卡芙卡为例）<br>新增珠宝饰品的节点组。</li><li>迭代：第五版<br>要解决的问题：头发和衣服的阴影细节（不提取游戏中的贴图方法）衣服光照图ilm与ramp图的运用。（可舍）</li></ul>
-              </div>
-            </details>
-<!-- <details class="folding-tag" ><summary> 查看内容 </summary>
-              <div class='content'>
-              
-              </div>
-            </details> -->]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-        <tag>渲染</tag>
       </tags>
   </entry>
   <entry>
@@ -1487,108 +1487,6 @@
       </categories>
       <tags>
         <tag>雪王的诞生</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2023年碎碎念归档</title>
-    <url>/wytblog/2023/12/05/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2023%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%BD%92%E6%A1%A3/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="ca63a3b672201261eed023a35933820c872be1a51d86cb57e99714f9278771e4">4f9329f92667f126694ae84c350d6ad4402d563a32e453d5a51368ab91c57c5b9c56c8d964312e469906b6f640844fe3823983ddb42f8f58fb7ea8b7f439b56e8717bb1f65d7f3942f5834cb5a9d565820424553077ae6594660e7d4d708b826a61f07052aa5b84a7e163d84d0b618cf4ec1b4a12e901864a4a0e9daf0e001d887ffa6ea4ed6fbcc39c98aa2eae5287bcce129fc2702e8177aa12aa60fff9b56205883f294e466dfe2a0a525d318e9a5b3ecb99a6827c297d73d75e6f4598aeb1f19104980bb2fdff786f9226196f29a21590867fdf443db84a9bca9340754ac5775876284d37dd7ea36ecbc6e5aa0e89f70fb04b641f1f3f187ae83aa512739661217fa8efbe6f6508213b48f7756713fc92e7b1cec7f2a5b28e6eee8e909b4354aada820e9d0a9d3daf8a5c6526130d9a45dff64424c9dd2a0ea0c1210019530b1d16caec7df140b997c799b657a41b7f7eb871d679875cf24b6f695901642dae8b2b12db87d3e9b759d5f09147e4b060fde1da335ae5729f3fedbc61b27d863a542a37527ec8871a07c5e712540f729aa03d07c2117bc6c2f09e136ed8877a0be1602b61ec84adca89cc46f805129c46e473f34785485ed3a8ec9e7db7d910740e8015f05c8105c4710b7e06e2be8987d4ee8696b3b8de555c1fa418af7cf1384a3b93f9c7684807df3d2acedefcb3db1aa5ccbe238a6de1aa157ede9227ed22fbb12d0bfd087c4b7fc304f44bd0fa356c265990ba463ab0e09769280ace7e34725079015beb048abccc43fc53a2e9e55e73713bea7ac26665d643953b4373fa34a6b8ebdb4e1c0766adcc94ed4162aa92bc96edcc8099fd1d5ba13ed1be1b0ba5ede4d5e0802eb6c7fdb7df7c20d0e9d86fd0e73dd0008189fe60147807ed5ff8cf0500f4969a0171c13918cebecfc984cb523a3616d5baef28089dfe2fca8e648a1847e90792684f520c5ac31c80d8c0a9f48d414dbf742c7a8a7967402024d67bcd5ddba04cf9349075c81f108a334952df10b358d927ee34f82cd86d09064e65df915916bfa4a15689538c675a76a2d81190ee9bac82be0b5b55444357d903ac1877fe0d2828b17ac1e1bd1f6588b8ff91f8749ead2c4d803bcb5747bd86afb4505c17dbc6f9d68128adf22b264184c8e747424f568d6a4409d5fb2eb088e0f328f02d1276f085849f147e7acc698874e7b57f5943da71e132d66864489c5c01db1851c4e35ee3efeb48c183e9ef3727838f73c526df971a3644a43b5c1eca7bdc661acb14f43d25d8704f0c22fdc9d27422311aaa4f931b39af49864ba36826fda373853e4ae87c948295838517a7416b3695a56d8dbf3643fc907acb279ce44f382429df5fc22cb2a93ef4883f991d2abfc39db1d49828df4a236f4977e233082d6d22e2a09be36a0902100790bed417ad89e7d82f2c07544bcb18d1f4716b52b81b29a850756b69cfb21cf21e9e47cae3f0595e9852e37506bcea75c39a3ec096b33392746bcc70e2a0edaca3e9ed7e9014781d793e7be81b5af2d75ce4982cf2c1da1f8fb21970345e0859e4f06290025c0fa46e7492faa63ef69b5ff5aa154183ca7667a7ff07b880334de6e9bf20a84ceb93211da8f3e991948d0c8e94aa7dc12cd691d4e733e736c8994e3a1d6c03f53d697c529c3c5e22ecd2cdd208049a7f4edbaaffc45b1078e5b927c0348c6ffae320f724086a6adf9ec30f77128033eaf8d32b84df05ceae2aa487eac0a4960d6b9c301c2a3438dbb0f5c29c7da64c09021d43d80c36d38cf0a2f8b50d88dc126a8c9cba8fe470c7f14345b48e3db1b83fb1aac808e31fe1becfd5ccab32c5ec2a3bbae4c8d228a54a9a5387240a7539a198585dfbe298b7a9e91e895e61d25fb61f102e2a9bb27c113cc2b017751e44edca4a9dcf8b777e3dc20cce58ccccfddea3d2220cbfdfdf3ff18b13f02aca741dbeacb8415389562146b43f06b86b09c469aa35e43bf33af7aa585bff0e9e60f1a1e15e96d203c35b873ce5b85dd9cbd2828f230c80366abbb6d6d304365c35da7d0a8465aff10033faa162931e1efadaa7cf0fe402816efc80b83b5e2d2a6b28f8348323c86287bfee8f6a922846d23358b8d851c4619a5d07fdb3f95fd9a38d828d36b615269b74d231d36a47309caf297481cabe93795681db304084532253f75beec90054d7d40c3ba7b29df477a96a2cd1ef01834c333c6aca107b901f09b9f61535a3dadec57648e76d6dc500ccf234f532c59a365d84963b0c98ce290e1572b932acc4630547db3de4db20675ca7987c3c9d8b300e244af51122eef12ccafda7ed2ea34bb75cbf115b9ff3872a27e3b0f31ebf09925fa7b909190c4a6bcac9d00c082ebce0ef5be7902b03d8d7e202eeac81715d8437131f374b041c54054e07ee775f9aa9d45ade2b71fcecdcaf871e8055ee8d88922c2e3c3af89c3ebf24701462e8f9fe1d365e73eafcbcf5bfc6f40a4b97bfe5e6500caa422bab489b0c113ee56a012d44b18b4f8064d0fefe439aaa90b0cb0ff5a2bb24a95e689656056db08b45d3c095214b108f68b6c1dd957b046038fb8e9552675f68ca69831429e18f73c8f2a1a2805ff61ec3a73234ba2ad1e6d22fc7d5eeddf5baeed61fb761fa906005e31b38f8bb667f41200e33943aa498242bc4f0868f829839a044b8e5390154ac3142bc60f14024e0d6707c2b0718910ab2983565de5ff3fb467404d0417ced6f6bdf56e4da6c6415452fd6af6a183042dabaec7e4ee64ab11bdde37cab3f11f6003dbeeca65b7c9e681a1ae0c50ba24095c230a3032f42ad1eadefe7034b9c9d847d4ea8a4b1237ea38ab9f5c6f3b980edecc70e587514c995744117cfb62694aa0f89e404ea15a6b46436b303f9ae38ff31ae6947d2d34ffa20beeeecb48b735c104d5c9da696004ab1eb2214e05f0eb4a3ba102d1c7f59ede64d239ccce084aac627de605aba9ccc05be9fa1f1a03dd842d5d0b4875b53cfcf774bc19001a61d79ca5a2ede2fe64ef886395481f6cc11309df166a05d81efc28495d92428d8e67a13da895cc9b06dda3a23e1c972b40e075a231a434ac9ca47f1f2d9deb6157b0cccdfc74bd15034cb79c0cb8eb35384de59cb4b0ec25a49212301936f4aaee83f80e87d882b5eaedda649ec9cc32e6e80af4384edf43c68de7d3042b195d320af8825a9f57f75fa232640f748195fb3aeafdade4184e9c7081565b4bc3aee66cf721f88ef8b48f64acf279bf33f49712edef8f80e018cee5a6718203a1bb29326296f5c3643cc5e92c378db0d33b1efa978b3b6ef9217a4d8eee522e71b5573fb49e5b0c0b61e651cc645d37f80f8a0cfdab1386fd43035e7d97c76ec441c5ccd7cdcc3beaf02f09d9402ef1779a78f25fb95d867f2f4223eea3f777a939d1ff132d30dfe076c37d072d6843de77315e83e33940805f85350e5473765a6b5980dd4423c875c74df108e183f24c369ab3ac63eb3d5ced4dfe559edccd62e96a0cf0af160c84761cdb1e3fe6c1d275e6e4b0ae96759222b311f0b47fecce04fcab7c434d944ca8fe9511489a3365c940669ddae88e18618efde5066937ea3139ba41b962a9719cac6261350e0a679d1981b6607e16c054f7cff9db4834a32fd7cfe78bc162600cc91c7eafc3b9d9012e4bd8659433121e39bf14e4fcc412be5c17b107874dc3419f494b97b5d0f300c44a121d01a18b829d3a4e6f23f095d8f57a9a5a126207c594600f0c903896f773046c527c65674a601a081d88ce2f0c3211c15275855466c2b1be3062b9bfbdacc302039c004d9572c9274dbca47a1da8c20abea72e58101424d89e9ac96513a413675b92d45612a32f3af55c6a4a1d3b56e2912c0fb1d6c7f5798c0f42d95862b906ddae7dfb61e269071d42d1330bb2ce5b24fd575e08ef49a7ca951b40c5f160cc5ec7827bb36345d921a52b9fbd116e53d12b2b909497b285a82e00e317bfa32cfa6934cc41549c064fbdbe7bfe3617e1ed2f6b48adc0c2a7cdedc7232f83172691a94442bfaea2b3cd3eb0d86916074283605ce5e64dc688a59aab619bb243f9cb93eb53c10d5f1ba15e36af43f404b38edc16fa76820521a95d823e94cd151731f76728b628b4ad0d4f52b706df85f60f18a140e94e00f9f98f216ba452642c054ceb5347877dad4235de9d4fa14933079c8a44a2e07ec7f5b9e788167c7ab7bba295919b9a03ce1bb37ba581bb9940e7093ad15d97cab77208d70dcba173a8af91d28a96e432ad2bc8c5bb4c67b3ee10cccab33083c3bc62c81e3e0afacec3c65ffcb0a09c1c1ddc55516c3428157bfff04357dd042a68fb8b0fbdb33e05c46194f3e01a92468fd1915b8b94e8a37d5642be47437841d8067022206b16796351ac7b1cc08f09a5191d7b685b873e34be69313f72498e20e6900499be1ea441c0a5e52f1f5b78027b5ccaf54939e1f5fa10d05e41dfdbac0d661d7911e166b8d35581b7a5d0b3c4949759cd04be54aebbdb9847560081be73d540c5968cd205e3d5e5055a6a24a38c00145dc8dd9fba9d29e9f3e46a4c8a6c9c9b5379bf7e5da5a3db0271b0207181106561cdd642d6bd270a14e869415a45e1c81e7a73898b1719fe2b1a8fd02ed2f3270f847263ebb189a601320e3b4e73fd407105fa5ed1fee42e643cfafd522a1447a16e4efeaa5f02c2cacb6e496b3f4eef9815f2e658697dc44711c369cacd83f046fd93fba6c0ec1a57f743c3433a60c589d18de4e00ee056db8c3ee8b809a98e540ececd6d34d06927f6f62ad745c06f7b5c2051ffc4a4934529f3b8094f31bec0f867fe2c0e3e34e7aeb87489b40a0639681fa97e840bb64c4b25477801bb5f2dc6fc11b8134f364688765e310120d082d8279f7e4f3bbeb9a7ca29ca9bceae042b3804b063ec96b5bdd7e5bce38c949fad5107cb35c91cfc489aa3877411155167f80f769ddb46f11ccfcb0d55a832086be43e1719cb22a27e9b0289f7470c27563279b51781359f546fbbaa37494f0a2103085480478a40105f2a0e600f6dd72819ce9a3351d7daf4370e468b29e7977c201901872c5f9dc6e187f9ff8df47fa4636f18619d988321f4afac78420c0c1f0745404b96597385ba4a2e985fd44224599f1758e28886bccc49ec7cb449f648a8287404999292888f89ca969beaccab2720e8a0a4816a4ee7990f055f4b68b517e5307ba1bcf75bce7cbe6c1170edab9fe5d3f6abe6f91c61f33f0df966facb4e650a9be0f2ead14dbe9e87689a865af284a4a3ca270a4964b7fc85897db19c8153ac80568e5221d6520bfea65d8ebc8332b1a1da6c2d62399ba983e55af8da1b9f4b67fb1f052167efef9aa0d1f1697c9523fb1e90a1e792b2bee7ed391d4a2d3925f694f895a19c15390b87ce5db95d1bdc5fbe8c263e8f1b62c91102c63896ec8bff311a6ae6b72228a0edbe369471cb985b01eb4cc57bdd534c41478112b986cad35d87db71e4e5abbe110a432b9c23592b6a04d89e97bf8d21b008ccd68b1d9c86e07aeb4848e1665f9ce741994676f698ec31e80f1c178d71d751d378b9dab62f169478e5bc223c8a3af562441fddd76b5bce9618537a45f772cef286a1a1914c9cac6502484392a8c58ad96a2e80acca6e376f7a17db5a3e7ceed79aa066fb494b11c350ec57ddc82684e316b69b0137b53d96c5b7e1d4bef76bd9da3250edfc73bfb3584d37cde6738396db834a22ee04cbbb6e06ebdb98b1032f7f1b35a2cdd953e28b1960a4c2e0c5017d206e2e1d7df51cd6c9fb7e682eb4c71287ef59a6ac3b4fc036aead957e5496d94838596b2818f066afed39c5dff4d2315cc1de53411742939da876568b3005ac5babc7a3b30da9363e58cea82b5f2afb40ecb38061fbffdcc000d3b4575356b3e1d73e76720235e5bb4ee7921372e5a06f30d6dce89708d97f4e79c110c3f4e796db4e78be554473cdaac26aaecfacf6b3ebe36f3bbc1a102f27d4784192d096175e59f2552f19b3d2db4704a6ab8e392eb9f9e65349e7e2f4133fa6346330d1d1a31365e957a88d545e6d7738d7f1ac036cbb8edebcc98f8df8a11a64bd81bb4e6916cd9e2142f8ae8077033525da8778905b249c8a064f4e9b61fa6f015747b39704cc6733becb126731a4f406f4720ddb0ee0264276d173bda6f78260e7a752cfd1ae62c27f590ba8f0c0baf4916c0a924c3ae2c71610612d84fcc92c03f9ec8527c98207c38835af8d96de00e2175626d9f70061c8877edfbe2d7ea9bd165abfbfa050196bcad70ff064c59b9f3627e343d307bdeaa78c4b073cc53adbe09cac3d125a01e873256bf0d23db03c954e803b8a214d43d9eac10e402d20c752acfcd151b90a145bbdb0242087383c72438a0d0bb30efba96760d18ef458b5ba0d7ac3ac12e6753699d15012e627e975a226aa50982ccb1be8390525e4e6d103902de6e068ee833a70d52380d3beb9e4ef3759ff02fe691549e737a308441229daf1c0</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/wytblog/lib/hbe.js"></script><link href="/wytblog/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>观影碎碎念</category>
-      </categories>
-      <tags>
-        <tag>观影碎碎念</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2023年观影大吐槽</title>
-    <url>/wytblog/2023/12/04/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2023%E8%A7%82%E5%BD%B1/</url>
-    <content><![CDATA[<div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p>
-</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《中国奇谭》</strong></p>
-</div></div><div class='timeline-item-content'><p>开年看的第一部动画片。当时吃午饭，看到首页上一个颇具中国画风的动画我还没看过，连简介也没看，直接点去了，看完第一集：小妖怪的夏天，感觉这片子肯定好看，再去看简介的时候，发现这是部单元剧，一集一个小故事还不同的画风，里面有篇鹅鹅鹅的水墨画画风真的很好看，据说这篇是改编自古代的《阳羡先生》？我以为这个系列会一直这么高质量下去的时候，哈哈哈哈我太天真了，飞鸟与鱼这篇我无语了，我做错了什么要让我看到这种剧情！总的来说就是这个里面的小短片良莠不齐，好的是真的很好，不好的…不想做评论了</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《深海》</strong></p>
-</div></div><div class='timeline-item-content'><p>开年看的第一部电影，深海的故事其实总的来看还是可以的，但是在叙事节奏上真的设置的很不行，也是这部电影让我更深刻明白，技术不是动画电影最主要的，剧本才是啊，这个叙事节奏，前三分之二吧，一直在讲进海底的故事，但是真的真的显得像看幼儿动画，不可否认的是，画面真的很美丽，又是在电影院看的，又是接触过相关工作的，不得不说渲染的很美丽，而且也很费服务器，再说回来，直到最后在医院转醒的时候，才让我觉得这部影片多少还是有点子东西在的。但是这个叙事节奏我是真的很想吐槽，在电影院都快睡着了，画面再好看没有故事的支撑也是华丽画面的堆砌，真的球球以后的动画电影了，好好捯饬剧本行不行啊啊啊啊，不要再执着于技术方面了，什么宏大的场面、绚丽的特效啥的都不如剧本打磨的好来得强啊啊啊啊啊</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《狂飙》</strong></p>
-</div></div><div class='timeline-item-content'><p>开年老么火的一部剧，开局上级检查就吓死一个贪污的，再就是反派人物的刻画太鲜明了，使得高启强这个人物深入人心，从善良到涉黑到没心的阶段，一步步刻画的很详细，反观主角好像就没有刻画的很深刻，只能知道他是一个不畏强权的正义人物，他的家庭，他的经历一概没有讲述，还有那个女主的爱情线删掉没有任何影响，为啥要加进去，就是为了得有点恋爱情节吗，我服了</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《流浪地球2》</strong></p>
-</div></div><div class='timeline-item-content'><p>理解图恒宇，成为图恒宇，超越图恒宇，好看！</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《漫长的季节》</strong></p>
-</div></div><div class='timeline-item-content'><p>还是很好看的，但是第一集我记得将近俩小时，我开倍速看的，剧情方面真是没话说，哑巴版的蒋奇明莫名还挺好看的。</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《这么多年》</strong></p>
-</div></div><div class='timeline-item-content'><p>这么狗血的片我竟然看完了，我还哭了，我被谁附身了啊啊啊啊！</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《无眠之境》</strong></p>
-</div></div><div class='timeline-item-content'><p>好像没看完</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《平凡之路》</strong></p>
-</div></div><div class='timeline-item-content'><p>有关律师的电视剧，里面的爱情戏分很少，我很喜欢！</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>5月 《宇宙探索编辑部》</strong></p>
-</div></div><div class='timeline-item-content'><p>伪纪录片式的搞笑科幻片</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>5月 《保你平安》</strong></p>
-</div></div><div class='timeline-item-content'><p>大鹏的剧，有点点现实的喜剧，讲的是为了9.9看小说就造已逝女孩子的谣，然后大鹏追根溯源的故事</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>6月 《不良执念清除师》</strong></p>
-</div></div><div class='timeline-item-content'><p>竟然是恐怖搞笑剧，哈哈哈，男主好好看哦，很不良哈哈哈</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>7月 《跃动的青春》</strong></p>
-</div></div><div class='timeline-item-content'><p>画风入，男主的小金毛让我点进去，结果女主的内心强大留住了我哈哈哈，青春恋爱剧！甜！</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>7月 《五十里外桃花坞》</strong></p>
-</div></div><div class='timeline-item-content'><p>这一季还挺搞笑的，尤其是孟姐给志胜卸妆的片段哈哈哈哈，发出爆笑！</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>8月 《崩坏3》</strong></p>
-</div></div><div class='timeline-item-content'><p>所有的感悟都在游戏篇里了，不多赘述了。感觉那一个月的时光真的是沉浸式体验异世界的时光了</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>8月 《莲花楼》</strong></p>
-</div></div><div class='timeline-item-content'><p>一开始老是在热搜上看见它。而且我那时在输水也没有好看的，抱着好奇心看了看，直接一下追完！一开始还以为又是情情爱爱的，看了三四集，发现是推理的，更喜欢了，感觉里面那个武林盟主憨憨的不知道为什么会有这种感觉，角姐才是真正的大女主，我全都要哈哈哈哈，男主坠海后活过来就感觉是那种一切事情都随缘的佛系成熟人。</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>8月 《长风渡》</strong></p>
-</div></div><div class='timeline-item-content'><p>一般般吧，没有出彩的地方，有种一下料到结局的感觉，原版小说也没有看过，现在两位主演因恋情频繁上热搜…</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>9月 《时光代理人2》</strong></p>
-</div></div><div class='timeline-item-content'><p>画风很好看呢，陆光和程小时真的好好看呐，李天辰扮的他妹妹简直了，我以为李天希本就是这性格的时候，哈哈哈原来是她哥哥假扮的。首先不说剧情啥的，封面的画风是能让我不管剧情点开这部番的主要原因，我找番的第一步就是看画风好不好看精不精致，再说其他的。虽然这个画风好像是抄袭韩国的一位画师的。再说其他的，剧情方面，感觉一般般吧，这一整部李天辰李天希是后半部分的主要角色，围绕原生家庭的家暴这个主题，剧情安排的还是挺紧凑的，没有磨磨唧唧的，但是后面那个反派律师让人emm无法评价。最后没想到李天希为救他哥哥噶了，但是他哥哥的人设有点自相矛盾，前面是疼爱妹妹的人设，到最后妹妹死了之后，他就逃了，我感觉emmm多少还是有点矛盾。还有刘旻从国外回来后，看他这个角色的绘制精致程度，感觉如果有下季，他才是大BOSS，比如说他是这些超能力的制造者也说不准呢。</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>9月 《消失的她》</strong></p>
-</div></div><div class='timeline-item-content'><p>渣男！！可恶！！</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>10月 《盲心千金》</strong></p>
-</div></div><div class='timeline-item-content'><p>这这这，这个小短剧，我竟然跟着室友看完了，简直不可思议！！</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>10月 《少年包青天3》</strong></p>
-</div></div><div class='timeline-item-content'><p>竟然是邓超演的，跟着我的小舍友一起看的</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>11月 《田耕纪》</strong></p>
-</div></div><div class='timeline-item-content'><p>虚假种田！奇葩亲戚！前几集想看爽剧，但结果越看越憋屈，最后的结局，我无语了…又是一个合家欢，都这样了，还能原谅她大伯一家，还能不计前嫌，我是真的无语了。我怎么就看完了呢，我对我自己也无语！</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>12月 《繁城之下》</strong></p>
-</div></div><div class='timeline-item-content'><p>咱就是说，这部剧的色调实在是太黑了，中午吃饭的时候看的最后一集，结果人物乌漆嘛黑光听声了，不知道是不是我倍速的问题，感觉最后一集剪得有点稀碎。我看完这部剧的最大感受是，全剧没有一个多余的人物，每个人物都是20前陆家大火案的相关联人物。也是由小案件串大案件。里面的陆直这个角色塑造的很好，和狂飙里的高启强一样的思路塑造。都是先相信世间的善，但是遭遇的都是不善的事，所以自己产生迷茫后就黑化了，自己的命自己挣得感觉。陆直一开始出现的时候真的是很单纯，很善良的小孩，但是经历了种种，我在想，如果是我，和他做同样的选择也是同样有可能的。最后反转的有一点我没想到，当我以为魏知县就是陆不忧的时候，结果他是小宝子，这倒是我着实没有想到。很精彩。就是有些画面我很害怕哈哈哈。</p>
-</div></div></div>]]></content>
-      <categories>
-        <category>观影碎碎念</category>
-      </categories>
-      <tags>
-        <tag>观影碎碎念</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024年观影大吐槽</title>
-    <url>/wytblog/2024/01/20/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2024%E8%A7%82%E5%BD%B1/</url>
-    <content><![CDATA[<div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p>
-</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5《三大队》电视剧</strong></p>
-</div></div><div class='timeline-item-content'><p>还不错，犯罪悬疑剧，没啥想说的</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5《我推的是反派大小姐》番剧</strong></p>
-</div></div><div class='timeline-item-content'><p>竟然是纯的百合番，看起来内容中规中矩，但是可能碍于我很久没有看番剧了，让我又想去补一下日漫的番了！作画方面真的很崩，蚌埠住了/(ㄒoㄒ)/~~</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.10《转生王女与天才千金的魔法革命》番剧</strong></p>
-</div></div><div class='timeline-item-content'><p>当年看番的感觉回来了，得再找一部看</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.15《颓废师姐重回巅峰》小说</strong></p>
-</div></div><div class='timeline-item-content'><p>这个小说也太太太搞笑了，追了三天看完了，前半部分真的很搞笑，到了中后期就是正剧的感觉了，剧情还是很精彩的。</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.18《亡妻第十年》小说</strong></p>
-</div></div><div class='timeline-item-content'><p>这小说哭死我了…没啥可吐槽的，两人最后HE。</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.18《热烈燃烧》小说</strong></p>
-</div></div><div class='timeline-item-content'><p>唔，这就是典型的暗恋文啊啊啊，但是后面的发展我真的无语死了，真就是工具人必不可少呗。</p>
-</div></div></div>]]></content>
-      <categories>
-        <category>观影碎碎念</category>
-      </categories>
-      <tags>
-        <tag>观影碎碎念</tag>
       </tags>
   </entry>
   <entry>
@@ -1708,6 +1606,62 @@
       </categories>
       <tags>
         <tag>崩坏系列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2023年观影大吐槽</title>
+    <url>/wytblog/2023/12/04/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2023%E8%A7%82%E5%BD%B1/</url>
+    <content><![CDATA[<div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《中国奇谭》</strong></p>
+</div></div><div class='timeline-item-content'><p>开年看的第一部动画片。当时吃午饭，看到首页上一个颇具中国画风的动画我还没看过，连简介也没看，直接点去了，看完第一集：小妖怪的夏天，感觉这片子肯定好看，再去看简介的时候，发现这是部单元剧，一集一个小故事还不同的画风，里面有篇鹅鹅鹅的水墨画画风真的很好看，据说这篇是改编自古代的《阳羡先生》？我以为这个系列会一直这么高质量下去的时候，哈哈哈哈我太天真了，飞鸟与鱼这篇我无语了，我做错了什么要让我看到这种剧情！总的来说就是这个里面的小短片良莠不齐，好的是真的很好，不好的…不想做评论了</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《深海》</strong></p>
+</div></div><div class='timeline-item-content'><p>开年看的第一部电影，深海的故事其实总的来看还是可以的，但是在叙事节奏上真的设置的很不行，也是这部电影让我更深刻明白，技术不是动画电影最主要的，剧本才是啊，这个叙事节奏，前三分之二吧，一直在讲进海底的故事，但是真的真的显得像看幼儿动画，不可否认的是，画面真的很美丽，又是在电影院看的，又是接触过相关工作的，不得不说渲染的很美丽，而且也很费服务器，再说回来，直到最后在医院转醒的时候，才让我觉得这部影片多少还是有点子东西在的。但是这个叙事节奏我是真的很想吐槽，在电影院都快睡着了，画面再好看没有故事的支撑也是华丽画面的堆砌，真的球球以后的动画电影了，好好捯饬剧本行不行啊啊啊啊，不要再执着于技术方面了，什么宏大的场面、绚丽的特效啥的都不如剧本打磨的好来得强啊啊啊啊啊</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《狂飙》</strong></p>
+</div></div><div class='timeline-item-content'><p>开年老么火的一部剧，开局上级检查就吓死一个贪污的，再就是反派人物的刻画太鲜明了，使得高启强这个人物深入人心，从善良到涉黑到没心的阶段，一步步刻画的很详细，反观主角好像就没有刻画的很深刻，只能知道他是一个不畏强权的正义人物，他的家庭，他的经历一概没有讲述，还有那个女主的爱情线删掉没有任何影响，为啥要加进去，就是为了得有点恋爱情节吗，我服了</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《流浪地球2》</strong></p>
+</div></div><div class='timeline-item-content'><p>理解图恒宇，成为图恒宇，超越图恒宇，好看！</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《漫长的季节》</strong></p>
+</div></div><div class='timeline-item-content'><p>还是很好看的，但是第一集我记得将近俩小时，我开倍速看的，剧情方面真是没话说，哑巴版的蒋奇明莫名还挺好看的。</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《这么多年》</strong></p>
+</div></div><div class='timeline-item-content'><p>这么狗血的片我竟然看完了，我还哭了，我被谁附身了啊啊啊啊！</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《无眠之境》</strong></p>
+</div></div><div class='timeline-item-content'><p>好像没看完</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>时间忘了《平凡之路》</strong></p>
+</div></div><div class='timeline-item-content'><p>有关律师的电视剧，里面的爱情戏分很少，我很喜欢！</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>5月 《宇宙探索编辑部》</strong></p>
+</div></div><div class='timeline-item-content'><p>伪纪录片式的搞笑科幻片</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>5月 《保你平安》</strong></p>
+</div></div><div class='timeline-item-content'><p>大鹏的剧，有点点现实的喜剧，讲的是为了9.9看小说就造已逝女孩子的谣，然后大鹏追根溯源的故事</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>6月 《不良执念清除师》</strong></p>
+</div></div><div class='timeline-item-content'><p>竟然是恐怖搞笑剧，哈哈哈，男主好好看哦，很不良哈哈哈</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>7月 《跃动的青春》</strong></p>
+</div></div><div class='timeline-item-content'><p>画风入，男主的小金毛让我点进去，结果女主的内心强大留住了我哈哈哈，青春恋爱剧！甜！</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>7月 《五十里外桃花坞》</strong></p>
+</div></div><div class='timeline-item-content'><p>这一季还挺搞笑的，尤其是孟姐给志胜卸妆的片段哈哈哈哈，发出爆笑！</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>8月 《崩坏3》</strong></p>
+</div></div><div class='timeline-item-content'><p>所有的感悟都在游戏篇里了，不多赘述了。感觉那一个月的时光真的是沉浸式体验异世界的时光了</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>8月 《莲花楼》</strong></p>
+</div></div><div class='timeline-item-content'><p>一开始老是在热搜上看见它。而且我那时在输水也没有好看的，抱着好奇心看了看，直接一下追完！一开始还以为又是情情爱爱的，看了三四集，发现是推理的，更喜欢了，感觉里面那个武林盟主憨憨的不知道为什么会有这种感觉，角姐才是真正的大女主，我全都要哈哈哈哈，男主坠海后活过来就感觉是那种一切事情都随缘的佛系成熟人。</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>8月 《长风渡》</strong></p>
+</div></div><div class='timeline-item-content'><p>一般般吧，没有出彩的地方，有种一下料到结局的感觉，原版小说也没有看过，现在两位主演因恋情频繁上热搜…</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>9月 《时光代理人2》</strong></p>
+</div></div><div class='timeline-item-content'><p>画风很好看呢，陆光和程小时真的好好看呐，李天辰扮的他妹妹简直了，我以为李天希本就是这性格的时候，哈哈哈原来是她哥哥假扮的。首先不说剧情啥的，封面的画风是能让我不管剧情点开这部番的主要原因，我找番的第一步就是看画风好不好看精不精致，再说其他的。虽然这个画风好像是抄袭韩国的一位画师的。再说其他的，剧情方面，感觉一般般吧，这一整部李天辰李天希是后半部分的主要角色，围绕原生家庭的家暴这个主题，剧情安排的还是挺紧凑的，没有磨磨唧唧的，但是后面那个反派律师让人emm无法评价。最后没想到李天希为救他哥哥噶了，但是他哥哥的人设有点自相矛盾，前面是疼爱妹妹的人设，到最后妹妹死了之后，他就逃了，我感觉emmm多少还是有点矛盾。还有刘旻从国外回来后，看他这个角色的绘制精致程度，感觉如果有下季，他才是大BOSS，比如说他是这些超能力的制造者也说不准呢。</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>9月 《消失的她》</strong></p>
+</div></div><div class='timeline-item-content'><p>渣男！！可恶！！</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>10月 《盲心千金》</strong></p>
+</div></div><div class='timeline-item-content'><p>这这这，这个小短剧，我竟然跟着室友看完了，简直不可思议！！</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>10月 《少年包青天3》</strong></p>
+</div></div><div class='timeline-item-content'><p>竟然是邓超演的，跟着我的小舍友一起看的</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>11月 《田耕纪》</strong></p>
+</div></div><div class='timeline-item-content'><p>虚假种田！奇葩亲戚！前几集想看爽剧，但结果越看越憋屈，最后的结局，我无语了…又是一个合家欢，都这样了，还能原谅她大伯一家，还能不计前嫌，我是真的无语了。我怎么就看完了呢，我对我自己也无语！</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>12月 《繁城之下》</strong></p>
+</div></div><div class='timeline-item-content'><p>咱就是说，这部剧的色调实在是太黑了，中午吃饭的时候看的最后一集，结果人物乌漆嘛黑光听声了，不知道是不是我倍速的问题，感觉最后一集剪得有点稀碎。我看完这部剧的最大感受是，全剧没有一个多余的人物，每个人物都是20前陆家大火案的相关联人物。也是由小案件串大案件。里面的陆直这个角色塑造的很好，和狂飙里的高启强一样的思路塑造。都是先相信世间的善，但是遭遇的都是不善的事，所以自己产生迷茫后就黑化了，自己的命自己挣得感觉。陆直一开始出现的时候真的是很单纯，很善良的小孩，但是经历了种种，我在想，如果是我，和他做同样的选择也是同样有可能的。最后反转的有一点我没想到，当我以为魏知县就是陆不忧的时候，结果他是小宝子，这倒是我着实没有想到。很精彩。就是有些画面我很害怕哈哈哈。</p>
+</div></div></div>]]></content>
+      <categories>
+        <category>观影碎碎念</category>
+      </categories>
+      <tags>
+        <tag>观影碎碎念</tag>
       </tags>
   </entry>
   <entry>
@@ -1862,6 +1816,52 @@
       </categories>
       <tags>
         <tag>崩坏系列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2023年碎碎念归档</title>
+    <url>/wytblog/2023/12/05/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2023%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%BD%92%E6%A1%A3/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ca63a3b672201261eed023a35933820c872be1a51d86cb57e99714f9278771e4">4f9329f92667f126694ae84c350d6ad4402d563a32e453d5a51368ab91c57c5b9c56c8d964312e469906b6f640844fe3823983ddb42f8f58fb7ea8b7f439b56e8717bb1f65d7f3942f5834cb5a9d565820424553077ae6594660e7d4d708b826a61f07052aa5b84a7e163d84d0b618cf4ec1b4a12e901864a4a0e9daf0e001d887ffa6ea4ed6fbcc39c98aa2eae5287bcce129fc2702e8177aa12aa60fff9b56205883f294e466dfe2a0a525d318e9a5b3ecb99a6827c297d73d75e6f4598aeb1f19104980bb2fdff786f9226196f29a21590867fdf443db84a9bca9340754ac5775876284d37dd7ea36ecbc6e5aa0e89f70fb04b641f1f3f187ae83aa512739661217fa8efbe6f6508213b48f7756713fc92e7b1cec7f2a5b28e6eee8e909b4354aada820e9d0a9d3daf8a5c6526130d9a45dff64424c9dd2a0ea0c1210019530b1d16caec7df140b997c799b657a41b7f7eb871d679875cf24b6f695901642dae8b2b12db87d3e9b759d5f09147e4b060fde1da335ae5729f3fedbc61b27d863a542a37527ec8871a07c5e712540f729aa03d07c2117bc6c2f09e136ed8877a0be1602b61ec84adca89cc46f805129c46e473f34785485ed3a8ec9e7db7d910740e8015f05c8105c4710b7e06e2be8987d4ee8696b3b8de555c1fa418af7cf1384a3b93f9c7684807df3d2acedefcb3db1aa5ccbe238a6de1aa157ede9227ed22fbb12d0bfd087c4b7fc304f44bd0fa356c265990ba463ab0e09769280ace7e34725079015beb048abccc43fc53a2e9e55e73713bea7ac26665d643953b4373fa34a6b8ebdb4e1c0766adcc94ed4162aa92bc96edcc8099fd1d5ba13ed1be1b0ba5ede4d5e0802eb6c7fdb7df7c20d0e9d86fd0e73dd0008189fe60147807ed5ff8cf0500f4969a0171c13918cebecfc984cb523a3616d5baef28089dfe2fca8e648a1847e90792684f520c5ac31c80d8c0a9f48d414dbf742c7a8a7967402024d67bcd5ddba04cf9349075c81f108a334952df10b358d927ee34f82cd86d09064e65df915916bfa4a15689538c675a76a2d81190ee9bac82be0b5b55444357d903ac1877fe0d2828b17ac1e1bd1f6588b8ff91f8749ead2c4d803bcb5747bd86afb4505c17dbc6f9d68128adf22b264184c8e747424f568d6a4409d5fb2eb088e0f328f02d1276f085849f147e7acc698874e7b57f5943da71e132d66864489c5c01db1851c4e35ee3efeb48c183e9ef3727838f73c526df971a3644a43b5c1eca7bdc661acb14f43d25d8704f0c22fdc9d27422311aaa4f931b39af49864ba36826fda373853e4ae87c948295838517a7416b3695a56d8dbf3643fc907acb279ce44f382429df5fc22cb2a93ef4883f991d2abfc39db1d49828df4a236f4977e233082d6d22e2a09be36a0902100790bed417ad89e7d82f2c07544bcb18d1f4716b52b81b29a850756b69cfb21cf21e9e47cae3f0595e9852e37506bcea75c39a3ec096b33392746bcc70e2a0edaca3e9ed7e9014781d793e7be81b5af2d75ce4982cf2c1da1f8fb21970345e0859e4f06290025c0fa46e7492faa63ef69b5ff5aa154183ca7667a7ff07b880334de6e9bf20a84ceb93211da8f3e991948d0c8e94aa7dc12cd691d4e733e736c8994e3a1d6c03f53d697c529c3c5e22ecd2cdd208049a7f4edbaaffc45b1078e5b927c0348c6ffae320f724086a6adf9ec30f77128033eaf8d32b84df05ceae2aa487eac0a4960d6b9c301c2a3438dbb0f5c29c7da64c09021d43d80c36d38cf0a2f8b50d88dc126a8c9cba8fe470c7f14345b48e3db1b83fb1aac808e31fe1becfd5ccab32c5ec2a3bbae4c8d228a54a9a5387240a7539a198585dfbe298b7a9e91e895e61d25fb61f102e2a9bb27c113cc2b017751e44edca4a9dcf8b777e3dc20cce58ccccfddea3d2220cbfdfdf3ff18b13f02aca741dbeacb8415389562146b43f06b86b09c469aa35e43bf33af7aa585bff0e9e60f1a1e15e96d203c35b873ce5b85dd9cbd2828f230c80366abbb6d6d304365c35da7d0a8465aff10033faa162931e1efadaa7cf0fe402816efc80b83b5e2d2a6b28f8348323c86287bfee8f6a922846d23358b8d851c4619a5d07fdb3f95fd9a38d828d36b615269b74d231d36a47309caf297481cabe93795681db304084532253f75beec90054d7d40c3ba7b29df477a96a2cd1ef01834c333c6aca107b901f09b9f61535a3dadec57648e76d6dc500ccf234f532c59a365d84963b0c98ce290e1572b932acc4630547db3de4db20675ca7987c3c9d8b300e244af51122eef12ccafda7ed2ea34bb75cbf115b9ff3872a27e3b0f31ebf09925fa7b909190c4a6bcac9d00c082ebce0ef5be7902b03d8d7e202eeac81715d8437131f374b041c54054e07ee775f9aa9d45ade2b71fcecdcaf871e8055ee8d88922c2e3c3af89c3ebf24701462e8f9fe1d365e73eafcbcf5bfc6f40a4b97bfe5e6500caa422bab489b0c113ee56a012d44b18b4f8064d0fefe439aaa90b0cb0ff5a2bb24a95e689656056db08b45d3c095214b108f68b6c1dd957b046038fb8e9552675f68ca69831429e18f73c8f2a1a2805ff61ec3a73234ba2ad1e6d22fc7d5eeddf5baeed61fb761fa906005e31b38f8bb667f41200e33943aa498242bc4f0868f829839a044b8e5390154ac3142bc60f14024e0d6707c2b0718910ab2983565de5ff3fb467404d0417ced6f6bdf56e4da6c6415452fd6af6a183042dabaec7e4ee64ab11bdde37cab3f11f6003dbeeca65b7c9e681a1ae0c50ba24095c230a3032f42ad1eadefe7034b9c9d847d4ea8a4b1237ea38ab9f5c6f3b980edecc70e587514c995744117cfb62694aa0f89e404ea15a6b46436b303f9ae38ff31ae6947d2d34ffa20beeeecb48b735c104d5c9da696004ab1eb2214e05f0eb4a3ba102d1c7f59ede64d239ccce084aac627de605aba9ccc05be9fa1f1a03dd842d5d0b4875b53cfcf774bc19001a61d79ca5a2ede2fe64ef886395481f6cc11309df166a05d81efc28495d92428d8e67a13da895cc9b06dda3a23e1c972b40e075a231a434ac9ca47f1f2d9deb6157b0cccdfc74bd15034cb79c0cb8eb35384de59cb4b0ec25a49212301936f4aaee83f80e87d882b5eaedda649ec9cc32e6e80af4384edf43c68de7d3042b195d320af8825a9f57f75fa232640f748195fb3aeafdade4184e9c7081565b4bc3aee66cf721f88ef8b48f64acf279bf33f49712edef8f80e018cee5a6718203a1bb29326296f5c3643cc5e92c378db0d33b1efa978b3b6ef9217a4d8eee522e71b5573fb49e5b0c0b61e651cc645d37f80f8a0cfdab1386fd43035e7d97c76ec441c5ccd7cdcc3beaf02f09d9402ef1779a78f25fb95d867f2f4223eea3f777a939d1ff132d30dfe076c37d072d6843de77315e83e33940805f85350e5473765a6b5980dd4423c875c74df108e183f24c369ab3ac63eb3d5ced4dfe559edccd62e96a0cf0af160c84761cdb1e3fe6c1d275e6e4b0ae96759222b311f0b47fecce04fcab7c434d944ca8fe9511489a3365c940669ddae88e18618efde5066937ea3139ba41b962a9719cac6261350e0a679d1981b6607e16c054f7cff9db4834a32fd7cfe78bc162600cc91c7eafc3b9d9012e4bd8659433121e39bf14e4fcc412be5c17b107874dc3419f494b97b5d0f300c44a121d01a18b829d3a4e6f23f095d8f57a9a5a126207c594600f0c903896f773046c527c65674a601a081d88ce2f0c3211c15275855466c2b1be3062b9bfbdacc302039c004d9572c9274dbca47a1da8c20abea72e58101424d89e9ac96513a413675b92d45612a32f3af55c6a4a1d3b56e2912c0fb1d6c7f5798c0f42d95862b906ddae7dfb61e269071d42d1330bb2ce5b24fd575e08ef49a7ca951b40c5f160cc5ec7827bb36345d921a52b9fbd116e53d12b2b909497b285a82e00e317bfa32cfa6934cc41549c064fbdbe7bfe3617e1ed2f6b48adc0c2a7cdedc7232f83172691a94442bfaea2b3cd3eb0d86916074283605ce5e64dc688a59aab619bb243f9cb93eb53c10d5f1ba15e36af43f404b38edc16fa76820521a95d823e94cd151731f76728b628b4ad0d4f52b706df85f60f18a140e94e00f9f98f216ba452642c054ceb5347877dad4235de9d4fa14933079c8a44a2e07ec7f5b9e788167c7ab7bba295919b9a03ce1bb37ba581bb9940e7093ad15d97cab77208d70dcba173a8af91d28a96e432ad2bc8c5bb4c67b3ee10cccab33083c3bc62c81e3e0afacec3c65ffcb0a09c1c1ddc55516c3428157bfff04357dd042a68fb8b0fbdb33e05c46194f3e01a92468fd1915b8b94e8a37d5642be47437841d8067022206b16796351ac7b1cc08f09a5191d7b685b873e34be69313f72498e20e6900499be1ea441c0a5e52f1f5b78027b5ccaf54939e1f5fa10d05e41dfdbac0d661d7911e166b8d35581b7a5d0b3c4949759cd04be54aebbdb9847560081be73d540c5968cd205e3d5e5055a6a24a38c00145dc8dd9fba9d29e9f3e46a4c8a6c9c9b5379bf7e5da5a3db0271b0207181106561cdd642d6bd270a14e869415a45e1c81e7a73898b1719fe2b1a8fd02ed2f3270f847263ebb189a601320e3b4e73fd407105fa5ed1fee42e643cfafd522a1447a16e4efeaa5f02c2cacb6e496b3f4eef9815f2e658697dc44711c369cacd83f046fd93fba6c0ec1a57f743c3433a60c589d18de4e00ee056db8c3ee8b809a98e540ececd6d34d06927f6f62ad745c06f7b5c2051ffc4a4934529f3b8094f31bec0f867fe2c0e3e34e7aeb87489b40a0639681fa97e840bb64c4b25477801bb5f2dc6fc11b8134f364688765e310120d082d8279f7e4f3bbeb9a7ca29ca9bceae042b3804b063ec96b5bdd7e5bce38c949fad5107cb35c91cfc489aa3877411155167f80f769ddb46f11ccfcb0d55a832086be43e1719cb22a27e9b0289f7470c27563279b51781359f546fbbaa37494f0a2103085480478a40105f2a0e600f6dd72819ce9a3351d7daf4370e468b29e7977c201901872c5f9dc6e187f9ff8df47fa4636f18619d988321f4afac78420c0c1f0745404b96597385ba4a2e985fd44224599f1758e28886bccc49ec7cb449f648a8287404999292888f89ca969beaccab2720e8a0a4816a4ee7990f055f4b68b517e5307ba1bcf75bce7cbe6c1170edab9fe5d3f6abe6f91c61f33f0df966facb4e650a9be0f2ead14dbe9e87689a865af284a4a3ca270a4964b7fc85897db19c8153ac80568e5221d6520bfea65d8ebc8332b1a1da6c2d62399ba983e55af8da1b9f4b67fb1f052167efef9aa0d1f1697c9523fb1e90a1e792b2bee7ed391d4a2d3925f694f895a19c15390b87ce5db95d1bdc5fbe8c263e8f1b62c91102c63896ec8bff311a6ae6b72228a0edbe369471cb985b01eb4cc57bdd534c41478112b986cad35d87db71e4e5abbe110a432b9c23592b6a04d89e97bf8d21b008ccd68b1d9c86e07aeb4848e1665f9ce741994676f698ec31e80f1c178d71d751d378b9dab62f169478e5bc223c8a3af562441fddd76b5bce9618537a45f772cef286a1a1914c9cac6502484392a8c58ad96a2e80acca6e376f7a17db5a3e7ceed79aa066fb494b11c350ec57ddc82684e316b69b0137b53d96c5b7e1d4bef76bd9da3250edfc73bfb3584d37cde6738396db834a22ee04cbbb6e06ebdb98b1032f7f1b35a2cdd953e28b1960a4c2e0c5017d206e2e1d7df51cd6c9fb7e682eb4c71287ef59a6ac3b4fc036aead957e5496d94838596b2818f066afed39c5dff4d2315cc1de53411742939da876568b3005ac5babc7a3b30da9363e58cea82b5f2afb40ecb38061fbffdcc000d3b4575356b3e1d73e76720235e5bb4ee7921372e5a06f30d6dce89708d97f4e79c110c3f4e796db4e78be554473cdaac26aaecfacf6b3ebe36f3bbc1a102f27d4784192d096175e59f2552f19b3d2db4704a6ab8e392eb9f9e65349e7e2f4133fa6346330d1d1a31365e957a88d545e6d7738d7f1ac036cbb8edebcc98f8df8a11a64bd81bb4e6916cd9e2142f8ae8077033525da8778905b249c8a064f4e9b61fa6f015747b39704cc6733becb126731a4f406f4720ddb0ee0264276d173bda6f78260e7a752cfd1ae62c27f590ba8f0c0baf4916c0a924c3ae2c71610612d84fcc92c03f9ec8527c98207c38835af8d96de00e2175626d9f70061c8877edfbe2d7ea9bd165abfbfa050196bcad70ff064c59b9f3627e343d307bdeaa78c4b073cc53adbe09cac3d125a01e873256bf0d23db03c954e803b8a214d43d9eac10e402d20c752acfcd151b90a145bbdb0242087383c72438a0d0bb30efba96760d18ef458b5ba0d7ac3ac12e6753699d15012e627e975a226aa50982ccb1be8390525e4e6d103902de6e068ee833a70d52380d3beb9e4ef3759ff02fe691549e737a308441229daf1c0</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/wytblog/lib/hbe.js"></script><link href="/wytblog/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>观影碎碎念</category>
+      </categories>
+      <tags>
+        <tag>观影碎碎念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024年观影大吐槽</title>
+    <url>/wytblog/2024/01/20/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2024%E8%A7%82%E5%BD%B1/</url>
+    <content><![CDATA[<div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5《三大队》电视剧</strong></p>
+</div></div><div class='timeline-item-content'><p>还不错，犯罪悬疑剧，没啥想说的</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5《我推的是反派大小姐》番剧</strong></p>
+</div></div><div class='timeline-item-content'><p>竟然是纯的百合番，看起来内容中规中矩，但是可能碍于我很久没有看番剧了，让我又想去补一下日漫的番了！作画方面真的很崩，蚌埠住了/(ㄒoㄒ)/~~</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.10《转生王女与天才千金的魔法革命》番剧</strong></p>
+</div></div><div class='timeline-item-content'><p>当年看番的感觉回来了，得再找一部看</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.15《颓废师姐重回巅峰》小说</strong></p>
+</div></div><div class='timeline-item-content'><p>这个小说也太太太搞笑了，追了三天看完了，前半部分真的很搞笑，到了中后期就是正剧的感觉了，剧情还是很精彩的。</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.18《亡妻第十年》小说</strong></p>
+</div></div><div class='timeline-item-content'><p>这小说哭死我了…没啥可吐槽的，两人最后HE。</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.18《热烈燃烧》小说</strong></p>
+</div></div><div class='timeline-item-content'><p>唔，这就是典型的暗恋文啊啊啊，但是后面的发展我真的无语死了，真就是工具人必不可少呗。</p>
+</div></div></div>]]></content>
+      <categories>
+        <category>观影碎碎念</category>
+      </categories>
+      <tags>
+        <tag>观影碎碎念</tag>
       </tags>
   </entry>
 </search>
