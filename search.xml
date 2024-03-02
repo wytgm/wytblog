@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>那些年我遇到的小动物们</title>
+    <url>/wytblog/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8A%A8%E7%89%A9%E6%B4%BE%E5%AF%B9/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>日常日常</category>
+      </categories>
+      <tags>
+        <tag>毛绒绒</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>历代雪人介绍</title>
+    <url>/wytblog/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8E%86%E4%BB%A3%E9%9B%AA%E4%BA%BA%E5%88%9B%E9%80%A0/</url>
+    <content><![CDATA[<p>初代雪人，本人创造于2023.01.14在北河沿边。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/初代雪人.jpg" style="width:300px;"/></div></div>
+<p>二代目雪人，于今日（2024.02.05）在楼下。二代目的雪人，不羁的面容中流露出三分不屑，那冷毅的脸庞中隐藏着丝丝冷意，让人不敢靠近。剑眉星目，目光中缀着三分凉薄四分讥笑五分漫不经心。（欸嘿，忘了点鼻子了…）那嘴边叼着的烟头已然慢慢燃尽。啊！多么美丽的雪人啊啊啊哈哈哈哈哈哈哈哈哈编不下去了。</p>
+<p>一开始我搭了个雪人的底座，我弄不上头，妈妈和老弟一人团了一个雪人头，然后他俩团的头合二为一了，我又给整了下造型，我觉得今年的雪人要有所创意，所以给他整了点刘海哈啊哈哈哈，然后爸爸从旁边找了几个木炭，想给他当眼睛。但是眼睛已经被我用雪怼上去了，所以正好拿它当眉毛，抽了一半的烟也给它安上了。再然后我弟说它缺两个手，又给他捡了俩木棍。最终构成了它的最终形态。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人01.jpg" style="width:300px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人02.jpg" style="width:300px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人03.jpg" style="width:300px;"/></div></div>
+<p>还有这个堆在我旁边的可爱派雪人。但是这个雪人经历了它这个年纪不该经历的…</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/别人家的雪人.jpg" alt="可爱流派的雪人" style="width:300px;"/></div><span class="image-caption">可爱流派的雪人</span></div>
+<p>事件是这样的，我下楼的时候这个雪人是已经堆好了的，然后我在离他不远的地方创造的二代目雪人。我刚感叹这个脑袋真的真的好难弄的时候，一个小屁孩飞快地跑向我身后的可爱派雪人，起初我以为他可能只是想拿走这个雪人身上的萝卜，但是我真的没有想到，他竟然给雪人的头给拔了，然后就抱着跑了，最后发现他竟然把这个可爱的雪人的脑袋按到了他自己搭的雪人身上，最后的雪人变成了这个形态。（虽然很不道德，但是还有点可爱(●’◡’●)）</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/缝合雪人.jpg" alt="缝合怪版雪人" style="width:300px;"/></div><span class="image-caption">缝合怪版雪人</span></div>]]></content>
+      <categories>
+        <category>日常日常</category>
+      </categories>
+      <tags>
+        <tag>雪王的诞生</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blender 动画方面</title>
     <url>/wytblog/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%20%E5%8A%A8%E7%94%BB/</url>
     <content><![CDATA[<h1 id="bone-dynamics-pro-cha-jian-de-shi-yong">BoneDynamics Pro插件的使用</h1>
@@ -67,6 +99,186 @@
       </categories>
       <tags>
         <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于模型绑定：AutoRig Pro 绑定插件的使用</title>
+    <url>/wytblog/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%20%E7%BB%91%E5%AE%9A/</url>
+    <content><![CDATA[<p>果然这个插件就是用来拯救动画er的！！绑定简直不要太方便啦！</p>
+<p>面板中最常用的是 Qick Rig 和 smart 面板。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/AutoRigPro1.jpg" style="width:800px;"/></div></div>
+<h1 id="smart-zhi-neng-bang-ding">smart智能绑定</h1>
+<p>绑定前一定要检查模型：</p>
+<ul>
+<li>是否全部应用了（Ctrl+A）；</li>
+<li>曲线要变成网格；</li>
+<li>物体是否在原点，是否X轴对称；</li>
+</ul>
+<p>选中物体，头部和身体可以分开</p>
+<p>点击 Get Selecet OBjects 根据提示添加；</p>
+<p><strong>neck脖子 chin下巴 shoulder肩膀 wrist手腕 root根节点 ankles脚踝。</strong></p>
+<p>点击go；</p>
+<p>进行错位骨骼的调整；</p>
+<p>到Autorigpro面板。点击match to rig，生成控制器，在物体位置属性中的<strong>视图显示里把在前面勾选上</strong></p>
+<p>绑定衣服原理同上，直接到Bind绑定这一步即可</p>
+<p>姿态模式测试，最后权重绘制调整一下。</p>
+<details class="folding-tag" green><summary> 关于权重的一些知识 </summary>
+              <div class='content'>
+              
+              </div>
+            </details>
+<h1 id="qick-rig-mian-ban-zhi-zuo-mi-ha-you-mo-xing-de-bang-gu-kong-zhi-qi-mo-ban">Qick Rig面板制作米哈游模型的绑骨控制器模板</h1>
+<p>点击后，根据提示进行添加，而米哈游模型的骨骼是统一命名的，所以添加完一个之后，点击导出预设。<br>
+下一次再要生成控制器的时候，直接导入预设即可。</p>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>动漫卡通风格化渲染的基本了解</title>
+    <url>/wytblog/2023/08/27/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%E5%8D%A1%E6%B8%B2/</url>
+    <content><![CDATA[<h1 id="liao-jie-xiang-guan-zhi-shi-ing">🦝 了解相关知识ing</h1>
+<p>常见的渲染风格：</p>
+<ul>
+<li>基于物理的渲染PBR（Physically Based Rendering）（再议）。</li>
+<li>非真实渲染NPR（Non-Photorealistic Rendering）风格化渲染。包括素描风格、水彩风格、卡通渲染等。</li>
+</ul>
+<p>卡通渲染（cel shading/toon shading）最常见的风格又分为美式卡通（阴影渐变的层次色彩丰富）与日式卡通（阴影二分化明显，大色块铺色）。要想一个人物好看，最最最主要的还是得贴图好看</p>
+<p>按我自己的理解：三渲二中的光影和描边是两大关键。</p>
+<ul>
+<li>有关光的细节有：边缘光、高光（兰伯特）、金属光泽、直接光照、间接光照</li>
+<li>阴影：脸部SDF平滑阴影</li>
+</ul>
+<h1 id="cha-jian-xuan-ran">🐾 插件渲染</h1>
+<details class="folding-tag" ><summary> 强烈推荐卡渲密咒 </summary>
+              <div class='content'>
+              <p class='p center logo large'>卡渲秘咒</p><p>真的超级好用，感谢大佬！插件使用的前置条件：</p><p>1.插件下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1RMeD86bWSt5XSN3-zcz3WQ"   title="提取码：KXMZ"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：KXMZ</span></a><br>2.星穹铁道贴图下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1YanzLjNbp4JUb4wOhtpouw"   title="提取码：XQTD"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：XQTD</span></a><br>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取或找大佬整理好的）。<br>3.一键仿星穹铁道功能详解视频：<a class="btn-anzhiyu " href="https://b23.tv/ELfl2Rs"   title="详细讲解地址"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>详细讲解地址</span></a></p><p>插件安装：<wavy>编辑——偏好设置——插件——安装——选择下载的压缩包</wavy></p><p>这个插件的使用主要是这样的：导入模型后，打开界面，<wavy>选择贴图</wavy>（贴图一定要正确），点击星铁咒，就OK了。</p><p>这是渲染好的效果图：阴影，SDF，采样，高光，金属质感都还不错的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/卡渲密咒测试.png" style="width:650px;"/></div></div><p>除了星铁咒，还有一个通用毛毛豆的咒语，用了一段时间也很好用，但因为是群组的关系，一改整个都该了，不适合单个工程中出现多人物渲染。也可能是我不会用，再摸索摸索，基本单人物MMD比较好用，一键解决所有麻烦啊啊真的很方便！！</p>
+              </div>
+            </details>
+<h1 id="yu-she-xuan-ran">🐸 预设渲染</h1>
+<details class="folding-tag" ><summary> Blender仿原神渲染预设5.0 </summary>
+              <div class='content'>
+              <p>这个是UP小二今天吃啥啊的自制仿原神的三渲二的预设，允许使用，需要自己去模之屋进行下载。我理解的简单使用预设的流程是这样：</p><ul><li>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取贴图有专门的工具，但是建议直接从网上找大佬整理好的）。为了方便，相同材质的合并到一起。</li><li>找一些渲染预设，里面的必要的且常用的节点会<strong>被打成组</strong>，然后文件—追加—仿原神渲染渲染预设.blender—NodeTree——追加。里面主要是分为头发、衣服、脸部、边缘光、金属、ramp等效果。</li><li>接下来就是材质节点的一些<strong>连线</strong>。主要是将贴图接入，会实现神奇的效果，真的很方便。</li></ul><p>测试效果如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染预设测试1.png" style="width:650px;"/></div></div>
+              </div>
+            </details>
+<p>如果想实现比较好的效果，需要从0开始自己搭建完整的工程。这样能够理解整个三渲二的流程。要想人物渲染的好看，贴图的绘制必须精美，除此之外，其实光影贴图也是非常重要的。</p>
+<details class="folding-tag" ><summary> komikaze动漫风格化渲染预设 </summary>
+              <div class='content'>
+              <p>最近找到一个非常好用的预设资产：<p class='p center logo large'>komikaze动漫风格化渲染预设</p></p><p>地址：<a class="btn-anzhiyu " href="https://www.gfxcamp.com/komikaze/"   title="Komikaze V2"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Komikaze V2</span></a></p><p>真的一键解决上述所有问题，还附赠各种金木水火土风，星空等各种卡通材质，真的非常好用！墙裂推荐！！好用值：⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  Max！！！</p><p>Komikaze渲染测试：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/cover/卡渲封面.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h1 id="b-zhan-mhy-shi-xuan-ran-cong-ling-kai-shi-wan-zheng-gong-cheng-da-jian-pian">💐 B站MHY式渲染（从零开始完整工程搭建篇）</h1>
+<p>前提：按Tab进入编辑模式，数字键盘1进入正视图，将相同的材质合并到一起，但是为了方便后期调节，眼睛1、眼睛、金属、黑丝这些不要合并。</p>
+<h2 id="tie-tu-de-zheng-he" id="🌰-贴图的整合">🌰 贴图的整合</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>需要先准备四个贴图后面方便使用</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/四个贴图组.png" style="width:400px;"/></div></div><div class="tip bell"><p>组：基本贴图</p><p>主要原理是混合两张图片，用参数调节，0代表第一个贴图；1代表第二个贴图；</p><p>主要是衣服的切换（衣服or衣服1）、是否为脸部、是否为头发。有的可能需要加一个衣服内侧。节点连接如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/基础贴图设置.png" style="width:600px;"/></div></div></div><div class="tip home"><p>组：光照贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/光照图设置.png" style="width:600px;"/></div></div></div><div class="tip sync"><p>组：脸部阴影贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/脸部阴影.png" style="width:600px;"/></div></div></div><div class="tip cogs"><p>组：Ramp贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/Ramp贴图.png" style="width:600px;"/></div></div></div>
+              </div>
+            </details>
+<h2 id="xiang-liang-de-zhun-bei" id="🌰-向量的准备">🌰 向量的准备</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="note primary modern"><p>灯光向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/灯光向量.png" style="width:600px;"/></div></div></div><div class="note info modern"><p>摄像机向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/摄像机向量.png" style="width:600px;"/></div></div></div><div class="note warning modern"><p>法线向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/法线向量.png" style="width:600px;"/></div></div></div><div class="note danger modern"><p>头部向量的搭建<br>① 新建三个空物体（添加——空物体——立方体），不用管位置，先命名为中心、右方、前方<br>② 选中三个空物体和人物骨骼，ctrl+P 选父级为物体<br>③ 依次点选空物体，将设置改为如下：<br>然后，位置全部清零，设置相应位置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量设置.png" style="width:600px;"/></div></div>选中三个空物体，物体→集合→移动到相应的人物集合中即可，开始连接节点<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量驱动器.png" style="width:600px;"/></div></div></div>
+              </div>
+            </details> 
+<p>完成此步骤后可以先连接基本贴图看看效果。</p>
+<h2 id="jian-jie-guang" id="🌰-间接光">🌰 间接光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>间接光混合漫射的节点连接情况：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/间接光.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="yin-ying" id="🌰-阴影">🌰 阴影</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>身体阴影（ilm贴图）和面部阴影（SDF贴图）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/身体阴影.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/面部阴影.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="yin-ying-ramp-cai-yang" id="🌰-阴影ramp采样">🌰 阴影ramp采样</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/采样颜色.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="zhu-guang" id="🌰-主光">🌰 主光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>绑定灯光颜色，使身体颜色随灯光发生变化。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取组.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="gao-guang" id="🌰-高光">🌰 高光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>兰伯特高光设置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/高光设置.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="matcap-bian-yuan-guang" id="🌰-matcap边缘光">🌰 matcap边缘光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主要利用菲涅尔节点：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光1.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="miao-bian-dong-tai-miao-bian" id="🌰-描边（动态描边）">🌰 描边（动态描边）</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>方法很多，目前使用的是卡渲密咒的描边咒，方便快捷，具体使用方法如下，需要自己调教调教才能绘制出比较合适的线条</p><ul><li>先选择头发，在绿色小三角的属性里，把它的名字改为“头发轮廓”，默认是叫“描边权重”</li></ul><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改1.png" style="width:600px;"/></div></div>- 然后选择“描边咒”，更改一些属性，定点组那里是代表线条的粗细，定点组的名字一定要和上面的名字是一样的<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改2.png" style="width:600px;"/></div></div>- 进入“权重模式”，更改不合理的线条，自己看情况改一下。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改3.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果4.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="xi-jie-chu-li" id="🌰-细节处理">🌰 细节处理</h2>
+<h3 id="jin-shu-xiao-guo" id="🍬-金属效果">🍬 金属效果</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/金属明暗对比.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="hei-si-xiao-guo" id="🍬-黑丝效果">🍬 黑丝效果</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div>2、增加漫反射使光照变换时产生二分光影效果。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div>有贴图or无贴图都可：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="yan-jing-chu-li-bu-ling-bu-ling" id="🍬-眼睛处理（布灵布灵）">🍬 眼睛处理（布灵布灵）</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主要是伽马节点。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛高光单独处理.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="yan-jing-tou-guo-liu-hai" id="🍬-眼睛透过刘海">🍬 眼睛透过刘海</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="tou-fa-tou-ying" id="🍬-头发投影">🍬 头发投影</h3>
+<h3 id="tou-fa-gao-guang-chu-li" id="🍬-头发高光处理">🍬 头发高光处理</h3>
+<h3 id="biao-qing-dan-du-chu-li" id="🍬-表情单独处理">🍬 表情单独处理</h3>
+<p>透明处理即可</p>
+<h3 id="dan-xian-bi-zi" id="🍬-单显鼻子">🍬 单显鼻子</h3>
+<h2 id="lai-ba-zhan-shi" id="🌰-来吧，展示">🌰 来吧，展示</h2>
+<p>边缘光加强版，总之要有布灵布灵的感觉，灯光的颜色有一点偏黄</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果1.png" style="width:400px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果2.png" style="width:400px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果3.png" style="width:400px;"/></div></div>
+<h1 id="yi-xie-xuan-ran-si-lu-can-kao">一些渲染思路参考</h1>
+<p>Merlin的卡渲思路：（吃打光，总之就是要亮）<br>
+整体处理：<br>
+漫射+阴影分层+主光+辅光+环境遮蔽+高光+左边缘光+右边缘光<br>
+小二吃啥的卡渲思路：（自带的阴影贴图，吃人物自身的光照贴图）<br>
+分部分进行处理：<br>
+衣服：基础色叠加本人的阴影叠加金属<br>
+脸部：面部阴影控制SDF+调色<br>
+头发：高光加阴影（均需调色处理）控制器移动光照，需要头发阴影贴图</p>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+        <tag>渲染</tag>
       </tags>
   </entry>
   <entry>
@@ -549,186 +761,6 @@
       </categories>
       <tags>
         <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于模型绑定：AutoRig Pro 绑定插件的使用</title>
-    <url>/wytblog/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%20%E7%BB%91%E5%AE%9A/</url>
-    <content><![CDATA[<p>果然这个插件就是用来拯救动画er的！！绑定简直不要太方便啦！</p>
-<p>面板中最常用的是 Qick Rig 和 smart 面板。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/AutoRigPro1.jpg" style="width:800px;"/></div></div>
-<h1 id="smart-zhi-neng-bang-ding">smart智能绑定</h1>
-<p>绑定前一定要检查模型：</p>
-<ul>
-<li>是否全部应用了（Ctrl+A）；</li>
-<li>曲线要变成网格；</li>
-<li>物体是否在原点，是否X轴对称；</li>
-</ul>
-<p>选中物体，头部和身体可以分开</p>
-<p>点击 Get Selecet OBjects 根据提示添加；</p>
-<p><strong>neck脖子 chin下巴 shoulder肩膀 wrist手腕 root根节点 ankles脚踝。</strong></p>
-<p>点击go；</p>
-<p>进行错位骨骼的调整；</p>
-<p>到Autorigpro面板。点击match to rig，生成控制器，在物体位置属性中的<strong>视图显示里把在前面勾选上</strong></p>
-<p>绑定衣服原理同上，直接到Bind绑定这一步即可</p>
-<p>姿态模式测试，最后权重绘制调整一下。</p>
-<details class="folding-tag" green><summary> 关于权重的一些知识 </summary>
-              <div class='content'>
-              
-              </div>
-            </details>
-<h1 id="qick-rig-mian-ban-zhi-zuo-mi-ha-you-mo-xing-de-bang-gu-kong-zhi-qi-mo-ban">Qick Rig面板制作米哈游模型的绑骨控制器模板</h1>
-<p>点击后，根据提示进行添加，而米哈游模型的骨骼是统一命名的，所以添加完一个之后，点击导出预设。<br>
-下一次再要生成控制器的时候，直接导入预设即可。</p>
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>动漫卡通风格化渲染的基本了解</title>
-    <url>/wytblog/2023/08/27/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%E5%8D%A1%E6%B8%B2/</url>
-    <content><![CDATA[<h1 id="liao-jie-xiang-guan-zhi-shi-ing">🦝 了解相关知识ing</h1>
-<p>常见的渲染风格：</p>
-<ul>
-<li>基于物理的渲染PBR（Physically Based Rendering）（再议）。</li>
-<li>非真实渲染NPR（Non-Photorealistic Rendering）风格化渲染。包括素描风格、水彩风格、卡通渲染等。</li>
-</ul>
-<p>卡通渲染（cel shading/toon shading）最常见的风格又分为美式卡通（阴影渐变的层次色彩丰富）与日式卡通（阴影二分化明显，大色块铺色）。要想一个人物好看，最最最主要的还是得贴图好看</p>
-<p>按我自己的理解：三渲二中的光影和描边是两大关键。</p>
-<ul>
-<li>有关光的细节有：边缘光、高光（兰伯特）、金属光泽、直接光照、间接光照</li>
-<li>阴影：脸部SDF平滑阴影</li>
-</ul>
-<h1 id="cha-jian-xuan-ran">🐾 插件渲染</h1>
-<details class="folding-tag" ><summary> 强烈推荐卡渲密咒 </summary>
-              <div class='content'>
-              <p class='p center logo large'>卡渲秘咒</p><p>真的超级好用，感谢大佬！插件使用的前置条件：</p><p>1.插件下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1RMeD86bWSt5XSN3-zcz3WQ"   title="提取码：KXMZ"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：KXMZ</span></a><br>2.星穹铁道贴图下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1YanzLjNbp4JUb4wOhtpouw"   title="提取码：XQTD"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：XQTD</span></a><br>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取或找大佬整理好的）。<br>3.一键仿星穹铁道功能详解视频：<a class="btn-anzhiyu " href="https://b23.tv/ELfl2Rs"   title="详细讲解地址"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>详细讲解地址</span></a></p><p>插件安装：<wavy>编辑——偏好设置——插件——安装——选择下载的压缩包</wavy></p><p>这个插件的使用主要是这样的：导入模型后，打开界面，<wavy>选择贴图</wavy>（贴图一定要正确），点击星铁咒，就OK了。</p><p>这是渲染好的效果图：阴影，SDF，采样，高光，金属质感都还不错的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/卡渲密咒测试.png" style="width:650px;"/></div></div><p>除了星铁咒，还有一个通用毛毛豆的咒语，用了一段时间也很好用，但因为是群组的关系，一改整个都该了，不适合单个工程中出现多人物渲染。也可能是我不会用，再摸索摸索，基本单人物MMD比较好用，一键解决所有麻烦啊啊真的很方便！！</p>
-              </div>
-            </details>
-<h1 id="yu-she-xuan-ran">🐸 预设渲染</h1>
-<details class="folding-tag" ><summary> Blender仿原神渲染预设5.0 </summary>
-              <div class='content'>
-              <p>这个是UP小二今天吃啥啊的自制仿原神的三渲二的预设，允许使用，需要自己去模之屋进行下载。我理解的简单使用预设的流程是这样：</p><ul><li>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取贴图有专门的工具，但是建议直接从网上找大佬整理好的）。为了方便，相同材质的合并到一起。</li><li>找一些渲染预设，里面的必要的且常用的节点会<strong>被打成组</strong>，然后文件—追加—仿原神渲染渲染预设.blender—NodeTree——追加。里面主要是分为头发、衣服、脸部、边缘光、金属、ramp等效果。</li><li>接下来就是材质节点的一些<strong>连线</strong>。主要是将贴图接入，会实现神奇的效果，真的很方便。</li></ul><p>测试效果如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染预设测试1.png" style="width:650px;"/></div></div>
-              </div>
-            </details>
-<p>如果想实现比较好的效果，需要从0开始自己搭建完整的工程。这样能够理解整个三渲二的流程。要想人物渲染的好看，贴图的绘制必须精美，除此之外，其实光影贴图也是非常重要的。</p>
-<details class="folding-tag" ><summary> komikaze动漫风格化渲染预设 </summary>
-              <div class='content'>
-              <p>最近找到一个非常好用的预设资产：<p class='p center logo large'>komikaze动漫风格化渲染预设</p></p><p>地址：<a class="btn-anzhiyu " href="https://www.gfxcamp.com/komikaze/"   title="Komikaze V2"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Komikaze V2</span></a></p><p>真的一键解决上述所有问题，还附赠各种金木水火土风，星空等各种卡通材质，真的非常好用！墙裂推荐！！好用值：⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  Max！！！</p><p>Komikaze渲染测试：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/cover/卡渲封面.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h1 id="b-zhan-mhy-shi-xuan-ran-cong-ling-kai-shi-wan-zheng-gong-cheng-da-jian-pian">💐 B站MHY式渲染（从零开始完整工程搭建篇）</h1>
-<p>前提：按Tab进入编辑模式，数字键盘1进入正视图，将相同的材质合并到一起，但是为了方便后期调节，眼睛1、眼睛、金属、黑丝这些不要合并。</p>
-<h2 id="tie-tu-de-zheng-he" id="🌰-贴图的整合">🌰 贴图的整合</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>需要先准备四个贴图后面方便使用</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/四个贴图组.png" style="width:400px;"/></div></div><div class="tip bell"><p>组：基本贴图</p><p>主要原理是混合两张图片，用参数调节，0代表第一个贴图；1代表第二个贴图；</p><p>主要是衣服的切换（衣服or衣服1）、是否为脸部、是否为头发。有的可能需要加一个衣服内侧。节点连接如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/基础贴图设置.png" style="width:600px;"/></div></div></div><div class="tip home"><p>组：光照贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/光照图设置.png" style="width:600px;"/></div></div></div><div class="tip sync"><p>组：脸部阴影贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/脸部阴影.png" style="width:600px;"/></div></div></div><div class="tip cogs"><p>组：Ramp贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/Ramp贴图.png" style="width:600px;"/></div></div></div>
-              </div>
-            </details>
-<h2 id="xiang-liang-de-zhun-bei" id="🌰-向量的准备">🌰 向量的准备</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="note primary modern"><p>灯光向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/灯光向量.png" style="width:600px;"/></div></div></div><div class="note info modern"><p>摄像机向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/摄像机向量.png" style="width:600px;"/></div></div></div><div class="note warning modern"><p>法线向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/法线向量.png" style="width:600px;"/></div></div></div><div class="note danger modern"><p>头部向量的搭建<br>① 新建三个空物体（添加——空物体——立方体），不用管位置，先命名为中心、右方、前方<br>② 选中三个空物体和人物骨骼，ctrl+P 选父级为物体<br>③ 依次点选空物体，将设置改为如下：<br>然后，位置全部清零，设置相应位置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量设置.png" style="width:600px;"/></div></div>选中三个空物体，物体→集合→移动到相应的人物集合中即可，开始连接节点<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量驱动器.png" style="width:600px;"/></div></div></div>
-              </div>
-            </details> 
-<p>完成此步骤后可以先连接基本贴图看看效果。</p>
-<h2 id="jian-jie-guang" id="🌰-间接光">🌰 间接光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>间接光混合漫射的节点连接情况：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/间接光.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="yin-ying" id="🌰-阴影">🌰 阴影</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>身体阴影（ilm贴图）和面部阴影（SDF贴图）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/身体阴影.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/面部阴影.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="yin-ying-ramp-cai-yang" id="🌰-阴影ramp采样">🌰 阴影ramp采样</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/采样颜色.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="zhu-guang" id="🌰-主光">🌰 主光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>绑定灯光颜色，使身体颜色随灯光发生变化。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取组.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="gao-guang" id="🌰-高光">🌰 高光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>兰伯特高光设置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/高光设置.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="matcap-bian-yuan-guang" id="🌰-matcap边缘光">🌰 matcap边缘光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主要利用菲涅尔节点：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光1.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="miao-bian-dong-tai-miao-bian" id="🌰-描边（动态描边）">🌰 描边（动态描边）</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>方法很多，目前使用的是卡渲密咒的描边咒，方便快捷，具体使用方法如下，需要自己调教调教才能绘制出比较合适的线条</p><ul><li>先选择头发，在绿色小三角的属性里，把它的名字改为“头发轮廓”，默认是叫“描边权重”</li></ul><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改1.png" style="width:600px;"/></div></div>- 然后选择“描边咒”，更改一些属性，定点组那里是代表线条的粗细，定点组的名字一定要和上面的名字是一样的<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改2.png" style="width:600px;"/></div></div>- 进入“权重模式”，更改不合理的线条，自己看情况改一下。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改3.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果4.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="xi-jie-chu-li" id="🌰-细节处理">🌰 细节处理</h2>
-<h3 id="jin-shu-xiao-guo" id="🍬-金属效果">🍬 金属效果</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/金属明暗对比.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="hei-si-xiao-guo" id="🍬-黑丝效果">🍬 黑丝效果</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div>2、增加漫反射使光照变换时产生二分光影效果。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div>有贴图or无贴图都可：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="yan-jing-chu-li-bu-ling-bu-ling" id="🍬-眼睛处理（布灵布灵）">🍬 眼睛处理（布灵布灵）</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主要是伽马节点。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛高光单独处理.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="yan-jing-tou-guo-liu-hai" id="🍬-眼睛透过刘海">🍬 眼睛透过刘海</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="tou-fa-tou-ying" id="🍬-头发投影">🍬 头发投影</h3>
-<h3 id="tou-fa-gao-guang-chu-li" id="🍬-头发高光处理">🍬 头发高光处理</h3>
-<h3 id="biao-qing-dan-du-chu-li" id="🍬-表情单独处理">🍬 表情单独处理</h3>
-<p>透明处理即可</p>
-<h3 id="dan-xian-bi-zi" id="🍬-单显鼻子">🍬 单显鼻子</h3>
-<h2 id="lai-ba-zhan-shi" id="🌰-来吧，展示">🌰 来吧，展示</h2>
-<p>边缘光加强版，总之要有布灵布灵的感觉，灯光的颜色有一点偏黄</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果1.png" style="width:400px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果2.png" style="width:400px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果3.png" style="width:400px;"/></div></div>
-<h1 id="yi-xie-xuan-ran-si-lu-can-kao">一些渲染思路参考</h1>
-<p>Merlin的卡渲思路：（吃打光，总之就是要亮）<br>
-整体处理：<br>
-漫射+阴影分层+主光+辅光+环境遮蔽+高光+左边缘光+右边缘光<br>
-小二吃啥的卡渲思路：（自带的阴影贴图，吃人物自身的光照贴图）<br>
-分部分进行处理：<br>
-衣服：基础色叠加本人的阴影叠加金属<br>
-脸部：面部阴影控制SDF+调色<br>
-头发：高光加阴影（均需调色处理）控制器移动光照，需要头发阴影贴图</p>
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-        <tag>渲染</tag>
       </tags>
   </entry>
   <entry>
@@ -1370,21 +1402,24 @@
       </tags>
   </entry>
   <entry>
-    <title>构建记忆宫殿——电子笔记软件测评</title>
-    <url>/wytblog/2024/02/29/%E6%8A%80%E8%83%BD%E5%BA%93/%E5%90%84%E7%B1%BB%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%84/</url>
-    <content><![CDATA[<p>自从上了大学之后，笔记软件就没有固定使用过一款，已经用过好多笔记软件了。像安卓端的幕布、印象笔记、有道云笔记。电脑端的OneNote、Xmind、语雀、obsidian。ios端的goodnote以及notability。自制网站版的笔记：vuepress或者Hexo搭建静态网站。</p>
+    <title>Hexo遇到的问题以及解决</title>
+    <url>/wytblog/2024/02/19/%E6%8A%80%E8%83%BD%E5%BA%93/hexo_%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E8%A7%A3%E5%86%B3/</url>
+    <content><![CDATA[<h1 id="toc-wen-zhang-mu-lu-wu-fa-tiao-zhuan">Toc文章目录无法跳转</h1>
+<p>这个问题要从使用emoji表情说起，照着教程卸载原来的markdown插件，安装新版的markdown-it插件，会发生点击左侧文章目录不跳转的问题。检查“页面元素”，发现目录一级标题的’toc-link’后没有正常生成href属性，因此无法实现跳转。出现此问题的原因是markdown-it插件的 bug，butterfly主题的博客是由markdown-it渲染的，而这个插件并未渲染 heading 的 id 所以导致锚点失效，目录无法正常跳转。在网页的控制台上的报错如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Uncaught TypeError: Cannot read properties of null (reading &#x27;offsetTop&#x27;)</span><br><span class="line">    at Object.getEleTop (utils.js:208:25)</span><br><span class="line">    at HTMLDivElement.&lt;anonymous&gt; (main.js:369:30)</span><br></pre></td></tr></table></figure>
 <ul>
-<li>幕布</li>
-<li>印象笔记</li>
-<li>有道云笔记</li>
-<li>OneNote</li>
-<li>Xmind</li>
-<li>语雀</li>
-<li>obsidian</li>
-<li>GoodNote</li>
-<li>Notability</li>
-<li>网站搭建知识库</li>
+<li>首先安装 markdown-it-named-headings 插件：</li>
 </ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install markdown-it-named-headings --save </span><br><span class="line">or</span><br><span class="line">npm in markdown-it-named-headings --save</span><br></pre></td></tr></table></figure>
+<ul>
+<li>然后进入项目的根目录，修改根目录下 node_modules\hexo-renderer-markdown-it\lib\renderer.js 文件，在 renderer.js 中添加一行以使用此插件：</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">this.parser.use(require(&#x27;markdown-it-named-headings&#x27;))</span><br></pre></td></tr></table></figure>
+<p>代码粘贴位置如下，记得保存修改，重新运行后即可正常实现目录一级标题的跳转：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解决toc不跳转.png" style="width:800px;"/></div></div>
+<h1 id="chang-jian-de-dao-ru-live-2-d-bu-zhi-chi-moc-3-ge-shi">常见的导入live2d不支持moc3格式</h1>
+<p>最常见，或者说网上搜索最多人推荐的插件是hexo-helper-live2d，但是下载后不支持moc3的模型格式。然后又在网上搜索找到了hexo-oh-my-live2d插件，这个插件之前在vuepress中也用过，很好用，支持现在主流的moc3格式，具体使用方法参照美化篇里使用。</p>
+<h1 id="mei-hua-she-zhi-an-niu-bu-fan-ying-chu-xian-uncaught-type-error-winbox-is-not-a-function">美化设置按钮不反应，出现Uncaught TypeError: winbox is not a function</h1>
 ]]></content>
       <categories>
         <category>点亮技能树</category>
@@ -1416,24 +1451,21 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo遇到的问题以及解决</title>
-    <url>/wytblog/2024/02/19/%E6%8A%80%E8%83%BD%E5%BA%93/hexo_%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E8%A7%A3%E5%86%B3/</url>
-    <content><![CDATA[<h1 id="toc-wen-zhang-mu-lu-wu-fa-tiao-zhuan">Toc文章目录无法跳转</h1>
-<p>这个问题要从使用emoji表情说起，照着教程卸载原来的markdown插件，安装新版的markdown-it插件，会发生点击左侧文章目录不跳转的问题。检查“页面元素”，发现目录一级标题的’toc-link’后没有正常生成href属性，因此无法实现跳转。出现此问题的原因是markdown-it插件的 bug，butterfly主题的博客是由markdown-it渲染的，而这个插件并未渲染 heading 的 id 所以导致锚点失效，目录无法正常跳转。在网页的控制台上的报错如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Uncaught TypeError: Cannot read properties of null (reading &#x27;offsetTop&#x27;)</span><br><span class="line">    at Object.getEleTop (utils.js:208:25)</span><br><span class="line">    at HTMLDivElement.&lt;anonymous&gt; (main.js:369:30)</span><br></pre></td></tr></table></figure>
+    <title>构建记忆宫殿——电子笔记软件测评</title>
+    <url>/wytblog/2024/02/29/%E6%8A%80%E8%83%BD%E5%BA%93/%E5%90%84%E7%B1%BB%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%84/</url>
+    <content><![CDATA[<p>自从上了大学之后，笔记软件就没有固定使用过一款，已经用过好多笔记软件了。像安卓端的幕布、印象笔记、有道云笔记。电脑端的OneNote、Xmind、语雀、obsidian。ios端的goodnote以及notability。自制网站版的笔记：vuepress或者Hexo搭建静态网站。</p>
 <ul>
-<li>首先安装 markdown-it-named-headings 插件：</li>
+<li>幕布</li>
+<li>印象笔记</li>
+<li>有道云笔记</li>
+<li>OneNote</li>
+<li>Xmind</li>
+<li>语雀</li>
+<li>obsidian</li>
+<li>GoodNote</li>
+<li>Notability</li>
+<li>网站搭建知识库</li>
 </ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install markdown-it-named-headings --save </span><br><span class="line">or</span><br><span class="line">npm in markdown-it-named-headings --save</span><br></pre></td></tr></table></figure>
-<ul>
-<li>然后进入项目的根目录，修改根目录下 node_modules\hexo-renderer-markdown-it\lib\renderer.js 文件，在 renderer.js 中添加一行以使用此插件：</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">this.parser.use(require(&#x27;markdown-it-named-headings&#x27;))</span><br></pre></td></tr></table></figure>
-<p>代码粘贴位置如下，记得保存修改，重新运行后即可正常实现目录一级标题的跳转：</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解决toc不跳转.png" style="width:800px;"/></div></div>
-<h1 id="chang-jian-de-dao-ru-live-2-d-bu-zhi-chi-moc-3-ge-shi">常见的导入live2d不支持moc3格式</h1>
-<p>最常见，或者说网上搜索最多人推荐的插件是hexo-helper-live2d，但是下载后不支持moc3的模型格式。然后又在网上搜索找到了hexo-oh-my-live2d插件，这个插件之前在vuepress中也用过，很好用，支持现在主流的moc3格式，具体使用方法参照美化篇里使用。</p>
-<h1 id="mei-hua-she-zhi-an-niu-bu-fan-ying-chu-xian-uncaught-type-error-winbox-is-not-a-function">美化设置按钮不反应，出现Uncaught TypeError: winbox is not a function</h1>
 ]]></content>
       <categories>
         <category>点亮技能树</category>
@@ -1458,38 +1490,6 @@
       </tags>
   </entry>
   <entry>
-    <title>那些年我遇到的小动物们</title>
-    <url>/wytblog/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8A%A8%E7%89%A9%E6%B4%BE%E5%AF%B9/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>日常日常</category>
-      </categories>
-      <tags>
-        <tag>毛绒绒</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>历代雪人介绍</title>
-    <url>/wytblog/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8E%86%E4%BB%A3%E9%9B%AA%E4%BA%BA%E5%88%9B%E9%80%A0/</url>
-    <content><![CDATA[<p>初代雪人，本人创造于2023.01.14在北河沿边。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/初代雪人.jpg" style="width:300px;"/></div></div>
-<p>二代目雪人，于今日（2024.02.05）在楼下。二代目的雪人，不羁的面容中流露出三分不屑，那冷毅的脸庞中隐藏着丝丝冷意，让人不敢靠近。剑眉星目，目光中缀着三分凉薄四分讥笑五分漫不经心。（欸嘿，忘了点鼻子了…）那嘴边叼着的烟头已然慢慢燃尽。啊！多么美丽的雪人啊啊啊哈哈哈哈哈哈哈哈哈编不下去了。</p>
-<p>一开始我搭了个雪人的底座，我弄不上头，妈妈和老弟一人团了一个雪人头，然后他俩团的头合二为一了，我又给整了下造型，我觉得今年的雪人要有所创意，所以给他整了点刘海哈啊哈哈哈，然后爸爸从旁边找了几个木炭，想给他当眼睛。但是眼睛已经被我用雪怼上去了，所以正好拿它当眉毛，抽了一半的烟也给它安上了。再然后我弟说它缺两个手，又给他捡了俩木棍。最终构成了它的最终形态。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人01.jpg" style="width:300px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人02.jpg" style="width:300px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人03.jpg" style="width:300px;"/></div></div>
-<p>还有这个堆在我旁边的可爱派雪人。但是这个雪人经历了它这个年纪不该经历的…</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/别人家的雪人.jpg" alt="可爱流派的雪人" style="width:300px;"/></div><span class="image-caption">可爱流派的雪人</span></div>
-<p>事件是这样的，我下楼的时候这个雪人是已经堆好了的，然后我在离他不远的地方创造的二代目雪人。我刚感叹这个脑袋真的真的好难弄的时候，一个小屁孩飞快地跑向我身后的可爱派雪人，起初我以为他可能只是想拿走这个雪人身上的萝卜，但是我真的没有想到，他竟然给雪人的头给拔了，然后就抱着跑了，最后发现他竟然把这个可爱的雪人的脑袋按到了他自己搭的雪人身上，最后的雪人变成了这个形态。（虽然很不道德，但是还有点可爱(●’◡’●)）</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/缝合雪人.jpg" alt="缝合怪版雪人" style="width:300px;"/></div><span class="image-caption">缝合怪版雪人</span></div>]]></content>
-      <categories>
-        <category>日常日常</category>
-      </categories>
-      <tags>
-        <tag>雪王的诞生</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2023年碎碎念归档</title>
     <url>/wytblog/2023/12/05/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2023%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%BD%92%E6%A1%A3/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -1504,6 +1504,30 @@
   </div>
 </div>
 <script data-pjax src="/wytblog/lib/hbe.js"></script><link href="/wytblog/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>观影碎碎念</category>
+      </categories>
+      <tags>
+        <tag>观影碎碎念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024年观影大吐槽</title>
+    <url>/wytblog/2024/01/20/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2024%E8%A7%82%E5%BD%B1/</url>
+    <content><![CDATA[<div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5《三大队》电视剧</strong></p>
+</div></div><div class='timeline-item-content'><p>还不错，犯罪悬疑剧，没啥想说的</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5《我推的是反派大小姐》番剧</strong></p>
+</div></div><div class='timeline-item-content'><p>竟然是纯的百合番，看起来内容中规中矩，但是可能碍于我很久没有看番剧了，让我又想去补一下日漫的番了！作画方面真的很崩，蚌埠住了/(ㄒoㄒ)/~~</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.10《转生王女与天才千金的魔法革命》番剧</strong></p>
+</div></div><div class='timeline-item-content'><p>当年看番的感觉回来了，得再找一部看</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.15《颓废师姐重回巅峰》小说</strong></p>
+</div></div><div class='timeline-item-content'><p>这个小说也太太太搞笑了，追了三天看完了，前半部分真的很搞笑，到了中后期就是正剧的感觉了，剧情还是很精彩的。</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.18《亡妻第十年》小说</strong></p>
+</div></div><div class='timeline-item-content'><p>这小说哭死我了…没啥可吐槽的，两人最后HE。</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.18《热烈燃烧》小说</strong></p>
+</div></div><div class='timeline-item-content'><p>唔，这就是典型的暗恋文啊啊啊，但是后面的发展我真的无语死了，真就是工具人必不可少呗。</p>
+</div></div></div>]]></content>
       <categories>
         <category>观影碎碎念</category>
       </categories>
@@ -1559,30 +1583,6 @@
 </div></div><div class='timeline-item-content'><p>虚假种田！奇葩亲戚！前几集想看爽剧，但结果越看越憋屈，最后的结局，我无语了…又是一个合家欢，都这样了，还能原谅她大伯一家，还能不计前嫌，我是真的无语了。我怎么就看完了呢，我对我自己也无语！</p>
 </div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>12月 《繁城之下》</strong></p>
 </div></div><div class='timeline-item-content'><p>咱就是说，这部剧的色调实在是太黑了，中午吃饭的时候看的最后一集，结果人物乌漆嘛黑光听声了，不知道是不是我倍速的问题，感觉最后一集剪得有点稀碎。我看完这部剧的最大感受是，全剧没有一个多余的人物，每个人物都是20前陆家大火案的相关联人物。也是由小案件串大案件。里面的陆直这个角色塑造的很好，和狂飙里的高启强一样的思路塑造。都是先相信世间的善，但是遭遇的都是不善的事，所以自己产生迷茫后就黑化了，自己的命自己挣得感觉。陆直一开始出现的时候真的是很单纯，很善良的小孩，但是经历了种种，我在想，如果是我，和他做同样的选择也是同样有可能的。最后反转的有一点我没想到，当我以为魏知县就是陆不忧的时候，结果他是小宝子，这倒是我着实没有想到。很精彩。就是有些画面我很害怕哈哈哈。</p>
-</div></div></div>]]></content>
-      <categories>
-        <category>观影碎碎念</category>
-      </categories>
-      <tags>
-        <tag>观影碎碎念</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024年观影大吐槽</title>
-    <url>/wytblog/2024/01/20/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2024%E8%A7%82%E5%BD%B1/</url>
-    <content><![CDATA[<div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p>
-</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5《三大队》电视剧</strong></p>
-</div></div><div class='timeline-item-content'><p>还不错，犯罪悬疑剧，没啥想说的</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5《我推的是反派大小姐》番剧</strong></p>
-</div></div><div class='timeline-item-content'><p>竟然是纯的百合番，看起来内容中规中矩，但是可能碍于我很久没有看番剧了，让我又想去补一下日漫的番了！作画方面真的很崩，蚌埠住了/(ㄒoㄒ)/~~</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.10《转生王女与天才千金的魔法革命》番剧</strong></p>
-</div></div><div class='timeline-item-content'><p>当年看番的感觉回来了，得再找一部看</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.15《颓废师姐重回巅峰》小说</strong></p>
-</div></div><div class='timeline-item-content'><p>这个小说也太太太搞笑了，追了三天看完了，前半部分真的很搞笑，到了中后期就是正剧的感觉了，剧情还是很精彩的。</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.18《亡妻第十年》小说</strong></p>
-</div></div><div class='timeline-item-content'><p>这小说哭死我了…没啥可吐槽的，两人最后HE。</p>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.18《热烈燃烧》小说</strong></p>
-</div></div><div class='timeline-item-content'><p>唔，这就是典型的暗恋文啊啊啊，但是后面的发展我真的无语死了，真就是工具人必不可少呗。</p>
 </div></div></div>]]></content>
       <categories>
         <category>观影碎碎念</category>
