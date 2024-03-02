@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>那些年我遇到的小动物们</title>
+    <url>/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8A%A8%E7%89%A9%E6%B4%BE%E5%AF%B9/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>日常日常</category>
+      </categories>
+      <tags>
+        <tag>毛绒绒</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>历代雪人介绍</title>
+    <url>/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8E%86%E4%BB%A3%E9%9B%AA%E4%BA%BA%E5%88%9B%E9%80%A0/</url>
+    <content><![CDATA[<p>初代雪人，本人创造于2023.01.14在北河沿边。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/初代雪人.jpg" style="width:300px;"/></div></div>
+<p>二代目雪人，于今日（2024.02.05）在楼下。二代目的雪人，不羁的面容中流露出三分不屑，那冷毅的脸庞中隐藏着丝丝冷意，让人不敢靠近。剑眉星目，目光中缀着三分凉薄四分讥笑五分漫不经心。（欸嘿，忘了点鼻子了…）那嘴边叼着的烟头已然慢慢燃尽。啊！多么美丽的雪人啊啊啊哈哈哈哈哈哈哈哈哈编不下去了。</p>
+<p>一开始我搭了个雪人的底座，我弄不上头，妈妈和老弟一人团了一个雪人头，然后他俩团的头合二为一了，我又给整了下造型，我觉得今年的雪人要有所创意，所以给他整了点刘海哈啊哈哈哈，然后爸爸从旁边找了几个木炭，想给他当眼睛。但是眼睛已经被我用雪怼上去了，所以正好拿它当眉毛，抽了一半的烟也给它安上了。再然后我弟说它缺两个手，又给他捡了俩木棍。最终构成了它的最终形态。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人01.jpg" style="width:300px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人02.jpg" style="width:300px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人03.jpg" style="width:300px;"/></div></div>
+<p>还有这个堆在我旁边的可爱派雪人。但是这个雪人经历了它这个年纪不该经历的…</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/别人家的雪人.jpg" alt="可爱流派的雪人" style="width:300px;"/></div><span class="image-caption">可爱流派的雪人</span></div>
+<p>事件是这样的，我下楼的时候这个雪人是已经堆好了的，然后我在离他不远的地方创造的二代目雪人。我刚感叹这个脑袋真的真的好难弄的时候，一个小屁孩飞快地跑向我身后的可爱派雪人，起初我以为他可能只是想拿走这个雪人身上的萝卜，但是我真的没有想到，他竟然给雪人的头给拔了，然后就抱着跑了，最后发现他竟然把这个可爱的雪人的脑袋按到了他自己搭的雪人身上，最后的雪人变成了这个形态。（虽然很不道德，但是还有点可爱(●’◡’●)）</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/缝合雪人.jpg" alt="缝合怪版雪人" style="width:300px;"/></div><span class="image-caption">缝合怪版雪人</span></div>]]></content>
+      <categories>
+        <category>日常日常</category>
+      </categories>
+      <tags>
+        <tag>雪王的诞生</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blender 动画方面</title>
     <url>/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%20%E5%8A%A8%E7%94%BB/</url>
     <content><![CDATA[<h1 id="bone-dynamics-pro-cha-jian-de-shi-yong">BoneDynamics Pro插件的使用</h1>
@@ -104,6 +136,219 @@
       </categories>
       <tags>
         <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>动漫卡通风格化渲染的基本了解</title>
+    <url>/2023/08/27/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%E5%8D%A1%E6%B8%B2/</url>
+    <content><![CDATA[<h1 id="liao-jie-xiang-guan-zhi-shi-ing">🦝 了解相关知识ing</h1>
+<p>常见的渲染风格：</p>
+<ul>
+<li>基于物理的渲染PBR（Physically Based Rendering）（再议）。</li>
+<li>非真实渲染NPR（Non-Photorealistic Rendering）风格化渲染。包括素描风格、水彩风格、卡通渲染等。</li>
+</ul>
+<p>卡通渲染（cel shading/toon shading）最常见的风格又分为美式卡通（阴影渐变的层次色彩丰富）与日式卡通（阴影二分化明显，大色块铺色）。要想一个人物好看，最最最主要的还是得贴图好看</p>
+<p>按我自己的理解：三渲二中的光影和描边是两大关键。</p>
+<ul>
+<li>有关光的细节有：边缘光、高光（兰伯特）、金属光泽、直接光照、间接光照</li>
+<li>阴影：脸部SDF平滑阴影</li>
+</ul>
+<h1 id="cha-jian-xuan-ran">🐾 插件渲染</h1>
+<details class="folding-tag" ><summary> 强烈推荐卡渲密咒 </summary>
+              <div class='content'>
+              <p class='p center logo large'>卡渲秘咒</p><p>真的超级好用，感谢大佬！插件使用的前置条件：</p><p>1.插件下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1RMeD86bWSt5XSN3-zcz3WQ"   title="提取码：KXMZ"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：KXMZ</span></a><br>2.星穹铁道贴图下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1YanzLjNbp4JUb4wOhtpouw"   title="提取码：XQTD"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：XQTD</span></a><br>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取或找大佬整理好的）。<br>3.一键仿星穹铁道功能详解视频：<a class="btn-anzhiyu " href="https://b23.tv/ELfl2Rs"   title="详细讲解地址"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>详细讲解地址</span></a></p><p>插件安装：<wavy>编辑——偏好设置——插件——安装——选择下载的压缩包</wavy></p><p>这个插件的使用主要是这样的：导入模型后，打开界面，<wavy>选择贴图</wavy>（贴图一定要正确），点击星铁咒，就OK了。</p><p>这是渲染好的效果图：阴影，SDF，采样，高光，金属质感都还不错的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/卡渲密咒测试.png" style="width:650px;"/></div></div><p>除了星铁咒，还有一个通用毛毛豆的咒语，用了一段时间也很好用，但因为是群组的关系，一改整个都该了，不适合单个工程中出现多人物渲染。也可能是我不会用，再摸索摸索，基本单人物MMD比较好用，一键解决所有麻烦啊啊真的很方便！！</p>
+              </div>
+            </details>
+<h1 id="yu-she-xuan-ran">🐸 预设渲染</h1>
+<details class="folding-tag" ><summary> Blender仿原神渲染预设5.0 </summary>
+              <div class='content'>
+              <p>这个是UP小二今天吃啥啊的自制仿原神的三渲二的预设，允许使用，需要自己去模之屋进行下载。我理解的简单使用预设的流程是这样：</p><ul><li>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取贴图有专门的工具，但是建议直接从网上找大佬整理好的）。为了方便，相同材质的合并到一起。</li><li>找一些渲染预设，里面的必要的且常用的节点会<strong>被打成组</strong>，然后文件—追加—仿原神渲染渲染预设.blender—NodeTree——追加。里面主要是分为头发、衣服、脸部、边缘光、金属、ramp等效果。</li><li>接下来就是材质节点的一些<strong>连线</strong>。主要是将贴图接入，会实现神奇的效果，真的很方便。</li></ul><p>测试效果如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染预设测试1.png" style="width:650px;"/></div></div>
+              </div>
+            </details>
+<p>如果想实现比较好的效果，需要从0开始自己搭建完整的工程。这样能够理解整个三渲二的流程。要想人物渲染的好看，贴图的绘制必须精美，除此之外，其实光影贴图也是非常重要的。</p>
+<details class="folding-tag" ><summary> komikaze动漫风格化渲染预设 </summary>
+              <div class='content'>
+              <p>最近找到一个非常好用的预设资产：<p class='p center logo large'>komikaze动漫风格化渲染预设</p></p><p>地址：<a class="btn-anzhiyu " href="https://www.gfxcamp.com/komikaze/"   title="Komikaze V2"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Komikaze V2</span></a></p><p>真的一键解决上述所有问题，还附赠各种金木水火土风，星空等各种卡通材质，真的非常好用！墙裂推荐！！好用值：⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  Max！！！</p><p>Komikaze渲染测试：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/cover/卡渲封面.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h1 id="b-zhan-mhy-shi-xuan-ran-cong-ling-kai-shi-wan-zheng-gong-cheng-da-jian-pian">💐 B站MHY式渲染（从零开始完整工程搭建篇）</h1>
+<p>前提：按Tab进入编辑模式，数字键盘1进入正视图，将相同的材质合并到一起，但是为了方便后期调节，眼睛1、眼睛、金属、黑丝这些不要合并。</p>
+<h2 id="tie-tu-de-zheng-he" id="🌰-贴图的整合">🌰 贴图的整合</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>需要先准备四个贴图后面方便使用</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/四个贴图组.png" style="width:400px;"/></div></div><div class="tip bell"><p>组：基本贴图</p><p>主要原理是混合两张图片，用参数调节，0代表第一个贴图；1代表第二个贴图；</p><p>主要是衣服的切换（衣服or衣服1）、是否为脸部、是否为头发。有的可能需要加一个衣服内侧。节点连接如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/基础贴图设置.png" style="width:600px;"/></div></div></div><div class="tip home"><p>组：光照贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/光照图设置.png" style="width:600px;"/></div></div></div><div class="tip sync"><p>组：脸部阴影贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/脸部阴影.png" style="width:600px;"/></div></div></div><div class="tip cogs"><p>组：Ramp贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/Ramp贴图.png" style="width:600px;"/></div></div></div>
+              </div>
+            </details>
+<h2 id="xiang-liang-de-zhun-bei" id="🌰-向量的准备">🌰 向量的准备</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="note primary modern"><p>灯光向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/灯光向量.png" style="width:600px;"/></div></div></div><div class="note info modern"><p>摄像机向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/摄像机向量.png" style="width:600px;"/></div></div></div><div class="note warning modern"><p>法线向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/法线向量.png" style="width:600px;"/></div></div></div><div class="note danger modern"><p>头部向量的搭建<br>① 新建三个空物体（添加——空物体——立方体），不用管位置，先命名为中心、右方、前方<br>② 选中三个空物体和人物骨骼，ctrl+P 选父级为物体<br>③ 依次点选空物体，将设置改为如下：<br>然后，位置全部清零，设置相应位置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量设置.png" style="width:600px;"/></div></div>选中三个空物体，物体→集合→移动到相应的人物集合中即可，开始连接节点<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量驱动器.png" style="width:600px;"/></div></div></div>
+              </div>
+            </details> 
+<p>完成此步骤后可以先连接基本贴图看看效果。</p>
+<h2 id="jian-jie-guang" id="🌰-间接光">🌰 间接光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>间接光混合漫射的节点连接情况：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/间接光.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="yin-ying" id="🌰-阴影">🌰 阴影</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>身体阴影（ilm贴图）和面部阴影（SDF贴图）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/身体阴影.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/面部阴影.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="yin-ying-ramp-cai-yang" id="🌰-阴影ramp采样">🌰 阴影ramp采样</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/采样颜色.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="zhu-guang" id="🌰-主光">🌰 主光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>绑定灯光颜色，使身体颜色随灯光发生变化。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取组.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="gao-guang" id="🌰-高光">🌰 高光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>兰伯特高光设置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/高光设置.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="matcap-bian-yuan-guang" id="🌰-matcap边缘光">🌰 matcap边缘光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主要利用菲涅尔节点：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光1.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="miao-bian-dong-tai-miao-bian" id="🌰-描边（动态描边）">🌰 描边（动态描边）</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>方法很多，目前使用的是卡渲密咒的描边咒，方便快捷，具体使用方法如下，需要自己调教调教才能绘制出比较合适的线条</p><ul><li>先选择头发，在绿色小三角的属性里，把它的名字改为“头发轮廓”，默认是叫“描边权重”</li></ul><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改1.png" style="width:600px;"/></div></div>- 然后选择“描边咒”，更改一些属性，定点组那里是代表线条的粗细，定点组的名字一定要和上面的名字是一样的<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改2.png" style="width:600px;"/></div></div>- 进入“权重模式”，更改不合理的线条，自己看情况改一下。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改3.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果4.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="xi-jie-chu-li" id="🌰-细节处理">🌰 细节处理</h2>
+<h3 id="jin-shu-xiao-guo" id="🍬-金属效果">🍬 金属效果</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/金属明暗对比.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="hei-si-xiao-guo" id="🍬-黑丝效果">🍬 黑丝效果</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div>2、增加漫反射使光照变换时产生二分光影效果。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div>有贴图or无贴图都可：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="yan-jing-chu-li-bu-ling-bu-ling" id="🍬-眼睛处理（布灵布灵）">🍬 眼睛处理（布灵布灵）</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主要是伽马节点。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛高光单独处理.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="yan-jing-tou-guo-liu-hai" id="🍬-眼睛透过刘海">🍬 眼睛透过刘海</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="tou-fa-tou-ying" id="🍬-头发投影">🍬 头发投影</h3>
+<h3 id="tou-fa-gao-guang-chu-li" id="🍬-头发高光处理">🍬 头发高光处理</h3>
+<h3 id="biao-qing-dan-du-chu-li" id="🍬-表情单独处理">🍬 表情单独处理</h3>
+<p>透明处理即可</p>
+<h3 id="dan-xian-bi-zi" id="🍬-单显鼻子">🍬 单显鼻子</h3>
+<h2 id="lai-ba-zhan-shi" id="🌰-来吧，展示">🌰 来吧，展示</h2>
+<p>边缘光加强版，总之要有布灵布灵的感觉，灯光的颜色有一点偏黄</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果1.png" style="width:400px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果2.png" style="width:400px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果3.png" style="width:400px;"/></div></div>
+<h1 id="yi-xie-xuan-ran-si-lu-can-kao">一些渲染思路参考</h1>
+<p>Merlin的卡渲思路：（吃打光，总之就是要亮）<br>
+整体处理：<br>
+漫射+阴影分层+主光+辅光+环境遮蔽+高光+左边缘光+右边缘光<br>
+小二吃啥的卡渲思路：（自带的阴影贴图，吃人物自身的光照贴图）<br>
+分部分进行处理：<br>
+衣服：基础色叠加本人的阴影叠加金属<br>
+脸部：面部阴影控制SDF+调色<br>
+头发：高光加阴影（均需调色处理）控制器移动光照，需要头发阴影贴图</p>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+        <tag>渲染</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于komikaze预设的动漫风格人物渲染模板</title>
+    <url>/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%E6%B8%B2%E6%9F%93%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<h1 id="qian-yan">🌺 前言</h1>
+<p>此模板的渲染效果包括二分光影、金属效果、丝袜效果、SDF脸部阴影平滑（通用）、透明衣料、珠宝、皮肤效果等。材质的颜色能够受灯光影响。这个模板唯一的优点是方便多人物流程的使用。（以前用过Merlin大佬的卡渲密咒，一个工程中只能一个模型渲染，因为是节点是打包好供整体使用的。这个插件真的很好用，如果有两个模型的话会有点麻烦。）所以这个模板比较符合自己的需求，更容易改动，可以多光源进行更改，自定义的自由度很高。不需要理解原理就能实现比较理想的效果。</p>
+<p>渲染出来的效果是这样的（自我感觉还不错嘿嘿）：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染演示.gif" style="width:300px;"/></div></div>
+<p>平时积累一些好看的图片，绘画作品，看看怎么打光的，什么情景下打什么光比较好。可以配合这套节点联系下氛围感的图片。</p>
+<h1 id="xuan-ran-she-zhi">🌺 渲染设置</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>① 渲染设置中的辉光参考：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设辉光设置.png" style="width:500px;"/></div></div><p>① <mark class="hl-label blue">阈值：0.9</mark> 、<mark class="hl-label pink">屈伸度：1</mark> 、<mark class="hl-label green">半径：3.51</mark> 、<mark class="hl-label red">颜色（HEX）：FFA5A4</mark> 、强度自定义，一般0.18左右</p><p>② 环境遮蔽不用打开可以自己用节点控制，不然渲染速度会变慢</p><p>③ 色彩管理：SRGB+标准（默认是Filmic）</p><p>④ 新建的灯光设置：<mark class="hl-label purple">颜色（HEX）：FFE1D6</mark> 、<mark class="hl-label blue">强度：10、8、5、3（常用的数值）</mark></p><p>位置信息：Z轴放到头顶即可，人物不一样看身高（1.2m-1.9m）;旋转只更改<strong>X轴：50°</strong>感觉还不错，既能体现光影而且人物还很亮</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设基本设置.png" style="width:600px;"/></div></div><p>⑤ 材质连接已整理成预设，分为：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/节点整合.png" style="width:600px;"/></div></div><p>人物方面：<strong>脸部、头发、衣服、皮肤、金属、丝袜、表情、透明处理、衣服细节、表情、珠宝；</strong>（直接连贴图即可）</p><p>光照方面：<strong>边缘光、环境遮蔽、高光；</strong> FCE2CC或 FFCBAF比较接近皮肤肤色——ffd4c7（平面）；</p><p>高光节点：有两种一种是用<strong>兰伯特照明</strong>，另一种是用<strong>Komikaze里面的各种高光节点</strong>，真的很好用；</p><p>关于节点的一些操作：Modulo 取模运算、Sign符号函数、大于小于运算能把贴图的黑白信息提取出来</p>
+              </div>
+            </details>
+<h1 id="miao-bian-she-zhi">🌺 描边设置</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>（本质上是使用另一UP主的几何描边处理的动态描边，由于卡渲密咒这个插件这个整合好了，所以很好用）：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置1.png" style="width:600px;"/></div></div><p>使用【卡渲密咒】里的“描边咒”，一键描边，但是需要一些处理：</p><p>首先在属性里的数据里把默认的“描边权重”更改为自己命名；</p><p>在修改器里，添加<mark class="hl-label pink">焊接</mark> 、<mark class="hl-label pink">平滑</mark> 、<mark class="hl-label pink">加权法向</mark> （注意：属性里的面的接触改为拐角的角度）；</p><p>在描边属性里，将描边权重改为自己命名的定点组（一定要吻合和顶点组里的）；</p><p>进行一些修改，转到权重模式，用ADD的画笔进行一些细节的处理。右上方的可见性可关掉，处理时方便观察效果；</p><p>PS：描边之后，刘海还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边效果.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h1 id="yan-jing-tou-guo-liu-hai">🌺 眼睛透过刘海</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<p>PS:头发的混合模式时Blend，眉毛的时Hash。<strong>头发一定要勾掉显示背面，一定！！</strong> 这可是废了一天的时间发现的问题！！眉毛以防万一也勾掉。真是让自己给蠢死了</p>
+<h1 id="si-wa-she-zhi">🌺 丝袜设置</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div><p>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div><p>2、增加漫反射使光照变换时产生二分光影效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div><p>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div><p>有贴图or无贴图都可：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h1 id="sdf-lian-bu-yin-ying-ping-hua">🌺 SDF脸部阴影平滑</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>优点：通用便捷SDF脸部阴影平滑解决方案（不用设置头部驱动器）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF演示.gif" style="width:200px;"/></div></div><p>1、插件准备：  <a class="btn-anzhiyu " href="https://github.com/EmuMan/npr-face-shader"   title="npr-face-shader插件"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>npr-face-shader插件</span></a></p><p>2、导入模型后按材质分离，只保留面部，不要进行其它的合并操作。</p><p>3、SDF插件面板以及使用方法：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF插件使用.png" style="width:600px;"/></div></div><p>4、SDF蜡笔线绘制方法：</p><p>参考图：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度1参考.png" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度2参考.png" style="height:200px"/></p><p>Shift+A，新建蜡笔，进入编辑模式全选所有的画笔，X删除蜡笔。再进入“自由线”模式进行绘制，要在面部绘制三条蜡笔线。首先是面部引导线（弧线），一共要绘制7条，从人物脸部的最上方的中心位置开始到下巴结束。从左至右进行绘制。一条穿过右侧眼尾位置，一条穿过右侧眼部中心位置，一条穿过右侧眼角位置。一条是面部正中心的位置。脸部左侧三条线与右侧位置一致。再者，就是面部高光区域，绘制如下。最后是鼻子阴影位置，绘制如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF绘制.png" style="width:600px;"/></div></div><p>5、如果只生成图，节点没有生成成功。自行连接也行</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF连接参考.png" style="width:600px;"/></div></div><p>绑定灯光旋转和绑定灯光颜色：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF头部绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光颜色绑定.png" style="height:280px"/></p>
+              </div>
+            </details>
+<h1 id="yi-fu-wen-li-xi-jie">🌺 衣服纹理细节</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>衣服的细节，主要是用凹凸法线贴图实现。以卡芙卡为例，使她肩膀上的花纹有突出的感觉并且衣服有纹理的细节（具体如图所示）。</p><p>1、用PS生成凹凸贴图和法线贴图。PS操作：打开图像后Ctrl+J复制一层，选择滤镜—3D—生成凹凸图/生成法线图。</p><p>2、在Blender的节点连接如下。数值均可自行调整，而且已经打包成节点组，直接接入即可。</p>
+              </div>
+            </details>
+<h1 id="bian-yuan-guang-you-hua">🌺 边缘光优化</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>本模板的边缘光默认是关闭的。等着在优化优化。<br>边缘光的原理主要是通过菲涅尔，没解决的问题是没办法受光照影响，现在是全局发边缘光，想实现的结果：有光的地方有边缘光，没光的地方没边缘光</p>
+              </div>
+            </details>
+<h1 id="die-dai-guo-cheng">🌺 迭代过程</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <ul><li>迭代：第一版<br>实现光影、头发、脸部、衣服、皮肤、金属饰品。实现描边效果。<br>问题：脸部阴影不平滑、丝袜没有设置材质、刘海没有透过眼睛</li><li>迭代：第二版<br>新增丝袜设置、实现刘海透明效果。新增前发+丝袜节点（实验：卡芙卡）<br>问题：脸部阴影不平滑</li><li>迭代：第三版<br>实现通用脸部SDF阴影平滑效果（姬子为例），所有模型理论上均可使用。<br>问题：头发衣服细节不多，没有光照图。</li><li>迭代：第四版<br>实现衣服的细节纹理，凹凸与法线贴图的使用。新增衣服细节纹理（卡芙卡为例）<br>新增珠宝饰品的节点组。</li><li>迭代：第五版<br>要解决的问题：头发和衣服的阴影细节（不提取游戏中的贴图方法）衣服光照图ilm与ramp图的运用。（可舍）</li></ul>
+              </div>
+            </details>
+<!-- <details class="folding-tag" ><summary> 查看内容 </summary>
+              <div class='content'>
+              
+              </div>
+            </details> -->]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+        <tag>渲染</tag>
       </tags>
   </entry>
   <entry>
@@ -658,216 +903,56 @@
       </tags>
   </entry>
   <entry>
-    <title>基于komikaze预设的动漫风格人物渲染模板</title>
-    <url>/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%E6%B8%B2%E6%9F%93%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="qian-yan">🌺 前言</h1>
-<p>此模板的渲染效果包括二分光影、金属效果、丝袜效果、SDF脸部阴影平滑（通用）、透明衣料、珠宝、皮肤效果等。材质的颜色能够受灯光影响。这个模板唯一的优点是方便多人物流程的使用。（以前用过Merlin大佬的卡渲密咒，一个工程中只能一个模型渲染，因为是节点是打包好供整体使用的。这个插件真的很好用，如果有两个模型的话会有点麻烦。）所以这个模板比较符合自己的需求，更容易改动，可以多光源进行更改，自定义的自由度很高。不需要理解原理就能实现比较理想的效果。</p>
-<p>渲染出来的效果是这样的（自我感觉还不错嘿嘿）：</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染演示.gif" style="width:300px;"/></div></div>
-<p>平时积累一些好看的图片，绘画作品，看看怎么打光的，什么情景下打什么光比较好。可以配合这套节点联系下氛围感的图片。</p>
-<h1 id="xuan-ran-she-zhi">🌺 渲染设置</h1>
+    <title>MMD的简单使用</title>
+    <url>/2023/08/24/%E6%8A%80%E8%83%BD%E5%BA%93/MMD/</url>
+    <content><![CDATA[<h1 id="chu-ci-jian-dan-zhi-zuo-mmd">💖 初次简单制作MMD</h1>
+<p>最近对MMD产生了浓厚的兴趣，想入手了解一下，就有了这篇文章，关键是记录一下学习的历程…</p>
+<p>MMD的全称<wavy>MikuMikuDance</wavy>，是一款简易3D动画软件。一般在电脑端使用，可以用来导入MMD模型场景动作渲染插件等素材。联合MME——MikuMikuEffect（特效）、MMM——MikuMikuMoving（动作？）、Ray-Ray-mmd（渲染器）。梳理下制作流程，除去必须的制作软件之外，主要是<wavy>模型 → 动作 → 场景 → 镜头 → 特效 → 音乐 → 渲染</wavy>。简单制作的话，这些都有素材，可直接用。也可升级为自己建模、K帧、镜头运用…，感觉里面还包含很多知识，比如<wavy>布料、头发、渲染、K帧</wavy>等吧很多…一定要有耐心，一步步的来不要着急（对自己说的（<sup>_</sup>））。</p>
+<h1 id="xia-zai-pian">💓 下载篇</h1>
+<h2 id="ruan-jian-de-xia-zai" id="软件的下载">软件的下载</h2>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <p>① 渲染设置中的辉光参考：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设辉光设置.png" style="width:500px;"/></div></div><p>① <mark class="hl-label blue">阈值：0.9</mark> 、<mark class="hl-label pink">屈伸度：1</mark> 、<mark class="hl-label green">半径：3.51</mark> 、<mark class="hl-label red">颜色（HEX）：FFA5A4</mark> 、强度自定义，一般0.18左右</p><p>② 环境遮蔽不用打开可以自己用节点控制，不然渲染速度会变慢</p><p>③ 色彩管理：SRGB+标准（默认是Filmic）</p><p>④ 新建的灯光设置：<mark class="hl-label purple">颜色（HEX）：FFE1D6</mark> 、<mark class="hl-label blue">强度：10、8、5、3（常用的数值）</mark></p><p>位置信息：Z轴放到头顶即可，人物不一样看身高（1.2m-1.9m）;旋转只更改<strong>X轴：50°</strong>感觉还不错，既能体现光影而且人物还很亮</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设基本设置.png" style="width:600px;"/></div></div><p>⑤ 材质连接已整理成预设，分为：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/节点整合.png" style="width:600px;"/></div></div><p>人物方面：<strong>脸部、头发、衣服、皮肤、金属、丝袜、表情、透明处理、衣服细节、表情、珠宝；</strong>（直接连贴图即可）</p><p>光照方面：<strong>边缘光、环境遮蔽、高光；</strong> FCE2CC或 FFCBAF比较接近皮肤肤色——ffd4c7（平面）；</p><p>高光节点：有两种一种是用<strong>兰伯特照明</strong>，另一种是用<strong>Komikaze里面的各种高光节点</strong>，真的很好用；</p><p>关于节点的一些操作：Modulo 取模运算、Sign符号函数、大于小于运算能把贴图的黑白信息提取出来</p>
+              <p>主体软件MMD，V9.26版本（MikuMikuDance 926 CHS）是汉化之后的，没法与其它软件联动；十周年版本（MikuMikuDance 10th Anniversary Version MMD）UP主推荐使用的，可以导出调节文件与Blender或其它3D软件联动;所以使用十周年版本是最好的选择。</p><p>PE（PmxEditor）软件，是用来编辑模型的，可以换头改衣服；</p><p>Ray—mmd渲染插件：其实也可以全流程在Blender里面制作渲染。（之后就迈入了Blender）</p>
               </div>
             </details>
-<h1 id="miao-bian-she-zhi">🌺 描边设置</h1>
+<h2 id="mo-xing-de-xia-zai" id="模型的下载">模型的下载</h2>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <p>（本质上是使用另一UP主的几何描边处理的动态描边，由于卡渲密咒这个插件这个整合好了，所以很好用）：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置1.png" style="width:600px;"/></div></div><p>使用【卡渲密咒】里的“描边咒”，一键描边，但是需要一些处理：</p><p>首先在属性里的数据里把默认的“描边权重”更改为自己命名；</p><p>在修改器里，添加<mark class="hl-label pink">焊接</mark> 、<mark class="hl-label pink">平滑</mark> 、<mark class="hl-label pink">加权法向</mark> （注意：属性里的面的接触改为拐角的角度）；</p><p>在描边属性里，将描边权重改为自己命名的定点组（一定要吻合和顶点组里的）；</p><p>进行一些修改，转到权重模式，用ADD的画笔进行一些细节的处理。右上方的可见性可关掉，处理时方便观察效果；</p><p>PS：描边之后，刘海还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边效果.png" style="width:600px;"/></div></div>
+              <p>下模型时，有些专业术语得搞懂，要不然会出问题的…还有制作完视频一定要署名借物表。毕竟素材都不是自己制作的。<br>配布：指素材创作者将素材分发给其他人使用。<br>二次配布：不能二次传播模型。<br>借物表：这意思应该就是下载下来的模型都是正规渠道，能溯源的，要在视频标注作者，从哪里引用来的模型。<br>下载下来的压缩包里XXX.pmx后缀是人物的主体文件，使用的话就是这个文件；</p>
               </div>
             </details>
-<h1 id="yan-jing-tou-guo-liu-hai">🌺 眼睛透过刘海</h1>
+<h1 id="mmd-jian-dan-shi-yong">💙 MMD简单使用</h1>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
+              <p>一句话说来就是：拖拖拖…</p><p>① 在 To model模式下，将下载的人物模型中的.pmx文件拖入MMD，下载的动作文件.vmd文件拖入，下载的场景模型中的.pmx文件拖入MMD。</p><p>② 先点击 to model 转到To Camera 镜头模式下，将镜头文件.vmd拖入。</p><p>③ 音乐最后拖入支持.wav。</p><p>④ 右上角MME，加点特效</p><p>⑤ 导出视频即可</p>
               </div>
             </details>
-<p>PS:头发的混合模式时Blend，眉毛的时Hash。<strong>头发一定要勾掉显示背面，一定！！</strong> 这可是废了一天的时间发现的问题！！眉毛以防万一也勾掉。真是让自己给蠢死了</p>
-<h1 id="si-wa-she-zhi">🌺 丝袜设置</h1>
+<h2 id="blender-jian-dan-zhi-zuo-mmd-zhong-zhi" id="💙-Blender简单制作MMD（重置）">💙 Blender简单制作MMD（重置）</h2>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div><p>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div><p>2、增加漫反射使光照变换时产生二分光影效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div><p>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div><p>有贴图or无贴图都可：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
+              <p>前置条件：要完成.pmx模型的导入，必须要有blender_mmd_tools这个插件。<br>下载地址：<a class="btn-anzhiyu " href="https://github.com/UuuNyaa/blender_mmd_tools/releases"   title="blender_mmd_tools"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>blender_mmd_tools</span></a><br>安装插件：编辑-偏好设置-（左侧）插件-安装-下载下来的blender插件压缩包，完成后，搜索栏搜“MMD”，打上对勾。</p><div class="note primary modern"><p>1、导入模型</p><ul><li>方法①：安装完成后，快捷键N出现mmd面板，导入模型（人物＆场景）</li><li>方法②：文件——导入——pmx模型</li></ul></div><div class="note primary modern"><p>2、导入动作<br>导入动作：先把骨骼绑定（新版本可不绑）<br>导入动作文件：在模型视图下，导入之前一定要选父级，不要点人物。<br>在姿态模式下（ctrl+tab），修改穿模问题。</p></div><div class="note primary modern"><p>3、打开物理：MMDtools里面的物理点一下，如果模型有问题，物理也是有问题的，而且物理一开，电脑会变得很慢~~这一点上MMD有绝对的优势</p></div>最后调整材质效果，开始渲染
               </div>
             </details>
-<h1 id="sdf-lian-bu-yin-ying-ping-hua">🌺 SDF脸部阴影平滑</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>优点：通用便捷SDF脸部阴影平滑解决方案（不用设置头部驱动器）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF演示.gif" style="width:200px;"/></div></div><p>1、插件准备：  <a class="btn-anzhiyu " href="https://github.com/EmuMan/npr-face-shader"   title="npr-face-shader插件"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>npr-face-shader插件</span></a></p><p>2、导入模型后按材质分离，只保留面部，不要进行其它的合并操作。</p><p>3、SDF插件面板以及使用方法：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF插件使用.png" style="width:600px;"/></div></div><p>4、SDF蜡笔线绘制方法：</p><p>参考图：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度1参考.png" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度2参考.png" style="height:200px"/></p><p>Shift+A，新建蜡笔，进入编辑模式全选所有的画笔，X删除蜡笔。再进入“自由线”模式进行绘制，要在面部绘制三条蜡笔线。首先是面部引导线（弧线），一共要绘制7条，从人物脸部的最上方的中心位置开始到下巴结束。从左至右进行绘制。一条穿过右侧眼尾位置，一条穿过右侧眼部中心位置，一条穿过右侧眼角位置。一条是面部正中心的位置。脸部左侧三条线与右侧位置一致。再者，就是面部高光区域，绘制如下。最后是鼻子阴影位置，绘制如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF绘制.png" style="width:600px;"/></div></div><p>5、如果只生成图，节点没有生成成功。自行连接也行</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF连接参考.png" style="width:600px;"/></div></div><p>绑定灯光旋转和绑定灯光颜色：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF头部绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光颜色绑定.png" style="height:280px"/></p>
-              </div>
-            </details>
-<h1 id="yi-fu-wen-li-xi-jie">🌺 衣服纹理细节</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>衣服的细节，主要是用凹凸法线贴图实现。以卡芙卡为例，使她肩膀上的花纹有突出的感觉并且衣服有纹理的细节（具体如图所示）。</p><p>1、用PS生成凹凸贴图和法线贴图。PS操作：打开图像后Ctrl+J复制一层，选择滤镜—3D—生成凹凸图/生成法线图。</p><p>2、在Blender的节点连接如下。数值均可自行调整，而且已经打包成节点组，直接接入即可。</p>
-              </div>
-            </details>
-<h1 id="bian-yuan-guang-you-hua">🌺 边缘光优化</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>本模板的边缘光默认是关闭的。等着在优化优化。<br>边缘光的原理主要是通过菲涅尔，没解决的问题是没办法受光照影响，现在是全局发边缘光，想实现的结果：有光的地方有边缘光，没光的地方没边缘光</p>
-              </div>
-            </details>
-<h1 id="die-dai-guo-cheng">🌺 迭代过程</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <ul><li>迭代：第一版<br>实现光影、头发、脸部、衣服、皮肤、金属饰品。实现描边效果。<br>问题：脸部阴影不平滑、丝袜没有设置材质、刘海没有透过眼睛</li><li>迭代：第二版<br>新增丝袜设置、实现刘海透明效果。新增前发+丝袜节点（实验：卡芙卡）<br>问题：脸部阴影不平滑</li><li>迭代：第三版<br>实现通用脸部SDF阴影平滑效果（姬子为例），所有模型理论上均可使用。<br>问题：头发衣服细节不多，没有光照图。</li><li>迭代：第四版<br>实现衣服的细节纹理，凹凸与法线贴图的使用。新增衣服细节纹理（卡芙卡为例）<br>新增珠宝饰品的节点组。</li><li>迭代：第五版<br>要解决的问题：头发和衣服的阴影细节（不提取游戏中的贴图方法）衣服光照图ilm与ramp图的运用。（可舍）</li></ul>
-              </div>
-            </details>
-<!-- <details class="folding-tag" ><summary> 查看内容 </summary>
-              <div class='content'>
-              
-              </div>
-            </details> -->]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-        <tag>渲染</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>动漫卡通风格化渲染的基本了解</title>
-    <url>/2023/08/27/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%E5%8D%A1%E6%B8%B2/</url>
-    <content><![CDATA[<h1 id="liao-jie-xiang-guan-zhi-shi-ing">🦝 了解相关知识ing</h1>
-<p>常见的渲染风格：</p>
-<ul>
-<li>基于物理的渲染PBR（Physically Based Rendering）（再议）。</li>
-<li>非真实渲染NPR（Non-Photorealistic Rendering）风格化渲染。包括素描风格、水彩风格、卡通渲染等。</li>
-</ul>
-<p>卡通渲染（cel shading/toon shading）最常见的风格又分为美式卡通（阴影渐变的层次色彩丰富）与日式卡通（阴影二分化明显，大色块铺色）。要想一个人物好看，最最最主要的还是得贴图好看</p>
-<p>按我自己的理解：三渲二中的光影和描边是两大关键。</p>
-<ul>
-<li>有关光的细节有：边缘光、高光（兰伯特）、金属光泽、直接光照、间接光照</li>
-<li>阴影：脸部SDF平滑阴影</li>
-</ul>
-<h1 id="cha-jian-xuan-ran">🐾 插件渲染</h1>
-<details class="folding-tag" ><summary> 强烈推荐卡渲密咒 </summary>
-              <div class='content'>
-              <p class='p center logo large'>卡渲秘咒</p><p>真的超级好用，感谢大佬！插件使用的前置条件：</p><p>1.插件下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1RMeD86bWSt5XSN3-zcz3WQ"   title="提取码：KXMZ"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：KXMZ</span></a><br>2.星穹铁道贴图下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1YanzLjNbp4JUb4wOhtpouw"   title="提取码：XQTD"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：XQTD</span></a><br>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取或找大佬整理好的）。<br>3.一键仿星穹铁道功能详解视频：<a class="btn-anzhiyu " href="https://b23.tv/ELfl2Rs"   title="详细讲解地址"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>详细讲解地址</span></a></p><p>插件安装：<wavy>编辑——偏好设置——插件——安装——选择下载的压缩包</wavy></p><p>这个插件的使用主要是这样的：导入模型后，打开界面，<wavy>选择贴图</wavy>（贴图一定要正确），点击星铁咒，就OK了。</p><p>这是渲染好的效果图：阴影，SDF，采样，高光，金属质感都还不错的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/卡渲密咒测试.png" style="width:650px;"/></div></div><p>除了星铁咒，还有一个通用毛毛豆的咒语，用了一段时间也很好用，但因为是群组的关系，一改整个都该了，不适合单个工程中出现多人物渲染。也可能是我不会用，再摸索摸索，基本单人物MMD比较好用，一键解决所有麻烦啊啊真的很方便！！</p>
-              </div>
-            </details>
-<h1 id="yu-she-xuan-ran">🐸 预设渲染</h1>
-<details class="folding-tag" ><summary> Blender仿原神渲染预设5.0 </summary>
-              <div class='content'>
-              <p>这个是UP小二今天吃啥啊的自制仿原神的三渲二的预设，允许使用，需要自己去模之屋进行下载。我理解的简单使用预设的流程是这样：</p><ul><li>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取贴图有专门的工具，但是建议直接从网上找大佬整理好的）。为了方便，相同材质的合并到一起。</li><li>找一些渲染预设，里面的必要的且常用的节点会<strong>被打成组</strong>，然后文件—追加—仿原神渲染渲染预设.blender—NodeTree——追加。里面主要是分为头发、衣服、脸部、边缘光、金属、ramp等效果。</li><li>接下来就是材质节点的一些<strong>连线</strong>。主要是将贴图接入，会实现神奇的效果，真的很方便。</li></ul><p>测试效果如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染预设测试1.png" style="width:650px;"/></div></div>
-              </div>
-            </details>
-<p>如果想实现比较好的效果，需要从0开始自己搭建完整的工程。这样能够理解整个三渲二的流程。要想人物渲染的好看，贴图的绘制必须精美，除此之外，其实光影贴图也是非常重要的。</p>
-<details class="folding-tag" ><summary> komikaze动漫风格化渲染预设 </summary>
-              <div class='content'>
-              <p>最近找到一个非常好用的预设资产：<p class='p center logo large'>komikaze动漫风格化渲染预设</p></p><p>地址：<a class="btn-anzhiyu " href="https://www.gfxcamp.com/komikaze/"   title="Komikaze V2"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Komikaze V2</span></a></p><p>真的一键解决上述所有问题，还附赠各种金木水火土风，星空等各种卡通材质，真的非常好用！墙裂推荐！！好用值：⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  Max！！！</p><p>Komikaze渲染测试：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/cover/卡渲封面.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h1 id="b-zhan-mhy-shi-xuan-ran-cong-ling-kai-shi-wan-zheng-gong-cheng-da-jian-pian">💐 B站MHY式渲染（从零开始完整工程搭建篇）</h1>
-<p>前提：按Tab进入编辑模式，数字键盘1进入正视图，将相同的材质合并到一起，但是为了方便后期调节，眼睛1、眼睛、金属、黑丝这些不要合并。</p>
-<h2 id="tie-tu-de-zheng-he" id="🌰-贴图的整合">🌰 贴图的整合</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>需要先准备四个贴图后面方便使用</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/四个贴图组.png" style="width:400px;"/></div></div><div class="tip bell"><p>组：基本贴图</p><p>主要原理是混合两张图片，用参数调节，0代表第一个贴图；1代表第二个贴图；</p><p>主要是衣服的切换（衣服or衣服1）、是否为脸部、是否为头发。有的可能需要加一个衣服内侧。节点连接如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/基础贴图设置.png" style="width:600px;"/></div></div></div><div class="tip home"><p>组：光照贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/光照图设置.png" style="width:600px;"/></div></div></div><div class="tip sync"><p>组：脸部阴影贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/脸部阴影.png" style="width:600px;"/></div></div></div><div class="tip cogs"><p>组：Ramp贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/Ramp贴图.png" style="width:600px;"/></div></div></div>
-              </div>
-            </details>
-<h2 id="xiang-liang-de-zhun-bei" id="🌰-向量的准备">🌰 向量的准备</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="note primary modern"><p>灯光向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/灯光向量.png" style="width:600px;"/></div></div></div><div class="note info modern"><p>摄像机向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/摄像机向量.png" style="width:600px;"/></div></div></div><div class="note warning modern"><p>法线向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/法线向量.png" style="width:600px;"/></div></div></div><div class="note danger modern"><p>头部向量的搭建<br>① 新建三个空物体（添加——空物体——立方体），不用管位置，先命名为中心、右方、前方<br>② 选中三个空物体和人物骨骼，ctrl+P 选父级为物体<br>③ 依次点选空物体，将设置改为如下：<br>然后，位置全部清零，设置相应位置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量设置.png" style="width:600px;"/></div></div>选中三个空物体，物体→集合→移动到相应的人物集合中即可，开始连接节点<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量驱动器.png" style="width:600px;"/></div></div></div>
-              </div>
-            </details> 
-<p>完成此步骤后可以先连接基本贴图看看效果。</p>
-<h2 id="jian-jie-guang" id="🌰-间接光">🌰 间接光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>间接光混合漫射的节点连接情况：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/间接光.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="yin-ying" id="🌰-阴影">🌰 阴影</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>身体阴影（ilm贴图）和面部阴影（SDF贴图）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/身体阴影.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/面部阴影.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="yin-ying-ramp-cai-yang" id="🌰-阴影ramp采样">🌰 阴影ramp采样</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/采样颜色.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="zhu-guang" id="🌰-主光">🌰 主光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>绑定灯光颜色，使身体颜色随灯光发生变化。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取组.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="gao-guang" id="🌰-高光">🌰 高光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>兰伯特高光设置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/高光设置.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="matcap-bian-yuan-guang" id="🌰-matcap边缘光">🌰 matcap边缘光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主要利用菲涅尔节点：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光1.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="miao-bian-dong-tai-miao-bian" id="🌰-描边（动态描边）">🌰 描边（动态描边）</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>方法很多，目前使用的是卡渲密咒的描边咒，方便快捷，具体使用方法如下，需要自己调教调教才能绘制出比较合适的线条</p><ul><li>先选择头发，在绿色小三角的属性里，把它的名字改为“头发轮廓”，默认是叫“描边权重”</li></ul><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改1.png" style="width:600px;"/></div></div>- 然后选择“描边咒”，更改一些属性，定点组那里是代表线条的粗细，定点组的名字一定要和上面的名字是一样的<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改2.png" style="width:600px;"/></div></div>- 进入“权重模式”，更改不合理的线条，自己看情况改一下。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改3.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果4.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="xi-jie-chu-li" id="🌰-细节处理">🌰 细节处理</h2>
-<h3 id="jin-shu-xiao-guo" id="🍬-金属效果">🍬 金属效果</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/金属明暗对比.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="hei-si-xiao-guo" id="🍬-黑丝效果">🍬 黑丝效果</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div>2、增加漫反射使光照变换时产生二分光影效果。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div>有贴图or无贴图都可：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="yan-jing-chu-li-bu-ling-bu-ling" id="🍬-眼睛处理（布灵布灵）">🍬 眼睛处理（布灵布灵）</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主要是伽马节点。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛高光单独处理.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="yan-jing-tou-guo-liu-hai" id="🍬-眼睛透过刘海">🍬 眼睛透过刘海</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="tou-fa-tou-ying" id="🍬-头发投影">🍬 头发投影</h3>
-<h3 id="tou-fa-gao-guang-chu-li" id="🍬-头发高光处理">🍬 头发高光处理</h3>
-<h3 id="biao-qing-dan-du-chu-li" id="🍬-表情单独处理">🍬 表情单独处理</h3>
-<p>透明处理即可</p>
-<h3 id="dan-xian-bi-zi" id="🍬-单显鼻子">🍬 单显鼻子</h3>
-<h2 id="lai-ba-zhan-shi" id="🌰-来吧，展示">🌰 来吧，展示</h2>
-<p>边缘光加强版，总之要有布灵布灵的感觉，灯光的颜色有一点偏黄</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果1.png" style="width:400px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果2.png" style="width:400px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果3.png" style="width:400px;"/></div></div>
-<h1 id="yi-xie-xuan-ran-si-lu-can-kao">一些渲染思路参考</h1>
-<p>Merlin的卡渲思路：（吃打光，总之就是要亮）<br>
-整体处理：<br>
-漫射+阴影分层+主光+辅光+环境遮蔽+高光+左边缘光+右边缘光<br>
-小二吃啥的卡渲思路：（自带的阴影贴图，吃人物自身的光照贴图）<br>
-分部分进行处理：<br>
-衣服：基础色叠加本人的阴影叠加金属<br>
-脸部：面部阴影控制SDF+调色<br>
-头发：高光加阴影（均需调色处理）控制器移动光照，需要头发阴影贴图</p>
+<h2 id="jian-dan-cheng-pin" id="💜-简单成品">💜 简单成品</h2>
+<div class="note primary modern"><p>primary 由于时间问题没有渲染全部，只渲染了几张作为留念…</p>
+</div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品1.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品2.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品3.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品4.png" style="width:600px;"/></div></div>
+<h2 id="zeng-jia-liao-mme-de-jian-dan-cheng-pin" id="💦-增加了MME的简单成品">💦 增加了MME的简单成品</h2>
+<p>这个作品目前来说只有拖拖拖，maya，上传后就没仔细看，糊糊糊！画质怎么会这么糊啊😱😱😱！！！下次渲染一定要把画质调高！1080P已经满足不了…</p>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; ">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1qg4y197Tc&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
+</div>
+
 ]]></content>
       <categories>
         <category>点亮技能树</category>
       </categories>
       <tags>
-        <tag>Blender</tag>
-        <tag>渲染</tag>
+        <tag>MMD</tag>
       </tags>
   </entry>
   <entry>
@@ -994,59 +1079,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MMD的简单使用</title>
-    <url>/2023/08/24/%E6%8A%80%E8%83%BD%E5%BA%93/MMD/</url>
-    <content><![CDATA[<h1 id="chu-ci-jian-dan-zhi-zuo-mmd">💖 初次简单制作MMD</h1>
-<p>最近对MMD产生了浓厚的兴趣，想入手了解一下，就有了这篇文章，关键是记录一下学习的历程…</p>
-<p>MMD的全称<wavy>MikuMikuDance</wavy>，是一款简易3D动画软件。一般在电脑端使用，可以用来导入MMD模型场景动作渲染插件等素材。联合MME——MikuMikuEffect（特效）、MMM——MikuMikuMoving（动作？）、Ray-Ray-mmd（渲染器）。梳理下制作流程，除去必须的制作软件之外，主要是<wavy>模型 → 动作 → 场景 → 镜头 → 特效 → 音乐 → 渲染</wavy>。简单制作的话，这些都有素材，可直接用。也可升级为自己建模、K帧、镜头运用…，感觉里面还包含很多知识，比如<wavy>布料、头发、渲染、K帧</wavy>等吧很多…一定要有耐心，一步步的来不要着急（对自己说的（<sup>_</sup>））。</p>
-<h1 id="xia-zai-pian">💓 下载篇</h1>
-<h2 id="ruan-jian-de-xia-zai" id="软件的下载">软件的下载</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主体软件MMD，V9.26版本（MikuMikuDance 926 CHS）是汉化之后的，没法与其它软件联动；十周年版本（MikuMikuDance 10th Anniversary Version MMD）UP主推荐使用的，可以导出调节文件与Blender或其它3D软件联动;所以使用十周年版本是最好的选择。</p><p>PE（PmxEditor）软件，是用来编辑模型的，可以换头改衣服；</p><p>Ray—mmd渲染插件：其实也可以全流程在Blender里面制作渲染。（之后就迈入了Blender）</p>
-              </div>
-            </details>
-<h2 id="mo-xing-de-xia-zai" id="模型的下载">模型的下载</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>下模型时，有些专业术语得搞懂，要不然会出问题的…还有制作完视频一定要署名借物表。毕竟素材都不是自己制作的。<br>配布：指素材创作者将素材分发给其他人使用。<br>二次配布：不能二次传播模型。<br>借物表：这意思应该就是下载下来的模型都是正规渠道，能溯源的，要在视频标注作者，从哪里引用来的模型。<br>下载下来的压缩包里XXX.pmx后缀是人物的主体文件，使用的话就是这个文件；</p>
-              </div>
-            </details>
-<h1 id="mmd-jian-dan-shi-yong">💙 MMD简单使用</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>一句话说来就是：拖拖拖…</p><p>① 在 To model模式下，将下载的人物模型中的.pmx文件拖入MMD，下载的动作文件.vmd文件拖入，下载的场景模型中的.pmx文件拖入MMD。</p><p>② 先点击 to model 转到To Camera 镜头模式下，将镜头文件.vmd拖入。</p><p>③ 音乐最后拖入支持.wav。</p><p>④ 右上角MME，加点特效</p><p>⑤ 导出视频即可</p>
-              </div>
-            </details>
-<h2 id="blender-jian-dan-zhi-zuo-mmd-zhong-zhi" id="💙-Blender简单制作MMD（重置）">💙 Blender简单制作MMD（重置）</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>前置条件：要完成.pmx模型的导入，必须要有blender_mmd_tools这个插件。<br>下载地址：<a class="btn-anzhiyu " href="https://github.com/UuuNyaa/blender_mmd_tools/releases"   title="blender_mmd_tools"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>blender_mmd_tools</span></a><br>安装插件：编辑-偏好设置-（左侧）插件-安装-下载下来的blender插件压缩包，完成后，搜索栏搜“MMD”，打上对勾。</p><div class="note primary modern"><p>1、导入模型</p><ul><li>方法①：安装完成后，快捷键N出现mmd面板，导入模型（人物＆场景）</li><li>方法②：文件——导入——pmx模型</li></ul></div><div class="note primary modern"><p>2、导入动作<br>导入动作：先把骨骼绑定（新版本可不绑）<br>导入动作文件：在模型视图下，导入之前一定要选父级，不要点人物。<br>在姿态模式下（ctrl+tab），修改穿模问题。</p></div><div class="note primary modern"><p>3、打开物理：MMDtools里面的物理点一下，如果模型有问题，物理也是有问题的，而且物理一开，电脑会变得很慢~~这一点上MMD有绝对的优势</p></div>最后调整材质效果，开始渲染
-              </div>
-            </details>
-<h2 id="jian-dan-cheng-pin" id="💜-简单成品">💜 简单成品</h2>
-<div class="note primary modern"><p>primary 由于时间问题没有渲染全部，只渲染了几张作为留念…</p>
-</div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品1.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品2.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品3.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品4.png" style="width:600px;"/></div></div>
-<h2 id="zeng-jia-liao-mme-de-jian-dan-cheng-pin" id="💦-增加了MME的简单成品">💦 增加了MME的简单成品</h2>
-<p>这个作品目前来说只有拖拖拖，maya，上传后就没仔细看，糊糊糊！画质怎么会这么糊啊😱😱😱！！！下次渲染一定要把画质调高！1080P已经满足不了…</p>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; ">
-    <iframe src="//player.bilibili.com/player.html?bvid=BV1qg4y197Tc&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
-</div>
-
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>MMD</tag>
       </tags>
   </entry>
   <entry>
@@ -1370,6 +1402,28 @@
       </tags>
   </entry>
   <entry>
+    <title>idea整理区</title>
+    <url>/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/idea%E9%9B%86%E5%90%88/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="10ab817d83a0ba4f434504d1edc45f5b14b79670baf9f9a41d0c8d5519f3cfc7">4f9329f92667f126694ae84c350d6ad4a13160df7c95341e837de4bf5863c72f5823a1272391f290db7c882f1402a02a83a347ef0b7005a6ac51cbfe9661f43b702348d7b88254900900b5548aff2ca33f0cc33f983824fd2b9035c4d6091e526edf0801f5096cf464959a33dfec2f7f7aadf6388f58f656f377a6a994fdab0880845984e67f0fc94141b30ad240b2c8d367253dbac609ca7138651e027381e39c9f590b1f1c4ce8cd62edbe883aa5437371b0ad7023d1f4500b6d974d8bf8fee3f75e50355064c72c250c0fe873276314824666b32df25bb6e6b1352bffe06cd666729912b06279c318d0b620e8cd6320049bf059e502cf1fb8fbee81b4e28633a18cd8e7dd45e10398d2346238db974250fee5c7d1ea67adf0a47b7d53946659dff371b5ec1253c2562f0da8584071fc851171c1caf98b6c8d96edf7ccf84f58c1cfd16df323a1955c3e29f5277d95da37276e022d929415c4b6bb417eefa620e0cc8c1f375daa52b04c69e78d393c827bcfbdbeffabe3ffbda1d92264ed0abf3c01eb00b93475e0d0c50599954fe3448df438f0e84d0600d6fb22d5af7c59ad114ee01b530e48c91dc1fb31be23092501b3facef793240aca46b5cee960f01053dcdd953d7d644ff362775a94cf5338d1c7dac29138adfb875033f2fd37fcd382013dd9eba2accf4daf54f5d53391c4f225e51658f64330a6d44ee7c41e22c15da34d64ed89718376a77a6901030523a0413f18bca91a57a9ef095841f73c28bbc3d8158f359b113fdd9442da2c137fe78b5005c06087b28a4410212109e3cba65576f03b495b8db1f67e035b689a36615c9e75cfb7d7a825e9b5050912348af00a16e275e647f07256fe3118ffae11a796bdd007fc2c92c6e6658e84e94b26f880a89a86f03399e54fec606af73a1a2dd44c4c66c056b8d9643ca7c15fab089e5d92c715293977076beaf5f7c3ce44fe38074debf680ec2301762f515d1a684a66ac789e73c69e7afcc8d4bd7dc8609f0dec36601ac335455ab804d597d7488e385ca555845478805529fefef6424d4c212184a218772b1c4e6be880c14e911c664308f31ced52ab39fff7609aa8493b35265c5a52445ac1d14ddf7893115dcc5637b9451c1929029c909a42b4097fac14dab73c937c7d8c4e050c1fecd56ea55e13366c6d48d8aa2974147f6578cf2db3f781ee20aef3d2202bcb177aaca878906161f9ab307f9e0e8d456a4ea2bbe5307d3fc014956459c644a905802f0aac191a9a9502bfb76916af95ead44de3e6c270b97438be8a8e27ceed0cf9a51d66a06c1ebb7278d56cbf8ff292c7e3594ad41f0fa246688eca7be02afc544422299972ca3a6cb0dcd35b9ca3a8e6de2d10cc53610225c941dc6a53372c994e40dc8da3a3528b6b2c162109eef41b3656c957154bbdaf0ffe4920bcae4763ec56b9660ff2f4c6c168d3717b5889a21fa5c2e78a373dc5daccece236a604d89c1afbb457cf5a50ebb99430f8ed4eb34c44f80e5f1945366d75f10c44f4b2518bb774e6490ddfcc1eb26e1de75f7f4aeda139f1ce4c31365ef7b0958d1a6b7203883a75414d10e784b2a6f66826a9e59b4185b0c973504db3205df85c120552a56185556ad152e360a2d734e67dedd313ce45a4108a673c60551ee25689827eeccbb84f940431e089a8c81290ce13882f925c4a4044590334fe7b8fdaefea06b16544fe3ced85896841aa10d62f04450dcc65f96b9c20f809e83ffdf45914df84a124c92bb5d594100116db203bbb1aeae2f9c3785c23ad00f4df50201807a0e7e54c151b71c1d2c909b4e3cbe7b933451313c7c178a0e9ee7bcd5e0f57c3e1254f2ed69272f558b96a2b875e9297ddf17c99df43a39cdbed231882391df144748862714e2958ffd55b1f72c3b575540a916eb5ccf559538be9606e894a8eecea6b1786540ddee5fc671bef83ed1daeb0de3db5e2272875dc33ed0a61d088e0fb3837e79a3f9c6c4ac3ec0fc4fa6f83c660cde92762551605edf44e48483cf7c7268c226eab261556528a179ce342c0a94e7203a8f7df5da103e50b8f1331fd27e2ee91ff3a4a33aa3c97fc7e9059b863069f207af1a11c0782bdeb58c9e86bdaeaa163f93756f18dd9f0226ca32ea2d115a5c6010826bd6f739e78258ade96f09862617f539fe4dc13e871c14a1d73091215a595844ba0ce8b613f88d7a6c6584bfb27d5a443aa0b8c5644476890230470c3c6d1d7d94f2bcfb42f95f7d65df9924cdddddb76ec98bfedce26ee88f3028044c0dc7bf428eb6ced0d122a30205974852b464923218f4e5b6bce623614cee06674dbe7261baee6b57234b7d7a677de5103624d2e5fd7f834c4cae8ce77d795af96269cfc3e9a863ac18629f99886f0c9176d4b4930bd2194f5db4962c839d1db8f61043157cb923af79398304d0c4510590930e0199cb1fc97c4c4b6867e0609237c87b9f0acb28c091a29128ebf185e9f8f4c85e7680ab292855bccfb8fe051ea62eb27cf208a1823ed123eaa28a34a8a7ab81e9a1837744b7f6c7453aa9a904b019c80a89a988538e267dc0107b3a5d4eeffe4ffb7bb4cf05428fed692bea57c35a41af72810693623718cbfdabf3901cdcafca2d7f7acc89a65403e1ec08d1768ec923a49f698e45f226799ec5f5d371bc7165ca7482fce2f7d2aa849d341ff100aaeb20530388c803066a2ca7c2cb1211359d4746ec101abc8389d9398786f5df8cab5e4bb059e1352b2b51d21e8891941832fea919c8a73e089d6dd42c524bc101b23aad8b75fe0e14b5ea74dc851bc56de71addcbcf9b3a04674492de31594a07fe0147a4ed9bdce0b075bdb56f63236b696cf88f7828c7af7a53495699d4fbdb8b86028e157ee9d7d0c7d6c58423a0a117202144dae87433f0cc4d5e91de9aa7112ae5d9ebf68638def863c6a47024129f86a40908143134979df71fbb8524fb9cbe33d3ac4c3a9f379a65870dfbfad41eb48335a763352206fbba56a564c3800cd89c7a024e5c1abd7e8ec37ffdaa58f76ca28443d86944022d3615d6314609d1bc0c62c242e0c0fc678bbcf3c4a86f4d181239d191b53f38b7e6f9826895c749482a53662d77ae5fe2d813099044290395c15df7fb8d4b60a1c0b5b1d8fbbcdcd4ed58e03f28e2a6c3b1c3403632086f7485179fc773ef427ee56d7191e5da5c12c23924fe65789d70baf7cbfd8e59b4a06aa807bdf05c0ead6a2d2ca90d2289eff28ecb5cd82aec2f65dbbc1df9db331989cfe90eeae70c91927e9c000c5089d9fb5c29da44b0715768e286b93eeaa5463a68274360259f9bddcd06fbaa13b6e9b9d45a4b932a9c26a5491010b641206a4e103193df2a8b8e04dff36c92080413bc6c4c0a7eb72eac8aea8e3aa2f97666849afc95f062dc58f75f4e9aa6c9dc93a2971f6ae437782e01987eedf4d0a8f63897ca5290b20ca746ec787c10ba78dafab105fe798e4aca4d085ac312a116b4e78d4d555fe420165995c50f6cb3ac36de117e1d9ac73fcd247296be0878e825bb8c797653ae2872723275e6cd8760dc2aa4c93fd3c16556c20f36923f6fc6c87b7f596c8f1e742bd51facd7a43a580688138d8752951f997d94c4d4de77767cc6f6a32c56bb167bc97dba7637659e067b7ae255fdc9bc5c0a67c6a9fed23a7a1261813a3b88762ad439d72f5df00b6ecef5748fd13afcb4d50dd4dccc95fdfa01245b99988e4d1294a29eeb9c197268bb6ad57d45448e762e3a34aec07dfeae4204603aacd19beb2ccfaab8eaa77c416ca4f250253375a44</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>构建记忆宫殿——电子笔记软件测评</title>
     <url>/2024/02/29/%E6%8A%80%E8%83%BD%E5%BA%93/%E5%90%84%E7%B1%BB%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%84/</url>
     <content><![CDATA[<p>自从上了大学之后，笔记软件就没有固定使用过一款，已经用过好多笔记软件了。像安卓端的幕布、印象笔记、有道云笔记。电脑端的OneNote、Xmind、语雀、obsidian。ios端的goodnote以及notability。自制网站版的笔记：vuepress或者Hexo搭建静态网站。</p>
@@ -1391,6 +1445,21 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>拆机与装机</title>
+    <url>/2024/02/05/%E6%8A%80%E8%83%BD%E5%BA%93/%E6%8B%86%E6%9C%BA%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>在一个阳白风低的中午，吃饱了撑的慌的我对家里一台十几年前的主机进行了残忍的拆机行为，由于本人实在是好奇主机里的主板是什么样的。然后找出了家里的小螺丝刀套装对它进行了一番操作。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/拆机01.jpg" style="width:300px;"/></div></div>
+<p>其实拆出来的只有内存条与显卡驱动和散热风扇以及CPU，真的很脏啊啊啊😫w(ﾟДﾟ)w 该说真不愧是十几年前的老电脑呢/(ㄒoㄒ)/~~</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/主板.jpg" style="width:300px;"/></div></div>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>电脑硬件</tag>
       </tags>
   </entry>
   <entry>
@@ -1418,75 +1487,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>拆机与装机</title>
-    <url>/2024/02/05/%E6%8A%80%E8%83%BD%E5%BA%93/%E6%8B%86%E6%9C%BA%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<p>在一个阳白风低的中午，吃饱了撑的慌的我对家里一台十几年前的主机进行了残忍的拆机行为，由于本人实在是好奇主机里的主板是什么样的。然后找出了家里的小螺丝刀套装对它进行了一番操作。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/拆机01.jpg" style="width:300px;"/></div></div>
-<p>其实拆出来的只有内存条与显卡驱动和散热风扇以及CPU，真的很脏啊啊啊😫w(ﾟДﾟ)w 该说真不愧是十几年前的老电脑呢/(ㄒoㄒ)/~~</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/主板.jpg" style="width:300px;"/></div></div>
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>电脑硬件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>那些年我遇到的小动物们</title>
-    <url>/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8A%A8%E7%89%A9%E6%B4%BE%E5%AF%B9/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>日常日常</category>
-      </categories>
-      <tags>
-        <tag>毛绒绒</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>idea整理区</title>
-    <url>/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/idea%E9%9B%86%E5%90%88/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="10ab817d83a0ba4f434504d1edc45f5b14b79670baf9f9a41d0c8d5519f3cfc7">4f9329f92667f126694ae84c350d6ad4a13160df7c95341e837de4bf5863c72f5823a1272391f290db7c882f1402a02a83a347ef0b7005a6ac51cbfe9661f43b702348d7b88254900900b5548aff2ca33f0cc33f983824fd2b9035c4d6091e526edf0801f5096cf464959a33dfec2f7f7aadf6388f58f656f377a6a994fdab0880845984e67f0fc94141b30ad240b2c8d367253dbac609ca7138651e027381e39c9f590b1f1c4ce8cd62edbe883aa5437371b0ad7023d1f4500b6d974d8bf8fee3f75e50355064c72c250c0fe873276314824666b32df25bb6e6b1352bffe06cd666729912b06279c318d0b620e8cd6320049bf059e502cf1fb8fbee81b4e28633a18cd8e7dd45e10398d2346238db974250fee5c7d1ea67adf0a47b7d53946659dff371b5ec1253c2562f0da8584071fc851171c1caf98b6c8d96edf7ccf84f58c1cfd16df323a1955c3e29f5277d95da37276e022d929415c4b6bb417eefa620e0cc8c1f375daa52b04c69e78d393c827bcfbdbeffabe3ffbda1d92264ed0abf3c01eb00b93475e0d0c50599954fe3448df438f0e84d0600d6fb22d5af7c59ad114ee01b530e48c91dc1fb31be23092501b3facef793240aca46b5cee960f01053dcdd953d7d644ff362775a94cf5338d1c7dac29138adfb875033f2fd37fcd382013dd9eba2accf4daf54f5d53391c4f225e51658f64330a6d44ee7c41e22c15da34d64ed89718376a77a6901030523a0413f18bca91a57a9ef095841f73c28bbc3d8158f359b113fdd9442da2c137fe78b5005c06087b28a4410212109e3cba65576f03b495b8db1f67e035b689a36615c9e75cfb7d7a825e9b5050912348af00a16e275e647f07256fe3118ffae11a796bdd007fc2c92c6e6658e84e94b26f880a89a86f03399e54fec606af73a1a2dd44c4c66c056b8d9643ca7c15fab089e5d92c715293977076beaf5f7c3ce44fe38074debf680ec2301762f515d1a684a66ac789e73c69e7afcc8d4bd7dc8609f0dec36601ac335455ab804d597d7488e385ca555845478805529fefef6424d4c212184a218772b1c4e6be880c14e911c664308f31ced52ab39fff7609aa8493b35265c5a52445ac1d14ddf7893115dcc5637b9451c1929029c909a42b4097fac14dab73c937c7d8c4e050c1fecd56ea55e13366c6d48d8aa2974147f6578cf2db3f781ee20aef3d2202bcb177aaca878906161f9ab307f9e0e8d456a4ea2bbe5307d3fc014956459c644a905802f0aac191a9a9502bfb76916af95ead44de3e6c270b97438be8a8e27ceed0cf9a51d66a06c1ebb7278d56cbf8ff292c7e3594ad41f0fa246688eca7be02afc544422299972ca3a6cb0dcd35b9ca3a8e6de2d10cc53610225c941dc6a53372c994e40dc8da3a3528b6b2c162109eef41b3656c957154bbdaf0ffe4920bcae4763ec56b9660ff2f4c6c168d3717b5889a21fa5c2e78a373dc5daccece236a604d89c1afbb457cf5a50ebb99430f8ed4eb34c44f80e5f1945366d75f10c44f4b2518bb774e6490ddfcc1eb26e1de75f7f4aeda139f1ce4c31365ef7b0958d1a6b7203883a75414d10e784b2a6f66826a9e59b4185b0c973504db3205df85c120552a56185556ad152e360a2d734e67dedd313ce45a4108a673c60551ee25689827eeccbb84f940431e089a8c81290ce13882f925c4a4044590334fe7b8fdaefea06b16544fe3ced85896841aa10d62f04450dcc65f96b9c20f809e83ffdf45914df84a124c92bb5d594100116db203bbb1aeae2f9c3785c23ad00f4df50201807a0e7e54c151b71c1d2c909b4e3cbe7b933451313c7c178a0e9ee7bcd5e0f57c3e1254f2ed69272f558b96a2b875e9297ddf17c99df43a39cdbed231882391df144748862714e2958ffd55b1f72c3b575540a916eb5ccf559538be9606e894a8eecea6b1786540ddee5fc671bef83ed1daeb0de3db5e2272875dc33ed0a61d088e0fb3837e79a3f9c6c4ac3ec0fc4fa6f83c660cde92762551605edf44e48483cf7c7268c226eab261556528a179ce342c0a94e7203a8f7df5da103e50b8f1331fd27e2ee91ff3a4a33aa3c97fc7e9059b863069f207af1a11c0782bdeb58c9e86bdaeaa163f93756f18dd9f0226ca32ea2d115a5c6010826bd6f739e78258ade96f09862617f539fe4dc13e871c14a1d73091215a595844ba0ce8b613f88d7a6c6584bfb27d5a443aa0b8c5644476890230470c3c6d1d7d94f2bcfb42f95f7d65df9924cdddddb76ec98bfedce26ee88f3028044c0dc7bf428eb6ced0d122a30205974852b464923218f4e5b6bce623614cee06674dbe7261baee6b57234b7d7a677de5103624d2e5fd7f834c4cae8ce77d795af96269cfc3e9a863ac18629f99886f0c9176d4b4930bd2194f5db4962c839d1db8f61043157cb923af79398304d0c4510590930e0199cb1fc97c4c4b6867e0609237c87b9f0acb28c091a29128ebf185e9f8f4c85e7680ab292855bccfb8fe051ea62eb27cf208a1823ed123eaa28a34a8a7ab81e9a1837744b7f6c7453aa9a904b019c80a89a988538e267dc0107b3a5d4eeffe4ffb7bb4cf05428fed692bea57c35a41af72810693623718cbfdabf3901cdcafca2d7f7acc89a65403e1ec08d1768ec923a49f698e45f226799ec5f5d371bc7165ca7482fce2f7d2aa849d341ff100aaeb20530388c803066a2ca7c2cb1211359d4746ec101abc8389d9398786f5df8cab5e4bb059e1352b2b51d21e8891941832fea919c8a73e089d6dd42c524bc101b23aad8b75fe0e14b5ea74dc851bc56de71addcbcf9b3a04674492de31594a07fe0147a4ed9bdce0b075bdb56f63236b696cf88f7828c7af7a53495699d4fbdb8b86028e157ee9d7d0c7d6c58423a0a117202144dae87433f0cc4d5e91de9aa7112ae5d9ebf68638def863c6a47024129f86a40908143134979df71fbb8524fb9cbe33d3ac4c3a9f379a65870dfbfad41eb48335a763352206fbba56a564c3800cd89c7a024e5c1abd7e8ec37ffdaa58f76ca28443d86944022d3615d6314609d1bc0c62c242e0c0fc678bbcf3c4a86f4d181239d191b53f38b7e6f9826895c749482a53662d77ae5fe2d813099044290395c15df7fb8d4b60a1c0b5b1d8fbbcdcd4ed58e03f28e2a6c3b1c3403632086f7485179fc773ef427ee56d7191e5da5c12c23924fe65789d70baf7cbfd8e59b4a06aa807bdf05c0ead6a2d2ca90d2289eff28ecb5cd82aec2f65dbbc1df9db331989cfe90eeae70c91927e9c000c5089d9fb5c29da44b0715768e286b93eeaa5463a68274360259f9bddcd06fbaa13b6e9b9d45a4b932a9c26a5491010b641206a4e103193df2a8b8e04dff36c92080413bc6c4c0a7eb72eac8aea8e3aa2f97666849afc95f062dc58f75f4e9aa6c9dc93a2971f6ae437782e01987eedf4d0a8f63897ca5290b20ca746ec787c10ba78dafab105fe798e4aca4d085ac312a116b4e78d4d555fe420165995c50f6cb3ac36de117e1d9ac73fcd247296be0878e825bb8c797653ae2872723275e6cd8760dc2aa4c93fd3c16556c20f36923f6fc6c87b7f596c8f1e742bd51facd7a43a580688138d8752951f997d94c4d4de77767cc6f6a32c56bb167bc97dba7637659e067b7ae255fdc9bc5c0a67c6a9fed23a7a1261813a3b88762ad439d72f5df00b6ecef5748fd13afcb4d50dd4dccc95fdfa01245b99988e4d1294a29eeb9c197268bb6ad57d45448e762e3a34aec07dfeae4204603aacd19beb2ccfaab8eaa77c416ca4f250253375a44</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>历代雪人介绍</title>
-    <url>/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8E%86%E4%BB%A3%E9%9B%AA%E4%BA%BA%E5%88%9B%E9%80%A0/</url>
-    <content><![CDATA[<p>初代雪人，本人创造于2023.01.14在北河沿边。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/初代雪人.jpg" style="width:300px;"/></div></div>
-<p>二代目雪人，于今日（2024.02.05）在楼下。二代目的雪人，不羁的面容中流露出三分不屑，那冷毅的脸庞中隐藏着丝丝冷意，让人不敢靠近。剑眉星目，目光中缀着三分凉薄四分讥笑五分漫不经心。（欸嘿，忘了点鼻子了…）那嘴边叼着的烟头已然慢慢燃尽。啊！多么美丽的雪人啊啊啊哈哈哈哈哈哈哈哈哈编不下去了。</p>
-<p>一开始我搭了个雪人的底座，我弄不上头，妈妈和老弟一人团了一个雪人头，然后他俩团的头合二为一了，我又给整了下造型，我觉得今年的雪人要有所创意，所以给他整了点刘海哈啊哈哈哈，然后爸爸从旁边找了几个木炭，想给他当眼睛。但是眼睛已经被我用雪怼上去了，所以正好拿它当眉毛，抽了一半的烟也给它安上了。再然后我弟说它缺两个手，又给他捡了俩木棍。最终构成了它的最终形态。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人01.jpg" style="width:300px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人02.jpg" style="width:300px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人03.jpg" style="width:300px;"/></div></div>
-<p>还有这个堆在我旁边的可爱派雪人。但是这个雪人经历了它这个年纪不该经历的…</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/别人家的雪人.jpg" alt="可爱流派的雪人" style="width:300px;"/></div><span class="image-caption">可爱流派的雪人</span></div>
-<p>事件是这样的，我下楼的时候这个雪人是已经堆好了的，然后我在离他不远的地方创造的二代目雪人。我刚感叹这个脑袋真的真的好难弄的时候，一个小屁孩飞快地跑向我身后的可爱派雪人，起初我以为他可能只是想拿走这个雪人身上的萝卜，但是我真的没有想到，他竟然给雪人的头给拔了，然后就抱着跑了，最后发现他竟然把这个可爱的雪人的脑袋按到了他自己搭的雪人身上，最后的雪人变成了这个形态。（虽然很不道德，但是还有点可爱(●’◡’●)）</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/缝合雪人.jpg" alt="缝合怪版雪人" style="width:300px;"/></div><span class="image-caption">缝合怪版雪人</span></div>]]></content>
-      <categories>
-        <category>日常日常</category>
-      </categories>
-      <tags>
-        <tag>雪王的诞生</tag>
       </tags>
   </entry>
   <entry>
@@ -1602,6 +1602,107 @@
             </details>
 <h2 id="shou-ru-nang-zhong-de-jiao-se" id="收入囊中的角色">收入囊中的角色</h2>
 <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0之前角色收藏.png" style="width:450px;"/></div></div>]]></content>
+      <categories>
+        <category>游戏库</category>
+      </categories>
+      <tags>
+        <tag>崩坏系列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>崩坏：星穹铁道</title>
+    <url>/2023/07/20/%E6%B8%B8%E6%88%8F%E5%BA%93/%E5%B4%A9%E5%9D%8F%EF%BC%9A%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93/</url>
+    <content><![CDATA[<p class='p center logo large'>太空轻喜剧</p>
+<p>但愿不要变成太空“清洗”剧。但是！！现在三个星球，噶了四个人了（可可利亚、停云、流萤、知更鸟…）。</p>
+<p>第一次接触这个游戏，是在一个无聊的夜晚，当时已经卸载了《王者荣耀》，又不想再下回来，玩了这么多年感觉也没有当年的热情了，关键是没有好队友和我一起玩了…然后在B站看看预约的游戏更新了没的时候，看到了B站在大力推这个游戏，然后就云试玩了一下，确实感觉还不错，就下载了，距今得有一个多月了，现在觉得超好玩！当然不是指回合策略制的玩法上，毕竟我是一个文本控，吸引我的当然是屑屑的文案和故事剧情的发展啦！当然音乐也非常好听！</p>
+<p>玩法上采用<strong>3D回合策略制</strong>，首先特效真的很美丽很炫酷，很亮，很光（黑夜玩的时候感觉我就是这个世界最亮的星⭐）</p>
+<ul>
+<li>国风特效组：比如丹恒的长梦一绝水墨风、停云的古扇祥纹、镜流的中国对月亮的独特喜爱…饮月就更不用说了龙龙龙完全就是中国文化输出的一个角色。</li>
+<li>背后灵特效组：帮帮我史瓦罗先生+帮帮我神君先生，现在多了一个帮帮我萨穆先生…</li>
+<li>光疗特效组：符玄提名，大招后我的眼睛感觉要瞎了，还有希儿，虽然我没有，但是用过真的也很亮。</li>
+</ul>
+<p>每个敌人头上都会有相应的属性，用相同属性的人物攻击会不同程度的打掉敌人上方白色的弱点血条。一般有一个普攻+一个战技+一个大招（附带着天赋加持）。我没有景⚪和希儿，他们的战斗指数真的好高，我好羡慕啊啊（ps:现在不是很羡慕了，因为我有镜流了啊啊哈哈哈想想就开心），只能用支援角色体验一下…特定时间活动（经营博物馆、温世玲的论文、磐岩镇的擂台赛…）、模拟宇宙、忘却之庭、拟造花萼、侵蚀隧洞、历战余响（再经历一遍大BOSS之战），现在看来每天120的体力真的不够用啊。现在涨到了240！还有储备体力，爱了！</p>
+<p>细数一下，到底是什么留住了我…</p>
+<p><strong>🌹文笔超赞的文案！</strong></p>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>星穹铁道的文案真的超级棒！不仅文笔很好，还塞了非常多的现实梗，很能产生共鸣，给我一种像是连接现实世界的二次元世界的感觉。</p><p>像一开始黑塔空间站的欢迎信的文笔就非常令人惊艳😍，反正我写不来这样的文字，真的十分惭愧…还有随处收集的作品集书页里面的文笔也很惊艳，里面有几首诗写的真的很不错！还有戏谱《前生梦忆》（《再生缘》唱段）+《龙王遗恨》（《龙牙传》唱段）！还有非常多的梗，在大量的梗里添了少量的游戏🤣。</p><p>黑塔空间站里，每一个记忆泡都是一个小故事，路边随手捡的零碎书籍，里面的文风各式各样，判官大人的狗那一篇印象深刻，贝罗伯格出名的书籍《雪国冒险》还没收集全；还有垃圾桶文学和快递文学真的很有趣。感觉这个游戏的文案是目前以来我接触的游戏中最有趣的文案。怎么说呢，把人物代入到现实也很有感觉！已经完全把它当成一个追番游戏了，玩法什么的对我来说是次要的，我要看剧情！！</p><details class="folding-tag" ><summary> 空间站介绍手册 </summary>              <div class='content'>              <p>欢迎来到「黑塔」空间站！</p><p>寰宇的奥秘是诸多学者穷其一生探索的议题，它或许复杂到无法用任何一种语言将其表达，也可能普通到藏匿于随处可见的缝隙角落。而星系之中错落的生灵，却共同绘制出了名为「文明」的瑰丽造物。</p><p>当我们迈步追随其散落的线条时，将会发现所有的方向都朝着共同的指引之星。它是瑰丽而又迷人的，吸引了诸多求知者为其奉献自己的一生，仅为瞥见真理的一角轮廓。而「黑塔」空间站，便是在这条探索指引之星的道路上，搭建而起的庇荫长廊。</p><p>我们重拾起没落乐章的残篇，得以再现辉煌时刻的盛宴；我们解密未知科技的核心，得以窥见文明的智慧结晶是多么耀眼。学者们将自己化作一叶扁舟，渡过浩瀚银河的尽头。而在彼岸静默的答案，则是我们前进的最好回应。</p>              </div>            </details><details class="folding-tag" ><summary> 致：黯淡星 这个任务惊艳到我了 </summary>              <div class='content'>              <p>三无和KB？唱的这首歌好好听，当时听这歌的时候还没有办任务，听完后立马跑去做这个小npc的任务了。</p><p>黑暗在远方列队。用近乎残忍的方式</p><p>解剖着时间。询问爱情的花瓣俯下嘴唇</p><p>如同无限时空中、滴答的钟声。我们别无选择</p><p>只能滑入宇宙那不详的颤抖，如同滑下一道黄昏的斜坡</p><p>就这样，群星依旧在头顶赏乐，沿途将是它们优雅的倦容。</p>              </div>            </details><details class="folding-tag" ><summary> 《前生梦忆》（《再生缘》唱段）+ 《龙王遗恨》（《龙牙传》唱段） </summary>              <div class='content'>              <p>暮沉沉我枯坐倚床头，                        靡靡赤龙，森森青松<br>珠帘半上那珊瑚钩。                          今旦零落逐寒风<br>无心醒来无心睡，                            可怜谁与同<br>半解罗裳我半闭双眸。                         靡靡赤龙，森森青松<br>恍然间风吹花落水推舟，                       世上荣华如转蓬<br>梦见我深入步离战未休。                       与君再难逢<br>佩吴钩，飒沓青骊跃紫骝，                     靡靡赤龙，森森青松<br>登绮楼，与我那郎君斗舰游。                   斗酒欲饮月明中<br>鸣啾啾，两个黄鹂落枝头，                     埋骨复几重<br>忽悠悠，前生的因缘今生愁。                   靡靡赤龙，森森青松<br>十世蜕生，恩仇付水流，                       六百余年凡尘中<br>又实实难把我那郎君丢。                       如梦尽是空<br>猛抬头，珊瑚窗里翻成昼，<br>情难求，梦里前生梦里留。</p>              </div>            </details>
+              </div>
+            </details>
+<p><strong>🌹视觉上的盛宴</strong></p>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>这建模也太太太好看了吧🥰。里面最喜欢的角色的建模是姬子和丹恒（1.2仙骸有终里面的饮月君也好好看啊啊）【目前变心，我爱卡芙卡！！再次变心！我爱镜流😗！！现在知更鸟也好好看】😘😘。帕姆好可爱啊，每天上线都要逗一下它…</p><ul><li>帕姆生气，嘿嘿，可爱；😎</li><li>帕姆唱歌，嘿嘿，可爱；😎</li><li>帕姆扫地，过去绕来绕去，嘿嘿，可爱；😎</li><li>帕姆浇水，近距离参观，嘿嘿，可爱；😜</li><li>帕姆着急，嘿嘿，可爱😎</li></ul><p>每个角色的建模都很精美，这个技术美术的风格戳到我了，真的真的好好看！！没有三维动画那种僵硬写实感，很光！非常光！亮！很亮！辉光打的非常亮，显得人物都很明媚艳丽。也是这三渲二的技术让我掉进了卡通渲染的坑中，现在还在探索中。当然，对二次元人物的建模也很感兴趣，现在还没开始，我认为尤其是姬子这个角色建模建的实在是太精致了，真的好好看。<strong>就是因为姬子这个角色建模，好奇的我掉入了崩坏3的剧情中…现在还没爬出来…目前已在坑底躺平了。（崩三现剧情都过完了现在在肝夏日狂想曲A面的活动。等待第二部ing…）</strong></p>
+              </div>
+            </details>
+<p><strong>🌹听觉上的享受！</strong></p>
+<details class="folding-tag" ><summary> 关于配音 </summary>
+              <div class='content'>
+              <p>啊，姬子的声音好好听啊💘，卡芙卡的配音徐慧老师的声音好好听啊啊💘，漆黑的虎克大人和长不高的白露的配音好可爱啊💘，听说是隔壁的派蒙过来打工的哈哈哈，丹恒的声音很配角色，很贴脸💘。银狼hanser！!!💖符玄的配音花铃竟然配过德莉莎，Terri！从崩坏3爬回来竟然感觉倍感亲切…</p><p>开拓者的声音也很好听，想不到竟然是和素裳一个配音老师——陈婷婷老师！！。镜流的挂机在家都不敢大声放出来……白珩短暂的两句台词倍感亲切kiyana！还有看前瞻的叽米老师！ 啊突然认识了好多配音老师。</p>
+              </div>
+            </details>
+<details class="folding-tag" ><summary> 关于配乐 </summary>
+              <div class='content'>
+              <p>遇到的第一个场景——黑塔空间站的BGM——太空漫步，我觉得非常好听。还有《踏上旅途也很好听》</p><p>再然后是打BOSS可可利亚的BGM简直身临其境！热血沸腾！当时的战斗画面配上<mark class="hl-label red">《WildFire》</mark> 这个配乐简直热血沸腾！！！适配度MAX！！网友们说这是可可利亚处刑曲，真的好好笑。</p><p>还有最近1.2版本新出的 <mark class="hl-label blue">《水龙吟》</mark>  搭配上饮月君开海的剧情，这就是视听盛宴嘛，我悟了！银狼的 <mark class="hl-label orange">《越权访问》</mark>  和丹恒的 <mark class="hl-label red">《长梦一绝》</mark>  也很好听，最近的单曲循环。</p><p>1.3-1.6版本好像没有我特别喜欢的</p><p>2.0版本里的《使一颗心免于哀伤》 好听！爱听！ 《不眠之夜》 好听！爱听！</p>
+              </div>
+            </details>
+<p><strong>🌹令人期待的剧情！</strong></p>
+<p>星神的战争…从空间站到<mark class="hl-label orange">雅利洛Ⅵ号（存护）</mark> 再到<mark class="hl-label blue">仙舟罗浮（巡猎）</mark> ，每一个都是一个小世界，有种快穿的感觉，但是穿完后还能随时回去…</p>
+<p>🍁剧情感受</p>
+<h2 id="bei-luo-bo-ge" id="🐱‍🚀贝洛伯格">🐱‍🚀贝洛伯格</h2>
+<p>雅利洛-Ⅵ是一颗受到星核影响，长期被冰雪覆盖的星球。近千年前，席卷而至的寒潮降临，带来了永冬，以纯白抹平了大地。所幸，「存护」的力量庇佑着贝洛伯格。此处虽受风雪侵凌，人类仍得以幸存。</p>
+<details class="folding-tag" ><summary> 雅利洛Ⅵ号 </summary>
+              <div class='content'>
+              <p>雅利洛Ⅵ号的剧情非常完整，上下层的隔绝与重连，大守护者的误入歧途与牺牲，最让我感受深刻的是出生在上下层隔绝时期的下层区小朋友从没有见过真正的蓝天…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="http://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格.jpg" style="width:600px;"/></div></div><p>虎克这一段给我带来了情绪价值，怎么说呢，就是触动我了，虽然没有她那样的经历，但是令我体会到娜塔莎说这句话的感情 <strong>“虎克，那不是屋顶，那是天空。”</strong> 这句话泪目了，对于在封闭期间出生的下层区的小孩子来说，成长到现在，确实没有见过天空，所以他们也没有天空的概念，当虎克第一次看到天空时，只能惊叹于 “屋顶” 的宽阔，却不知道这是天空。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="http://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格0.jpg" style="width:600px;"/></div></div><p>主角团去参加布洛妮娅的上任仪式！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格1.jpg" style="width:600px;"/></div></div><p>贝洛伯格是 happy ending！！这是什么！一边吵架，一边暗戳戳秀恩爱，浅磕一下嘿嘿。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格2.jpg" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="xian-zhou-luo-fu" id="🐱‍👓仙舟罗浮">🐱‍👓仙舟罗浮</h2>
+<p>目前，剧情中出现的只是六艘中的一艘，罗浮，感觉这个小世界观在独立的看来也还挺大的，也是最能体现中国国传统文化的一段剧情，但是…吐槽良多啊啊啊。最主要的是三四个月的时间，这个剧情怎么能这么少啊啊，其它的云上五骁什么的都没有讲解刻画啊，只出现在文字里，这么长的时间为什么不多弄点剧情动画啊啊，长草期也太太太长了吧！</p>
+<details class="folding-tag" ><summary> 1.2仙骸有终 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《仙骸有终》</p><p>啊啊啊，停云，我的停云呜呜呜呜，仙骸有终里有停云的骸呜呜呜，怎么会这么快就噶了一个角色啊啊啊！！！</p><p>7.21更新的此版本任务———评书奇谭也上线了，编剧的精神状态令人担忧哈哈哈哈，第二折里的青龙诞生哈哈搞笑，我选的龙尊MK2000型！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/龙尊MK2000.jpg" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<details class="folding-tag" ><summary> 1.3天镜映劫尘 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《天镜映劫尘》</p><p>主要内容是举行葬礼呜呜呜…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_天镜映劫尘.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_天镜映劫尘1.jpg" style="width:600px;"/></div></div><p>呜呜呜呜，我那么大的停云呢，怎么就没了，官方通报给定为死亡了，但是听网友们说扇子有两把，只找到了一把，还有说桑博把她带走，娜塔莎给她治疗中…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/停云2.jpg" style="width:600px;"/></div></div><p>剧情结尾出现的罗刹，果然有问题，抬手的瞬间神似奥托，果然杨叔不待见他是有原因的，一张脸决定了这个人不是好人哈哈哈哈</p><p>静流！！我终于等到你了哈哈哈，她长得好好看啊啊，决定了我要攒票子抽她！我一定要得到手！（1.4版本回来到手啦到手啦）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/镜流.jpg" style="width:600px;"/></div></div><p>丹恒的同行任务：白露和丹恒在一起的大小龙尊画面真的还有些可爱的，嘿嘿(●ˇ∀ˇ●)，饮月之乱出现了一些眉目，云上五骁的故事也浮出水面，这么一看，白露的前世是白珩还是非常有可能的。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/大小龙尊.jpg" style="width:600px;"/></div></div><p>卢卡的同行任务：一开始觉得很中二，看到最后，我真该死，卢卡在完成小女孩的梦想呜呜呜，题外话，希儿好好看啊，好伟大的一张脸啊啊</p><p>三月七的同行任务：（忘了是不是这个版本的了，先放这吧）真的很搞笑啊，尤其是和符玄那段对话，还有空间站对三月七身世的解密哈哈哈。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_37.jpg" style="width:600px;"/></div></div><p>这个版本的活动，《金人巷复兴计划》，很搞笑，斯科特贱贱的声音令人印象深刻，还有青雀请病假，只能说，青雀！真不愧是你，吾辈之楷模！素裳！真不愧是你！吾辈之楷模！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/青雀病假1.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/青雀病假2.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_金人巷合照.jpg" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<details class="folding-tag" ><summary> 1.4冬梦激醒 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《冬梦激醒》</p><p>这个版本的主角是托帕，这次的活动内容是《以太战线》，听说是宝可梦玩法。感觉一般般。</p><p>镜流的同行任务：一言难尽，对剧情不满意的小伙伴太多了，还有对镜流这个这人失望和大骂的，不知该怎么评价。（我还是很喜欢这个角色）可能关键是这个任务中，五个人的人设多少与之前展露的有些不符，还有激情单推人，导致这个剧情被骂惨了，不过<strong>确实该骂</strong>，虽然情情爱爱的大众不喜，但是我认为家国大义是一个拔高的层次，完全没体现出来，要是云上五骁单独出一个剧情不捆绑任何人物的话可能会更客观一点，从每个人的角度来看，都显得带有此角色的主观性色彩。站在镜流的角度看这件事其实整个故事脉络很清晰，我思考了很久，为什么这个剧情争议会这么大？梳理出来了几点：</p><p>1、刃的角色崩的真的很离谱，虽然我不厨他，但是我也能感觉出来这个角色崩的不是一星半点。一开始的PV里刃的表现感觉应该是很不服自己这样的命运，“<strong>业障深重也敢判我有罪，五浊恶世也敢妄称仙舟</strong>”，认为仙舟也不是良善之所。但是在镜流的任务中，他竟然<strong>求</strong>镜流给他一死，结果导致镜流被骂的更惨了，因为镜流是施加伤害的人。但是刃又是导致饮月之乱的从犯。总之，感觉这个角色塑造的很矛盾，真的很矛盾！</p><p>2、完全是思念白珩，没展现家国大义，拘泥于情情爱爱。关于这点，我有话要说！这只是镜流的同行任务啊，不是云五的剧情啊，镜流的同行任务就是要同她走过一段属于她的旅程并非全部啊，而她的这段旅程是要去自首，是要去告别。当然要拉其他人来忏悔后，然后去进行她的下一步计划——弑神。要说家国大义，同行任务没体现但是她的角色故事中很能体现啊，她的这条路不就是弑丰饶，免去丰饶战争嘛。可能是同行任务是了解一个角色最快捷的方式，所以使得很多人只过完这个任务就给镜流下定义了，没有再接触其它的文本补充，这样看的话，确实这个角色在这里面的塑造很像反派！</p><p>啊。不过怎么说，这个剧情确实不太好啊啊。</p><p>托帕的同行任务引发的思考：有一段我印象真的很深刻，也彻底说服我不要签约！就是在面临巨大金额的负债时，公司派人收购这颗星球抵债或者自己偿还这笔负债的选择。布洛妮娅让人去搜集上下层人的意见，是娜塔莎的回答让我印象真的很深刻，大体意思是：如果不收购，那么现在孩子们的梦想是多彩的，未来是有多种选择的，可以选择自己想要的未来，选择权在孩子们自己的手上。但是如果被收购的话，孩子们的未来的道路就只有一条，那就是成为公司的员工。哇！就这一个观点就给我拿捏住了！我就完全倒在不收购的那一方了。在收集意见之前，我自己还思考了一下，在这个情况下，如果我是布洛妮娅我会怎么办……但是去收集意见时我还是偏向收购的选择，但是娜塔莎的一番话让我醍醐灌顶！对啊我只考虑了现在和未来无法偿还账务的情况，完全没有想到这一层，对啊，如果孩子们的未来被钉死了，那么这颗星球就没有未来了！少年强则国强嘛！果然我不适合做领导者，思考的太少了。</p>
+              </div>
+            </details>
+<details class="folding-tag" ><summary> 1.5狐斋志异 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《狐斋志异》</p>- 1.5版本内容——活动<p>这个版本的主要角色是霍霍小可爱，尾巴大爷是叽米哈哈哈，完全把冲浪的我们演绎的淋漓尽致啊啊啊啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_捉鬼小队.jpg" style="width:600px;"/></div></div><p>单独来张合照！！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/捉鬼小队合照.jpg" style="width:600px;"/></div></div><p>寒鸦的人设有点出乎我的意料，竟然是个话痨社畜，爱了。除此之外还是姐控，话里话外都是姐姐，剧情中那段笑死，和桂乃芬和星说话时还一副半死不活的社畜样子，但是雪衣以来，立马变夹子音，别说，这样还有点可爱的</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/寒鸦短信.jpeg" style="width:600px;"/></div></div><p>这个活动里的被岁阳附身青雀也很搞笑啊，青雀变青总，摸鱼不再有，开创了属于青雀的麻将商业帝国！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_青总.jpg" style="width:600px;"/></div></div><details class="folding-tag" blue><summary> 活动——修复照相机 </summary>              <div class='content'>              <p>的小活动好简单，但是给的多啊，我喜欢!刚做完虎克的任务，真的好可爱啊啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机1.jpg" style="width:600px;"/></div></div><p>我没帮她，她自己爬出来了啊哈哈哈哈哈哈，好可爱</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机2.jpg" style="width:600px;"/></div></div><p>还有好多小黑塔</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机.jpg" style="width:600px;"/></div></div><p>最后的合照哈哈哈,纪念一下。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机3.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机4.jpg" style="width:600px;"/></div></div>              </div>            </details><details class="folding-tag" green><summary> 12.7银枝的同行任务搞完了 </summary>              <div class='content'>              <p>下半卡池的银枝快要出了，看PV真的好浮夸啊和桑博有得一拼，但是他的四星池子我真的好心动，每一个都是我需要的，寒鸦、玲可我没有，艾丝妲的星魂也没补齐，要不先下20抽试试。</p><p>12.8 20抽收手，出了一个寒鸦啊啊啊啊啊，也还好，毕竟我没有。</p><p>别说，眼睛没有高光的三月七感觉有点屑……</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝三月七_无高光.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝1.jpg" style="width:600px;"/></div></div>              </div>            </details><p>这几个版本内容磨磨唧唧的，主线故事完全不够看啊，我可是当番剧追的啊啊啊，葬礼完了就没了啊啊</p>
+              </div>
+            </details>
+<h2 id="hei-ta-kong-jian-zhan" id="👻黑塔空间站">👻黑塔空间站</h2>
+<details class="folding-tag" ><summary> 1.6庸与神的冠冕 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《庸与神的冠冕》</p>- 1.6版本内容——活动<p>补一个当时在黑塔空间站中遇到的，特别喜欢的一个记忆泡，查了查名字叫《握紧的双手》：<br>空气中悬浮着一丛气泡，七彩的光华流溢其中，恍惚间形成似有深意的画面。靠近时，一个像是黑塔的女声不带感情地低语：握紧的双手</p><blockquote><p>你靠近忆泡，感到一丝凉意。凉意温柔地穿过你的皮肤、骨肉，穿过更深层的…<br>你的神经元与16号机甲的手臂骨骼连接在一起，这种感觉从来都不舒服。你扭过头想对搭档抱怨，然后，你发现莉亚也在看你，话语不再有必要了。<br>她笑，然后扬手。你感到小臂有了反应，像提线木偶，被看不见的线牵扯。你想对抗，但发觉有些疼，于是你也扬手。痛感果然减轻了。这在你预料之内。<br>「不喜欢像这样被我控制？」她歪头，对你咯咯笑着，眨眨眼，双手又立食指与中指，举过头顶，好像一对兔耳。不得已，你也如此照做。你觉得实在羞耻。<br>你知道她在故意戏弄你：「能别趁机读取我的想法吗？」你故意皱眉，又很快转过头去，避免与她的目光交汇。你从来不适应这个。<br>莉亚轻轻哼笑，又将脸故意凑上来。「16号根本没这个功能，」你感觉到温润的气息扑打着你后颈的皮肤，「你在害羞吗？明明也是女孩子…」<br>你决定结束这个令人尴尬的话题。「我们这次的任务是什么？」你咬牙，喉头含着热炭似的，浑身燥热难耐，发出的声音也变得支离顿挫。<br>「接住那颗星星。」她仰头，见星光自全周天驾驶舱外流溢，落入海平面之下，被波浪揉碎。你闷哼一声，想不通她为何如此镇定。<br>「你在害怕。」她向你伸出手。你发现自己的手臂没有应势而动。看来是她将连接切断了。你思忖着，又见她勾动四指。「来吧，」她很沉静，「像以前那样。」<br>你沉默地伸出手。她将指尖温柔地置入你的手心，卷起你的手指，收拢。她真的好用力，你想，一如既往。可她的身驱明明如此瘦小…<br>舱外的海洋依旧闪烁着星星点点的光芒。你下意识地握紧与莉亚相牵的手，以免那星光从指缝间悄梢溜走。</p></blockquote><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/好喜欢这个记忆泡.jpg" style="width:300px;"/></div></div><p>主要是两个同行任务，阮梅和真理的，真理医生的战斗语音好搞笑啊，0分！下一个！负分!给我滚！哈哈哈。除此之外，出的《千星纪游》的PV真的好好看哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_异宠拾遗.jpg" style="width:600px;"/></div></div><details class="folding-tag" green><summary> 12月底 阮梅同行&猫猫糕活动 </summary>              <div class='content'>              <p>啊啊啊啊啊啊阮梅你没有心啊啊啊啊，这么可爱的猫猫糕你竟然遗弃它们啊啊啊啊，好阔爱好阔爱，尤其是女主这边的配音配的，心都要化了。看了视频才知道，原来不同的主角配的猫猫糕的声音是不一样的。男主那边的配音wuer、wuer的，真是余音绕梁哈哈哈哈。感觉都要记住台词了：我不是阮梅认可的作品wuer、wuer哈哈哈哈。还有那个“哇咔咔，我就是天才”也真的好阔爱啊啊啊</p>              </div>            </details><details class="folding-tag" green><summary> 12月底 磐岩镇联赛（续） </summary>              <div class='content'>              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_磐岩镇联赛.jpg" style="width:600px;"/></div></div>              </div>            </details><p>银枝版本的结尾，坐等匹诺康尼…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_新目的地.jpg" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="pi-nuo-kang-ni" id="🍻匹诺康尼">🍻匹诺康尼</h2>
+<details class="folding-tag" ><summary> 2.0 假如在午夜入梦 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《假如在午夜入梦》</p>- 2.0版本内容——活动<p>一些过主线时截的屏，保存一下，新地图的风景好漂亮啊。剧情刚开始时和三月七的对话，带上我，嘿嘿嘿</p><p><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_01.jpg" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_02.jpg" style="height:200px"/></p><p><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_03.jpg" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_04.jpg" style="height:200px"/></p><p>花火的同行任务，花火扮演了花火的尸体：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0同行任务_花火.jpg" style="width:600px;"/></div></div><p>和流萤的合照，单独放一下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/和流萤的合照.jpg" style="width:600px;"/></div></div><p>温柔的看着你，不再言语。不知道为啥会想到这句话：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/温柔的看着你不再言语.jpg" style="width:600px;"/></div></div><p>回忆：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/回忆.jpg" style="width:600px;"/></div></div><p>很有捉奸现场的感觉：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/有点捉奸现场的感觉.jpg" style="width:600px;"/></div></div><p>2.0既视感，有趣的网友：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0既视感.png" style="width:600px;"/></div></div><p>花火美图存放：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/花火美图.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/花火美图1.jpg" style="width:600px;"/></div></div><p>高清大图哭泣，毕竟梦里被砍了：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/美图存放01.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/美图存放02.jpg" style="width:600px;"/></div></div><p>三月快别说了，我害怕：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/三月别说啦.jpg" style="width:600px;"/></div></div><p>星核猎手的梦境——班长卡芙卡、打游戏但是学习好的银狼、校霸都不敢惹的刃哈哈</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/班长卡芙卡.png" style="width:600px;"/></div></div>我最喜欢的一集！！！<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/我最喜欢的一集.jpg" style="width:600px;"/></div></div><p>路边垃圾桶，一个没猜到它心里去就开打的桶，再也不是贝洛伯格任我翻的桶了，它变了…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/爱财之桶.jpg" style="width:600px;"/></div></div><p>想象一朵未来的玫瑰：这原来是一本书，原著的简介：费尔南多·佩索阿是二十世纪伟大的葡萄牙语诗人，他用一百余个异名创造出一个独特的文学世界。在这些异名当中，“冈波斯”可能最接近佩索阿本人的真相：张扬恣肆的精神世界，只是他用诗歌和文字织就的一个梦；现实生活中，他是一个出门时连旅行箱都永远收拾不好的平凡小职员。<br>最佩服米哈游的一点是文案涉及的思想与书籍众多，很有文化水平！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/想象一朵未来的玫瑰 .jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/想象一朵未来的玫瑰1.jpg" style="width:600px;"/></div></div>有趣的小npc：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/有趣的npc.jpg" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="zhu-xian-ren-wu-tong-xing-ren-wu-zhi-xian-ren-wu" id="主线任务-同行任务-支线任务">主线任务 + 同行任务 + 支线任务</h2>
+<p>主线剧情——至仙舟罗浮</p>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
+    <iframe 
+      src="//player.bilibili.com/player.html?bvid=BV1a14y1Z7sH&page=1&autoplay=0" allowfullscreen="allowfullscreen" 
+      width="100%" 
+      height="500" 
+      scrolling="no" 
+      frameborder="0" 
+      sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls>
+    </iframe>
+</div>
+]]></content>
       <categories>
         <category>游戏库</category>
       </categories>
@@ -1755,107 +1856,6 @@
 <p><a href="https://bbs.mihoyo.com/bh3/wiki/content/2997/detail?bbs_presentation_style=no_header">https://bbs.mihoyo.com/bh3/wiki/content/2997/detail?bbs_presentation_style=no_header</a></p>
 <h1 id="zui-zhong-zhang-yue-suo-ning-wang-zhi-xing">《最终章：月所凝望之星》</h1>
 <p><a href="https://bbs.mihoyo.com/bh3/wiki/content/2982/detail?bbs_presentation_style=no_header">https://bbs.mihoyo.com/bh3/wiki/content/2982/detail?bbs_presentation_style=no_header</a></p>
-]]></content>
-      <categories>
-        <category>游戏库</category>
-      </categories>
-      <tags>
-        <tag>崩坏系列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>崩坏：星穹铁道</title>
-    <url>/2023/07/20/%E6%B8%B8%E6%88%8F%E5%BA%93/%E5%B4%A9%E5%9D%8F%EF%BC%9A%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93/</url>
-    <content><![CDATA[<p class='p center logo large'>太空轻喜剧</p>
-<p>但愿不要变成太空“清洗”剧。但是！！现在三个星球，噶了四个人了（可可利亚、停云、流萤、知更鸟…）。</p>
-<p>第一次接触这个游戏，是在一个无聊的夜晚，当时已经卸载了《王者荣耀》，又不想再下回来，玩了这么多年感觉也没有当年的热情了，关键是没有好队友和我一起玩了…然后在B站看看预约的游戏更新了没的时候，看到了B站在大力推这个游戏，然后就云试玩了一下，确实感觉还不错，就下载了，距今得有一个多月了，现在觉得超好玩！当然不是指回合策略制的玩法上，毕竟我是一个文本控，吸引我的当然是屑屑的文案和故事剧情的发展啦！当然音乐也非常好听！</p>
-<p>玩法上采用<strong>3D回合策略制</strong>，首先特效真的很美丽很炫酷，很亮，很光（黑夜玩的时候感觉我就是这个世界最亮的星⭐）</p>
-<ul>
-<li>国风特效组：比如丹恒的长梦一绝水墨风、停云的古扇祥纹、镜流的中国对月亮的独特喜爱…饮月就更不用说了龙龙龙完全就是中国文化输出的一个角色。</li>
-<li>背后灵特效组：帮帮我史瓦罗先生+帮帮我神君先生，现在多了一个帮帮我萨穆先生…</li>
-<li>光疗特效组：符玄提名，大招后我的眼睛感觉要瞎了，还有希儿，虽然我没有，但是用过真的也很亮。</li>
-</ul>
-<p>每个敌人头上都会有相应的属性，用相同属性的人物攻击会不同程度的打掉敌人上方白色的弱点血条。一般有一个普攻+一个战技+一个大招（附带着天赋加持）。我没有景⚪和希儿，他们的战斗指数真的好高，我好羡慕啊啊（ps:现在不是很羡慕了，因为我有镜流了啊啊哈哈哈想想就开心），只能用支援角色体验一下…特定时间活动（经营博物馆、温世玲的论文、磐岩镇的擂台赛…）、模拟宇宙、忘却之庭、拟造花萼、侵蚀隧洞、历战余响（再经历一遍大BOSS之战），现在看来每天120的体力真的不够用啊。现在涨到了240！还有储备体力，爱了！</p>
-<p>细数一下，到底是什么留住了我…</p>
-<p><strong>🌹文笔超赞的文案！</strong></p>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>星穹铁道的文案真的超级棒！不仅文笔很好，还塞了非常多的现实梗，很能产生共鸣，给我一种像是连接现实世界的二次元世界的感觉。</p><p>像一开始黑塔空间站的欢迎信的文笔就非常令人惊艳😍，反正我写不来这样的文字，真的十分惭愧…还有随处收集的作品集书页里面的文笔也很惊艳，里面有几首诗写的真的很不错！还有戏谱《前生梦忆》（《再生缘》唱段）+《龙王遗恨》（《龙牙传》唱段）！还有非常多的梗，在大量的梗里添了少量的游戏🤣。</p><p>黑塔空间站里，每一个记忆泡都是一个小故事，路边随手捡的零碎书籍，里面的文风各式各样，判官大人的狗那一篇印象深刻，贝罗伯格出名的书籍《雪国冒险》还没收集全；还有垃圾桶文学和快递文学真的很有趣。感觉这个游戏的文案是目前以来我接触的游戏中最有趣的文案。怎么说呢，把人物代入到现实也很有感觉！已经完全把它当成一个追番游戏了，玩法什么的对我来说是次要的，我要看剧情！！</p><details class="folding-tag" ><summary> 空间站介绍手册 </summary>              <div class='content'>              <p>欢迎来到「黑塔」空间站！</p><p>寰宇的奥秘是诸多学者穷其一生探索的议题，它或许复杂到无法用任何一种语言将其表达，也可能普通到藏匿于随处可见的缝隙角落。而星系之中错落的生灵，却共同绘制出了名为「文明」的瑰丽造物。</p><p>当我们迈步追随其散落的线条时，将会发现所有的方向都朝着共同的指引之星。它是瑰丽而又迷人的，吸引了诸多求知者为其奉献自己的一生，仅为瞥见真理的一角轮廓。而「黑塔」空间站，便是在这条探索指引之星的道路上，搭建而起的庇荫长廊。</p><p>我们重拾起没落乐章的残篇，得以再现辉煌时刻的盛宴；我们解密未知科技的核心，得以窥见文明的智慧结晶是多么耀眼。学者们将自己化作一叶扁舟，渡过浩瀚银河的尽头。而在彼岸静默的答案，则是我们前进的最好回应。</p>              </div>            </details><details class="folding-tag" ><summary> 致：黯淡星 这个任务惊艳到我了 </summary>              <div class='content'>              <p>三无和KB？唱的这首歌好好听，当时听这歌的时候还没有办任务，听完后立马跑去做这个小npc的任务了。</p><p>黑暗在远方列队。用近乎残忍的方式</p><p>解剖着时间。询问爱情的花瓣俯下嘴唇</p><p>如同无限时空中、滴答的钟声。我们别无选择</p><p>只能滑入宇宙那不详的颤抖，如同滑下一道黄昏的斜坡</p><p>就这样，群星依旧在头顶赏乐，沿途将是它们优雅的倦容。</p>              </div>            </details><details class="folding-tag" ><summary> 《前生梦忆》（《再生缘》唱段）+ 《龙王遗恨》（《龙牙传》唱段） </summary>              <div class='content'>              <p>暮沉沉我枯坐倚床头，                        靡靡赤龙，森森青松<br>珠帘半上那珊瑚钩。                          今旦零落逐寒风<br>无心醒来无心睡，                            可怜谁与同<br>半解罗裳我半闭双眸。                         靡靡赤龙，森森青松<br>恍然间风吹花落水推舟，                       世上荣华如转蓬<br>梦见我深入步离战未休。                       与君再难逢<br>佩吴钩，飒沓青骊跃紫骝，                     靡靡赤龙，森森青松<br>登绮楼，与我那郎君斗舰游。                   斗酒欲饮月明中<br>鸣啾啾，两个黄鹂落枝头，                     埋骨复几重<br>忽悠悠，前生的因缘今生愁。                   靡靡赤龙，森森青松<br>十世蜕生，恩仇付水流，                       六百余年凡尘中<br>又实实难把我那郎君丢。                       如梦尽是空<br>猛抬头，珊瑚窗里翻成昼，<br>情难求，梦里前生梦里留。</p>              </div>            </details>
-              </div>
-            </details>
-<p><strong>🌹视觉上的盛宴</strong></p>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>这建模也太太太好看了吧🥰。里面最喜欢的角色的建模是姬子和丹恒（1.2仙骸有终里面的饮月君也好好看啊啊）【目前变心，我爱卡芙卡！！再次变心！我爱镜流😗！！现在知更鸟也好好看】😘😘。帕姆好可爱啊，每天上线都要逗一下它…</p><ul><li>帕姆生气，嘿嘿，可爱；😎</li><li>帕姆唱歌，嘿嘿，可爱；😎</li><li>帕姆扫地，过去绕来绕去，嘿嘿，可爱；😎</li><li>帕姆浇水，近距离参观，嘿嘿，可爱；😜</li><li>帕姆着急，嘿嘿，可爱😎</li></ul><p>每个角色的建模都很精美，这个技术美术的风格戳到我了，真的真的好好看！！没有三维动画那种僵硬写实感，很光！非常光！亮！很亮！辉光打的非常亮，显得人物都很明媚艳丽。也是这三渲二的技术让我掉进了卡通渲染的坑中，现在还在探索中。当然，对二次元人物的建模也很感兴趣，现在还没开始，我认为尤其是姬子这个角色建模建的实在是太精致了，真的好好看。<strong>就是因为姬子这个角色建模，好奇的我掉入了崩坏3的剧情中…现在还没爬出来…目前已在坑底躺平了。（崩三现剧情都过完了现在在肝夏日狂想曲A面的活动。等待第二部ing…）</strong></p>
-              </div>
-            </details>
-<p><strong>🌹听觉上的享受！</strong></p>
-<details class="folding-tag" ><summary> 关于配音 </summary>
-              <div class='content'>
-              <p>啊，姬子的声音好好听啊💘，卡芙卡的配音徐慧老师的声音好好听啊啊💘，漆黑的虎克大人和长不高的白露的配音好可爱啊💘，听说是隔壁的派蒙过来打工的哈哈哈，丹恒的声音很配角色，很贴脸💘。银狼hanser！!!💖符玄的配音花铃竟然配过德莉莎，Terri！从崩坏3爬回来竟然感觉倍感亲切…</p><p>开拓者的声音也很好听，想不到竟然是和素裳一个配音老师——陈婷婷老师！！。镜流的挂机在家都不敢大声放出来……白珩短暂的两句台词倍感亲切kiyana！还有看前瞻的叽米老师！ 啊突然认识了好多配音老师。</p>
-              </div>
-            </details>
-<details class="folding-tag" ><summary> 关于配乐 </summary>
-              <div class='content'>
-              <p>遇到的第一个场景——黑塔空间站的BGM——太空漫步，我觉得非常好听。还有《踏上旅途也很好听》</p><p>再然后是打BOSS可可利亚的BGM简直身临其境！热血沸腾！当时的战斗画面配上<mark class="hl-label red">《WildFire》</mark> 这个配乐简直热血沸腾！！！适配度MAX！！网友们说这是可可利亚处刑曲，真的好好笑。</p><p>还有最近1.2版本新出的 <mark class="hl-label blue">《水龙吟》</mark>  搭配上饮月君开海的剧情，这就是视听盛宴嘛，我悟了！银狼的 <mark class="hl-label orange">《越权访问》</mark>  和丹恒的 <mark class="hl-label red">《长梦一绝》</mark>  也很好听，最近的单曲循环。</p><p>1.3-1.6版本好像没有我特别喜欢的</p><p>2.0版本里的《使一颗心免于哀伤》 好听！爱听！ 《不眠之夜》 好听！爱听！</p>
-              </div>
-            </details>
-<p><strong>🌹令人期待的剧情！</strong></p>
-<p>星神的战争…从空间站到<mark class="hl-label orange">雅利洛Ⅵ号（存护）</mark> 再到<mark class="hl-label blue">仙舟罗浮（巡猎）</mark> ，每一个都是一个小世界，有种快穿的感觉，但是穿完后还能随时回去…</p>
-<p>🍁剧情感受</p>
-<h2 id="bei-luo-bo-ge" id="🐱‍🚀贝洛伯格">🐱‍🚀贝洛伯格</h2>
-<p>雅利洛-Ⅵ是一颗受到星核影响，长期被冰雪覆盖的星球。近千年前，席卷而至的寒潮降临，带来了永冬，以纯白抹平了大地。所幸，「存护」的力量庇佑着贝洛伯格。此处虽受风雪侵凌，人类仍得以幸存。</p>
-<details class="folding-tag" ><summary> 雅利洛Ⅵ号 </summary>
-              <div class='content'>
-              <p>雅利洛Ⅵ号的剧情非常完整，上下层的隔绝与重连，大守护者的误入歧途与牺牲，最让我感受深刻的是出生在上下层隔绝时期的下层区小朋友从没有见过真正的蓝天…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="http://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格.jpg" style="width:600px;"/></div></div><p>虎克这一段给我带来了情绪价值，怎么说呢，就是触动我了，虽然没有她那样的经历，但是令我体会到娜塔莎说这句话的感情 <strong>“虎克，那不是屋顶，那是天空。”</strong> 这句话泪目了，对于在封闭期间出生的下层区的小孩子来说，成长到现在，确实没有见过天空，所以他们也没有天空的概念，当虎克第一次看到天空时，只能惊叹于 “屋顶” 的宽阔，却不知道这是天空。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="http://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格0.jpg" style="width:600px;"/></div></div><p>主角团去参加布洛妮娅的上任仪式！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格1.jpg" style="width:600px;"/></div></div><p>贝洛伯格是 happy ending！！这是什么！一边吵架，一边暗戳戳秀恩爱，浅磕一下嘿嘿。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格2.jpg" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="xian-zhou-luo-fu" id="🐱‍👓仙舟罗浮">🐱‍👓仙舟罗浮</h2>
-<p>目前，剧情中出现的只是六艘中的一艘，罗浮，感觉这个小世界观在独立的看来也还挺大的，也是最能体现中国国传统文化的一段剧情，但是…吐槽良多啊啊啊。最主要的是三四个月的时间，这个剧情怎么能这么少啊啊，其它的云上五骁什么的都没有讲解刻画啊，只出现在文字里，这么长的时间为什么不多弄点剧情动画啊啊，长草期也太太太长了吧！</p>
-<details class="folding-tag" ><summary> 1.2仙骸有终 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《仙骸有终》</p><p>啊啊啊，停云，我的停云呜呜呜呜，仙骸有终里有停云的骸呜呜呜，怎么会这么快就噶了一个角色啊啊啊！！！</p><p>7.21更新的此版本任务———评书奇谭也上线了，编剧的精神状态令人担忧哈哈哈哈，第二折里的青龙诞生哈哈搞笑，我选的龙尊MK2000型！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/龙尊MK2000.jpg" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<details class="folding-tag" ><summary> 1.3天镜映劫尘 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《天镜映劫尘》</p><p>主要内容是举行葬礼呜呜呜…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_天镜映劫尘.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_天镜映劫尘1.jpg" style="width:600px;"/></div></div><p>呜呜呜呜，我那么大的停云呢，怎么就没了，官方通报给定为死亡了，但是听网友们说扇子有两把，只找到了一把，还有说桑博把她带走，娜塔莎给她治疗中…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/停云2.jpg" style="width:600px;"/></div></div><p>剧情结尾出现的罗刹，果然有问题，抬手的瞬间神似奥托，果然杨叔不待见他是有原因的，一张脸决定了这个人不是好人哈哈哈哈</p><p>静流！！我终于等到你了哈哈哈，她长得好好看啊啊，决定了我要攒票子抽她！我一定要得到手！（1.4版本回来到手啦到手啦）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/镜流.jpg" style="width:600px;"/></div></div><p>丹恒的同行任务：白露和丹恒在一起的大小龙尊画面真的还有些可爱的，嘿嘿(●ˇ∀ˇ●)，饮月之乱出现了一些眉目，云上五骁的故事也浮出水面，这么一看，白露的前世是白珩还是非常有可能的。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/大小龙尊.jpg" style="width:600px;"/></div></div><p>卢卡的同行任务：一开始觉得很中二，看到最后，我真该死，卢卡在完成小女孩的梦想呜呜呜，题外话，希儿好好看啊，好伟大的一张脸啊啊</p><p>三月七的同行任务：（忘了是不是这个版本的了，先放这吧）真的很搞笑啊，尤其是和符玄那段对话，还有空间站对三月七身世的解密哈哈哈。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_37.jpg" style="width:600px;"/></div></div><p>这个版本的活动，《金人巷复兴计划》，很搞笑，斯科特贱贱的声音令人印象深刻，还有青雀请病假，只能说，青雀！真不愧是你，吾辈之楷模！素裳！真不愧是你！吾辈之楷模！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/青雀病假1.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/青雀病假2.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_金人巷合照.jpg" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<details class="folding-tag" ><summary> 1.4冬梦激醒 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《冬梦激醒》</p><p>这个版本的主角是托帕，这次的活动内容是《以太战线》，听说是宝可梦玩法。感觉一般般。</p><p>镜流的同行任务：一言难尽，对剧情不满意的小伙伴太多了，还有对镜流这个这人失望和大骂的，不知该怎么评价。（我还是很喜欢这个角色）可能关键是这个任务中，五个人的人设多少与之前展露的有些不符，还有激情单推人，导致这个剧情被骂惨了，不过<strong>确实该骂</strong>，虽然情情爱爱的大众不喜，但是我认为家国大义是一个拔高的层次，完全没体现出来，要是云上五骁单独出一个剧情不捆绑任何人物的话可能会更客观一点，从每个人的角度来看，都显得带有此角色的主观性色彩。站在镜流的角度看这件事其实整个故事脉络很清晰，我思考了很久，为什么这个剧情争议会这么大？梳理出来了几点：</p><p>1、刃的角色崩的真的很离谱，虽然我不厨他，但是我也能感觉出来这个角色崩的不是一星半点。一开始的PV里刃的表现感觉应该是很不服自己这样的命运，“<strong>业障深重也敢判我有罪，五浊恶世也敢妄称仙舟</strong>”，认为仙舟也不是良善之所。但是在镜流的任务中，他竟然<strong>求</strong>镜流给他一死，结果导致镜流被骂的更惨了，因为镜流是施加伤害的人。但是刃又是导致饮月之乱的从犯。总之，感觉这个角色塑造的很矛盾，真的很矛盾！</p><p>2、完全是思念白珩，没展现家国大义，拘泥于情情爱爱。关于这点，我有话要说！这只是镜流的同行任务啊，不是云五的剧情啊，镜流的同行任务就是要同她走过一段属于她的旅程并非全部啊，而她的这段旅程是要去自首，是要去告别。当然要拉其他人来忏悔后，然后去进行她的下一步计划——弑神。要说家国大义，同行任务没体现但是她的角色故事中很能体现啊，她的这条路不就是弑丰饶，免去丰饶战争嘛。可能是同行任务是了解一个角色最快捷的方式，所以使得很多人只过完这个任务就给镜流下定义了，没有再接触其它的文本补充，这样看的话，确实这个角色在这里面的塑造很像反派！</p><p>啊。不过怎么说，这个剧情确实不太好啊啊。</p><p>托帕的同行任务引发的思考：有一段我印象真的很深刻，也彻底说服我不要签约！就是在面临巨大金额的负债时，公司派人收购这颗星球抵债或者自己偿还这笔负债的选择。布洛妮娅让人去搜集上下层人的意见，是娜塔莎的回答让我印象真的很深刻，大体意思是：如果不收购，那么现在孩子们的梦想是多彩的，未来是有多种选择的，可以选择自己想要的未来，选择权在孩子们自己的手上。但是如果被收购的话，孩子们的未来的道路就只有一条，那就是成为公司的员工。哇！就这一个观点就给我拿捏住了！我就完全倒在不收购的那一方了。在收集意见之前，我自己还思考了一下，在这个情况下，如果我是布洛妮娅我会怎么办……但是去收集意见时我还是偏向收购的选择，但是娜塔莎的一番话让我醍醐灌顶！对啊我只考虑了现在和未来无法偿还账务的情况，完全没有想到这一层，对啊，如果孩子们的未来被钉死了，那么这颗星球就没有未来了！少年强则国强嘛！果然我不适合做领导者，思考的太少了。</p>
-              </div>
-            </details>
-<details class="folding-tag" ><summary> 1.5狐斋志异 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《狐斋志异》</p>- 1.5版本内容——活动<p>这个版本的主要角色是霍霍小可爱，尾巴大爷是叽米哈哈哈，完全把冲浪的我们演绎的淋漓尽致啊啊啊啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_捉鬼小队.jpg" style="width:600px;"/></div></div><p>单独来张合照！！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/捉鬼小队合照.jpg" style="width:600px;"/></div></div><p>寒鸦的人设有点出乎我的意料，竟然是个话痨社畜，爱了。除此之外还是姐控，话里话外都是姐姐，剧情中那段笑死，和桂乃芬和星说话时还一副半死不活的社畜样子，但是雪衣以来，立马变夹子音，别说，这样还有点可爱的</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/寒鸦短信.jpeg" style="width:600px;"/></div></div><p>这个活动里的被岁阳附身青雀也很搞笑啊，青雀变青总，摸鱼不再有，开创了属于青雀的麻将商业帝国！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_青总.jpg" style="width:600px;"/></div></div><details class="folding-tag" blue><summary> 活动——修复照相机 </summary>              <div class='content'>              <p>的小活动好简单，但是给的多啊，我喜欢!刚做完虎克的任务，真的好可爱啊啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机1.jpg" style="width:600px;"/></div></div><p>我没帮她，她自己爬出来了啊哈哈哈哈哈哈，好可爱</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机2.jpg" style="width:600px;"/></div></div><p>还有好多小黑塔</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机.jpg" style="width:600px;"/></div></div><p>最后的合照哈哈哈,纪念一下。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机3.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机4.jpg" style="width:600px;"/></div></div>              </div>            </details><details class="folding-tag" green><summary> 12.7银枝的同行任务搞完了 </summary>              <div class='content'>              <p>下半卡池的银枝快要出了，看PV真的好浮夸啊和桑博有得一拼，但是他的四星池子我真的好心动，每一个都是我需要的，寒鸦、玲可我没有，艾丝妲的星魂也没补齐，要不先下20抽试试。</p><p>12.8 20抽收手，出了一个寒鸦啊啊啊啊啊，也还好，毕竟我没有。</p><p>别说，眼睛没有高光的三月七感觉有点屑……</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝三月七_无高光.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝1.jpg" style="width:600px;"/></div></div>              </div>            </details><p>这几个版本内容磨磨唧唧的，主线故事完全不够看啊，我可是当番剧追的啊啊啊，葬礼完了就没了啊啊</p>
-              </div>
-            </details>
-<h2 id="hei-ta-kong-jian-zhan" id="👻黑塔空间站">👻黑塔空间站</h2>
-<details class="folding-tag" ><summary> 1.6庸与神的冠冕 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《庸与神的冠冕》</p>- 1.6版本内容——活动<p>补一个当时在黑塔空间站中遇到的，特别喜欢的一个记忆泡，查了查名字叫《握紧的双手》：<br>空气中悬浮着一丛气泡，七彩的光华流溢其中，恍惚间形成似有深意的画面。靠近时，一个像是黑塔的女声不带感情地低语：握紧的双手</p><blockquote><p>你靠近忆泡，感到一丝凉意。凉意温柔地穿过你的皮肤、骨肉，穿过更深层的…<br>你的神经元与16号机甲的手臂骨骼连接在一起，这种感觉从来都不舒服。你扭过头想对搭档抱怨，然后，你发现莉亚也在看你，话语不再有必要了。<br>她笑，然后扬手。你感到小臂有了反应，像提线木偶，被看不见的线牵扯。你想对抗，但发觉有些疼，于是你也扬手。痛感果然减轻了。这在你预料之内。<br>「不喜欢像这样被我控制？」她歪头，对你咯咯笑着，眨眨眼，双手又立食指与中指，举过头顶，好像一对兔耳。不得已，你也如此照做。你觉得实在羞耻。<br>你知道她在故意戏弄你：「能别趁机读取我的想法吗？」你故意皱眉，又很快转过头去，避免与她的目光交汇。你从来不适应这个。<br>莉亚轻轻哼笑，又将脸故意凑上来。「16号根本没这个功能，」你感觉到温润的气息扑打着你后颈的皮肤，「你在害羞吗？明明也是女孩子…」<br>你决定结束这个令人尴尬的话题。「我们这次的任务是什么？」你咬牙，喉头含着热炭似的，浑身燥热难耐，发出的声音也变得支离顿挫。<br>「接住那颗星星。」她仰头，见星光自全周天驾驶舱外流溢，落入海平面之下，被波浪揉碎。你闷哼一声，想不通她为何如此镇定。<br>「你在害怕。」她向你伸出手。你发现自己的手臂没有应势而动。看来是她将连接切断了。你思忖着，又见她勾动四指。「来吧，」她很沉静，「像以前那样。」<br>你沉默地伸出手。她将指尖温柔地置入你的手心，卷起你的手指，收拢。她真的好用力，你想，一如既往。可她的身驱明明如此瘦小…<br>舱外的海洋依旧闪烁着星星点点的光芒。你下意识地握紧与莉亚相牵的手，以免那星光从指缝间悄梢溜走。</p></blockquote><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/好喜欢这个记忆泡.jpg" style="width:300px;"/></div></div><p>主要是两个同行任务，阮梅和真理的，真理医生的战斗语音好搞笑啊，0分！下一个！负分!给我滚！哈哈哈。除此之外，出的《千星纪游》的PV真的好好看哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_异宠拾遗.jpg" style="width:600px;"/></div></div><details class="folding-tag" green><summary> 12月底 阮梅同行&猫猫糕活动 </summary>              <div class='content'>              <p>啊啊啊啊啊啊阮梅你没有心啊啊啊啊，这么可爱的猫猫糕你竟然遗弃它们啊啊啊啊，好阔爱好阔爱，尤其是女主这边的配音配的，心都要化了。看了视频才知道，原来不同的主角配的猫猫糕的声音是不一样的。男主那边的配音wuer、wuer的，真是余音绕梁哈哈哈哈。感觉都要记住台词了：我不是阮梅认可的作品wuer、wuer哈哈哈哈。还有那个“哇咔咔，我就是天才”也真的好阔爱啊啊啊</p>              </div>            </details><details class="folding-tag" green><summary> 12月底 磐岩镇联赛（续） </summary>              <div class='content'>              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_磐岩镇联赛.jpg" style="width:600px;"/></div></div>              </div>            </details><p>银枝版本的结尾，坐等匹诺康尼…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_新目的地.jpg" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="pi-nuo-kang-ni" id="🍻匹诺康尼">🍻匹诺康尼</h2>
-<details class="folding-tag" ><summary> 2.0 假如在午夜入梦 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《假如在午夜入梦》</p>- 2.0版本内容——活动<p>一些过主线时截的屏，保存一下，新地图的风景好漂亮啊。剧情刚开始时和三月七的对话，带上我，嘿嘿嘿</p><p><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_01.jpg" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_02.jpg" style="height:200px"/></p><p><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_03.jpg" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_04.jpg" style="height:200px"/></p><p>花火的同行任务，花火扮演了花火的尸体：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0同行任务_花火.jpg" style="width:600px;"/></div></div><p>和流萤的合照，单独放一下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/和流萤的合照.jpg" style="width:600px;"/></div></div><p>温柔的看着你，不再言语。不知道为啥会想到这句话：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/温柔的看着你不再言语.jpg" style="width:600px;"/></div></div><p>回忆：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/回忆.jpg" style="width:600px;"/></div></div><p>很有捉奸现场的感觉：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/有点捉奸现场的感觉.jpg" style="width:600px;"/></div></div><p>2.0既视感，有趣的网友：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0既视感.png" style="width:600px;"/></div></div><p>花火美图存放：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/花火美图.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/花火美图1.jpg" style="width:600px;"/></div></div><p>高清大图哭泣，毕竟梦里被砍了：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/美图存放01.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/美图存放02.jpg" style="width:600px;"/></div></div><p>三月快别说了，我害怕：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/三月别说啦.jpg" style="width:600px;"/></div></div><p>星核猎手的梦境——班长卡芙卡、打游戏但是学习好的银狼、校霸都不敢惹的刃哈哈</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/班长卡芙卡.png" style="width:600px;"/></div></div>我最喜欢的一集！！！<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/我最喜欢的一集.jpg" style="width:600px;"/></div></div><p>路边垃圾桶，一个没猜到它心里去就开打的桶，再也不是贝洛伯格任我翻的桶了，它变了…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/爱财之桶.jpg" style="width:600px;"/></div></div><p>想象一朵未来的玫瑰：这原来是一本书，原著的简介：费尔南多·佩索阿是二十世纪伟大的葡萄牙语诗人，他用一百余个异名创造出一个独特的文学世界。在这些异名当中，“冈波斯”可能最接近佩索阿本人的真相：张扬恣肆的精神世界，只是他用诗歌和文字织就的一个梦；现实生活中，他是一个出门时连旅行箱都永远收拾不好的平凡小职员。<br>最佩服米哈游的一点是文案涉及的思想与书籍众多，很有文化水平！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/想象一朵未来的玫瑰 .jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/想象一朵未来的玫瑰1.jpg" style="width:600px;"/></div></div>有趣的小npc：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/有趣的npc.jpg" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="zhu-xian-ren-wu-tong-xing-ren-wu-zhi-xian-ren-wu" id="主线任务-同行任务-支线任务">主线任务 + 同行任务 + 支线任务</h2>
-<p>主线剧情——至仙舟罗浮</p>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
-    <iframe 
-      src="//player.bilibili.com/player.html?bvid=BV1a14y1Z7sH&page=1&autoplay=0" allowfullscreen="allowfullscreen" 
-      width="100%" 
-      height="500" 
-      scrolling="no" 
-      frameborder="0" 
-      sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls>
-    </iframe>
-</div>
 ]]></content>
       <categories>
         <category>游戏库</category>
