@@ -28,48 +28,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于Blender中的插件推荐与记录</title>
-    <url>/wytblog/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%20%E6%8F%92%E4%BB%B6/</url>
-    <content><![CDATA[<p>打光技巧 + 动画K帧技巧 + Blender物理方面 + 修改器 + 几何节点</p>
-<h1 id="mmd-tools">😎 MMD-Tools</h1>
-<p>GitHub下载地址：<a class="btn-anzhiyu " href="https://github.com/powroupi/blender_mmd_tools" 
-  title="MMD-TOOLS"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>MMD-TOOLS</span></a></p>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>mmd_tools 是一个 Blender 插件，用于导入 MMD （MikuMikuDance）模型数据（.pmd、.pmx）、运动数据 （.vmd） 和姿势数据 （.vpd）。它还支持导出模型数据（.pmx）、运动数据（.vmd）和姿态数据（.vpd）。常用的就是按材质分离和物理装配。但是这个插件里的物理一打开，电脑就会运行的非常慢，而且物理效果我感觉不如MMD软件中的好。所以要进一步研究物理效果。</p>
-              </div>
-            </details>
-<h1 id="auto-rig-pro">🤓 Auto-Rig Pro</h1>
-<p>下载地址：<a class="btn-anzhiyu " href="https://blender.kim/58184.html" 
-  title="Auto-Rig Pro"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Auto-Rig Pro</span></a></p>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>Blender Market Auto-Rig Pro是一套Blender角色绑定工具，可以快速制作三维绑定动画，用于自动为角色添加骨骼绑定，重新定位动画，并为Unity和虚幻引擎提供Fbx导出。通过智能功能快速绑定，放置参考骨骼，使它们与您的角色比例相匹配，只需点击几下即可自定义绑定定义：手指，脚趾数量，脊柱骨骼，多个颈骨，尾巴，耳朵等等。而且还可以自定义的UI： 完全可编辑的布局，按钮位置，颜色，背景图片…Quick Rig是依赖Auto-Rig Pro的一个插件，必须先安装Auto-Rig Pro，才能在Auto-Rig Pro里使用Quick Rig插件。</p><p>插件特征：</p><ul><li>基于对两足动物角色的网格识别的自动骨骼放置求解器，支持非对称模型。</li><li>编辑参考骨骼功能可随时更改装备，如果骨骼不在想要的位置，则无需重做所有内容</li><li>应用“姿势作为休息姿势”功能可快速更改角色的休息姿势，在其上对齐参考骨骼并单击即可应用电枢修改器</li><li>模块化：手指，脚趾，耳朵，LUFANG，可调节量的脊柱，颈部，扭曲骨骼，尾巴和颈部骨骼，复制，移除四肢以绑定具有多条胳膊和腿的生物</li><li>手指自动旋转选项：缩放第一个指骨时弯曲，预定义的拳头姿势</li><li>简易控制器形状版</li><li>骨骼选择器：可以打开/关闭，导入/导出预设</li><li>颜色定制</li><li>符合卡通规范：可拉伸的脊椎，腿部，手臂</li><li>兼容IK-FK捕捉自动键，在解锁所有腿部/前臂旋转轴时可正确捕捉</li><li>IK-FK控制器自动隐藏</li><li>混合IK极点/ IK箭头向量</li><li>腿部2或3条骨骼IK链</li><li>膝盖和肘部固定</li><li>头部旋转锁定或自由旋转</li><li>一键弯曲所有手指（手指抓住），拳头预先定义的姿势，手指指骨从刻度自动旋转</li><li>IK / FK眼睛</li><li>自动眼睑旋转</li><li>多个Child-Of约束支持IK手脚随时更改其父级空间</li><li>整套辅助控制器，用于精细造型</li><li>先进的面部设置和自动放置</li><li>基于Blender的热图改进了外观，自动拆分多个元素+体素化，符合Voxel Heat Diffuse Skinning附加组件</li><li>形状键驱动程序创建工具</li><li>游戏引擎支持，FBX，Unity，虚幻引擎通用绑定类型</li><li>骨骼重映射器可将任何电枢动作重新定向到具有不同骨骼名称和骨骼方向的另一个，IK支持，符合BVH，FBX文- 件，例如Mixamo动画。</li><li>符合X-Muscle的逼真的肌肉模拟</li></ul><p>介绍页参考：<a href="https://www.forcger.com/6453.html">https://www.forcger.com/6453.html</a></p>
-              </div>
-            </details>
-<h1 id="bone-dynamics-pro">🧐 Bone Dynamics Pro</h1>
-<p>下载地址：<a class="btn-anzhiyu " href="https://blender.kim/70532.html" 
-  title="Auto-Rig Pro"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Auto-Rig Pro</span></a></p>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>Blender插件-骨骼真实物理模拟效果 Bonedynamics Pro，插件允许您将一些物理属性添加到骨骼上。</p><p>插件特征：</p><ul><li>动态调整一个或多个骨骼物理参数</li><li>对整个骨骼的碰撞</li><li>骨骼对运动和碰撞做出反应。</li><li>超级容易设置。</li><li>伸展骨骼的能力。</li><li>制造骨链的能力。</li><li>易于调整（它在引擎盖下使用柔软的身体）。</li></ul>
-              </div>
-            </details>
-<h1 id="toon-spells-qia-xuan-mi-zhou">😲 Toon Spells卡渲密咒</h1>
-<p><a href="https://blenderco.cn/49551.html">https://blenderco.cn/49551.html</a></p>
-<h1 id="cheng-xu-hua-qia-tong-dong-man-tian-kong">🌄程序化卡通动漫天空</h1>
-<h1 id="m-3-jian-mo-gong-ju">👻 M3建模工具</h1>
-<h1 id="zi-dai-de-gong-ju">自带的工具</h1>
-<p>Loop</p>
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于模型绑定：AutoRig Pro 绑定插件的使用</title>
     <url>/wytblog/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%20%E7%BB%91%E5%AE%9A/</url>
     <content><![CDATA[<p>果然这个插件就是用来拯救动画er的！！绑定简直不要太方便啦！</p>
@@ -104,6 +62,149 @@
       </categories>
       <tags>
         <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>动漫卡通风格化渲染的基本了解</title>
+    <url>/wytblog/2023/08/27/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%E5%8D%A1%E6%B8%B2/</url>
+    <content><![CDATA[<h1 id="liao-jie-xiang-guan-zhi-shi-ing">🦝 了解相关知识ing</h1>
+<p>常见的渲染风格：</p>
+<ul>
+<li>基于物理的渲染PBR（Physically Based Rendering）（再议）。</li>
+<li>非真实渲染NPR（Non-Photorealistic Rendering）风格化渲染。包括素描风格、水彩风格、卡通渲染等。</li>
+</ul>
+<p>卡通渲染（cel shading/toon shading）最常见的风格又分为美式卡通（阴影渐变的层次色彩丰富）与日式卡通（阴影二分化明显，大色块铺色）。要想一个人物好看，最最最主要的还是得贴图好看</p>
+<p>按我自己的理解：三渲二中的光影和描边是两大关键。</p>
+<ul>
+<li>有关光的细节有：边缘光、高光（兰伯特）、金属光泽、直接光照、间接光照</li>
+<li>阴影：脸部SDF平滑阴影</li>
+</ul>
+<h1 id="cha-jian-xuan-ran">🐾 插件渲染</h1>
+<details class="folding-tag" ><summary> 强烈推荐卡渲密咒 </summary>
+              <div class='content'>
+              <p class='p center logo large'>卡渲秘咒</p><p>真的超级好用，感谢大佬！插件使用的前置条件：</p><p>1.插件下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1RMeD86bWSt5XSN3-zcz3WQ"   title="提取码：KXMZ"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：KXMZ</span></a><br>2.星穹铁道贴图下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1YanzLjNbp4JUb4wOhtpouw"   title="提取码：XQTD"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：XQTD</span></a><br>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取或找大佬整理好的）。<br>3.一键仿星穹铁道功能详解视频：<a class="btn-anzhiyu " href="https://b23.tv/ELfl2Rs"   title="详细讲解地址"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>详细讲解地址</span></a></p><p>插件安装：<wavy>编辑——偏好设置——插件——安装——选择下载的压缩包</wavy></p><p>这个插件的使用主要是这样的：导入模型后，打开界面，<wavy>选择贴图</wavy>（贴图一定要正确），点击星铁咒，就OK了。</p><p>这是渲染好的效果图：阴影，SDF，采样，高光，金属质感都还不错的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/卡渲密咒测试.png" style="width:650px;"/></div></div><p>除了星铁咒，还有一个通用毛毛豆的咒语，用了一段时间也很好用，但因为是群组的关系，一改整个都该了，不适合单个工程中出现多人物渲染。也可能是我不会用，再摸索摸索，基本单人物MMD比较好用，一键解决所有麻烦啊啊真的很方便！！</p>
+              </div>
+            </details>
+<h1 id="yu-she-xuan-ran">🐸 预设渲染</h1>
+<details class="folding-tag" ><summary> Blender仿原神渲染预设5.0 </summary>
+              <div class='content'>
+              <p>这个是UP小二今天吃啥啊的自制仿原神的三渲二的预设，允许使用，需要自己去模之屋进行下载。我理解的简单使用预设的流程是这样：</p><ul><li>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取贴图有专门的工具，但是建议直接从网上找大佬整理好的）。为了方便，相同材质的合并到一起。</li><li>找一些渲染预设，里面的必要的且常用的节点会<strong>被打成组</strong>，然后文件—追加—仿原神渲染渲染预设.blender—NodeTree——追加。里面主要是分为头发、衣服、脸部、边缘光、金属、ramp等效果。</li><li>接下来就是材质节点的一些<strong>连线</strong>。主要是将贴图接入，会实现神奇的效果，真的很方便。</li></ul><p>测试效果如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染预设测试1.png" style="width:650px;"/></div></div>
+              </div>
+            </details>
+<p>如果想实现比较好的效果，需要从0开始自己搭建完整的工程。这样能够理解整个三渲二的流程。要想人物渲染的好看，贴图的绘制必须精美，除此之外，其实光影贴图也是非常重要的。</p>
+<details class="folding-tag" ><summary> komikaze动漫风格化渲染预设 </summary>
+              <div class='content'>
+              <p>最近找到一个非常好用的预设资产：<p class='p center logo large'>komikaze动漫风格化渲染预设</p></p><p>地址：<a class="btn-anzhiyu " href="https://www.gfxcamp.com/komikaze/"   title="Komikaze V2"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Komikaze V2</span></a></p><p>真的一键解决上述所有问题，还附赠各种金木水火土风，星空等各种卡通材质，真的非常好用！墙裂推荐！！好用值：⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  Max！！！</p><p>Komikaze渲染测试：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/cover/卡渲封面.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h1 id="b-zhan-mhy-shi-xuan-ran-cong-ling-kai-shi-wan-zheng-gong-cheng-da-jian-pian">💐 B站MHY式渲染（从零开始完整工程搭建篇）</h1>
+<p>前提：按Tab进入编辑模式，数字键盘1进入正视图，将相同的材质合并到一起，但是为了方便后期调节，眼睛1、眼睛、金属、黑丝这些不要合并。</p>
+<h2 id="tie-tu-de-zheng-he" id="🌰-贴图的整合">🌰 贴图的整合</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>需要先准备四个贴图后面方便使用</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/四个贴图组.png" style="width:400px;"/></div></div><div class="tip bell"><p>组：基本贴图</p><p>主要原理是混合两张图片，用参数调节，0代表第一个贴图；1代表第二个贴图；</p><p>主要是衣服的切换（衣服or衣服1）、是否为脸部、是否为头发。有的可能需要加一个衣服内侧。节点连接如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/基础贴图设置.png" style="width:600px;"/></div></div></div><div class="tip home"><p>组：光照贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/光照图设置.png" style="width:600px;"/></div></div></div><div class="tip sync"><p>组：脸部阴影贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/脸部阴影.png" style="width:600px;"/></div></div></div><div class="tip cogs"><p>组：Ramp贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/Ramp贴图.png" style="width:600px;"/></div></div></div>
+              </div>
+            </details>
+<h2 id="xiang-liang-de-zhun-bei" id="🌰-向量的准备">🌰 向量的准备</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="note primary modern"><p>灯光向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/灯光向量.png" style="width:600px;"/></div></div></div><div class="note info modern"><p>摄像机向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/摄像机向量.png" style="width:600px;"/></div></div></div><div class="note warning modern"><p>法线向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/法线向量.png" style="width:600px;"/></div></div></div><div class="note danger modern"><p>头部向量的搭建<br>① 新建三个空物体（添加——空物体——立方体），不用管位置，先命名为中心、右方、前方<br>② 选中三个空物体和人物骨骼，ctrl+P 选父级为物体<br>③ 依次点选空物体，将设置改为如下：<br>然后，位置全部清零，设置相应位置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量设置.png" style="width:600px;"/></div></div>选中三个空物体，物体→集合→移动到相应的人物集合中即可，开始连接节点<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量驱动器.png" style="width:600px;"/></div></div></div>
+              </div>
+            </details> 
+<p>完成此步骤后可以先连接基本贴图看看效果。</p>
+<h2 id="jian-jie-guang" id="🌰-间接光">🌰 间接光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>间接光混合漫射的节点连接情况：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/间接光.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="yin-ying" id="🌰-阴影">🌰 阴影</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>身体阴影（ilm贴图）和面部阴影（SDF贴图）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/身体阴影.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/面部阴影.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="yin-ying-ramp-cai-yang" id="🌰-阴影ramp采样">🌰 阴影ramp采样</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/采样颜色.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="zhu-guang" id="🌰-主光">🌰 主光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>绑定灯光颜色，使身体颜色随灯光发生变化。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取组.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="gao-guang" id="🌰-高光">🌰 高光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>兰伯特高光设置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/高光设置.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="matcap-bian-yuan-guang" id="🌰-matcap边缘光">🌰 matcap边缘光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主要利用菲涅尔节点：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光1.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="miao-bian-dong-tai-miao-bian" id="🌰-描边（动态描边）">🌰 描边（动态描边）</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>方法很多，目前使用的是卡渲密咒的描边咒，方便快捷，具体使用方法如下，需要自己调教调教才能绘制出比较合适的线条</p><ul><li>先选择头发，在绿色小三角的属性里，把它的名字改为“头发轮廓”，默认是叫“描边权重”</li></ul><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改1.png" style="width:600px;"/></div></div>- 然后选择“描边咒”，更改一些属性，定点组那里是代表线条的粗细，定点组的名字一定要和上面的名字是一样的<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改2.png" style="width:600px;"/></div></div>- 进入“权重模式”，更改不合理的线条，自己看情况改一下。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改3.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果4.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="xi-jie-chu-li" id="🌰-细节处理">🌰 细节处理</h2>
+<h3 id="jin-shu-xiao-guo" id="🍬-金属效果">🍬 金属效果</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/金属明暗对比.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="hei-si-xiao-guo" id="🍬-黑丝效果">🍬 黑丝效果</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div>2、增加漫反射使光照变换时产生二分光影效果。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div>有贴图or无贴图都可：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="yan-jing-chu-li-bu-ling-bu-ling" id="🍬-眼睛处理（布灵布灵）">🍬 眼睛处理（布灵布灵）</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主要是伽马节点。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛高光单独处理.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="yan-jing-tou-guo-liu-hai" id="🍬-眼睛透过刘海">🍬 眼睛透过刘海</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="tou-fa-tou-ying" id="🍬-头发投影">🍬 头发投影</h3>
+<h3 id="tou-fa-gao-guang-chu-li" id="🍬-头发高光处理">🍬 头发高光处理</h3>
+<h3 id="biao-qing-dan-du-chu-li" id="🍬-表情单独处理">🍬 表情单独处理</h3>
+<p>透明处理即可</p>
+<h3 id="dan-xian-bi-zi" id="🍬-单显鼻子">🍬 单显鼻子</h3>
+<h2 id="lai-ba-zhan-shi" id="🌰-来吧，展示">🌰 来吧，展示</h2>
+<p>边缘光加强版，总之要有布灵布灵的感觉，灯光的颜色有一点偏黄</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果1.png" style="width:400px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果2.png" style="width:400px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果3.png" style="width:400px;"/></div></div>
+<h1 id="yi-xie-xuan-ran-si-lu-can-kao">一些渲染思路参考</h1>
+<p>Merlin的卡渲思路：（吃打光，总之就是要亮）<br>
+整体处理：<br>
+漫射+阴影分层+主光+辅光+环境遮蔽+高光+左边缘光+右边缘光<br>
+小二吃啥的卡渲思路：（自带的阴影贴图，吃人物自身的光照贴图）<br>
+分部分进行处理：<br>
+衣服：基础色叠加本人的阴影叠加金属<br>
+脸部：面部阴影控制SDF+调色<br>
+头发：高光加阴影（均需调色处理）控制器移动光照，需要头发阴影贴图</p>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+        <tag>渲染</tag>
       </tags>
   </entry>
   <entry>
@@ -589,146 +690,45 @@
       </tags>
   </entry>
   <entry>
-    <title>动漫卡通风格化渲染的基本了解</title>
-    <url>/wytblog/2023/08/27/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%E5%8D%A1%E6%B8%B2/</url>
-    <content><![CDATA[<h1 id="liao-jie-xiang-guan-zhi-shi-ing">🦝 了解相关知识ing</h1>
-<p>常见的渲染风格：</p>
-<ul>
-<li>基于物理的渲染PBR（Physically Based Rendering）（再议）。</li>
-<li>非真实渲染NPR（Non-Photorealistic Rendering）风格化渲染。包括素描风格、水彩风格、卡通渲染等。</li>
-</ul>
-<p>卡通渲染（cel shading/toon shading）最常见的风格又分为美式卡通（阴影渐变的层次色彩丰富）与日式卡通（阴影二分化明显，大色块铺色）。要想一个人物好看，最最最主要的还是得贴图好看</p>
-<p>按我自己的理解：三渲二中的光影和描边是两大关键。</p>
-<ul>
-<li>有关光的细节有：边缘光、高光（兰伯特）、金属光泽、直接光照、间接光照</li>
-<li>阴影：脸部SDF平滑阴影</li>
-</ul>
-<h1 id="cha-jian-xuan-ran">🐾 插件渲染</h1>
-<details class="folding-tag" ><summary> 强烈推荐卡渲密咒 </summary>
-              <div class='content'>
-              <p class='p center logo large'>卡渲秘咒</p><p>真的超级好用，感谢大佬！插件使用的前置条件：</p><p>1.插件下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1RMeD86bWSt5XSN3-zcz3WQ"   title="提取码：KXMZ"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：KXMZ</span></a><br>2.星穹铁道贴图下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1YanzLjNbp4JUb4wOhtpouw"   title="提取码：XQTD"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：XQTD</span></a><br>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取或找大佬整理好的）。<br>3.一键仿星穹铁道功能详解视频：<a class="btn-anzhiyu " href="https://b23.tv/ELfl2Rs"   title="详细讲解地址"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>详细讲解地址</span></a></p><p>插件安装：<wavy>编辑——偏好设置——插件——安装——选择下载的压缩包</wavy></p><p>这个插件的使用主要是这样的：导入模型后，打开界面，<wavy>选择贴图</wavy>（贴图一定要正确），点击星铁咒，就OK了。</p><p>这是渲染好的效果图：阴影，SDF，采样，高光，金属质感都还不错的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/卡渲密咒测试.png" style="width:650px;"/></div></div><p>除了星铁咒，还有一个通用毛毛豆的咒语，用了一段时间也很好用，但因为是群组的关系，一改整个都该了，不适合单个工程中出现多人物渲染。也可能是我不会用，再摸索摸索，基本单人物MMD比较好用，一键解决所有麻烦啊啊真的很方便！！</p>
-              </div>
-            </details>
-<h1 id="yu-she-xuan-ran">🐸 预设渲染</h1>
-<details class="folding-tag" ><summary> Blender仿原神渲染预设5.0 </summary>
-              <div class='content'>
-              <p>这个是UP小二今天吃啥啊的自制仿原神的三渲二的预设，允许使用，需要自己去模之屋进行下载。我理解的简单使用预设的流程是这样：</p><ul><li>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取贴图有专门的工具，但是建议直接从网上找大佬整理好的）。为了方便，相同材质的合并到一起。</li><li>找一些渲染预设，里面的必要的且常用的节点会<strong>被打成组</strong>，然后文件—追加—仿原神渲染渲染预设.blender—NodeTree——追加。里面主要是分为头发、衣服、脸部、边缘光、金属、ramp等效果。</li><li>接下来就是材质节点的一些<strong>连线</strong>。主要是将贴图接入，会实现神奇的效果，真的很方便。</li></ul><p>测试效果如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染预设测试1.png" style="width:650px;"/></div></div>
-              </div>
-            </details>
-<p>如果想实现比较好的效果，需要从0开始自己搭建完整的工程。这样能够理解整个三渲二的流程。要想人物渲染的好看，贴图的绘制必须精美，除此之外，其实光影贴图也是非常重要的。</p>
-<details class="folding-tag" ><summary> komikaze动漫风格化渲染预设 </summary>
-              <div class='content'>
-              <p>最近找到一个非常好用的预设资产：<p class='p center logo large'>komikaze动漫风格化渲染预设</p></p><p>地址：<a class="btn-anzhiyu " href="https://www.gfxcamp.com/komikaze/"   title="Komikaze V2"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Komikaze V2</span></a></p><p>真的一键解决上述所有问题，还附赠各种金木水火土风，星空等各种卡通材质，真的非常好用！墙裂推荐！！好用值：⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  Max！！！</p><p>Komikaze渲染测试：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/cover/卡渲封面.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h1 id="b-zhan-mhy-shi-xuan-ran-cong-ling-kai-shi-wan-zheng-gong-cheng-da-jian-pian">💐 B站MHY式渲染（从零开始完整工程搭建篇）</h1>
-<p>前提：按Tab进入编辑模式，数字键盘1进入正视图，将相同的材质合并到一起，但是为了方便后期调节，眼睛1、眼睛、金属、黑丝这些不要合并。</p>
-<h2 id="tie-tu-de-zheng-he" id="🌰-贴图的整合">🌰 贴图的整合</h2>
+    <title>关于Blender中的插件推荐与记录</title>
+    <url>/wytblog/2024/01/21/%E6%8A%80%E8%83%BD%E5%BA%93/Blender%20%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<p>打光技巧 + 动画K帧技巧 + Blender物理方面 + 修改器 + 几何节点</p>
+<h1 id="mmd-tools">😎 MMD-Tools</h1>
+<p>GitHub下载地址：<a class="btn-anzhiyu " href="https://github.com/powroupi/blender_mmd_tools" 
+  title="MMD-TOOLS"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>MMD-TOOLS</span></a></p>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <p>需要先准备四个贴图后面方便使用</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/四个贴图组.png" style="width:400px;"/></div></div><div class="tip bell"><p>组：基本贴图</p><p>主要原理是混合两张图片，用参数调节，0代表第一个贴图；1代表第二个贴图；</p><p>主要是衣服的切换（衣服or衣服1）、是否为脸部、是否为头发。有的可能需要加一个衣服内侧。节点连接如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/基础贴图设置.png" style="width:600px;"/></div></div></div><div class="tip home"><p>组：光照贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/光照图设置.png" style="width:600px;"/></div></div></div><div class="tip sync"><p>组：脸部阴影贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/脸部阴影.png" style="width:600px;"/></div></div></div><div class="tip cogs"><p>组：Ramp贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/Ramp贴图.png" style="width:600px;"/></div></div></div>
+              <p>mmd_tools 是一个 Blender 插件，用于导入 MMD （MikuMikuDance）模型数据（.pmd、.pmx）、运动数据 （.vmd） 和姿势数据 （.vpd）。它还支持导出模型数据（.pmx）、运动数据（.vmd）和姿态数据（.vpd）。常用的就是按材质分离和物理装配。但是这个插件里的物理一打开，电脑就会运行的非常慢，而且物理效果我感觉不如MMD软件中的好。所以要进一步研究物理效果。</p>
               </div>
             </details>
-<h2 id="xiang-liang-de-zhun-bei" id="🌰-向量的准备">🌰 向量的准备</h2>
+<h1 id="auto-rig-pro">🤓 Auto-Rig Pro</h1>
+<p>下载地址：<a class="btn-anzhiyu " href="https://blender.kim/58184.html" 
+  title="Auto-Rig Pro"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Auto-Rig Pro</span></a></p>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <div class="note primary modern"><p>灯光向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/灯光向量.png" style="width:600px;"/></div></div></div><div class="note info modern"><p>摄像机向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/摄像机向量.png" style="width:600px;"/></div></div></div><div class="note warning modern"><p>法线向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/法线向量.png" style="width:600px;"/></div></div></div><div class="note danger modern"><p>头部向量的搭建<br>① 新建三个空物体（添加——空物体——立方体），不用管位置，先命名为中心、右方、前方<br>② 选中三个空物体和人物骨骼，ctrl+P 选父级为物体<br>③ 依次点选空物体，将设置改为如下：<br>然后，位置全部清零，设置相应位置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量设置.png" style="width:600px;"/></div></div>选中三个空物体，物体→集合→移动到相应的人物集合中即可，开始连接节点<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量驱动器.png" style="width:600px;"/></div></div></div>
-              </div>
-            </details> 
-<p>完成此步骤后可以先连接基本贴图看看效果。</p>
-<h2 id="jian-jie-guang" id="🌰-间接光">🌰 间接光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>间接光混合漫射的节点连接情况：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/间接光.png" style="width:600px;"/></div></div>
+              <p>Blender Market Auto-Rig Pro是一套Blender角色绑定工具，可以快速制作三维绑定动画，用于自动为角色添加骨骼绑定，重新定位动画，并为Unity和虚幻引擎提供Fbx导出。通过智能功能快速绑定，放置参考骨骼，使它们与您的角色比例相匹配，只需点击几下即可自定义绑定定义：手指，脚趾数量，脊柱骨骼，多个颈骨，尾巴，耳朵等等。而且还可以自定义的UI： 完全可编辑的布局，按钮位置，颜色，背景图片…Quick Rig是依赖Auto-Rig Pro的一个插件，必须先安装Auto-Rig Pro，才能在Auto-Rig Pro里使用Quick Rig插件。</p><p>插件特征：</p><ul><li>基于对两足动物角色的网格识别的自动骨骼放置求解器，支持非对称模型。</li><li>编辑参考骨骼功能可随时更改装备，如果骨骼不在想要的位置，则无需重做所有内容</li><li>应用“姿势作为休息姿势”功能可快速更改角色的休息姿势，在其上对齐参考骨骼并单击即可应用电枢修改器</li><li>模块化：手指，脚趾，耳朵，LUFANG，可调节量的脊柱，颈部，扭曲骨骼，尾巴和颈部骨骼，复制，移除四肢以绑定具有多条胳膊和腿的生物</li><li>手指自动旋转选项：缩放第一个指骨时弯曲，预定义的拳头姿势</li><li>简易控制器形状版</li><li>骨骼选择器：可以打开/关闭，导入/导出预设</li><li>颜色定制</li><li>符合卡通规范：可拉伸的脊椎，腿部，手臂</li><li>兼容IK-FK捕捉自动键，在解锁所有腿部/前臂旋转轴时可正确捕捉</li><li>IK-FK控制器自动隐藏</li><li>混合IK极点/ IK箭头向量</li><li>腿部2或3条骨骼IK链</li><li>膝盖和肘部固定</li><li>头部旋转锁定或自由旋转</li><li>一键弯曲所有手指（手指抓住），拳头预先定义的姿势，手指指骨从刻度自动旋转</li><li>IK / FK眼睛</li><li>自动眼睑旋转</li><li>多个Child-Of约束支持IK手脚随时更改其父级空间</li><li>整套辅助控制器，用于精细造型</li><li>先进的面部设置和自动放置</li><li>基于Blender的热图改进了外观，自动拆分多个元素+体素化，符合Voxel Heat Diffuse Skinning附加组件</li><li>形状键驱动程序创建工具</li><li>游戏引擎支持，FBX，Unity，虚幻引擎通用绑定类型</li><li>骨骼重映射器可将任何电枢动作重新定向到具有不同骨骼名称和骨骼方向的另一个，IK支持，符合BVH，FBX文- 件，例如Mixamo动画。</li><li>符合X-Muscle的逼真的肌肉模拟</li></ul><p>介绍页参考：<a href="https://www.forcger.com/6453.html">https://www.forcger.com/6453.html</a></p>
               </div>
             </details>
-<h2 id="yin-ying" id="🌰-阴影">🌰 阴影</h2>
+<h1 id="bone-dynamics-pro">🧐 Bone Dynamics Pro</h1>
+<p>下载地址：<a class="btn-anzhiyu " href="https://blender.kim/70532.html" 
+  title="Auto-Rig Pro"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Auto-Rig Pro</span></a></p>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <p>身体阴影（ilm贴图）和面部阴影（SDF贴图）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/身体阴影.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/面部阴影.png" style="width:600px;"/></div></div>
+              <p>Blender插件-骨骼真实物理模拟效果 Bonedynamics Pro，插件允许您将一些物理属性添加到骨骼上。</p><p>插件特征：</p><ul><li>动态调整一个或多个骨骼物理参数</li><li>对整个骨骼的碰撞</li><li>骨骼对运动和碰撞做出反应。</li><li>超级容易设置。</li><li>伸展骨骼的能力。</li><li>制造骨链的能力。</li><li>易于调整（它在引擎盖下使用柔软的身体）。</li></ul>
               </div>
             </details>
-<h2 id="yin-ying-ramp-cai-yang" id="🌰-阴影ramp采样">🌰 阴影ramp采样</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/采样颜色.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="zhu-guang" id="🌰-主光">🌰 主光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>绑定灯光颜色，使身体颜色随灯光发生变化。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取组.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="gao-guang" id="🌰-高光">🌰 高光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>兰伯特高光设置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/高光设置.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="matcap-bian-yuan-guang" id="🌰-matcap边缘光">🌰 matcap边缘光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主要利用菲涅尔节点：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光1.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="miao-bian-dong-tai-miao-bian" id="🌰-描边（动态描边）">🌰 描边（动态描边）</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>方法很多，目前使用的是卡渲密咒的描边咒，方便快捷，具体使用方法如下，需要自己调教调教才能绘制出比较合适的线条</p><ul><li>先选择头发，在绿色小三角的属性里，把它的名字改为“头发轮廓”，默认是叫“描边权重”</li></ul><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改1.png" style="width:600px;"/></div></div>- 然后选择“描边咒”，更改一些属性，定点组那里是代表线条的粗细，定点组的名字一定要和上面的名字是一样的<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改2.png" style="width:600px;"/></div></div>- 进入“权重模式”，更改不合理的线条，自己看情况改一下。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改3.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果4.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="xi-jie-chu-li" id="🌰-细节处理">🌰 细节处理</h2>
-<h3 id="jin-shu-xiao-guo" id="🍬-金属效果">🍬 金属效果</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/金属明暗对比.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="hei-si-xiao-guo" id="🍬-黑丝效果">🍬 黑丝效果</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div>2、增加漫反射使光照变换时产生二分光影效果。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div>有贴图or无贴图都可：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="yan-jing-chu-li-bu-ling-bu-ling" id="🍬-眼睛处理（布灵布灵）">🍬 眼睛处理（布灵布灵）</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主要是伽马节点。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛高光单独处理.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="yan-jing-tou-guo-liu-hai" id="🍬-眼睛透过刘海">🍬 眼睛透过刘海</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="tou-fa-tou-ying" id="🍬-头发投影">🍬 头发投影</h3>
-<h3 id="tou-fa-gao-guang-chu-li" id="🍬-头发高光处理">🍬 头发高光处理</h3>
-<h3 id="biao-qing-dan-du-chu-li" id="🍬-表情单独处理">🍬 表情单独处理</h3>
-<p>透明处理即可</p>
-<h3 id="dan-xian-bi-zi" id="🍬-单显鼻子">🍬 单显鼻子</h3>
-<h2 id="lai-ba-zhan-shi" id="🌰-来吧，展示">🌰 来吧，展示</h2>
-<p>边缘光加强版，总之要有布灵布灵的感觉，灯光的颜色有一点偏黄</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果1.png" style="width:400px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果2.png" style="width:400px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果3.png" style="width:400px;"/></div></div>
-<h1 id="yi-xie-xuan-ran-si-lu-can-kao">一些渲染思路参考</h1>
-<p>Merlin的卡渲思路：（吃打光，总之就是要亮）<br>
-整体处理：<br>
-漫射+阴影分层+主光+辅光+环境遮蔽+高光+左边缘光+右边缘光<br>
-小二吃啥的卡渲思路：（自带的阴影贴图，吃人物自身的光照贴图）<br>
-分部分进行处理：<br>
-衣服：基础色叠加本人的阴影叠加金属<br>
-脸部：面部阴影控制SDF+调色<br>
-头发：高光加阴影（均需调色处理）控制器移动光照，需要头发阴影贴图</p>
+<h1 id="toon-spells-qia-xuan-mi-zhou">😲 Toon Spells卡渲密咒</h1>
+<p><a href="https://blenderco.cn/49551.html">https://blenderco.cn/49551.html</a></p>
+<h1 id="cheng-xu-hua-qia-tong-dong-man-tian-kong">🌄程序化卡通动漫天空</h1>
+<h1 id="m-3-jian-mo-gong-ju">👻 M3建模工具</h1>
+<h1 id="zi-dai-de-gong-ju">自带的工具</h1>
+<p>Loop</p>
 ]]></content>
       <categories>
         <category>点亮技能树</category>
       </categories>
       <tags>
         <tag>Blender</tag>
-        <tag>渲染</tag>
       </tags>
   </entry>
   <entry>
@@ -1050,24 +1050,21 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo遇到的问题以及解决</title>
-    <url>/wytblog/2024/02/19/%E6%8A%80%E8%83%BD%E5%BA%93/hexo_%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E8%A7%A3%E5%86%B3/</url>
-    <content><![CDATA[<h1 id="toc-wen-zhang-mu-lu-wu-fa-tiao-zhuan">Toc文章目录无法跳转</h1>
-<p>这个问题要从使用emoji表情说起，照着教程卸载原来的markdown插件，安装新版的markdown-it插件，会发生点击左侧文章目录不跳转的问题。检查“页面元素”，发现目录一级标题的’toc-link’后没有正常生成href属性，因此无法实现跳转。出现此问题的原因是markdown-it插件的 bug，butterfly主题的博客是由markdown-it渲染的，而这个插件并未渲染 heading 的 id 所以导致锚点失效，目录无法正常跳转。在网页的控制台上的报错如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Uncaught TypeError: Cannot read properties of null (reading &#x27;offsetTop&#x27;)</span><br><span class="line">    at Object.getEleTop (utils.js:208:25)</span><br><span class="line">    at HTMLDivElement.&lt;anonymous&gt; (main.js:369:30)</span><br></pre></td></tr></table></figure>
+    <title>构建记忆宫殿——电子笔记软件测评</title>
+    <url>/wytblog/2024/02/29/%E6%8A%80%E8%83%BD%E5%BA%93/%E5%90%84%E7%B1%BB%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%84/</url>
+    <content><![CDATA[<p>自从上了大学之后，笔记软件就没有固定使用过一款，已经用过好多笔记软件了。像安卓端的幕布、印象笔记、有道云笔记。电脑端的OneNote、Xmind、语雀、obsidian。ios端的goodnote以及notability。自制网站版的笔记：vuepress或者Hexo搭建静态网站。</p>
 <ul>
-<li>首先安装 markdown-it-named-headings 插件：</li>
+<li>幕布</li>
+<li>印象笔记</li>
+<li>有道云笔记</li>
+<li>OneNote</li>
+<li>Xmind</li>
+<li>语雀</li>
+<li>obsidian</li>
+<li>GoodNote</li>
+<li>Notability</li>
+<li>网站搭建知识库</li>
 </ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install markdown-it-named-headings --save </span><br><span class="line">or</span><br><span class="line">npm in markdown-it-named-headings --save</span><br></pre></td></tr></table></figure>
-<ul>
-<li>然后进入项目的根目录，修改根目录下 node_modules\hexo-renderer-markdown-it\lib\renderer.js 文件，在 renderer.js 中添加一行以使用此插件：</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">this.parser.use(require(&#x27;markdown-it-named-headings&#x27;))</span><br></pre></td></tr></table></figure>
-<p>代码粘贴位置如下，记得保存修改，重新运行后即可正常实现目录一级标题的跳转：</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解决toc不跳转.png" style="width:800px;"/></div></div>
-<h1 id="chang-jian-de-dao-ru-live-2-d-bu-zhi-chi-moc-3-ge-shi">常见的导入live2d不支持moc3格式</h1>
-<p>最常见，或者说网上搜索最多人推荐的插件是hexo-helper-live2d，但是下载后不支持moc3的模型格式。然后又在网上搜索找到了hexo-oh-my-live2d插件，这个插件之前在vuepress中也用过，很好用，支持现在主流的moc3格式，具体使用方法参照美化篇里使用。</p>
-<h1 id="mei-hua-she-zhi-an-niu-bu-fan-ying-chu-xian-uncaught-type-error-winbox-is-not-a-function">美化设置按钮不反应，出现Uncaught TypeError: winbox is not a function</h1>
 ]]></content>
       <categories>
         <category>点亮技能树</category>
@@ -1419,27 +1416,41 @@
       </tags>
   </entry>
   <entry>
-    <title>构建记忆宫殿——电子笔记软件测评</title>
-    <url>/wytblog/2024/02/29/%E6%8A%80%E8%83%BD%E5%BA%93/%E5%90%84%E7%B1%BB%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%84/</url>
-    <content><![CDATA[<p>自从上了大学之后，笔记软件就没有固定使用过一款，已经用过好多笔记软件了。像安卓端的幕布、印象笔记、有道云笔记。电脑端的OneNote、Xmind、语雀、obsidian。ios端的goodnote以及notability。自制网站版的笔记：vuepress或者Hexo搭建静态网站。</p>
+    <title>Hexo遇到的问题以及解决</title>
+    <url>/wytblog/2024/02/19/%E6%8A%80%E8%83%BD%E5%BA%93/hexo_%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95%E8%A7%A3%E5%86%B3/</url>
+    <content><![CDATA[<h1 id="toc-wen-zhang-mu-lu-wu-fa-tiao-zhuan">Toc文章目录无法跳转</h1>
+<p>这个问题要从使用emoji表情说起，照着教程卸载原来的markdown插件，安装新版的markdown-it插件，会发生点击左侧文章目录不跳转的问题。检查“页面元素”，发现目录一级标题的’toc-link’后没有正常生成href属性，因此无法实现跳转。出现此问题的原因是markdown-it插件的 bug，butterfly主题的博客是由markdown-it渲染的，而这个插件并未渲染 heading 的 id 所以导致锚点失效，目录无法正常跳转。在网页的控制台上的报错如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Uncaught TypeError: Cannot read properties of null (reading &#x27;offsetTop&#x27;)</span><br><span class="line">    at Object.getEleTop (utils.js:208:25)</span><br><span class="line">    at HTMLDivElement.&lt;anonymous&gt; (main.js:369:30)</span><br></pre></td></tr></table></figure>
 <ul>
-<li>幕布</li>
-<li>印象笔记</li>
-<li>有道云笔记</li>
-<li>OneNote</li>
-<li>Xmind</li>
-<li>语雀</li>
-<li>obsidian</li>
-<li>GoodNote</li>
-<li>Notability</li>
-<li>网站搭建知识库</li>
+<li>首先安装 markdown-it-named-headings 插件：</li>
 </ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install markdown-it-named-headings --save </span><br><span class="line">or</span><br><span class="line">npm in markdown-it-named-headings --save</span><br></pre></td></tr></table></figure>
+<ul>
+<li>然后进入项目的根目录，修改根目录下 node_modules\hexo-renderer-markdown-it\lib\renderer.js 文件，在 renderer.js 中添加一行以使用此插件：</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">this.parser.use(require(&#x27;markdown-it-named-headings&#x27;))</span><br></pre></td></tr></table></figure>
+<p>代码粘贴位置如下，记得保存修改，重新运行后即可正常实现目录一级标题的跳转：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解决toc不跳转.png" style="width:800px;"/></div></div>
+<h1 id="chang-jian-de-dao-ru-live-2-d-bu-zhi-chi-moc-3-ge-shi">常见的导入live2d不支持moc3格式</h1>
+<p>最常见，或者说网上搜索最多人推荐的插件是hexo-helper-live2d，但是下载后不支持moc3的模型格式。然后又在网上搜索找到了hexo-oh-my-live2d插件，这个插件之前在vuepress中也用过，很好用，支持现在主流的moc3格式，具体使用方法参照美化篇里使用。</p>
+<h1 id="mei-hua-she-zhi-an-niu-bu-fan-ying-chu-xian-uncaught-type-error-winbox-is-not-a-function">美化设置按钮不反应，出现Uncaught TypeError: winbox is not a function</h1>
 ]]></content>
       <categories>
         <category>点亮技能树</category>
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>那些年我遇到的小动物们</title>
+    <url>/wytblog/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8A%A8%E7%89%A9%E6%B4%BE%E5%AF%B9/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>日常日常</category>
+      </categories>
+      <tags>
+        <tag>毛绒绒</tag>
       </tags>
   </entry>
   <entry>
@@ -1458,122 +1469,24 @@
       </tags>
   </entry>
   <entry>
-    <title>崩坏：星穹铁道</title>
-    <url>/wytblog/2023/07/20/%E6%B8%B8%E6%88%8F%E5%BA%93/%E5%B4%A9%E5%9D%8F%EF%BC%9A%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93/</url>
-    <content><![CDATA[<p class='p center logo large'>太空轻喜剧</p>
-<p>但愿不要变成太空“清洗”剧。但是！！现在三个星球，噶了四个人了（可可利亚、停云、流萤、知更鸟…）。</p>
-<p>第一次接触这个游戏，是在一个无聊的夜晚，当时已经卸载了《王者荣耀》，又不想再下回来，玩了这么多年感觉也没有当年的热情了，关键是没有好队友和我一起玩了…然后在B站看看预约的游戏更新了没的时候，看到了B站在大力推这个游戏，然后就云试玩了一下，确实感觉还不错，就下载了，距今得有一个多月了，现在觉得超好玩！当然不是指回合策略制的玩法上，毕竟我是一个文本控，吸引我的当然是屑屑的文案和故事剧情的发展啦！当然音乐也非常好听！</p>
-<p>玩法上采用<strong>3D回合策略制</strong>，首先特效真的很美丽很炫酷，很亮，很光（黑夜玩的时候感觉我就是这个世界最亮的星⭐）</p>
-<ul>
-<li>国风特效组：比如丹恒的长梦一绝水墨风、停云的古扇祥纹、镜流的中国对月亮的独特喜爱…饮月就更不用说了龙龙龙完全就是中国文化输出的一个角色。</li>
-<li>背后灵特效组：帮帮我史瓦罗先生+帮帮我神君先生，现在多了一个帮帮我萨穆先生…</li>
-<li>光疗特效组：符玄提名，大招后我的眼睛感觉要瞎了，还有希儿，虽然我没有，但是用过真的也很亮。</li>
-</ul>
-<p>每个敌人头上都会有相应的属性，用相同属性的人物攻击会不同程度的打掉敌人上方白色的弱点血条。一般有一个普攻+一个战技+一个大招（附带着天赋加持）。我没有景⚪和希儿，他们的战斗指数真的好高，我好羡慕啊啊（ps:现在不是很羡慕了，因为我有镜流了啊啊哈哈哈想想就开心），只能用支援角色体验一下…特定时间活动（经营博物馆、温世玲的论文、磐岩镇的擂台赛…）、模拟宇宙、忘却之庭、拟造花萼、侵蚀隧洞、历战余响（再经历一遍大BOSS之战），现在看来每天120的体力真的不够用啊。现在涨到了240！还有储备体力，爱了！</p>
-<p>细数一下，到底是什么留住了我…</p>
-<p><strong>🌹文笔超赞的文案！</strong></p>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>星穹铁道的文案真的超级棒！不仅文笔很好，还塞了非常多的现实梗，很能产生共鸣，给我一种像是连接现实世界的二次元世界的感觉。</p><p>像一开始黑塔空间站的欢迎信的文笔就非常令人惊艳😍，反正我写不来这样的文字，真的十分惭愧…还有随处收集的作品集书页里面的文笔也很惊艳，里面有几首诗写的真的很不错！还有戏谱《前生梦忆》（《再生缘》唱段）+《龙王遗恨》（《龙牙传》唱段）！还有非常多的梗，在大量的梗里添了少量的游戏🤣。</p><p>黑塔空间站里，每一个记忆泡都是一个小故事，路边随手捡的零碎书籍，里面的文风各式各样，判官大人的狗那一篇印象深刻，贝罗伯格出名的书籍《雪国冒险》还没收集全；还有垃圾桶文学和快递文学真的很有趣。感觉这个游戏的文案是目前以来我接触的游戏中最有趣的文案。怎么说呢，把人物代入到现实也很有感觉！已经完全把它当成一个追番游戏了，玩法什么的对我来说是次要的，我要看剧情！！</p><details class="folding-tag" ><summary> 空间站介绍手册 </summary>              <div class='content'>              <p>欢迎来到「黑塔」空间站！</p><p>寰宇的奥秘是诸多学者穷其一生探索的议题，它或许复杂到无法用任何一种语言将其表达，也可能普通到藏匿于随处可见的缝隙角落。而星系之中错落的生灵，却共同绘制出了名为「文明」的瑰丽造物。</p><p>当我们迈步追随其散落的线条时，将会发现所有的方向都朝着共同的指引之星。它是瑰丽而又迷人的，吸引了诸多求知者为其奉献自己的一生，仅为瞥见真理的一角轮廓。而「黑塔」空间站，便是在这条探索指引之星的道路上，搭建而起的庇荫长廊。</p><p>我们重拾起没落乐章的残篇，得以再现辉煌时刻的盛宴；我们解密未知科技的核心，得以窥见文明的智慧结晶是多么耀眼。学者们将自己化作一叶扁舟，渡过浩瀚银河的尽头。而在彼岸静默的答案，则是我们前进的最好回应。</p>              </div>            </details><details class="folding-tag" ><summary> 致：黯淡星 这个任务惊艳到我了 </summary>              <div class='content'>              <p>三无和KB？唱的这首歌好好听，当时听这歌的时候还没有办任务，听完后立马跑去做这个小npc的任务了。</p><p>黑暗在远方列队。用近乎残忍的方式</p><p>解剖着时间。询问爱情的花瓣俯下嘴唇</p><p>如同无限时空中、滴答的钟声。我们别无选择</p><p>只能滑入宇宙那不详的颤抖，如同滑下一道黄昏的斜坡</p><p>就这样，群星依旧在头顶赏乐，沿途将是它们优雅的倦容。</p>              </div>            </details><details class="folding-tag" ><summary> 《前生梦忆》（《再生缘》唱段）+ 《龙王遗恨》（《龙牙传》唱段） </summary>              <div class='content'>              <p>暮沉沉我枯坐倚床头，                        靡靡赤龙，森森青松<br>珠帘半上那珊瑚钩。                          今旦零落逐寒风<br>无心醒来无心睡，                            可怜谁与同<br>半解罗裳我半闭双眸。                         靡靡赤龙，森森青松<br>恍然间风吹花落水推舟，                       世上荣华如转蓬<br>梦见我深入步离战未休。                       与君再难逢<br>佩吴钩，飒沓青骊跃紫骝，                     靡靡赤龙，森森青松<br>登绮楼，与我那郎君斗舰游。                   斗酒欲饮月明中<br>鸣啾啾，两个黄鹂落枝头，                     埋骨复几重<br>忽悠悠，前生的因缘今生愁。                   靡靡赤龙，森森青松<br>十世蜕生，恩仇付水流，                       六百余年凡尘中<br>又实实难把我那郎君丢。                       如梦尽是空<br>猛抬头，珊瑚窗里翻成昼，<br>情难求，梦里前生梦里留。</p>              </div>            </details>
-              </div>
-            </details>
-<p><strong>🌹视觉上的盛宴</strong></p>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>这建模也太太太好看了吧🥰。里面最喜欢的角色的建模是姬子和丹恒（1.2仙骸有终里面的饮月君也好好看啊啊）【目前变心，我爱卡芙卡！！再次变心！我爱镜流😗！！现在知更鸟也好好看】😘😘。帕姆好可爱啊，每天上线都要逗一下它…</p><ul><li>帕姆生气，嘿嘿，可爱；😎</li><li>帕姆唱歌，嘿嘿，可爱；😎</li><li>帕姆扫地，过去绕来绕去，嘿嘿，可爱；😎</li><li>帕姆浇水，近距离参观，嘿嘿，可爱；😜</li><li>帕姆着急，嘿嘿，可爱😎</li></ul><p>每个角色的建模都很精美，这个技术美术的风格戳到我了，真的真的好好看！！没有三维动画那种僵硬写实感，很光！非常光！亮！很亮！辉光打的非常亮，显得人物都很明媚艳丽。也是这三渲二的技术让我掉进了卡通渲染的坑中，现在还在探索中。当然，对二次元人物的建模也很感兴趣，现在还没开始，我认为尤其是姬子这个角色建模建的实在是太精致了，真的好好看。<strong>就是因为姬子这个角色建模，好奇的我掉入了崩坏3的剧情中…现在还没爬出来…目前已在坑底躺平了。（崩三现剧情都过完了现在在肝夏日狂想曲A面的活动。等待第二部ing…）</strong></p>
-              </div>
-            </details>
-<p><strong>🌹听觉上的享受！</strong></p>
-<details class="folding-tag" ><summary> 关于配音 </summary>
-              <div class='content'>
-              <p>啊，姬子的声音好好听啊💘，卡芙卡的配音徐慧老师的声音好好听啊啊💘，漆黑的虎克大人和长不高的白露的配音好可爱啊💘，听说是隔壁的派蒙过来打工的哈哈哈，丹恒的声音很配角色，很贴脸💘。银狼hanser！!!💖符玄的配音花铃竟然配过德莉莎，Terri！从崩坏3爬回来竟然感觉倍感亲切…</p><p>开拓者的声音也很好听，想不到竟然是和素裳一个配音老师——陈婷婷老师！！。镜流的挂机在家都不敢大声放出来……白珩短暂的两句台词倍感亲切kiyana！还有看前瞻的叽米老师！ 啊突然认识了好多配音老师。</p>
-              </div>
-            </details>
-<details class="folding-tag" ><summary> 关于配乐 </summary>
-              <div class='content'>
-              <p>遇到的第一个场景——黑塔空间站的BGM——太空漫步，我觉得非常好听。还有《踏上旅途也很好听》</p><p>再然后是打BOSS可可利亚的BGM简直身临其境！热血沸腾！当时的战斗画面配上<mark class="hl-label red">《WildFire》</mark> 这个配乐简直热血沸腾！！！适配度MAX！！网友们说这是可可利亚处刑曲，真的好好笑。</p><p>还有最近1.2版本新出的 <mark class="hl-label blue">《水龙吟》</mark>  搭配上饮月君开海的剧情，这就是视听盛宴嘛，我悟了！银狼的 <mark class="hl-label orange">《越权访问》</mark>  和丹恒的 <mark class="hl-label red">《长梦一绝》</mark>  也很好听，最近的单曲循环。</p><p>1.3-1.6版本好像没有我特别喜欢的</p><p>2.0版本里的《使一颗心免于哀伤》 好听！爱听！ 《不眠之夜》 好听！爱听！</p>
-              </div>
-            </details>
-<p><strong>🌹令人期待的剧情！</strong></p>
-<p>星神的战争…从空间站到<mark class="hl-label orange">雅利洛Ⅵ号（存护）</mark> 再到<mark class="hl-label blue">仙舟罗浮（巡猎）</mark> ，每一个都是一个小世界，有种快穿的感觉，但是穿完后还能随时回去…</p>
-<p>🍁剧情感受</p>
-<h2 id="bei-luo-bo-ge" id="🐱‍🚀贝洛伯格">🐱‍🚀贝洛伯格</h2>
-<p>雅利洛-Ⅵ是一颗受到星核影响，长期被冰雪覆盖的星球。近千年前，席卷而至的寒潮降临，带来了永冬，以纯白抹平了大地。所幸，「存护」的力量庇佑着贝洛伯格。此处虽受风雪侵凌，人类仍得以幸存。</p>
-<details class="folding-tag" ><summary> 雅利洛Ⅵ号 </summary>
-              <div class='content'>
-              <p>雅利洛Ⅵ号的剧情非常完整，上下层的隔绝与重连，大守护者的误入歧途与牺牲，最让我感受深刻的是出生在上下层隔绝时期的下层区小朋友从没有见过真正的蓝天…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="http://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格.jpg" style="width:600px;"/></div></div><p>虎克这一段给我带来了情绪价值，怎么说呢，就是触动我了，虽然没有她那样的经历，但是令我体会到娜塔莎说这句话的感情 <strong>“虎克，那不是屋顶，那是天空。”</strong> 这句话泪目了，对于在封闭期间出生的下层区的小孩子来说，成长到现在，确实没有见过天空，所以他们也没有天空的概念，当虎克第一次看到天空时，只能惊叹于 “屋顶” 的宽阔，却不知道这是天空。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="http://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格0.jpg" style="width:600px;"/></div></div><p>主角团去参加布洛妮娅的上任仪式！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格1.jpg" style="width:600px;"/></div></div><p>贝洛伯格是 happy ending！！这是什么！一边吵架，一边暗戳戳秀恩爱，浅磕一下嘿嘿。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格2.jpg" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="xian-zhou-luo-fu" id="🐱‍👓仙舟罗浮">🐱‍👓仙舟罗浮</h2>
-<p>目前，剧情中出现的只是六艘中的一艘，罗浮，感觉这个小世界观在独立的看来也还挺大的，也是最能体现中国国传统文化的一段剧情，但是…吐槽良多啊啊啊。最主要的是三四个月的时间，这个剧情怎么能这么少啊啊，其它的云上五骁什么的都没有讲解刻画啊，只出现在文字里，这么长的时间为什么不多弄点剧情动画啊啊，长草期也太太太长了吧！</p>
-<details class="folding-tag" ><summary> 1.2仙骸有终 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《仙骸有终》</p><p>啊啊啊，停云，我的停云呜呜呜呜，仙骸有终里有停云的骸呜呜呜，怎么会这么快就噶了一个角色啊啊啊！！！</p><p>7.21更新的此版本任务———评书奇谭也上线了，编剧的精神状态令人担忧哈哈哈哈，第二折里的青龙诞生哈哈搞笑，我选的龙尊MK2000型！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/龙尊MK2000.jpg" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<details class="folding-tag" ><summary> 1.3天镜映劫尘 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《天镜映劫尘》</p><p>主要内容是举行葬礼呜呜呜…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_天镜映劫尘.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_天镜映劫尘1.jpg" style="width:600px;"/></div></div><p>呜呜呜呜，我那么大的停云呢，怎么就没了，官方通报给定为死亡了，但是听网友们说扇子有两把，只找到了一把，还有说桑博把她带走，娜塔莎给她治疗中…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/停云2.jpg" style="width:600px;"/></div></div><p>剧情结尾出现的罗刹，果然有问题，抬手的瞬间神似奥托，果然杨叔不待见他是有原因的，一张脸决定了这个人不是好人哈哈哈哈</p><p>静流！！我终于等到你了哈哈哈，她长得好好看啊啊，决定了我要攒票子抽她！我一定要得到手！（1.4版本回来到手啦到手啦）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/镜流.jpg" style="width:600px;"/></div></div><p>丹恒的同行任务：白露和丹恒在一起的大小龙尊画面真的还有些可爱的，嘿嘿(●ˇ∀ˇ●)，饮月之乱出现了一些眉目，云上五骁的故事也浮出水面，这么一看，白露的前世是白珩还是非常有可能的。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/大小龙尊.jpg" style="width:600px;"/></div></div><p>卢卡的同行任务：一开始觉得很中二，看到最后，我真该死，卢卡在完成小女孩的梦想呜呜呜，题外话，希儿好好看啊，好伟大的一张脸啊啊</p><p>三月七的同行任务：（忘了是不是这个版本的了，先放这吧）真的很搞笑啊，尤其是和符玄那段对话，还有空间站对三月七身世的解密哈哈哈。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_37.jpg" style="width:600px;"/></div></div><p>这个版本的活动，《金人巷复兴计划》，很搞笑，斯科特贱贱的声音令人印象深刻，还有青雀请病假，只能说，青雀！真不愧是你，吾辈之楷模！素裳！真不愧是你！吾辈之楷模！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/青雀病假1.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/青雀病假2.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_金人巷合照.jpg" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<details class="folding-tag" ><summary> 1.4冬梦激醒 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《冬梦激醒》</p><p>这个版本的主角是托帕，这次的活动内容是《以太战线》，听说是宝可梦玩法。感觉一般般。</p><p>镜流的同行任务：一言难尽，对剧情不满意的小伙伴太多了，还有对镜流这个这人失望和大骂的，不知该怎么评价。（我还是很喜欢这个角色）可能关键是这个任务中，五个人的人设多少与之前展露的有些不符，还有激情单推人，导致这个剧情被骂惨了，不过<strong>确实该骂</strong>，虽然情情爱爱的大众不喜，但是我认为家国大义是一个拔高的层次，完全没体现出来，要是云上五骁单独出一个剧情不捆绑任何人物的话可能会更客观一点，从每个人的角度来看，都显得带有此角色的主观性色彩。站在镜流的角度看这件事其实整个故事脉络很清晰，我思考了很久，为什么这个剧情争议会这么大？梳理出来了几点：</p><p>1、刃的角色崩的真的很离谱，虽然我不厨他，但是我也能感觉出来这个角色崩的不是一星半点。一开始的PV里刃的表现感觉应该是很不服自己这样的命运，“<strong>业障深重也敢判我有罪，五浊恶世也敢妄称仙舟</strong>”，认为仙舟也不是良善之所。但是在镜流的任务中，他竟然<strong>求</strong>镜流给他一死，结果导致镜流被骂的更惨了，因为镜流是施加伤害的人。但是刃又是导致饮月之乱的从犯。总之，感觉这个角色塑造的很矛盾，真的很矛盾！</p><p>2、完全是思念白珩，没展现家国大义，拘泥于情情爱爱。关于这点，我有话要说！这只是镜流的同行任务啊，不是云五的剧情啊，镜流的同行任务就是要同她走过一段属于她的旅程并非全部啊，而她的这段旅程是要去自首，是要去告别。当然要拉其他人来忏悔后，然后去进行她的下一步计划——弑神。要说家国大义，同行任务没体现但是她的角色故事中很能体现啊，她的这条路不就是弑丰饶，免去丰饶战争嘛。可能是同行任务是了解一个角色最快捷的方式，所以使得很多人只过完这个任务就给镜流下定义了，没有再接触其它的文本补充，这样看的话，确实这个角色在这里面的塑造很像反派！</p><p>啊。不过怎么说，这个剧情确实不太好啊啊。</p><p>托帕的同行任务引发的思考：有一段我印象真的很深刻，也彻底说服我不要签约！就是在面临巨大金额的负债时，公司派人收购这颗星球抵债或者自己偿还这笔负债的选择。布洛妮娅让人去搜集上下层人的意见，是娜塔莎的回答让我印象真的很深刻，大体意思是：如果不收购，那么现在孩子们的梦想是多彩的，未来是有多种选择的，可以选择自己想要的未来，选择权在孩子们自己的手上。但是如果被收购的话，孩子们的未来的道路就只有一条，那就是成为公司的员工。哇！就这一个观点就给我拿捏住了！我就完全倒在不收购的那一方了。在收集意见之前，我自己还思考了一下，在这个情况下，如果我是布洛妮娅我会怎么办……但是去收集意见时我还是偏向收购的选择，但是娜塔莎的一番话让我醍醐灌顶！对啊我只考虑了现在和未来无法偿还账务的情况，完全没有想到这一层，对啊，如果孩子们的未来被钉死了，那么这颗星球就没有未来了！少年强则国强嘛！果然我不适合做领导者，思考的太少了。</p>
-              </div>
-            </details>
-<details class="folding-tag" ><summary> 1.5狐斋志异 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《狐斋志异》</p>- 1.5版本内容——活动<p>这个版本的主要角色是霍霍小可爱，尾巴大爷是叽米哈哈哈，完全把冲浪的我们演绎的淋漓尽致啊啊啊啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_捉鬼小队.jpg" style="width:600px;"/></div></div><p>单独来张合照！！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/捉鬼小队合照.jpg" style="width:600px;"/></div></div><p>寒鸦的人设有点出乎我的意料，竟然是个话痨社畜，爱了。除此之外还是姐控，话里话外都是姐姐，剧情中那段笑死，和桂乃芬和星说话时还一副半死不活的社畜样子，但是雪衣以来，立马变夹子音，别说，这样还有点可爱的</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/寒鸦短信.jpeg" style="width:600px;"/></div></div><p>这个活动里的被岁阳附身青雀也很搞笑啊，青雀变青总，摸鱼不再有，开创了属于青雀的麻将商业帝国！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_青总.jpg" style="width:600px;"/></div></div><details class="folding-tag" blue><summary> 活动——修复照相机 </summary>              <div class='content'>              <p>的小活动好简单，但是给的多啊，我喜欢!刚做完虎克的任务，真的好可爱啊啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机1.jpg" style="width:600px;"/></div></div><p>我没帮她，她自己爬出来了啊哈哈哈哈哈哈，好可爱</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机2.jpg" style="width:600px;"/></div></div><p>还有好多小黑塔</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机.jpg" style="width:600px;"/></div></div><p>最后的合照哈哈哈,纪念一下。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机3.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机4.jpg" style="width:600px;"/></div></div>              </div>            </details><details class="folding-tag" green><summary> 12.7银枝的同行任务搞完了 </summary>              <div class='content'>              <p>下半卡池的银枝快要出了，看PV真的好浮夸啊和桑博有得一拼，但是他的四星池子我真的好心动，每一个都是我需要的，寒鸦、玲可我没有，艾丝妲的星魂也没补齐，要不先下20抽试试。</p><p>12.8 20抽收手，出了一个寒鸦啊啊啊啊啊，也还好，毕竟我没有。</p><p>别说，眼睛没有高光的三月七感觉有点屑……</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝三月七_无高光.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝1.jpg" style="width:600px;"/></div></div>              </div>            </details><p>这几个版本内容磨磨唧唧的，主线故事完全不够看啊，我可是当番剧追的啊啊啊，葬礼完了就没了啊啊</p>
-              </div>
-            </details>
-<h2 id="hei-ta-kong-jian-zhan" id="👻黑塔空间站">👻黑塔空间站</h2>
-<details class="folding-tag" ><summary> 1.6庸与神的冠冕 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《庸与神的冠冕》</p>- 1.6版本内容——活动<p>补一个当时在黑塔空间站中遇到的，特别喜欢的一个记忆泡，查了查名字叫《握紧的双手》：<br>空气中悬浮着一丛气泡，七彩的光华流溢其中，恍惚间形成似有深意的画面。靠近时，一个像是黑塔的女声不带感情地低语：握紧的双手</p><blockquote><p>你靠近忆泡，感到一丝凉意。凉意温柔地穿过你的皮肤、骨肉，穿过更深层的…<br>你的神经元与16号机甲的手臂骨骼连接在一起，这种感觉从来都不舒服。你扭过头想对搭档抱怨，然后，你发现莉亚也在看你，话语不再有必要了。<br>她笑，然后扬手。你感到小臂有了反应，像提线木偶，被看不见的线牵扯。你想对抗，但发觉有些疼，于是你也扬手。痛感果然减轻了。这在你预料之内。<br>「不喜欢像这样被我控制？」她歪头，对你咯咯笑着，眨眨眼，双手又立食指与中指，举过头顶，好像一对兔耳。不得已，你也如此照做。你觉得实在羞耻。<br>你知道她在故意戏弄你：「能别趁机读取我的想法吗？」你故意皱眉，又很快转过头去，避免与她的目光交汇。你从来不适应这个。<br>莉亚轻轻哼笑，又将脸故意凑上来。「16号根本没这个功能，」你感觉到温润的气息扑打着你后颈的皮肤，「你在害羞吗？明明也是女孩子…」<br>你决定结束这个令人尴尬的话题。「我们这次的任务是什么？」你咬牙，喉头含着热炭似的，浑身燥热难耐，发出的声音也变得支离顿挫。<br>「接住那颗星星。」她仰头，见星光自全周天驾驶舱外流溢，落入海平面之下，被波浪揉碎。你闷哼一声，想不通她为何如此镇定。<br>「你在害怕。」她向你伸出手。你发现自己的手臂没有应势而动。看来是她将连接切断了。你思忖着，又见她勾动四指。「来吧，」她很沉静，「像以前那样。」<br>你沉默地伸出手。她将指尖温柔地置入你的手心，卷起你的手指，收拢。她真的好用力，你想，一如既往。可她的身驱明明如此瘦小…<br>舱外的海洋依旧闪烁着星星点点的光芒。你下意识地握紧与莉亚相牵的手，以免那星光从指缝间悄梢溜走。</p></blockquote><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/好喜欢这个记忆泡.jpg" style="width:300px;"/></div></div><p>主要是两个同行任务，阮梅和真理的，真理医生的战斗语音好搞笑啊，0分！下一个！负分!给我滚！哈哈哈。除此之外，出的《千星纪游》的PV真的好好看哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_异宠拾遗.jpg" style="width:600px;"/></div></div><details class="folding-tag" green><summary> 12月底 阮梅同行&猫猫糕活动 </summary>              <div class='content'>              <p>啊啊啊啊啊啊阮梅你没有心啊啊啊啊，这么可爱的猫猫糕你竟然遗弃它们啊啊啊啊，好阔爱好阔爱，尤其是女主这边的配音配的，心都要化了。看了视频才知道，原来不同的主角配的猫猫糕的声音是不一样的。男主那边的配音wuer、wuer的，真是余音绕梁哈哈哈哈。感觉都要记住台词了：我不是阮梅认可的作品wuer、wuer哈哈哈哈。还有那个“哇咔咔，我就是天才”也真的好阔爱啊啊啊</p>              </div>            </details><details class="folding-tag" green><summary> 12月底 磐岩镇联赛（续） </summary>              <div class='content'>              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_磐岩镇联赛.jpg" style="width:600px;"/></div></div>              </div>            </details><p>银枝版本的结尾，坐等匹诺康尼…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_新目的地.jpg" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="pi-nuo-kang-ni" id="🍻匹诺康尼">🍻匹诺康尼</h2>
-<details class="folding-tag" ><summary> 2.0 假如在午夜入梦 </summary>
-              <div class='content'>
-              <p class='p center logo large'>《假如在午夜入梦》</p>- 2.0版本内容——活动<p>一些过主线时截的屏，保存一下，新地图的风景好漂亮啊。剧情刚开始时和三月七的对话，带上我，嘿嘿嘿</p><p><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_01.jpg" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_02.jpg" style="height:200px"/></p><p><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_03.jpg" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_04.jpg" style="height:200px"/></p><p>花火的同行任务，花火扮演了花火的尸体：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0同行任务_花火.jpg" style="width:600px;"/></div></div><p>和流萤的合照，单独放一下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/和流萤的合照.jpg" style="width:600px;"/></div></div><p>温柔的看着你，不再言语。不知道为啥会想到这句话：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/温柔的看着你不再言语.jpg" style="width:600px;"/></div></div><p>回忆：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/回忆.jpg" style="width:600px;"/></div></div><p>很有捉奸现场的感觉：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/有点捉奸现场的感觉.jpg" style="width:600px;"/></div></div><p>2.0既视感，有趣的网友：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0既视感.png" style="width:600px;"/></div></div><p>花火美图存放：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/花火美图.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/花火美图1.jpg" style="width:600px;"/></div></div><p>高清大图哭泣，毕竟梦里被砍了：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/美图存放01.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/美图存放02.jpg" style="width:600px;"/></div></div><p>三月快别说了，我害怕：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/三月别说啦.jpg" style="width:600px;"/></div></div><p>星核猎手的梦境——班长卡芙卡、打游戏但是学习好的银狼、校霸都不敢惹的刃哈哈</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/班长卡芙卡.png" style="width:600px;"/></div></div>我最喜欢的一集！！！<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/我最喜欢的一集.jpg" style="width:600px;"/></div></div><p>路边垃圾桶，一个没猜到它心里去就开打的桶，再也不是贝洛伯格任我翻的桶了，它变了…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/爱财之桶.jpg" style="width:600px;"/></div></div><p>想象一朵未来的玫瑰：这原来是一本书，原著的简介：费尔南多·佩索阿是二十世纪伟大的葡萄牙语诗人，他用一百余个异名创造出一个独特的文学世界。在这些异名当中，“冈波斯”可能最接近佩索阿本人的真相：张扬恣肆的精神世界，只是他用诗歌和文字织就的一个梦；现实生活中，他是一个出门时连旅行箱都永远收拾不好的平凡小职员。<br>最佩服米哈游的一点是文案涉及的思想与书籍众多，很有文化水平！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/想象一朵未来的玫瑰 .jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/想象一朵未来的玫瑰1.jpg" style="width:600px;"/></div></div>有趣的小npc：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/有趣的npc.jpg" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="zhu-xian-ren-wu-tong-xing-ren-wu-zhi-xian-ren-wu" id="主线任务-同行任务-支线任务">主线任务 + 同行任务 + 支线任务</h2>
-<p>主线剧情——至仙舟罗浮</p>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
-    <iframe 
-      src="//player.bilibili.com/player.html?bvid=BV1a14y1Z7sH&page=1&autoplay=0" allowfullscreen="allowfullscreen" 
-      width="100%" 
-      height="500" 
-      scrolling="no" 
-      frameborder="0" 
-      sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls>
-    </iframe>
-</div>
-]]></content>
+    <title>历代雪人介绍</title>
+    <url>/wytblog/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8E%86%E4%BB%A3%E9%9B%AA%E4%BA%BA%E5%88%9B%E9%80%A0/</url>
+    <content><![CDATA[<p>初代雪人，本人创造于2023.01.14在北河沿边。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/初代雪人.jpg" style="width:300px;"/></div></div>
+<p>二代目雪人，于今日（2024.02.05）在楼下。二代目的雪人，不羁的面容中流露出三分不屑，那冷毅的脸庞中隐藏着丝丝冷意，让人不敢靠近。剑眉星目，目光中缀着三分凉薄四分讥笑五分漫不经心。（欸嘿，忘了点鼻子了…）那嘴边叼着的烟头已然慢慢燃尽。啊！多么美丽的雪人啊啊啊哈哈哈哈哈哈哈哈哈编不下去了。</p>
+<p>一开始我搭了个雪人的底座，我弄不上头，妈妈和老弟一人团了一个雪人头，然后他俩团的头合二为一了，我又给整了下造型，我觉得今年的雪人要有所创意，所以给他整了点刘海哈啊哈哈哈，然后爸爸从旁边找了几个木炭，想给他当眼睛。但是眼睛已经被我用雪怼上去了，所以正好拿它当眉毛，抽了一半的烟也给它安上了。再然后我弟说它缺两个手，又给他捡了俩木棍。最终构成了它的最终形态。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人01.jpg" style="width:300px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人02.jpg" style="width:300px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人03.jpg" style="width:300px;"/></div></div>
+<p>还有这个堆在我旁边的可爱派雪人。但是这个雪人经历了它这个年纪不该经历的…</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/别人家的雪人.jpg" alt="可爱流派的雪人" style="width:300px;"/></div><span class="image-caption">可爱流派的雪人</span></div>
+<p>事件是这样的，我下楼的时候这个雪人是已经堆好了的，然后我在离他不远的地方创造的二代目雪人。我刚感叹这个脑袋真的真的好难弄的时候，一个小屁孩飞快地跑向我身后的可爱派雪人，起初我以为他可能只是想拿走这个雪人身上的萝卜，但是我真的没有想到，他竟然给雪人的头给拔了，然后就抱着跑了，最后发现他竟然把这个可爱的雪人的脑袋按到了他自己搭的雪人身上，最后的雪人变成了这个形态。（虽然很不道德，但是还有点可爱(●’◡’●)）</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/缝合雪人.jpg" alt="缝合怪版雪人" style="width:300px;"/></div><span class="image-caption">缝合怪版雪人</span></div>]]></content>
       <categories>
-        <category>游戏库</category>
+        <category>日常日常</category>
       </categories>
       <tags>
-        <tag>崩坏系列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>抽卡记录：星穹铁道</title>
-    <url>/wytblog/2024/02/22/%E6%B8%B8%E6%88%8F%E5%BA%93/%E6%98%9F%E7%A9%B9%E6%8A%BD%E5%8D%A1%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<h2 id="qia-chi-ji-lu" id="卡池记录">卡池记录</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>卡池记录</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0上 希儿</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0下 景元</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1上 银狼</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，但当时是第一次玩抽卡游戏，然后歪了姬子好像是。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1下 罗刹</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，歪了姬子后好像没票子了，没出。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2上 刃</strong></p></div></div><div class='timeline-item-content'><p>没抽好像，也在攒票子期间，但是完全不懂什么大保底小保底什么歪啥的专有名词都不懂。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2下 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>桑博 + 1卡芙卡 + 1希露瓦</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_卡芙卡上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3上 饮月君</strong></p></div></div><div class='timeline-item-content'><p>跳了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3下 符玄</strong></p></div></div><div class='timeline-item-content'><p>想不到，30抽中了！！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_符玄上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4上 镜流</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈哈我青雀溢出来了哈哈哈，但是镜流120抽拿下</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_镜流上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4下 托帕</strong></p></div></div><div class='timeline-item-content'><p>下了10抽，无，一张也不剩了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5上 藿藿</strong></p></div></div><div class='timeline-item-content'><p>一张票子也没了，在攒票子ing</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5下 银枝</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈没出哈哈哈哈哈，精神状态良好哈哈哈哈哈哈哈</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_寒鸦上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6上 真理医生</strong></p></div></div><div class='timeline-item-content'><p>邮箱中收到啦哈哈哈哈（仰天长笑）啊😘，但是要说一下，以真理这个名头送角色真的很显大义。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_真理医生.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6下 阮梅 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>有点后悔没抽了，开年第一次十连抽，感觉很适配卡芙卡和黑天鹅。我只能天天蹭别人的用。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/24开年十连抽.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0上 黑天鹅 饮月</strong></p></div></div><div class='timeline-item-content'><p>啊啊啊30抽，没歪没歪哈哈哈啊哈，但是小青龙的池子80抽，就是说我的小青龙怎么变紫了啊 😑</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_黑天鹅上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0下 花火 景元</strong></p></div></div><div class='timeline-item-content'><p>虽然很喜欢，但是跳，因为后面的黄泉能跳怪，我得留着票子，大号攒票子ing。啊啊啊啊啊小号all in了，没有！！根本没有！！</p></div></div></div>
-              </div>
-            </details>
-<h2 id="shou-ru-nang-zhong-de-jiao-se" id="收入囊中的角色">收入囊中的角色</h2>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0之前角色收藏.png" style="width:450px;"/></div></div>]]></content>
-      <categories>
-        <category>游戏库</category>
-      </categories>
-      <tags>
-        <tag>崩坏系列</tag>
+        <tag>雪王的诞生</tag>
       </tags>
   </entry>
   <entry>
@@ -1731,35 +1644,122 @@
       </tags>
   </entry>
   <entry>
-    <title>历代雪人介绍</title>
-    <url>/wytblog/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8E%86%E4%BB%A3%E9%9B%AA%E4%BA%BA%E5%88%9B%E9%80%A0/</url>
-    <content><![CDATA[<p>初代雪人，本人创造于2023.01.14在北河沿边。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/初代雪人.jpg" style="width:300px;"/></div></div>
-<p>二代目雪人，于今日（2024.02.05）在楼下。二代目的雪人，不羁的面容中流露出三分不屑，那冷毅的脸庞中隐藏着丝丝冷意，让人不敢靠近。剑眉星目，目光中缀着三分凉薄四分讥笑五分漫不经心。（欸嘿，忘了点鼻子了…）那嘴边叼着的烟头已然慢慢燃尽。啊！多么美丽的雪人啊啊啊哈哈哈哈哈哈哈哈哈编不下去了。</p>
-<p>一开始我搭了个雪人的底座，我弄不上头，妈妈和老弟一人团了一个雪人头，然后他俩团的头合二为一了，我又给整了下造型，我觉得今年的雪人要有所创意，所以给他整了点刘海哈啊哈哈哈，然后爸爸从旁边找了几个木炭，想给他当眼睛。但是眼睛已经被我用雪怼上去了，所以正好拿它当眉毛，抽了一半的烟也给它安上了。再然后我弟说它缺两个手，又给他捡了俩木棍。最终构成了它的最终形态。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人01.jpg" style="width:300px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人02.jpg" style="width:300px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人03.jpg" style="width:300px;"/></div></div>
-<p>还有这个堆在我旁边的可爱派雪人。但是这个雪人经历了它这个年纪不该经历的…</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/别人家的雪人.jpg" alt="可爱流派的雪人" style="width:300px;"/></div><span class="image-caption">可爱流派的雪人</span></div>
-<p>事件是这样的，我下楼的时候这个雪人是已经堆好了的，然后我在离他不远的地方创造的二代目雪人。我刚感叹这个脑袋真的真的好难弄的时候，一个小屁孩飞快地跑向我身后的可爱派雪人，起初我以为他可能只是想拿走这个雪人身上的萝卜，但是我真的没有想到，他竟然给雪人的头给拔了，然后就抱着跑了，最后发现他竟然把这个可爱的雪人的脑袋按到了他自己搭的雪人身上，最后的雪人变成了这个形态。（虽然很不道德，但是还有点可爱(●’◡’●)）</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/缝合雪人.jpg" alt="缝合怪版雪人" style="width:300px;"/></div><span class="image-caption">缝合怪版雪人</span></div>]]></content>
+    <title>抽卡记录：星穹铁道</title>
+    <url>/wytblog/2024/02/22/%E6%B8%B8%E6%88%8F%E5%BA%93/%E6%98%9F%E7%A9%B9%E6%8A%BD%E5%8D%A1%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h2 id="qia-chi-ji-lu" id="卡池记录">卡池记录</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>卡池记录</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0上 希儿</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0下 景元</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1上 银狼</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，但当时是第一次玩抽卡游戏，然后歪了姬子好像是。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1下 罗刹</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，歪了姬子后好像没票子了，没出。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2上 刃</strong></p></div></div><div class='timeline-item-content'><p>没抽好像，也在攒票子期间，但是完全不懂什么大保底小保底什么歪啥的专有名词都不懂。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2下 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>桑博 + 1卡芙卡 + 1希露瓦</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_卡芙卡上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3上 饮月君</strong></p></div></div><div class='timeline-item-content'><p>跳了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3下 符玄</strong></p></div></div><div class='timeline-item-content'><p>想不到，30抽中了！！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_符玄上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4上 镜流</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈哈我青雀溢出来了哈哈哈，但是镜流120抽拿下</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_镜流上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4下 托帕</strong></p></div></div><div class='timeline-item-content'><p>下了10抽，无，一张也不剩了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5上 藿藿</strong></p></div></div><div class='timeline-item-content'><p>一张票子也没了，在攒票子ing</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5下 银枝</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈没出哈哈哈哈哈，精神状态良好哈哈哈哈哈哈哈</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_寒鸦上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6上 真理医生</strong></p></div></div><div class='timeline-item-content'><p>邮箱中收到啦哈哈哈哈（仰天长笑）啊😘，但是要说一下，以真理这个名头送角色真的很显大义。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_真理医生.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6下 阮梅 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>有点后悔没抽了，开年第一次十连抽，感觉很适配卡芙卡和黑天鹅。我只能天天蹭别人的用。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/24开年十连抽.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0上 黑天鹅 饮月</strong></p></div></div><div class='timeline-item-content'><p>啊啊啊30抽，没歪没歪哈哈哈啊哈，但是小青龙的池子80抽，就是说我的小青龙怎么变紫了啊 😑</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_黑天鹅上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0下 花火 景元</strong></p></div></div><div class='timeline-item-content'><p>虽然很喜欢，但是跳，因为后面的黄泉能跳怪，我得留着票子，大号攒票子ing。啊啊啊啊啊小号all in了，没有！！根本没有！！</p></div></div></div>
+              </div>
+            </details>
+<h2 id="shou-ru-nang-zhong-de-jiao-se" id="收入囊中的角色">收入囊中的角色</h2>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0之前角色收藏.png" style="width:450px;"/></div></div>]]></content>
       <categories>
-        <category>日常日常</category>
+        <category>游戏库</category>
       </categories>
       <tags>
-        <tag>雪王的诞生</tag>
+        <tag>崩坏系列</tag>
       </tags>
   </entry>
   <entry>
-    <title>那些年我遇到的小动物们</title>
-    <url>/wytblog/2024/02/05/%E6%97%A5%E5%B8%B8%E5%BA%93/%E5%8A%A8%E7%89%A9%E6%B4%BE%E5%AF%B9/</url>
-    <content><![CDATA[]]></content>
+    <title>崩坏：星穹铁道</title>
+    <url>/wytblog/2023/07/20/%E6%B8%B8%E6%88%8F%E5%BA%93/%E5%B4%A9%E5%9D%8F%EF%BC%9A%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93/</url>
+    <content><![CDATA[<p class='p center logo large'>太空轻喜剧</p>
+<p>但愿不要变成太空“清洗”剧。但是！！现在三个星球，噶了四个人了（可可利亚、停云、流萤、知更鸟…）。</p>
+<p>第一次接触这个游戏，是在一个无聊的夜晚，当时已经卸载了《王者荣耀》，又不想再下回来，玩了这么多年感觉也没有当年的热情了，关键是没有好队友和我一起玩了…然后在B站看看预约的游戏更新了没的时候，看到了B站在大力推这个游戏，然后就云试玩了一下，确实感觉还不错，就下载了，距今得有一个多月了，现在觉得超好玩！当然不是指回合策略制的玩法上，毕竟我是一个文本控，吸引我的当然是屑屑的文案和故事剧情的发展啦！当然音乐也非常好听！</p>
+<p>玩法上采用<strong>3D回合策略制</strong>，首先特效真的很美丽很炫酷，很亮，很光（黑夜玩的时候感觉我就是这个世界最亮的星⭐）</p>
+<ul>
+<li>国风特效组：比如丹恒的长梦一绝水墨风、停云的古扇祥纹、镜流的中国对月亮的独特喜爱…饮月就更不用说了龙龙龙完全就是中国文化输出的一个角色。</li>
+<li>背后灵特效组：帮帮我史瓦罗先生+帮帮我神君先生，现在多了一个帮帮我萨穆先生…</li>
+<li>光疗特效组：符玄提名，大招后我的眼睛感觉要瞎了，还有希儿，虽然我没有，但是用过真的也很亮。</li>
+</ul>
+<p>每个敌人头上都会有相应的属性，用相同属性的人物攻击会不同程度的打掉敌人上方白色的弱点血条。一般有一个普攻+一个战技+一个大招（附带着天赋加持）。我没有景⚪和希儿，他们的战斗指数真的好高，我好羡慕啊啊（ps:现在不是很羡慕了，因为我有镜流了啊啊哈哈哈想想就开心），只能用支援角色体验一下…特定时间活动（经营博物馆、温世玲的论文、磐岩镇的擂台赛…）、模拟宇宙、忘却之庭、拟造花萼、侵蚀隧洞、历战余响（再经历一遍大BOSS之战），现在看来每天120的体力真的不够用啊。现在涨到了240！还有储备体力，爱了！</p>
+<p>细数一下，到底是什么留住了我…</p>
+<p><strong>🌹文笔超赞的文案！</strong></p>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>星穹铁道的文案真的超级棒！不仅文笔很好，还塞了非常多的现实梗，很能产生共鸣，给我一种像是连接现实世界的二次元世界的感觉。</p><p>像一开始黑塔空间站的欢迎信的文笔就非常令人惊艳😍，反正我写不来这样的文字，真的十分惭愧…还有随处收集的作品集书页里面的文笔也很惊艳，里面有几首诗写的真的很不错！还有戏谱《前生梦忆》（《再生缘》唱段）+《龙王遗恨》（《龙牙传》唱段）！还有非常多的梗，在大量的梗里添了少量的游戏🤣。</p><p>黑塔空间站里，每一个记忆泡都是一个小故事，路边随手捡的零碎书籍，里面的文风各式各样，判官大人的狗那一篇印象深刻，贝罗伯格出名的书籍《雪国冒险》还没收集全；还有垃圾桶文学和快递文学真的很有趣。感觉这个游戏的文案是目前以来我接触的游戏中最有趣的文案。怎么说呢，把人物代入到现实也很有感觉！已经完全把它当成一个追番游戏了，玩法什么的对我来说是次要的，我要看剧情！！</p><details class="folding-tag" ><summary> 空间站介绍手册 </summary>              <div class='content'>              <p>欢迎来到「黑塔」空间站！</p><p>寰宇的奥秘是诸多学者穷其一生探索的议题，它或许复杂到无法用任何一种语言将其表达，也可能普通到藏匿于随处可见的缝隙角落。而星系之中错落的生灵，却共同绘制出了名为「文明」的瑰丽造物。</p><p>当我们迈步追随其散落的线条时，将会发现所有的方向都朝着共同的指引之星。它是瑰丽而又迷人的，吸引了诸多求知者为其奉献自己的一生，仅为瞥见真理的一角轮廓。而「黑塔」空间站，便是在这条探索指引之星的道路上，搭建而起的庇荫长廊。</p><p>我们重拾起没落乐章的残篇，得以再现辉煌时刻的盛宴；我们解密未知科技的核心，得以窥见文明的智慧结晶是多么耀眼。学者们将自己化作一叶扁舟，渡过浩瀚银河的尽头。而在彼岸静默的答案，则是我们前进的最好回应。</p>              </div>            </details><details class="folding-tag" ><summary> 致：黯淡星 这个任务惊艳到我了 </summary>              <div class='content'>              <p>三无和KB？唱的这首歌好好听，当时听这歌的时候还没有办任务，听完后立马跑去做这个小npc的任务了。</p><p>黑暗在远方列队。用近乎残忍的方式</p><p>解剖着时间。询问爱情的花瓣俯下嘴唇</p><p>如同无限时空中、滴答的钟声。我们别无选择</p><p>只能滑入宇宙那不详的颤抖，如同滑下一道黄昏的斜坡</p><p>就这样，群星依旧在头顶赏乐，沿途将是它们优雅的倦容。</p>              </div>            </details><details class="folding-tag" ><summary> 《前生梦忆》（《再生缘》唱段）+ 《龙王遗恨》（《龙牙传》唱段） </summary>              <div class='content'>              <p>暮沉沉我枯坐倚床头，                        靡靡赤龙，森森青松<br>珠帘半上那珊瑚钩。                          今旦零落逐寒风<br>无心醒来无心睡，                            可怜谁与同<br>半解罗裳我半闭双眸。                         靡靡赤龙，森森青松<br>恍然间风吹花落水推舟，                       世上荣华如转蓬<br>梦见我深入步离战未休。                       与君再难逢<br>佩吴钩，飒沓青骊跃紫骝，                     靡靡赤龙，森森青松<br>登绮楼，与我那郎君斗舰游。                   斗酒欲饮月明中<br>鸣啾啾，两个黄鹂落枝头，                     埋骨复几重<br>忽悠悠，前生的因缘今生愁。                   靡靡赤龙，森森青松<br>十世蜕生，恩仇付水流，                       六百余年凡尘中<br>又实实难把我那郎君丢。                       如梦尽是空<br>猛抬头，珊瑚窗里翻成昼，<br>情难求，梦里前生梦里留。</p>              </div>            </details>
+              </div>
+            </details>
+<p><strong>🌹视觉上的盛宴</strong></p>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>这建模也太太太好看了吧🥰。里面最喜欢的角色的建模是姬子和丹恒（1.2仙骸有终里面的饮月君也好好看啊啊）【目前变心，我爱卡芙卡！！再次变心！我爱镜流😗！！现在知更鸟也好好看】😘😘。帕姆好可爱啊，每天上线都要逗一下它…</p><ul><li>帕姆生气，嘿嘿，可爱；😎</li><li>帕姆唱歌，嘿嘿，可爱；😎</li><li>帕姆扫地，过去绕来绕去，嘿嘿，可爱；😎</li><li>帕姆浇水，近距离参观，嘿嘿，可爱；😜</li><li>帕姆着急，嘿嘿，可爱😎</li></ul><p>每个角色的建模都很精美，这个技术美术的风格戳到我了，真的真的好好看！！没有三维动画那种僵硬写实感，很光！非常光！亮！很亮！辉光打的非常亮，显得人物都很明媚艳丽。也是这三渲二的技术让我掉进了卡通渲染的坑中，现在还在探索中。当然，对二次元人物的建模也很感兴趣，现在还没开始，我认为尤其是姬子这个角色建模建的实在是太精致了，真的好好看。<strong>就是因为姬子这个角色建模，好奇的我掉入了崩坏3的剧情中…现在还没爬出来…目前已在坑底躺平了。（崩三现剧情都过完了现在在肝夏日狂想曲A面的活动。等待第二部ing…）</strong></p>
+              </div>
+            </details>
+<p><strong>🌹听觉上的享受！</strong></p>
+<details class="folding-tag" ><summary> 关于配音 </summary>
+              <div class='content'>
+              <p>啊，姬子的声音好好听啊💘，卡芙卡的配音徐慧老师的声音好好听啊啊💘，漆黑的虎克大人和长不高的白露的配音好可爱啊💘，听说是隔壁的派蒙过来打工的哈哈哈，丹恒的声音很配角色，很贴脸💘。银狼hanser！!!💖符玄的配音花铃竟然配过德莉莎，Terri！从崩坏3爬回来竟然感觉倍感亲切…</p><p>开拓者的声音也很好听，想不到竟然是和素裳一个配音老师——陈婷婷老师！！。镜流的挂机在家都不敢大声放出来……白珩短暂的两句台词倍感亲切kiyana！还有看前瞻的叽米老师！ 啊突然认识了好多配音老师。</p>
+              </div>
+            </details>
+<details class="folding-tag" ><summary> 关于配乐 </summary>
+              <div class='content'>
+              <p>遇到的第一个场景——黑塔空间站的BGM——太空漫步，我觉得非常好听。还有《踏上旅途也很好听》</p><p>再然后是打BOSS可可利亚的BGM简直身临其境！热血沸腾！当时的战斗画面配上<mark class="hl-label red">《WildFire》</mark> 这个配乐简直热血沸腾！！！适配度MAX！！网友们说这是可可利亚处刑曲，真的好好笑。</p><p>还有最近1.2版本新出的 <mark class="hl-label blue">《水龙吟》</mark>  搭配上饮月君开海的剧情，这就是视听盛宴嘛，我悟了！银狼的 <mark class="hl-label orange">《越权访问》</mark>  和丹恒的 <mark class="hl-label red">《长梦一绝》</mark>  也很好听，最近的单曲循环。</p><p>1.3-1.6版本好像没有我特别喜欢的</p><p>2.0版本里的《使一颗心免于哀伤》 好听！爱听！ 《不眠之夜》 好听！爱听！</p>
+              </div>
+            </details>
+<p><strong>🌹令人期待的剧情！</strong></p>
+<p>星神的战争…从空间站到<mark class="hl-label orange">雅利洛Ⅵ号（存护）</mark> 再到<mark class="hl-label blue">仙舟罗浮（巡猎）</mark> ，每一个都是一个小世界，有种快穿的感觉，但是穿完后还能随时回去…</p>
+<p>🍁剧情感受</p>
+<h2 id="bei-luo-bo-ge" id="🐱‍🚀贝洛伯格">🐱‍🚀贝洛伯格</h2>
+<p>雅利洛-Ⅵ是一颗受到星核影响，长期被冰雪覆盖的星球。近千年前，席卷而至的寒潮降临，带来了永冬，以纯白抹平了大地。所幸，「存护」的力量庇佑着贝洛伯格。此处虽受风雪侵凌，人类仍得以幸存。</p>
+<details class="folding-tag" ><summary> 雅利洛Ⅵ号 </summary>
+              <div class='content'>
+              <p>雅利洛Ⅵ号的剧情非常完整，上下层的隔绝与重连，大守护者的误入歧途与牺牲，最让我感受深刻的是出生在上下层隔绝时期的下层区小朋友从没有见过真正的蓝天…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="http://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格.jpg" style="width:600px;"/></div></div><p>虎克这一段给我带来了情绪价值，怎么说呢，就是触动我了，虽然没有她那样的经历，但是令我体会到娜塔莎说这句话的感情 <strong>“虎克，那不是屋顶，那是天空。”</strong> 这句话泪目了，对于在封闭期间出生的下层区的小孩子来说，成长到现在，确实没有见过天空，所以他们也没有天空的概念，当虎克第一次看到天空时，只能惊叹于 “屋顶” 的宽阔，却不知道这是天空。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="http://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格0.jpg" style="width:600px;"/></div></div><p>主角团去参加布洛妮娅的上任仪式！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格1.jpg" style="width:600px;"/></div></div><p>贝洛伯格是 happy ending！！这是什么！一边吵架，一边暗戳戳秀恩爱，浅磕一下嘿嘿。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_贝洛伯格2.jpg" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="xian-zhou-luo-fu" id="🐱‍👓仙舟罗浮">🐱‍👓仙舟罗浮</h2>
+<p>目前，剧情中出现的只是六艘中的一艘，罗浮，感觉这个小世界观在独立的看来也还挺大的，也是最能体现中国国传统文化的一段剧情，但是…吐槽良多啊啊啊。最主要的是三四个月的时间，这个剧情怎么能这么少啊啊，其它的云上五骁什么的都没有讲解刻画啊，只出现在文字里，这么长的时间为什么不多弄点剧情动画啊啊，长草期也太太太长了吧！</p>
+<details class="folding-tag" ><summary> 1.2仙骸有终 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《仙骸有终》</p><p>啊啊啊，停云，我的停云呜呜呜呜，仙骸有终里有停云的骸呜呜呜，怎么会这么快就噶了一个角色啊啊啊！！！</p><p>7.21更新的此版本任务———评书奇谭也上线了，编剧的精神状态令人担忧哈哈哈哈，第二折里的青龙诞生哈哈搞笑，我选的龙尊MK2000型！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/龙尊MK2000.jpg" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<details class="folding-tag" ><summary> 1.3天镜映劫尘 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《天镜映劫尘》</p><p>主要内容是举行葬礼呜呜呜…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_天镜映劫尘.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_天镜映劫尘1.jpg" style="width:600px;"/></div></div><p>呜呜呜呜，我那么大的停云呢，怎么就没了，官方通报给定为死亡了，但是听网友们说扇子有两把，只找到了一把，还有说桑博把她带走，娜塔莎给她治疗中…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/停云2.jpg" style="width:600px;"/></div></div><p>剧情结尾出现的罗刹，果然有问题，抬手的瞬间神似奥托，果然杨叔不待见他是有原因的，一张脸决定了这个人不是好人哈哈哈哈</p><p>静流！！我终于等到你了哈哈哈，她长得好好看啊啊，决定了我要攒票子抽她！我一定要得到手！（1.4版本回来到手啦到手啦）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/镜流.jpg" style="width:600px;"/></div></div><p>丹恒的同行任务：白露和丹恒在一起的大小龙尊画面真的还有些可爱的，嘿嘿(●ˇ∀ˇ●)，饮月之乱出现了一些眉目，云上五骁的故事也浮出水面，这么一看，白露的前世是白珩还是非常有可能的。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/大小龙尊.jpg" style="width:600px;"/></div></div><p>卢卡的同行任务：一开始觉得很中二，看到最后，我真该死，卢卡在完成小女孩的梦想呜呜呜，题外话，希儿好好看啊，好伟大的一张脸啊啊</p><p>三月七的同行任务：（忘了是不是这个版本的了，先放这吧）真的很搞笑啊，尤其是和符玄那段对话，还有空间站对三月七身世的解密哈哈哈。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_37.jpg" style="width:600px;"/></div></div><p>这个版本的活动，《金人巷复兴计划》，很搞笑，斯科特贱贱的声音令人印象深刻，还有青雀请病假，只能说，青雀！真不愧是你，吾辈之楷模！素裳！真不愧是你！吾辈之楷模！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/青雀病假1.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/青雀病假2.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_金人巷合照.jpg" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<details class="folding-tag" ><summary> 1.4冬梦激醒 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《冬梦激醒》</p><p>这个版本的主角是托帕，这次的活动内容是《以太战线》，听说是宝可梦玩法。感觉一般般。</p><p>镜流的同行任务：一言难尽，对剧情不满意的小伙伴太多了，还有对镜流这个这人失望和大骂的，不知该怎么评价。（我还是很喜欢这个角色）可能关键是这个任务中，五个人的人设多少与之前展露的有些不符，还有激情单推人，导致这个剧情被骂惨了，不过<strong>确实该骂</strong>，虽然情情爱爱的大众不喜，但是我认为家国大义是一个拔高的层次，完全没体现出来，要是云上五骁单独出一个剧情不捆绑任何人物的话可能会更客观一点，从每个人的角度来看，都显得带有此角色的主观性色彩。站在镜流的角度看这件事其实整个故事脉络很清晰，我思考了很久，为什么这个剧情争议会这么大？梳理出来了几点：</p><p>1、刃的角色崩的真的很离谱，虽然我不厨他，但是我也能感觉出来这个角色崩的不是一星半点。一开始的PV里刃的表现感觉应该是很不服自己这样的命运，“<strong>业障深重也敢判我有罪，五浊恶世也敢妄称仙舟</strong>”，认为仙舟也不是良善之所。但是在镜流的任务中，他竟然<strong>求</strong>镜流给他一死，结果导致镜流被骂的更惨了，因为镜流是施加伤害的人。但是刃又是导致饮月之乱的从犯。总之，感觉这个角色塑造的很矛盾，真的很矛盾！</p><p>2、完全是思念白珩，没展现家国大义，拘泥于情情爱爱。关于这点，我有话要说！这只是镜流的同行任务啊，不是云五的剧情啊，镜流的同行任务就是要同她走过一段属于她的旅程并非全部啊，而她的这段旅程是要去自首，是要去告别。当然要拉其他人来忏悔后，然后去进行她的下一步计划——弑神。要说家国大义，同行任务没体现但是她的角色故事中很能体现啊，她的这条路不就是弑丰饶，免去丰饶战争嘛。可能是同行任务是了解一个角色最快捷的方式，所以使得很多人只过完这个任务就给镜流下定义了，没有再接触其它的文本补充，这样看的话，确实这个角色在这里面的塑造很像反派！</p><p>啊。不过怎么说，这个剧情确实不太好啊啊。</p><p>托帕的同行任务引发的思考：有一段我印象真的很深刻，也彻底说服我不要签约！就是在面临巨大金额的负债时，公司派人收购这颗星球抵债或者自己偿还这笔负债的选择。布洛妮娅让人去搜集上下层人的意见，是娜塔莎的回答让我印象真的很深刻，大体意思是：如果不收购，那么现在孩子们的梦想是多彩的，未来是有多种选择的，可以选择自己想要的未来，选择权在孩子们自己的手上。但是如果被收购的话，孩子们的未来的道路就只有一条，那就是成为公司的员工。哇！就这一个观点就给我拿捏住了！我就完全倒在不收购的那一方了。在收集意见之前，我自己还思考了一下，在这个情况下，如果我是布洛妮娅我会怎么办……但是去收集意见时我还是偏向收购的选择，但是娜塔莎的一番话让我醍醐灌顶！对啊我只考虑了现在和未来无法偿还账务的情况，完全没有想到这一层，对啊，如果孩子们的未来被钉死了，那么这颗星球就没有未来了！少年强则国强嘛！果然我不适合做领导者，思考的太少了。</p>
+              </div>
+            </details>
+<details class="folding-tag" ><summary> 1.5狐斋志异 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《狐斋志异》</p>- 1.5版本内容——活动<p>这个版本的主要角色是霍霍小可爱，尾巴大爷是叽米哈哈哈，完全把冲浪的我们演绎的淋漓尽致啊啊啊啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_捉鬼小队.jpg" style="width:600px;"/></div></div><p>单独来张合照！！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/捉鬼小队合照.jpg" style="width:600px;"/></div></div><p>寒鸦的人设有点出乎我的意料，竟然是个话痨社畜，爱了。除此之外还是姐控，话里话外都是姐姐，剧情中那段笑死，和桂乃芬和星说话时还一副半死不活的社畜样子，但是雪衣以来，立马变夹子音，别说，这样还有点可爱的</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/寒鸦短信.jpeg" style="width:600px;"/></div></div><p>这个活动里的被岁阳附身青雀也很搞笑啊，青雀变青总，摸鱼不再有，开创了属于青雀的麻将商业帝国！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_青总.jpg" style="width:600px;"/></div></div><details class="folding-tag" blue><summary> 活动——修复照相机 </summary>              <div class='content'>              <p>的小活动好简单，但是给的多啊，我喜欢!刚做完虎克的任务，真的好可爱啊啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机1.jpg" style="width:600px;"/></div></div><p>我没帮她，她自己爬出来了啊哈哈哈哈哈哈，好可爱</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机2.jpg" style="width:600px;"/></div></div><p>还有好多小黑塔</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机.jpg" style="width:600px;"/></div></div><p>最后的合照哈哈哈,纪念一下。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机3.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_照相机4.jpg" style="width:600px;"/></div></div>              </div>            </details><details class="folding-tag" green><summary> 12.7银枝的同行任务搞完了 </summary>              <div class='content'>              <p>下半卡池的银枝快要出了，看PV真的好浮夸啊和桑博有得一拼，但是他的四星池子我真的好心动，每一个都是我需要的，寒鸦、玲可我没有，艾丝妲的星魂也没补齐，要不先下20抽试试。</p><p>12.8 20抽收手，出了一个寒鸦啊啊啊啊啊，也还好，毕竟我没有。</p><p>别说，眼睛没有高光的三月七感觉有点屑……</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝三月七_无高光.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/同行_银枝1.jpg" style="width:600px;"/></div></div>              </div>            </details><p>这几个版本内容磨磨唧唧的，主线故事完全不够看啊，我可是当番剧追的啊啊啊，葬礼完了就没了啊啊</p>
+              </div>
+            </details>
+<h2 id="hei-ta-kong-jian-zhan" id="👻黑塔空间站">👻黑塔空间站</h2>
+<details class="folding-tag" ><summary> 1.6庸与神的冠冕 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《庸与神的冠冕》</p>- 1.6版本内容——活动<p>补一个当时在黑塔空间站中遇到的，特别喜欢的一个记忆泡，查了查名字叫《握紧的双手》：<br>空气中悬浮着一丛气泡，七彩的光华流溢其中，恍惚间形成似有深意的画面。靠近时，一个像是黑塔的女声不带感情地低语：握紧的双手</p><blockquote><p>你靠近忆泡，感到一丝凉意。凉意温柔地穿过你的皮肤、骨肉，穿过更深层的…<br>你的神经元与16号机甲的手臂骨骼连接在一起，这种感觉从来都不舒服。你扭过头想对搭档抱怨，然后，你发现莉亚也在看你，话语不再有必要了。<br>她笑，然后扬手。你感到小臂有了反应，像提线木偶，被看不见的线牵扯。你想对抗，但发觉有些疼，于是你也扬手。痛感果然减轻了。这在你预料之内。<br>「不喜欢像这样被我控制？」她歪头，对你咯咯笑着，眨眨眼，双手又立食指与中指，举过头顶，好像一对兔耳。不得已，你也如此照做。你觉得实在羞耻。<br>你知道她在故意戏弄你：「能别趁机读取我的想法吗？」你故意皱眉，又很快转过头去，避免与她的目光交汇。你从来不适应这个。<br>莉亚轻轻哼笑，又将脸故意凑上来。「16号根本没这个功能，」你感觉到温润的气息扑打着你后颈的皮肤，「你在害羞吗？明明也是女孩子…」<br>你决定结束这个令人尴尬的话题。「我们这次的任务是什么？」你咬牙，喉头含着热炭似的，浑身燥热难耐，发出的声音也变得支离顿挫。<br>「接住那颗星星。」她仰头，见星光自全周天驾驶舱外流溢，落入海平面之下，被波浪揉碎。你闷哼一声，想不通她为何如此镇定。<br>「你在害怕。」她向你伸出手。你发现自己的手臂没有应势而动。看来是她将连接切断了。你思忖着，又见她勾动四指。「来吧，」她很沉静，「像以前那样。」<br>你沉默地伸出手。她将指尖温柔地置入你的手心，卷起你的手指，收拢。她真的好用力，你想，一如既往。可她的身驱明明如此瘦小…<br>舱外的海洋依旧闪烁着星星点点的光芒。你下意识地握紧与莉亚相牵的手，以免那星光从指缝间悄梢溜走。</p></blockquote><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/好喜欢这个记忆泡.jpg" style="width:300px;"/></div></div><p>主要是两个同行任务，阮梅和真理的，真理医生的战斗语音好搞笑啊，0分！下一个！负分!给我滚！哈哈哈。除此之外，出的《千星纪游》的PV真的好好看哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_异宠拾遗.jpg" style="width:600px;"/></div></div><details class="folding-tag" green><summary> 12月底 阮梅同行&猫猫糕活动 </summary>              <div class='content'>              <p>啊啊啊啊啊啊阮梅你没有心啊啊啊啊，这么可爱的猫猫糕你竟然遗弃它们啊啊啊啊，好阔爱好阔爱，尤其是女主这边的配音配的，心都要化了。看了视频才知道，原来不同的主角配的猫猫糕的声音是不一样的。男主那边的配音wuer、wuer的，真是余音绕梁哈哈哈哈。感觉都要记住台词了：我不是阮梅认可的作品wuer、wuer哈哈哈哈。还有那个“哇咔咔，我就是天才”也真的好阔爱啊啊啊</p>              </div>            </details><details class="folding-tag" green><summary> 12月底 磐岩镇联赛（续） </summary>              <div class='content'>              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/活动_磐岩镇联赛.jpg" style="width:600px;"/></div></div>              </div>            </details><p>银枝版本的结尾，坐等匹诺康尼…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/主线_新目的地.jpg" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="pi-nuo-kang-ni" id="🍻匹诺康尼">🍻匹诺康尼</h2>
+<details class="folding-tag" ><summary> 2.0 假如在午夜入梦 </summary>
+              <div class='content'>
+              <p class='p center logo large'>《假如在午夜入梦》</p>- 2.0版本内容——活动<p>一些过主线时截的屏，保存一下，新地图的风景好漂亮啊。剧情刚开始时和三月七的对话，带上我，嘿嘿嘿</p><p><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_01.jpg" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_02.jpg" style="height:200px"/></p><p><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_03.jpg" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0主线剧情_04.jpg" style="height:200px"/></p><p>花火的同行任务，花火扮演了花火的尸体：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0同行任务_花火.jpg" style="width:600px;"/></div></div><p>和流萤的合照，单独放一下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/和流萤的合照.jpg" style="width:600px;"/></div></div><p>温柔的看着你，不再言语。不知道为啥会想到这句话：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/温柔的看着你不再言语.jpg" style="width:600px;"/></div></div><p>回忆：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/回忆.jpg" style="width:600px;"/></div></div><p>很有捉奸现场的感觉：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/有点捉奸现场的感觉.jpg" style="width:600px;"/></div></div><p>2.0既视感，有趣的网友：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0既视感.png" style="width:600px;"/></div></div><p>花火美图存放：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/花火美图.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/花火美图1.jpg" style="width:600px;"/></div></div><p>高清大图哭泣，毕竟梦里被砍了：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/美图存放01.jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/美图存放02.jpg" style="width:600px;"/></div></div><p>三月快别说了，我害怕：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/三月别说啦.jpg" style="width:600px;"/></div></div><p>星核猎手的梦境——班长卡芙卡、打游戏但是学习好的银狼、校霸都不敢惹的刃哈哈</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/班长卡芙卡.png" style="width:600px;"/></div></div>我最喜欢的一集！！！<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/我最喜欢的一集.jpg" style="width:600px;"/></div></div><p>路边垃圾桶，一个没猜到它心里去就开打的桶，再也不是贝洛伯格任我翻的桶了，它变了…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/爱财之桶.jpg" style="width:600px;"/></div></div><p>想象一朵未来的玫瑰：这原来是一本书，原著的简介：费尔南多·佩索阿是二十世纪伟大的葡萄牙语诗人，他用一百余个异名创造出一个独特的文学世界。在这些异名当中，“冈波斯”可能最接近佩索阿本人的真相：张扬恣肆的精神世界，只是他用诗歌和文字织就的一个梦；现实生活中，他是一个出门时连旅行箱都永远收拾不好的平凡小职员。<br>最佩服米哈游的一点是文案涉及的思想与书籍众多，很有文化水平！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/想象一朵未来的玫瑰 .jpg" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/想象一朵未来的玫瑰1.jpg" style="width:600px;"/></div></div>有趣的小npc：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/有趣的npc.jpg" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="zhu-xian-ren-wu-tong-xing-ren-wu-zhi-xian-ren-wu" id="主线任务-同行任务-支线任务">主线任务 + 同行任务 + 支线任务</h2>
+<p>主线剧情——至仙舟罗浮</p>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
+    <iframe 
+      src="//player.bilibili.com/player.html?bvid=BV1a14y1Z7sH&page=1&autoplay=0" allowfullscreen="allowfullscreen" 
+      width="100%" 
+      height="500" 
+      scrolling="no" 
+      frameborder="0" 
+      sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls>
+    </iframe>
+</div>
+]]></content>
       <categories>
-        <category>日常日常</category>
+        <category>游戏库</category>
       </categories>
       <tags>
-        <tag>毛绒绒</tag>
+        <tag>崩坏系列</tag>
       </tags>
   </entry>
   <entry>
@@ -1819,6 +1819,28 @@
       </tags>
   </entry>
   <entry>
+    <title>2023年碎碎念归档</title>
+    <url>/wytblog/2023/12/05/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2023%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%BD%92%E6%A1%A3/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="ca63a3b672201261eed023a35933820c872be1a51d86cb57e99714f9278771e4">4f9329f92667f126694ae84c350d6ad4402d563a32e453d5a51368ab91c57c5b9c56c8d964312e469906b6f640844fe3823983ddb42f8f58fb7ea8b7f439b56e8717bb1f65d7f3942f5834cb5a9d565820424553077ae6594660e7d4d708b826a61f07052aa5b84a7e163d84d0b618cf4ec1b4a12e901864a4a0e9daf0e001d887ffa6ea4ed6fbcc39c98aa2eae5287bcce129fc2702e8177aa12aa60fff9b56205883f294e466dfe2a0a525d318e9a5b3ecb99a6827c297d73d75e6f4598aeb1f19104980bb2fdff786f9226196f29a21590867fdf443db84a9bca9340754ac5775876284d37dd7ea36ecbc6e5aa0e89f70fb04b641f1f3f187ae83aa512739661217fa8efbe6f6508213b48f7756713fc92e7b1cec7f2a5b28e6eee8e909b4354aada820e9d0a9d3daf8a5c6526130d9a45dff64424c9dd2a0ea0c1210019530b1d16caec7df140b997c799b657a41b7f7eb871d679875cf24b6f695901642dae8b2b12db87d3e9b759d5f09147e4b060fde1da335ae5729f3fedbc61b27d863a542a37527ec8871a07c5e712540f729aa03d07c2117bc6c2f09e136ed8877a0be1602b61ec84adca89cc46f805129c46e473f34785485ed3a8ec9e7db7d910740e8015f05c8105c4710b7e06e2be8987d4ee8696b3b8de555c1fa418af7cf1384a3b93f9c7684807df3d2acedefcb3db1aa5ccbe238a6de1aa157ede9227ed22fbb12d0bfd087c4b7fc304f44bd0fa356c265990ba463ab0e09769280ace7e34725079015beb048abccc43fc53a2e9e55e73713bea7ac26665d643953b4373fa34a6b8ebdb4e1c0766adcc94ed4162aa92bc96edcc8099fd1d5ba13ed1be1b0ba5ede4d5e0802eb6c7fdb7df7c20d0e9d86fd0e73dd0008189fe60147807ed5ff8cf0500f4969a0171c13918cebecfc984cb523a3616d5baef28089dfe2fca8e648a1847e90792684f520c5ac31c80d8c0a9f48d414dbf742c7a8a7967402024d67bcd5ddba04cf9349075c81f108a334952df10b358d927ee34f82cd86d09064e65df915916bfa4a15689538c675a76a2d81190ee9bac82be0b5b55444357d903ac1877fe0d2828b17ac1e1bd1f6588b8ff91f8749ead2c4d803bcb5747bd86afb4505c17dbc6f9d68128adf22b264184c8e747424f568d6a4409d5fb2eb088e0f328f02d1276f085849f147e7acc698874e7b57f5943da71e132d66864489c5c01db1851c4e35ee3efeb48c183e9ef3727838f73c526df971a3644a43b5c1eca7bdc661acb14f43d25d8704f0c22fdc9d27422311aaa4f931b39af49864ba36826fda373853e4ae87c948295838517a7416b3695a56d8dbf3643fc907acb279ce44f382429df5fc22cb2a93ef4883f991d2abfc39db1d49828df4a236f4977e233082d6d22e2a09be36a0902100790bed417ad89e7d82f2c07544bcb18d1f4716b52b81b29a850756b69cfb21cf21e9e47cae3f0595e9852e37506bcea75c39a3ec096b33392746bcc70e2a0edaca3e9ed7e9014781d793e7be81b5af2d75ce4982cf2c1da1f8fb21970345e0859e4f06290025c0fa46e7492faa63ef69b5ff5aa154183ca7667a7ff07b880334de6e9bf20a84ceb93211da8f3e991948d0c8e94aa7dc12cd691d4e733e736c8994e3a1d6c03f53d697c529c3c5e22ecd2cdd208049a7f4edbaaffc45b1078e5b927c0348c6ffae320f724086a6adf9ec30f77128033eaf8d32b84df05ceae2aa487eac0a4960d6b9c301c2a3438dbb0f5c29c7da64c09021d43d80c36d38cf0a2f8b50d88dc126a8c9cba8fe470c7f14345b48e3db1b83fb1aac808e31fe1becfd5ccab32c5ec2a3bbae4c8d228a54a9a5387240a7539a198585dfbe298b7a9e91e895e61d25fb61f102e2a9bb27c113cc2b017751e44edca4a9dcf8b777e3dc20cce58ccccfddea3d2220cbfdfdf3ff18b13f02aca741dbeacb8415389562146b43f06b86b09c469aa35e43bf33af7aa585bff0e9e60f1a1e15e96d203c35b873ce5b85dd9cbd2828f230c80366abbb6d6d304365c35da7d0a8465aff10033faa162931e1efadaa7cf0fe402816efc80b83b5e2d2a6b28f8348323c86287bfee8f6a922846d23358b8d851c4619a5d07fdb3f95fd9a38d828d36b615269b74d231d36a47309caf297481cabe93795681db304084532253f75beec90054d7d40c3ba7b29df477a96a2cd1ef01834c333c6aca107b901f09b9f61535a3dadec57648e76d6dc500ccf234f532c59a365d84963b0c98ce290e1572b932acc4630547db3de4db20675ca7987c3c9d8b300e244af51122eef12ccafda7ed2ea34bb75cbf115b9ff3872a27e3b0f31ebf09925fa7b909190c4a6bcac9d00c082ebce0ef5be7902b03d8d7e202eeac81715d8437131f374b041c54054e07ee775f9aa9d45ade2b71fcecdcaf871e8055ee8d88922c2e3c3af89c3ebf24701462e8f9fe1d365e73eafcbcf5bfc6f40a4b97bfe5e6500caa422bab489b0c113ee56a012d44b18b4f8064d0fefe439aaa90b0cb0ff5a2bb24a95e689656056db08b45d3c095214b108f68b6c1dd957b046038fb8e9552675f68ca69831429e18f73c8f2a1a2805ff61ec3a73234ba2ad1e6d22fc7d5eeddf5baeed61fb761fa906005e31b38f8bb667f41200e33943aa498242bc4f0868f829839a044b8e5390154ac3142bc60f14024e0d6707c2b0718910ab2983565de5ff3fb467404d0417ced6f6bdf56e4da6c6415452fd6af6a183042dabaec7e4ee64ab11bdde37cab3f11f6003dbeeca65b7c9e681a1ae0c50ba24095c230a3032f42ad1eadefe7034b9c9d847d4ea8a4b1237ea38ab9f5c6f3b980edecc70e587514c995744117cfb62694aa0f89e404ea15a6b46436b303f9ae38ff31ae6947d2d34ffa20beeeecb48b735c104d5c9da696004ab1eb2214e05f0eb4a3ba102d1c7f59ede64d239ccce084aac627de605aba9ccc05be9fa1f1a03dd842d5d0b4875b53cfcf774bc19001a61d79ca5a2ede2fe64ef886395481f6cc11309df166a05d81efc28495d92428d8e67a13da895cc9b06dda3a23e1c972b40e075a231a434ac9ca47f1f2d9deb6157b0cccdfc74bd15034cb79c0cb8eb35384de59cb4b0ec25a49212301936f4aaee83f80e87d882b5eaedda649ec9cc32e6e80af4384edf43c68de7d3042b195d320af8825a9f57f75fa232640f748195fb3aeafdade4184e9c7081565b4bc3aee66cf721f88ef8b48f64acf279bf33f49712edef8f80e018cee5a6718203a1bb29326296f5c3643cc5e92c378db0d33b1efa978b3b6ef9217a4d8eee522e71b5573fb49e5b0c0b61e651cc645d37f80f8a0cfdab1386fd43035e7d97c76ec441c5ccd7cdcc3beaf02f09d9402ef1779a78f25fb95d867f2f4223eea3f777a939d1ff132d30dfe076c37d072d6843de77315e83e33940805f85350e5473765a6b5980dd4423c875c74df108e183f24c369ab3ac63eb3d5ced4dfe559edccd62e96a0cf0af160c84761cdb1e3fe6c1d275e6e4b0ae96759222b311f0b47fecce04fcab7c434d944ca8fe9511489a3365c940669ddae88e18618efde5066937ea3139ba41b962a9719cac6261350e0a679d1981b6607e16c054f7cff9db4834a32fd7cfe78bc162600cc91c7eafc3b9d9012e4bd8659433121e39bf14e4fcc412be5c17b107874dc3419f494b97b5d0f300c44a121d01a18b829d3a4e6f23f095d8f57a9a5a126207c594600f0c903896f773046c527c65674a601a081d88ce2f0c3211c15275855466c2b1be3062b9bfbdacc302039c004d9572c9274dbca47a1da8c20abea72e58101424d89e9ac96513a413675b92d45612a32f3af55c6a4a1d3b56e2912c0fb1d6c7f5798c0f42d95862b906ddae7dfb61e269071d42d1330bb2ce5b24fd575e08ef49a7ca951b40c5f160cc5ec7827bb36345d921a52b9fbd116e53d12b2b909497b285a82e00e317bfa32cfa6934cc41549c064fbdbe7bfe3617e1ed2f6b48adc0c2a7cdedc7232f83172691a94442bfaea2b3cd3eb0d86916074283605ce5e64dc688a59aab619bb243f9cb93eb53c10d5f1ba15e36af43f404b38edc16fa76820521a95d823e94cd151731f76728b628b4ad0d4f52b706df85f60f18a140e94e00f9f98f216ba452642c054ceb5347877dad4235de9d4fa14933079c8a44a2e07ec7f5b9e788167c7ab7bba295919b9a03ce1bb37ba581bb9940e7093ad15d97cab77208d70dcba173a8af91d28a96e432ad2bc8c5bb4c67b3ee10cccab33083c3bc62c81e3e0afacec3c65ffcb0a09c1c1ddc55516c3428157bfff04357dd042a68fb8b0fbdb33e05c46194f3e01a92468fd1915b8b94e8a37d5642be47437841d8067022206b16796351ac7b1cc08f09a5191d7b685b873e34be69313f72498e20e6900499be1ea441c0a5e52f1f5b78027b5ccaf54939e1f5fa10d05e41dfdbac0d661d7911e166b8d35581b7a5d0b3c4949759cd04be54aebbdb9847560081be73d540c5968cd205e3d5e5055a6a24a38c00145dc8dd9fba9d29e9f3e46a4c8a6c9c9b5379bf7e5da5a3db0271b0207181106561cdd642d6bd270a14e869415a45e1c81e7a73898b1719fe2b1a8fd02ed2f3270f847263ebb189a601320e3b4e73fd407105fa5ed1fee42e643cfafd522a1447a16e4efeaa5f02c2cacb6e496b3f4eef9815f2e658697dc44711c369cacd83f046fd93fba6c0ec1a57f743c3433a60c589d18de4e00ee056db8c3ee8b809a98e540ececd6d34d06927f6f62ad745c06f7b5c2051ffc4a4934529f3b8094f31bec0f867fe2c0e3e34e7aeb87489b40a0639681fa97e840bb64c4b25477801bb5f2dc6fc11b8134f364688765e310120d082d8279f7e4f3bbeb9a7ca29ca9bceae042b3804b063ec96b5bdd7e5bce38c949fad5107cb35c91cfc489aa3877411155167f80f769ddb46f11ccfcb0d55a832086be43e1719cb22a27e9b0289f7470c27563279b51781359f546fbbaa37494f0a2103085480478a40105f2a0e600f6dd72819ce9a3351d7daf4370e468b29e7977c201901872c5f9dc6e187f9ff8df47fa4636f18619d988321f4afac78420c0c1f0745404b96597385ba4a2e985fd44224599f1758e28886bccc49ec7cb449f648a8287404999292888f89ca969beaccab2720e8a0a4816a4ee7990f055f4b68b517e5307ba1bcf75bce7cbe6c1170edab9fe5d3f6abe6f91c61f33f0df966facb4e650a9be0f2ead14dbe9e87689a865af284a4a3ca270a4964b7fc85897db19c8153ac80568e5221d6520bfea65d8ebc8332b1a1da6c2d62399ba983e55af8da1b9f4b67fb1f052167efef9aa0d1f1697c9523fb1e90a1e792b2bee7ed391d4a2d3925f694f895a19c15390b87ce5db95d1bdc5fbe8c263e8f1b62c91102c63896ec8bff311a6ae6b72228a0edbe369471cb985b01eb4cc57bdd534c41478112b986cad35d87db71e4e5abbe110a432b9c23592b6a04d89e97bf8d21b008ccd68b1d9c86e07aeb4848e1665f9ce741994676f698ec31e80f1c178d71d751d378b9dab62f169478e5bc223c8a3af562441fddd76b5bce9618537a45f772cef286a1a1914c9cac6502484392a8c58ad96a2e80acca6e376f7a17db5a3e7ceed79aa066fb494b11c350ec57ddc82684e316b69b0137b53d96c5b7e1d4bef76bd9da3250edfc73bfb3584d37cde6738396db834a22ee04cbbb6e06ebdb98b1032f7f1b35a2cdd953e28b1960a4c2e0c5017d206e2e1d7df51cd6c9fb7e682eb4c71287ef59a6ac3b4fc036aead957e5496d94838596b2818f066afed39c5dff4d2315cc1de53411742939da876568b3005ac5babc7a3b30da9363e58cea82b5f2afb40ecb38061fbffdcc000d3b4575356b3e1d73e76720235e5bb4ee7921372e5a06f30d6dce89708d97f4e79c110c3f4e796db4e78be554473cdaac26aaecfacf6b3ebe36f3bbc1a102f27d4784192d096175e59f2552f19b3d2db4704a6ab8e392eb9f9e65349e7e2f4133fa6346330d1d1a31365e957a88d545e6d7738d7f1ac036cbb8edebcc98f8df8a11a64bd81bb4e6916cd9e2142f8ae8077033525da8778905b249c8a064f4e9b61fa6f015747b39704cc6733becb126731a4f406f4720ddb0ee0264276d173bda6f78260e7a752cfd1ae62c27f590ba8f0c0baf4916c0a924c3ae2c71610612d84fcc92c03f9ec8527c98207c38835af8d96de00e2175626d9f70061c8877edfbe2d7ea9bd165abfbfa050196bcad70ff064c59b9f3627e343d307bdeaa78c4b073cc53adbe09cac3d125a01e873256bf0d23db03c954e803b8a214d43d9eac10e402d20c752acfcd151b90a145bbdb0242087383c72438a0d0bb30efba96760d18ef458b5ba0d7ac3ac12e6753699d15012e627e975a226aa50982ccb1be8390525e4e6d103902de6e068ee833a70d52380d3beb9e4ef3759ff02fe691549e737a308441229daf1c0</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/wytblog/lib/hbe.js"></script><link href="/wytblog/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>观影碎碎念</category>
+      </categories>
+      <tags>
+        <tag>观影碎碎念</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024年观影大吐槽</title>
     <url>/wytblog/2024/01/20/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2024%E8%A7%82%E5%BD%B1/</url>
     <content><![CDATA[<div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p>
@@ -1835,28 +1857,6 @@
 </div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.18《热烈燃烧》小说</strong></p>
 </div></div><div class='timeline-item-content'><p>唔，这就是典型的暗恋文啊啊啊，但是后面的发展我真的无语死了，真就是工具人必不可少呗。</p>
 </div></div></div>]]></content>
-      <categories>
-        <category>观影碎碎念</category>
-      </categories>
-      <tags>
-        <tag>观影碎碎念</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2023年碎碎念归档</title>
-    <url>/wytblog/2023/12/05/%E8%A7%82%E5%BD%B1%E7%A2%8E%E7%A2%8E%E5%BF%B5/2023%E7%A2%8E%E7%A2%8E%E5%BF%B5%E5%BD%92%E6%A1%A3/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="ca63a3b672201261eed023a35933820c872be1a51d86cb57e99714f9278771e4">4f9329f92667f126694ae84c350d6ad4402d563a32e453d5a51368ab91c57c5b9c56c8d964312e469906b6f640844fe3823983ddb42f8f58fb7ea8b7f439b56e8717bb1f65d7f3942f5834cb5a9d565820424553077ae6594660e7d4d708b826a61f07052aa5b84a7e163d84d0b618cf4ec1b4a12e901864a4a0e9daf0e001d887ffa6ea4ed6fbcc39c98aa2eae5287bcce129fc2702e8177aa12aa60fff9b56205883f294e466dfe2a0a525d318e9a5b3ecb99a6827c297d73d75e6f4598aeb1f19104980bb2fdff786f9226196f29a21590867fdf443db84a9bca9340754ac5775876284d37dd7ea36ecbc6e5aa0e89f70fb04b641f1f3f187ae83aa512739661217fa8efbe6f6508213b48f7756713fc92e7b1cec7f2a5b28e6eee8e909b4354aada820e9d0a9d3daf8a5c6526130d9a45dff64424c9dd2a0ea0c1210019530b1d16caec7df140b997c799b657a41b7f7eb871d679875cf24b6f695901642dae8b2b12db87d3e9b759d5f09147e4b060fde1da335ae5729f3fedbc61b27d863a542a37527ec8871a07c5e712540f729aa03d07c2117bc6c2f09e136ed8877a0be1602b61ec84adca89cc46f805129c46e473f34785485ed3a8ec9e7db7d910740e8015f05c8105c4710b7e06e2be8987d4ee8696b3b8de555c1fa418af7cf1384a3b93f9c7684807df3d2acedefcb3db1aa5ccbe238a6de1aa157ede9227ed22fbb12d0bfd087c4b7fc304f44bd0fa356c265990ba463ab0e09769280ace7e34725079015beb048abccc43fc53a2e9e55e73713bea7ac26665d643953b4373fa34a6b8ebdb4e1c0766adcc94ed4162aa92bc96edcc8099fd1d5ba13ed1be1b0ba5ede4d5e0802eb6c7fdb7df7c20d0e9d86fd0e73dd0008189fe60147807ed5ff8cf0500f4969a0171c13918cebecfc984cb523a3616d5baef28089dfe2fca8e648a1847e90792684f520c5ac31c80d8c0a9f48d414dbf742c7a8a7967402024d67bcd5ddba04cf9349075c81f108a334952df10b358d927ee34f82cd86d09064e65df915916bfa4a15689538c675a76a2d81190ee9bac82be0b5b55444357d903ac1877fe0d2828b17ac1e1bd1f6588b8ff91f8749ead2c4d803bcb5747bd86afb4505c17dbc6f9d68128adf22b264184c8e747424f568d6a4409d5fb2eb088e0f328f02d1276f085849f147e7acc698874e7b57f5943da71e132d66864489c5c01db1851c4e35ee3efeb48c183e9ef3727838f73c526df971a3644a43b5c1eca7bdc661acb14f43d25d8704f0c22fdc9d27422311aaa4f931b39af49864ba36826fda373853e4ae87c948295838517a7416b3695a56d8dbf3643fc907acb279ce44f382429df5fc22cb2a93ef4883f991d2abfc39db1d49828df4a236f4977e233082d6d22e2a09be36a0902100790bed417ad89e7d82f2c07544bcb18d1f4716b52b81b29a850756b69cfb21cf21e9e47cae3f0595e9852e37506bcea75c39a3ec096b33392746bcc70e2a0edaca3e9ed7e9014781d793e7be81b5af2d75ce4982cf2c1da1f8fb21970345e0859e4f06290025c0fa46e7492faa63ef69b5ff5aa154183ca7667a7ff07b880334de6e9bf20a84ceb93211da8f3e991948d0c8e94aa7dc12cd691d4e733e736c8994e3a1d6c03f53d697c529c3c5e22ecd2cdd208049a7f4edbaaffc45b1078e5b927c0348c6ffae320f724086a6adf9ec30f77128033eaf8d32b84df05ceae2aa487eac0a4960d6b9c301c2a3438dbb0f5c29c7da64c09021d43d80c36d38cf0a2f8b50d88dc126a8c9cba8fe470c7f14345b48e3db1b83fb1aac808e31fe1becfd5ccab32c5ec2a3bbae4c8d228a54a9a5387240a7539a198585dfbe298b7a9e91e895e61d25fb61f102e2a9bb27c113cc2b017751e44edca4a9dcf8b777e3dc20cce58ccccfddea3d2220cbfdfdf3ff18b13f02aca741dbeacb8415389562146b43f06b86b09c469aa35e43bf33af7aa585bff0e9e60f1a1e15e96d203c35b873ce5b85dd9cbd2828f230c80366abbb6d6d304365c35da7d0a8465aff10033faa162931e1efadaa7cf0fe402816efc80b83b5e2d2a6b28f8348323c86287bfee8f6a922846d23358b8d851c4619a5d07fdb3f95fd9a38d828d36b615269b74d231d36a47309caf297481cabe93795681db304084532253f75beec90054d7d40c3ba7b29df477a96a2cd1ef01834c333c6aca107b901f09b9f61535a3dadec57648e76d6dc500ccf234f532c59a365d84963b0c98ce290e1572b932acc4630547db3de4db20675ca7987c3c9d8b300e244af51122eef12ccafda7ed2ea34bb75cbf115b9ff3872a27e3b0f31ebf09925fa7b909190c4a6bcac9d00c082ebce0ef5be7902b03d8d7e202eeac81715d8437131f374b041c54054e07ee775f9aa9d45ade2b71fcecdcaf871e8055ee8d88922c2e3c3af89c3ebf24701462e8f9fe1d365e73eafcbcf5bfc6f40a4b97bfe5e6500caa422bab489b0c113ee56a012d44b18b4f8064d0fefe439aaa90b0cb0ff5a2bb24a95e689656056db08b45d3c095214b108f68b6c1dd957b046038fb8e9552675f68ca69831429e18f73c8f2a1a2805ff61ec3a73234ba2ad1e6d22fc7d5eeddf5baeed61fb761fa906005e31b38f8bb667f41200e33943aa498242bc4f0868f829839a044b8e5390154ac3142bc60f14024e0d6707c2b0718910ab2983565de5ff3fb467404d0417ced6f6bdf56e4da6c6415452fd6af6a183042dabaec7e4ee64ab11bdde37cab3f11f6003dbeeca65b7c9e681a1ae0c50ba24095c230a3032f42ad1eadefe7034b9c9d847d4ea8a4b1237ea38ab9f5c6f3b980edecc70e587514c995744117cfb62694aa0f89e404ea15a6b46436b303f9ae38ff31ae6947d2d34ffa20beeeecb48b735c104d5c9da696004ab1eb2214e05f0eb4a3ba102d1c7f59ede64d239ccce084aac627de605aba9ccc05be9fa1f1a03dd842d5d0b4875b53cfcf774bc19001a61d79ca5a2ede2fe64ef886395481f6cc11309df166a05d81efc28495d92428d8e67a13da895cc9b06dda3a23e1c972b40e075a231a434ac9ca47f1f2d9deb6157b0cccdfc74bd15034cb79c0cb8eb35384de59cb4b0ec25a49212301936f4aaee83f80e87d882b5eaedda649ec9cc32e6e80af4384edf43c68de7d3042b195d320af8825a9f57f75fa232640f748195fb3aeafdade4184e9c7081565b4bc3aee66cf721f88ef8b48f64acf279bf33f49712edef8f80e018cee5a6718203a1bb29326296f5c3643cc5e92c378db0d33b1efa978b3b6ef9217a4d8eee522e71b5573fb49e5b0c0b61e651cc645d37f80f8a0cfdab1386fd43035e7d97c76ec441c5ccd7cdcc3beaf02f09d9402ef1779a78f25fb95d867f2f4223eea3f777a939d1ff132d30dfe076c37d072d6843de77315e83e33940805f85350e5473765a6b5980dd4423c875c74df108e183f24c369ab3ac63eb3d5ced4dfe559edccd62e96a0cf0af160c84761cdb1e3fe6c1d275e6e4b0ae96759222b311f0b47fecce04fcab7c434d944ca8fe9511489a3365c940669ddae88e18618efde5066937ea3139ba41b962a9719cac6261350e0a679d1981b6607e16c054f7cff9db4834a32fd7cfe78bc162600cc91c7eafc3b9d9012e4bd8659433121e39bf14e4fcc412be5c17b107874dc3419f494b97b5d0f300c44a121d01a18b829d3a4e6f23f095d8f57a9a5a126207c594600f0c903896f773046c527c65674a601a081d88ce2f0c3211c15275855466c2b1be3062b9bfbdacc302039c004d9572c9274dbca47a1da8c20abea72e58101424d89e9ac96513a413675b92d45612a32f3af55c6a4a1d3b56e2912c0fb1d6c7f5798c0f42d95862b906ddae7dfb61e269071d42d1330bb2ce5b24fd575e08ef49a7ca951b40c5f160cc5ec7827bb36345d921a52b9fbd116e53d12b2b909497b285a82e00e317bfa32cfa6934cc41549c064fbdbe7bfe3617e1ed2f6b48adc0c2a7cdedc7232f83172691a94442bfaea2b3cd3eb0d86916074283605ce5e64dc688a59aab619bb243f9cb93eb53c10d5f1ba15e36af43f404b38edc16fa76820521a95d823e94cd151731f76728b628b4ad0d4f52b706df85f60f18a140e94e00f9f98f216ba452642c054ceb5347877dad4235de9d4fa14933079c8a44a2e07ec7f5b9e788167c7ab7bba295919b9a03ce1bb37ba581bb9940e7093ad15d97cab77208d70dcba173a8af91d28a96e432ad2bc8c5bb4c67b3ee10cccab33083c3bc62c81e3e0afacec3c65ffcb0a09c1c1ddc55516c3428157bfff04357dd042a68fb8b0fbdb33e05c46194f3e01a92468fd1915b8b94e8a37d5642be47437841d8067022206b16796351ac7b1cc08f09a5191d7b685b873e34be69313f72498e20e6900499be1ea441c0a5e52f1f5b78027b5ccaf54939e1f5fa10d05e41dfdbac0d661d7911e166b8d35581b7a5d0b3c4949759cd04be54aebbdb9847560081be73d540c5968cd205e3d5e5055a6a24a38c00145dc8dd9fba9d29e9f3e46a4c8a6c9c9b5379bf7e5da5a3db0271b0207181106561cdd642d6bd270a14e869415a45e1c81e7a73898b1719fe2b1a8fd02ed2f3270f847263ebb189a601320e3b4e73fd407105fa5ed1fee42e643cfafd522a1447a16e4efeaa5f02c2cacb6e496b3f4eef9815f2e658697dc44711c369cacd83f046fd93fba6c0ec1a57f743c3433a60c589d18de4e00ee056db8c3ee8b809a98e540ececd6d34d06927f6f62ad745c06f7b5c2051ffc4a4934529f3b8094f31bec0f867fe2c0e3e34e7aeb87489b40a0639681fa97e840bb64c4b25477801bb5f2dc6fc11b8134f364688765e310120d082d8279f7e4f3bbeb9a7ca29ca9bceae042b3804b063ec96b5bdd7e5bce38c949fad5107cb35c91cfc489aa3877411155167f80f769ddb46f11ccfcb0d55a832086be43e1719cb22a27e9b0289f7470c27563279b51781359f546fbbaa37494f0a2103085480478a40105f2a0e600f6dd72819ce9a3351d7daf4370e468b29e7977c201901872c5f9dc6e187f9ff8df47fa4636f18619d988321f4afac78420c0c1f0745404b96597385ba4a2e985fd44224599f1758e28886bccc49ec7cb449f648a8287404999292888f89ca969beaccab2720e8a0a4816a4ee7990f055f4b68b517e5307ba1bcf75bce7cbe6c1170edab9fe5d3f6abe6f91c61f33f0df966facb4e650a9be0f2ead14dbe9e87689a865af284a4a3ca270a4964b7fc85897db19c8153ac80568e5221d6520bfea65d8ebc8332b1a1da6c2d62399ba983e55af8da1b9f4b67fb1f052167efef9aa0d1f1697c9523fb1e90a1e792b2bee7ed391d4a2d3925f694f895a19c15390b87ce5db95d1bdc5fbe8c263e8f1b62c91102c63896ec8bff311a6ae6b72228a0edbe369471cb985b01eb4cc57bdd534c41478112b986cad35d87db71e4e5abbe110a432b9c23592b6a04d89e97bf8d21b008ccd68b1d9c86e07aeb4848e1665f9ce741994676f698ec31e80f1c178d71d751d378b9dab62f169478e5bc223c8a3af562441fddd76b5bce9618537a45f772cef286a1a1914c9cac6502484392a8c58ad96a2e80acca6e376f7a17db5a3e7ceed79aa066fb494b11c350ec57ddc82684e316b69b0137b53d96c5b7e1d4bef76bd9da3250edfc73bfb3584d37cde6738396db834a22ee04cbbb6e06ebdb98b1032f7f1b35a2cdd953e28b1960a4c2e0c5017d206e2e1d7df51cd6c9fb7e682eb4c71287ef59a6ac3b4fc036aead957e5496d94838596b2818f066afed39c5dff4d2315cc1de53411742939da876568b3005ac5babc7a3b30da9363e58cea82b5f2afb40ecb38061fbffdcc000d3b4575356b3e1d73e76720235e5bb4ee7921372e5a06f30d6dce89708d97f4e79c110c3f4e796db4e78be554473cdaac26aaecfacf6b3ebe36f3bbc1a102f27d4784192d096175e59f2552f19b3d2db4704a6ab8e392eb9f9e65349e7e2f4133fa6346330d1d1a31365e957a88d545e6d7738d7f1ac036cbb8edebcc98f8df8a11a64bd81bb4e6916cd9e2142f8ae8077033525da8778905b249c8a064f4e9b61fa6f015747b39704cc6733becb126731a4f406f4720ddb0ee0264276d173bda6f78260e7a752cfd1ae62c27f590ba8f0c0baf4916c0a924c3ae2c71610612d84fcc92c03f9ec8527c98207c38835af8d96de00e2175626d9f70061c8877edfbe2d7ea9bd165abfbfa050196bcad70ff064c59b9f3627e343d307bdeaa78c4b073cc53adbe09cac3d125a01e873256bf0d23db03c954e803b8a214d43d9eac10e402d20c752acfcd151b90a145bbdb0242087383c72438a0d0bb30efba96760d18ef458b5ba0d7ac3ac12e6753699d15012e627e975a226aa50982ccb1be8390525e4e6d103902de6e068ee833a70d52380d3beb9e4ef3759ff02fe691549e737a308441229daf1c0</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/wytblog/lib/hbe.js"></script><link href="/wytblog/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>观影碎碎念</category>
       </categories>
