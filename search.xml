@@ -152,43 +152,6 @@ NodePreview</p>
       </tags>
   </entry>
   <entry>
-    <title>关于模型绑定：AutoRig Pro 绑定插件的使用</title>
-    <url>/12ba7ac1/</url>
-    <content><![CDATA[<p>果然这个插件就是用来拯救动画er的！！绑定简直不要太方便啦！</p>
-<p>面板中最常用的是 Qick Rig 和 smart 面板。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/AutoRigPro1.jpg" style="width:800px;"/></div></div>
-<h1 id="smart-zhi-neng-bang-ding">smart智能绑定</h1>
-<p>绑定前一定要检查模型：</p>
-<ul>
-<li>是否全部应用了（Ctrl+A）；</li>
-<li>曲线要变成网格；</li>
-<li>物体是否在原点，是否X轴对称；</li>
-</ul>
-<p>选中物体，头部和身体可以分开</p>
-<p>点击 Get Selecet OBjects 根据提示添加；</p>
-<p><strong>neck脖子 chin下巴 shoulder肩膀 wrist手腕 root根节点 ankles脚踝。</strong></p>
-<p>点击go；</p>
-<p>进行错位骨骼的调整；</p>
-<p>到Autorigpro面板。点击match to rig，生成控制器，在物体位置属性中的<strong>视图显示里把在前面勾选上</strong></p>
-<p>绑定衣服原理同上，直接到Bind绑定这一步即可</p>
-<p>姿态模式测试，最后权重绘制调整一下。</p>
-<details class="folding-tag" green><summary> 关于权重的一些知识 </summary>
-              <div class='content'>
-              
-              </div>
-            </details>
-<h1 id="qick-rig-mian-ban-zhi-zuo-mi-ha-you-mo-xing-de-bang-gu-kong-zhi-qi-mo-ban">Qick Rig面板制作米哈游模型的绑骨控制器模板</h1>
-<p>点击后，根据提示进行添加，而米哈游模型的骨骼是统一命名的，所以添加完一个之后，点击导出预设。<br>
-下一次再要生成控制器的时候，直接导入预设即可。</p>
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Blender节点中英对照参考</title>
     <url>/53247bd7/</url>
     <content><![CDATA[<p>看教程时，有些博主用的是英文版的节点，有的用的是中文版的节点，有时候对不上号，就翻翻这个手册。</p>
@@ -671,127 +634,40 @@ NodePreview</p>
       </tags>
   </entry>
   <entry>
-    <title>一篇初次尝试MMD舞蹈的记录</title>
-    <url>/6665e68b/</url>
-    <content><![CDATA[<h1 id="chu-ci-jian-dan-zhi-zuo-mmd">💖 初次简单制作MMD</h1>
-<p>最近对MMD产生了浓厚的兴趣，尤其是对多人跳舞的场景，觉得肯定有一些技巧才能使每个角色都能跳同一舞蹈，总不能一个角色一个角色的手K吧。现在了解完才发现。原来有种东西叫动作（姿态）文件.vmd，一键拖入，人物就能动起来。当然它的源头数据也是各个大佬连夜K出来供大家使用的。神仙！</p>
-<p>MMD的全称<wavy>MikuMikuDance</wavy>，是一款简易3D动画软件。一般在电脑端使用，可以用来导入MMD模型场景动作渲染插件等素材。联合MME——MikuMikuEffect（特效）、MMM——MikuMikuMoving（动作？）、Ray-Ray-mmd（渲染器）。梳理下制作流程，除去必须的制作软件之外，主要是<wavy>模型 → 动作 → 场景 → 镜头 → 特效 → 音乐 → 渲染</wavy>。简单制作的话，这些都有素材，可直接用。也可升级为自己建模、K帧、镜头运用…，感觉里面还包含很多知识，比如<wavy>布料、头发、渲染、K帧</wavy>等吧很多…一定要有耐心，一步步的来不要着急（对自己说的（<sup>_</sup>））。</p>
-<h1 id="xia-zai-pian">💓 下载篇</h1>
-<h2 id="ruan-jian-de-xia-zai" id="软件的下载">软件的下载</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
+    <title>关于模型绑定：AutoRig Pro 绑定插件的使用</title>
+    <url>/12ba7ac1/</url>
+    <content><![CDATA[<p>果然这个插件就是用来拯救动画er的！！绑定简直不要太方便啦！</p>
+<p>面板中最常用的是 Qick Rig 和 smart 面板。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/AutoRigPro1.jpg" style="width:800px;"/></div></div>
+<h1 id="smart-zhi-neng-bang-ding">smart智能绑定</h1>
+<p>绑定前一定要检查模型：</p>
+<ul>
+<li>是否全部应用了（Ctrl+A）；</li>
+<li>曲线要变成网格；</li>
+<li>物体是否在原点，是否X轴对称；</li>
+</ul>
+<p>选中物体，头部和身体可以分开</p>
+<p>点击 Get Selecet OBjects 根据提示添加；</p>
+<p><strong>neck脖子 chin下巴 shoulder肩膀 wrist手腕 root根节点 ankles脚踝。</strong></p>
+<p>点击go；</p>
+<p>进行错位骨骼的调整；</p>
+<p>到Autorigpro面板。点击match to rig，生成控制器，在物体位置属性中的<strong>视图显示里把在前面勾选上</strong></p>
+<p>绑定衣服原理同上，直接到Bind绑定这一步即可</p>
+<p>姿态模式测试，最后权重绘制调整一下。</p>
+<details class="folding-tag" green><summary> 关于权重的一些知识 </summary>
               <div class='content'>
-              <p>主体软件MMD，V9.26版本（MikuMikuDance 926 CHS）是汉化之后的，没法与其它软件联动；十周年版本（MikuMikuDance 10th Anniversary Version MMD）UP主推荐使用的，可以导出调节文件与Blender或其它3D软件联动;所以使用十周年版本是最好的选择。但是使用之后发现有的十周年的版本MME不能使用，在转回到926版本，发现MME能用，但是不能桥接BLender 啊 这该如何破局啊…</p><p>PE（PmxEditor）软件，是用来编辑模型的，可以换头改衣服；（还没使用过）</p><p>Ray—mmd渲染插件：其实也可以全流程在Blender里面制作渲染。（之后就迈入了Blender）</p>
+              
               </div>
             </details>
-<h2 id="mo-xing-de-xia-zai" id="模型的下载">模型的下载</h2>
-<p>国内的推荐模之屋；国外的推荐B碗。</p>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>下模型时，有些专业术语得搞懂，要不然会出问题的…还有制作完视频一定要署名借物表。毕竟素材都不是自己制作的。自己只是一个搬运工。<br>配布：指素材创作者将素材分发给其他人使用。<br>二次配布：不能二次传播模型。<br>借物表：这意思应该就是下载下来的模型都是正规渠道，能溯源的，要在视频标注作者，从哪里引用来的模型。<br>下载下来的压缩包里XXX.pmx后缀是人物的主体文件，使用的话就是这个文件；</p>
-              </div>
-            </details>
-<h1 id="mmd-jian-dan-shi-yong">💙 MMD简单使用</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>一句话说来就是：拖拖拖…</p><p>① 在 To model模式下，将下载的人物模型中的.pmx文件拖入MMD，下载的动作文件.vmd文件拖入，下载的场景模型中的.pmx文件拖入MMD。</p><p>② 先点击 to model 转到To Camera 镜头模式下，将镜头文件.vmd拖入。</p><p>③ 音乐最后拖入支持.wav。</p><p>④ 右上角MME，加点特效</p><p>⑤ 导出视频即可</p>
-              </div>
-            </details>
-<h2 id="blender-jian-dan-zhi-zuo-mmd-zhong-zhi" id="💙-Blender简单制作MMD（重置）">💙 Blender简单制作MMD（重置）</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>前置条件：要完成.pmx模型的导入，必须要有blender_mmd_tools这个插件。<br>下载地址：<a class="btn-anzhiyu " href="https://github.com/UuuNyaa/blender_mmd_tools/releases"   title="blender_mmd_tools"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>blender_mmd_tools</span></a><br>安装插件：编辑-偏好设置-（左侧）插件-安装-下载下来的blender插件压缩包，完成后，搜索栏搜“MMD”，打上对勾。</p><div class="note primary modern"><p>1、导入模型</p><ul><li>方法①：安装完成后，快捷键N出现mmd面板，导入模型（人物＆场景）</li><li>方法②：文件——导入——pmx模型</li></ul></div><div class="note primary modern"><p>2、导入动作<br>导入动作：先把骨骼绑定（新版本可不绑）<br>导入动作文件：在模型视图下，导入之前一定要选父级，不要点人物。<br>在姿态模式下（ctrl+tab），修改穿模问题。</p></div><div class="note primary modern"><p>3、打开物理：MMDtools里面的物理点一下，如果模型有问题，物理也是有问题的，而且物理一开，电脑会变得很慢~~这一点上MMD有绝对的优势</p></div>最后调整材质效果，开始渲染
-              </div>
-            </details>
-<h2 id="jian-dan-cheng-pin" id="💜-简单成品">💜 简单成品</h2>
-<div class="note primary modern"><p>primary 由于时间问题没有渲染全部，只渲染了几张作为留念…</p>
-</div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品1.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品2.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品3.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品4.png" style="width:600px;"/></div></div>
-<h2 id="zeng-jia-liao-mme-de-jian-dan-cheng-pin" id="💦-增加了MME的简单成品">💦 增加了MME的简单成品</h2>
-<p>这个作品目前来说只有拖拖拖，maya，上传后就没仔细看，糊糊糊！画质怎么会这么糊啊😱😱😱！！！下次渲染一定要把画质调高！忘了B站会压缩画质了。。。</p>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; ">
-    <iframe src="//player.bilibili.com/player.html?bvid=BV1qg4y197Tc&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
-</div>
-
+<h1 id="qick-rig-mian-ban-zhi-zuo-mi-ha-you-mo-xing-de-bang-gu-kong-zhi-qi-mo-ban">Qick Rig面板制作米哈游模型的绑骨控制器模板</h1>
+<p>点击后，根据提示进行添加，而米哈游模型的骨骼是统一命名的，所以添加完一个之后，点击导出预设。<br>
+下一次再要生成控制器的时候，直接导入预设即可。</p>
 ]]></content>
       <categories>
         <category>点亮技能树</category>
       </categories>
       <tags>
-        <tag>MMD</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基于komikaze预设的动漫风格人物渲染模板</title>
-    <url>/f28fbdfe/</url>
-    <content><![CDATA[<h1 id="qian-yan">🌺 前言</h1>
-<p>此模板的渲染效果包括二分光影、金属效果、丝袜效果、SDF脸部阴影平滑（通用）、透明衣料、珠宝、皮肤效果等。材质的颜色能够受灯光影响。这个模板唯一的优点是方便多人物流程的使用。（以前用过Merlin大佬的卡渲密咒，一个工程中只能一个模型渲染，因为是节点是打包好供整体使用的。这个插件真的很好用，如果有两个模型的话会有点麻烦。）所以这个模板比较符合自己的需求，更容易改动，可以多光源进行更改，自定义的自由度很高。不需要理解原理就能实现比较理想的效果。</p>
-<p>渲染出来的效果是这样的（自我感觉还不错嘿嘿）：</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染演示.gif" style="width:300px;"/></div></div>
-<p>平时积累一些好看的图片，绘画作品，看看怎么打光的，什么情景下打什么光比较好。可以配合这套节点联系下氛围感的图片。</p>
-<h1 id="xuan-ran-she-zhi">🌺 渲染设置</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>① 渲染设置中的辉光参考：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设辉光设置.png" style="width:500px;"/></div></div><p>① <mark class="hl-label blue">阈值：0.9</mark> 、<mark class="hl-label pink">屈伸度：1</mark> 、<mark class="hl-label green">半径：3.51</mark> 、<mark class="hl-label red">颜色（HEX）：FFA5A4</mark> 、强度自定义，一般0.18左右</p><p>② 环境遮蔽不用打开可以自己用节点控制，不然渲染速度会变慢</p><p>③ 色彩管理：SRGB+标准（默认是Filmic）</p><p>④ 新建的灯光设置：<mark class="hl-label purple">颜色（HEX）：FFE1D6</mark> 、<mark class="hl-label blue">强度：10、8、5、3（常用的数值）</mark></p><p>位置信息：Z轴放到头顶即可，人物不一样看身高（1.2m-1.9m）;旋转只更改<strong>X轴：50°</strong>感觉还不错，既能体现光影而且人物还很亮</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设基本设置.png" style="width:600px;"/></div></div><p>⑤ 材质连接已整理成预设，分为：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/节点整合.png" style="width:600px;"/></div></div><p>人物方面：<strong>脸部、头发、衣服、皮肤、金属、丝袜、表情、透明处理、衣服细节、表情、珠宝；</strong>（直接连贴图即可）</p><p>光照方面：<strong>边缘光、环境遮蔽、高光；</strong> FCE2CC或 FFCBAF比较接近皮肤肤色——ffd4c7（平面）；</p><p>高光节点：有两种一种是用<strong>兰伯特照明</strong>，另一种是用<strong>Komikaze里面的各种高光节点</strong>，真的很好用；</p><p>关于节点的一些操作：Modulo 取模运算、Sign符号函数、大于小于运算能把贴图的黑白信息提取出来</p>
-              </div>
-            </details>
-<h1 id="miao-bian-she-zhi">🌺 描边设置</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>（本质上是使用另一UP主的几何描边处理的动态描边，由于卡渲密咒这个插件这个整合好了，所以很好用）：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置1.png" style="width:600px;"/></div></div><p>使用【卡渲密咒】里的“描边咒”，一键描边，但是需要一些处理：</p><p>首先在属性里的数据里把默认的“描边权重”更改为自己命名；</p><p>在修改器里，添加<mark class="hl-label pink">焊接</mark> 、<mark class="hl-label pink">平滑</mark> 、<mark class="hl-label pink">加权法向</mark> （注意：属性里的面的接触改为拐角的角度）；</p><p>在描边属性里，将描边权重改为自己命名的定点组（一定要吻合和顶点组里的）；</p><p>进行一些修改，转到权重模式，用ADD的画笔进行一些细节的处理。右上方的可见性可关掉，处理时方便观察效果；</p><p>PS：描边之后，刘海还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边效果.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h1 id="yan-jing-tou-guo-liu-hai">🌺 眼睛透过刘海</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<p>PS:头发的混合模式时Blend，眉毛的时Hash。<strong>头发一定要勾掉显示背面，一定！！</strong> 这可是废了一天的时间发现的问题！！眉毛以防万一也勾掉。真是让自己给蠢死了</p>
-<h1 id="si-wa-she-zhi">🌺 丝袜设置</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div><p>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div><p>2、增加漫反射使光照变换时产生二分光影效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div><p>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div><p>有贴图or无贴图都可：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h1 id="sdf-lian-bu-yin-ying-ping-hua">🌺 SDF脸部阴影平滑</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>优点：通用便捷SDF脸部阴影平滑解决方案（不用设置头部驱动器）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF演示.gif" style="width:200px;"/></div></div><p>1、插件准备：  <a class="btn-anzhiyu " href="https://github.com/EmuMan/npr-face-shader"   title="npr-face-shader插件"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>npr-face-shader插件</span></a></p><p>2、导入模型后按材质分离，只保留面部，不要进行其它的合并操作。</p><p>3、SDF插件面板以及使用方法：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF插件使用.png" style="width:600px;"/></div></div><p>4、SDF蜡笔线绘制方法：</p><p>参考图：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度1参考.png" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度2参考.png" style="height:200px"/></p><p>Shift+A，新建蜡笔，进入编辑模式全选所有的画笔，X删除蜡笔。再进入“自由线”模式进行绘制，要在面部绘制三条蜡笔线。首先是面部引导线（弧线），一共要绘制7条，从人物脸部的最上方的中心位置开始到下巴结束。从左至右进行绘制。一条穿过右侧眼尾位置，一条穿过右侧眼部中心位置，一条穿过右侧眼角位置。一条是面部正中心的位置。脸部左侧三条线与右侧位置一致。再者，就是面部高光区域，绘制如下。最后是鼻子阴影位置，绘制如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF绘制.png" style="width:600px;"/></div></div><p>5、如果只生成图，节点没有生成成功。自行连接也行</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF连接参考.png" style="width:600px;"/></div></div><p>绑定灯光旋转和绑定灯光颜色：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF头部绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光颜色绑定.png" style="height:280px"/></p>
-              </div>
-            </details>
-<h1 id="yi-fu-wen-li-xi-jie">🌺 衣服纹理细节</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>衣服的细节，主要是用凹凸法线贴图实现。以卡芙卡为例，使她肩膀上的花纹有突出的感觉并且衣服有纹理的细节（具体如图所示）。</p><p>1、用PS生成凹凸贴图和法线贴图。PS操作：打开图像后Ctrl+J复制一层，选择滤镜—3D—生成凹凸图/生成法线图。</p><p>2、在Blender的节点连接如下。数值均可自行调整，而且已经打包成节点组，直接接入即可。</p>
-              </div>
-            </details>
-<h1 id="bian-yuan-guang-you-hua">🌺 边缘光优化</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>本模板的边缘光默认是关闭的。等着在优化优化。<br>边缘光的原理主要是通过菲涅尔，没解决的问题是没办法受光照影响，现在是全局发边缘光，想实现的结果：有光的地方有边缘光，没光的地方没边缘光</p>
-              </div>
-            </details>
-<h1 id="die-dai-guo-cheng">🌺 迭代过程</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <ul><li>迭代：第一版<br>实现光影、头发、脸部、衣服、皮肤、金属饰品。实现描边效果。<br>问题：脸部阴影不平滑、丝袜没有设置材质、刘海没有透过眼睛</li><li>迭代：第二版<br>新增丝袜设置、实现刘海透明效果。新增前发+丝袜节点（实验：卡芙卡）<br>问题：脸部阴影不平滑</li><li>迭代：第三版<br>实现通用脸部SDF阴影平滑效果（姬子为例），所有模型理论上均可使用。<br>问题：头发衣服细节不多，没有光照图。</li><li>迭代：第四版<br>实现衣服的细节纹理，凹凸与法线贴图的使用。新增衣服细节纹理（卡芙卡为例）<br>新增珠宝饰品的节点组。</li><li>迭代：第五版<br>要解决的问题：头发和衣服的阴影细节（不提取游戏中的贴图方法）衣服光照图ilm与ramp图的运用。（可舍）</li></ul>
-              </div>
-            </details>
-<!-- <details class="folding-tag" ><summary> 查看内容 </summary>
-              <div class='content'>
-              
-              </div>
-            </details> -->]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
         <tag>Blender</tag>
-        <tag>渲染</tag>
       </tags>
   </entry>
   <entry>
@@ -929,6 +805,81 @@ NodePreview</p>
 脸部：面部阴影控制SDF+调色<br>
 头发：高光加阴影（均需调色处理）控制器移动光照，需要头发阴影贴图</p>
 ]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+        <tag>渲染</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>基于komikaze预设的动漫风格人物渲染模板</title>
+    <url>/f28fbdfe/</url>
+    <content><![CDATA[<h1 id="qian-yan">🌺 前言</h1>
+<p>此模板的渲染效果包括二分光影、金属效果、丝袜效果、SDF脸部阴影平滑（通用）、透明衣料、珠宝、皮肤效果等。材质的颜色能够受灯光影响。这个模板唯一的优点是方便多人物流程的使用。（以前用过Merlin大佬的卡渲密咒，一个工程中只能一个模型渲染，因为是节点是打包好供整体使用的。这个插件真的很好用，如果有两个模型的话会有点麻烦。）所以这个模板比较符合自己的需求，更容易改动，可以多光源进行更改，自定义的自由度很高。不需要理解原理就能实现比较理想的效果。</p>
+<p>渲染出来的效果是这样的（自我感觉还不错嘿嘿）：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染演示.gif" style="width:300px;"/></div></div>
+<p>平时积累一些好看的图片，绘画作品，看看怎么打光的，什么情景下打什么光比较好。可以配合这套节点联系下氛围感的图片。</p>
+<h1 id="xuan-ran-she-zhi">🌺 渲染设置</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>① 渲染设置中的辉光参考：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设辉光设置.png" style="width:500px;"/></div></div><p>① <mark class="hl-label blue">阈值：0.9</mark> 、<mark class="hl-label pink">屈伸度：1</mark> 、<mark class="hl-label green">半径：3.51</mark> 、<mark class="hl-label red">颜色（HEX）：FFA5A4</mark> 、强度自定义，一般0.18左右</p><p>② 环境遮蔽不用打开可以自己用节点控制，不然渲染速度会变慢</p><p>③ 色彩管理：SRGB+标准（默认是Filmic）</p><p>④ 新建的灯光设置：<mark class="hl-label purple">颜色（HEX）：FFE1D6</mark> 、<mark class="hl-label blue">强度：10、8、5、3（常用的数值）</mark></p><p>位置信息：Z轴放到头顶即可，人物不一样看身高（1.2m-1.9m）;旋转只更改<strong>X轴：50°</strong>感觉还不错，既能体现光影而且人物还很亮</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/预设基本设置.png" style="width:600px;"/></div></div><p>⑤ 材质连接已整理成预设，分为：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/节点整合.png" style="width:600px;"/></div></div><p>人物方面：<strong>脸部、头发、衣服、皮肤、金属、丝袜、表情、透明处理、衣服细节、表情、珠宝；</strong>（直接连贴图即可）</p><p>光照方面：<strong>边缘光、环境遮蔽、高光；</strong> FCE2CC或 FFCBAF比较接近皮肤肤色——ffd4c7（平面）；</p><p>高光节点：有两种一种是用<strong>兰伯特照明</strong>，另一种是用<strong>Komikaze里面的各种高光节点</strong>，真的很好用；</p><p>关于节点的一些操作：Modulo 取模运算、Sign符号函数、大于小于运算能把贴图的黑白信息提取出来</p>
+              </div>
+            </details>
+<h1 id="miao-bian-she-zhi">🌺 描边设置</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>（本质上是使用另一UP主的几何描边处理的动态描边，由于卡渲密咒这个插件这个整合好了，所以很好用）：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边设置1.png" style="width:600px;"/></div></div><p>使用【卡渲密咒】里的“描边咒”，一键描边，但是需要一些处理：</p><p>首先在属性里的数据里把默认的“描边权重”更改为自己命名；</p><p>在修改器里，添加<mark class="hl-label pink">焊接</mark> 、<mark class="hl-label pink">平滑</mark> 、<mark class="hl-label pink">加权法向</mark> （注意：属性里的面的接触改为拐角的角度）；</p><p>在描边属性里，将描边权重改为自己命名的定点组（一定要吻合和顶点组里的）；</p><p>进行一些修改，转到权重模式，用ADD的画笔进行一些细节的处理。右上方的可见性可关掉，处理时方便观察效果；</p><p>PS：描边之后，刘海还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边效果.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h1 id="yan-jing-tou-guo-liu-hai">🌺 眼睛透过刘海</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<p>PS:头发的混合模式时Blend，眉毛的时Hash。<strong>头发一定要勾掉显示背面，一定！！</strong> 这可是废了一天的时间发现的问题！！眉毛以防万一也勾掉。真是让自己给蠢死了</p>
+<h1 id="si-wa-she-zhi">🌺 丝袜设置</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div><p>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div><p>2、增加漫反射使光照变换时产生二分光影效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div><p>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div><p>有贴图or无贴图都可：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h1 id="sdf-lian-bu-yin-ying-ping-hua">🌺 SDF脸部阴影平滑</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>优点：通用便捷SDF脸部阴影平滑解决方案（不用设置头部驱动器）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF演示.gif" style="width:200px;"/></div></div><p>1、插件准备：  <a class="btn-anzhiyu " href="https://github.com/EmuMan/npr-face-shader"   title="npr-face-shader插件"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>npr-face-shader插件</span></a></p><p>2、导入模型后按材质分离，只保留面部，不要进行其它的合并操作。</p><p>3、SDF插件面板以及使用方法：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF插件使用.png" style="width:600px;"/></div></div><p>4、SDF蜡笔线绘制方法：</p><p>参考图：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度1参考.png" style="height:200px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF角度2参考.png" style="height:200px"/></p><p>Shift+A，新建蜡笔，进入编辑模式全选所有的画笔，X删除蜡笔。再进入“自由线”模式进行绘制，要在面部绘制三条蜡笔线。首先是面部引导线（弧线），一共要绘制7条，从人物脸部的最上方的中心位置开始到下巴结束。从左至右进行绘制。一条穿过右侧眼尾位置，一条穿过右侧眼部中心位置，一条穿过右侧眼角位置。一条是面部正中心的位置。脸部左侧三条线与右侧位置一致。再者，就是面部高光区域，绘制如下。最后是鼻子阴影位置，绘制如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF绘制.png" style="width:600px;"/></div></div><p>5、如果只生成图，节点没有生成成功。自行连接也行</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF连接参考.png" style="width:600px;"/></div></div><p>绑定灯光旋转和绑定灯光颜色：<img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF头部绑定.png" style="height:360px"/><img class="inline-img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/SDF灯光颜色绑定.png" style="height:280px"/></p>
+              </div>
+            </details>
+<h1 id="yi-fu-wen-li-xi-jie">🌺 衣服纹理细节</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>衣服的细节，主要是用凹凸法线贴图实现。以卡芙卡为例，使她肩膀上的花纹有突出的感觉并且衣服有纹理的细节（具体如图所示）。</p><p>1、用PS生成凹凸贴图和法线贴图。PS操作：打开图像后Ctrl+J复制一层，选择滤镜—3D—生成凹凸图/生成法线图。</p><p>2、在Blender的节点连接如下。数值均可自行调整，而且已经打包成节点组，直接接入即可。</p>
+              </div>
+            </details>
+<h1 id="bian-yuan-guang-you-hua">🌺 边缘光优化</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>本模板的边缘光默认是关闭的。等着在优化优化。<br>边缘光的原理主要是通过菲涅尔，没解决的问题是没办法受光照影响，现在是全局发边缘光，想实现的结果：有光的地方有边缘光，没光的地方没边缘光</p>
+              </div>
+            </details>
+<h1 id="die-dai-guo-cheng">🌺 迭代过程</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <ul><li>迭代：第一版<br>实现光影、头发、脸部、衣服、皮肤、金属饰品。实现描边效果。<br>问题：脸部阴影不平滑、丝袜没有设置材质、刘海没有透过眼睛</li><li>迭代：第二版<br>新增丝袜设置、实现刘海透明效果。新增前发+丝袜节点（实验：卡芙卡）<br>问题：脸部阴影不平滑</li><li>迭代：第三版<br>实现通用脸部SDF阴影平滑效果（姬子为例），所有模型理论上均可使用。<br>问题：头发衣服细节不多，没有光照图。</li><li>迭代：第四版<br>实现衣服的细节纹理，凹凸与法线贴图的使用。新增衣服细节纹理（卡芙卡为例）<br>新增珠宝饰品的节点组。</li><li>迭代：第五版<br>要解决的问题：头发和衣服的阴影细节（不提取游戏中的贴图方法）衣服光照图ilm与ramp图的运用。（可舍）</li></ul>
+              </div>
+            </details>
+<!-- <details class="folding-tag" ><summary> 查看内容 </summary>
+              <div class='content'>
+              
+              </div>
+            </details> -->]]></content>
       <categories>
         <category>点亮技能树</category>
       </categories>
@@ -1172,6 +1123,60 @@ NodePreview</p>
       </tags>
   </entry>
   <entry>
+    <title>一篇初次尝试MMD舞蹈的记录</title>
+    <url>/6665e68b/</url>
+    <content><![CDATA[<h1 id="chu-ci-jian-dan-zhi-zuo-mmd">💖 初次简单制作MMD</h1>
+<p>最近对MMD产生了浓厚的兴趣，尤其是对多人跳舞的场景，觉得肯定有一些技巧才能使每个角色都能跳同一舞蹈，总不能一个角色一个角色的手K吧。现在了解完才发现。原来有种东西叫动作（姿态）文件.vmd，一键拖入，人物就能动起来。当然它的源头数据也是各个大佬连夜K出来供大家使用的。神仙！</p>
+<p>MMD的全称<wavy>MikuMikuDance</wavy>，是一款简易3D动画软件。一般在电脑端使用，可以用来导入MMD模型场景动作渲染插件等素材。联合MME——MikuMikuEffect（特效）、MMM——MikuMikuMoving（动作？）、Ray-Ray-mmd（渲染器）。梳理下制作流程，除去必须的制作软件之外，主要是<wavy>模型 → 动作 → 场景 → 镜头 → 特效 → 音乐 → 渲染</wavy>。简单制作的话，这些都有素材，可直接用。也可升级为自己建模、K帧、镜头运用…，感觉里面还包含很多知识，比如<wavy>布料、头发、渲染、K帧</wavy>等吧很多…一定要有耐心，一步步的来不要着急（对自己说的（<sup>_</sup>））。</p>
+<h1 id="xia-zai-pian">💓 下载篇</h1>
+<h2 id="ruan-jian-de-xia-zai" id="软件的下载">软件的下载</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主体软件MMD，V9.26版本（MikuMikuDance 926 CHS）是汉化之后的，没法与其它软件联动；十周年版本（MikuMikuDance 10th Anniversary Version MMD）UP主推荐使用的，可以导出调节文件与Blender或其它3D软件联动;所以使用十周年版本是最好的选择。但是使用之后发现有的十周年的版本MME不能使用，在转回到926版本，发现MME能用，但是不能桥接BLender 啊 这该如何破局啊…</p><p>PE（PmxEditor）软件，是用来编辑模型的，可以换头改衣服；（还没使用过）</p><p>Ray—mmd渲染插件：其实也可以全流程在Blender里面制作渲染。（之后就迈入了Blender）</p>
+              </div>
+            </details>
+<h2 id="mo-xing-de-xia-zai" id="模型的下载">模型的下载</h2>
+<p>国内的推荐模之屋；国外的推荐B碗。</p>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>下模型时，有些专业术语得搞懂，要不然会出问题的…还有制作完视频一定要署名借物表。毕竟素材都不是自己制作的。自己只是一个搬运工。<br>配布：指素材创作者将素材分发给其他人使用。<br>二次配布：不能二次传播模型。<br>借物表：这意思应该就是下载下来的模型都是正规渠道，能溯源的，要在视频标注作者，从哪里引用来的模型。<br>下载下来的压缩包里XXX.pmx后缀是人物的主体文件，使用的话就是这个文件；</p>
+              </div>
+            </details>
+<h1 id="mmd-jian-dan-shi-yong">💙 MMD简单使用</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>一句话说来就是：拖拖拖…</p><p>① 在 To model模式下，将下载的人物模型中的.pmx文件拖入MMD，下载的动作文件.vmd文件拖入，下载的场景模型中的.pmx文件拖入MMD。</p><p>② 先点击 to model 转到To Camera 镜头模式下，将镜头文件.vmd拖入。</p><p>③ 音乐最后拖入支持.wav。</p><p>④ 右上角MME，加点特效</p><p>⑤ 导出视频即可</p>
+              </div>
+            </details>
+<h2 id="blender-jian-dan-zhi-zuo-mmd-zhong-zhi" id="💙-Blender简单制作MMD（重置）">💙 Blender简单制作MMD（重置）</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>前置条件：要完成.pmx模型的导入，必须要有blender_mmd_tools这个插件。<br>下载地址：<a class="btn-anzhiyu " href="https://github.com/UuuNyaa/blender_mmd_tools/releases"   title="blender_mmd_tools"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>blender_mmd_tools</span></a><br>安装插件：编辑-偏好设置-（左侧）插件-安装-下载下来的blender插件压缩包，完成后，搜索栏搜“MMD”，打上对勾。</p><div class="note primary modern"><p>1、导入模型</p><ul><li>方法①：安装完成后，快捷键N出现mmd面板，导入模型（人物＆场景）</li><li>方法②：文件——导入——pmx模型</li></ul></div><div class="note primary modern"><p>2、导入动作<br>导入动作：先把骨骼绑定（新版本可不绑）<br>导入动作文件：在模型视图下，导入之前一定要选父级，不要点人物。<br>在姿态模式下（ctrl+tab），修改穿模问题。</p></div><div class="note primary modern"><p>3、打开物理：MMDtools里面的物理点一下，如果模型有问题，物理也是有问题的，而且物理一开，电脑会变得很慢~~这一点上MMD有绝对的优势</p></div>最后调整材质效果，开始渲染
+              </div>
+            </details>
+<h2 id="jian-dan-cheng-pin" id="💜-简单成品">💜 简单成品</h2>
+<div class="note primary modern"><p>primary 由于时间问题没有渲染全部，只渲染了几张作为留念…</p>
+</div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品1.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品2.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品3.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品4.png" style="width:600px;"/></div></div>
+<h2 id="zeng-jia-liao-mme-de-jian-dan-cheng-pin" id="💦-增加了MME的简单成品">💦 增加了MME的简单成品</h2>
+<p>这个作品目前来说只有拖拖拖，maya，上传后就没仔细看，糊糊糊！画质怎么会这么糊啊😱😱😱！！！下次渲染一定要把画质调高！忘了B站会压缩画质了。。。</p>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; ">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1qg4y197Tc&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
+</div>
+
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>MMD</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>本网站的一些更新日志2024</title>
     <url>/46135d4f/</url>
     <content><![CDATA[<h2 id="yi-geng-xin" id="已更新">已更新</h2>
@@ -1294,6 +1299,9 @@ NodePreview</p>
             </div>
 <div class='checkbox green checked'><input type="checkbox" checked="checked"/>
             <p>感觉相册不分离也可以，但是需要更改图床方案</p>
+            </div>
+<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
+            <p>新增年度计划与总结</p>
             </div>
 </div></div></div>
 <h2 id="dai-zeng" id="待增">待增</h2>
@@ -1661,6 +1669,28 @@ NodePreview</p>
       </tags>
   </entry>
   <entry>
+    <title>idea整理区</title>
+    <url>/4948c763/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="10ab817d83a0ba4f434504d1edc45f5b14b79670baf9f9a41d0c8d5519f3cfc7">4f9329f92667f126694ae84c350d6ad4a13160df7c95341e837de4bf5863c72f5823a1272391f290db7c882f1402a02a83a347ef0b7005a6ac51cbfe9661f43b702348d7b88254900900b5548aff2ca33f0cc33f983824fd2b9035c4d6091e526edf0801f5096cf464959a33dfec2f7f7aadf6388f58f656f377a6a994fdab0880845984e67f0fc94141b30ad240b2c8d367253dbac609ca7138651e027381e39c9f590b1f1c4ce8cd62edbe883aa5437371b0ad7023d1f4500b6d974d8bf8fee3f75e50355064c72c250c0fe873276314824666b32df25bb6e6b1352bffe06cd666729912b06279c318d0b620e8cd6320049bf059e502cf1fb8fbee81b4e28633a18cd8e7dd45e10398d2346238db974250fee5c7d1ea67adf0a47b7d53946659dff371b5ec1253c2562f0da8584071fc851171c1caf98b6c8d96edf7ccf84f58c1cfd16df323a1955c3e29f5277d95da37276e022d929415c4b6bb417eefa620e0cc8c1f375daa52b04c69e78d393c827bcfbdbeffabe3ffbda1d92264ed0abf3c01eb00b93475e0d0c50599954fe3448df438f0e84d0600d6fb22d5af7c59ad114ee01b530e48c91dc1fb31be23092501b3facef793240aca46b5cee960f01053dcdd953d7d644ff362775a94cf5338d1c7dac29138adfb875033f2fd37fcd382013dd9eba2accf4daf54f5d53391c4f225e51658f64330a6d44ee7c41e22c15da34d64ed89718376a77a6901030523a0413f18bca91a57a9ef095841f73c28bbc3d8158f359b113fdd9442da2c137fe78b5005c06087b28a4410212109e3cba65576f03b495b8db1f67e035b689a36615c9e75cfb7d7a825e9b5050912348af00a16e275e647f07256fe3118ffae11a796bdd007fc2c92c6e6658e84e94b26f880a89a86f03399e54fec606af73a1a2dd44c4c66c056b8d9643ca7c15fab089e5d92c715293977076beaf5f7c3ce44fe38074debf680ec2301762f515d1a684a66ac789e73c69e7afcc8d4bd7dc8609f0dec36601ac335455ab804d597d7488e385ca555845478805529fefef6424d4c212184a218772b1c4e6be880c14e911c664308f31ced52ab39fff7609aa8493b35265c5a52445ac1d14ddf7893115dcc5637b9451c1929029c909a42b4097fac14dab73c937c7d8c4e050c1fecd56ea55e13366c6d48d8aa2974147f6578cf2db3f781ee20aef3d2202bcb177aaca878906161f9ab307f9e0e8d456a4ea2bbe5307d3fc014956459c644a905802f0aac191a9a9502bfb76916af95ead44de3e6c270b97438be8a8e27ceed0cf9a51d66a06c1ebb7278d56cbf8ff292c7e3594ad41f0fa246688eca7be02afc544422299972ca3a6cb0dcd35b9ca3a8e6de2d10cc53610225c941dc6a53372c994e40dc8da3a3528b6b2c162109eef41b3656c957154bbdaf0ffe4920bcae4763ec56b9660ff2f4c6c168d3717b5889a21fa5c2e78a373dc5daccece236a604d89c1afbb457cf5a50ebb99430f8ed4eb34c44f80e5f1945366d75f10c44f4b2518bb774e6490ddfcc1eb26e1de75f7f4aeda139f1ce4c31365ef7b0958d1a6b7203883a75414d10e784b2a6f66826a9e59b4185b0c973504db3205df85c120552a56185556ad152e360a2d734e67dedd313ce45a4108a673c60551ee25689827eeccbb84f940431e089a8c81290ce13882f925c4a4044590334fe7b8fdaefea06b16544fe3ced85896841aa10d62f04450dcc65f96b9c20f809e83ffdf45914df84a124c92bb5d594100116db203bbb1aeae2f9c3785c23ad00f4df50201807a0e7e54c151b71c1d2c909b4e3cbe7b933451313c7c178a0e9ee7bcd5e0f57c3e1254f2ed69272f558b96a2b875e9297ddf17c99df43a39cdbed231882391df144748862714e2958ffd55b1f72c3b575540a916eb5ccf559538be9606e894a8eecea6b1786540ddee5fc671bef83ed1daeb0de3db5e2272875dc33ed0a61d088e0fb3837e79a3f9c6c4ac3ec0fc4fa6f83c660cde92762551605edf44e48483cf7c7268c226eab261556528a179ce342c0a94e7203a8f7df5da103e50b8f1331fd27e2ee91ff3a4a33aa3c97fc7e9059b863069f207af1a11c0782bdeb58c9e86bdaeaa163f93756f18dd9f0226ca32ea2d115a5c6010826bd6f739e78258ade96f09862617f539fe4dc13e871c14a1d73091215a595844ba0ce8b613f88d7a6c6584bfb27d5a443aa0b8c5644476890230470c3c6d1d7d94f2bcfb42f95f7d65df9924cdddddb76ec98bfedce26ee88f3028044c0dc7bf428eb6ced0d122a30205974852b464923218f4e5b6bce623614cee06674dbe7261baee6b57234b7d7a677de5103624d2e5fd7f834c4cae8ce77d795af96269cfc3e9a863ac18629f99886f0c9176d4b4930bd2194f5db4962c839d1db8f61043157cb923af79398304d0c4510590930e0199cb1fc97c4c4b6867e0609237c87b9f0acb28c091a29128ebf185e9f8f4c85e7680ab292855bccfb8fe051ea62eb27cf208a1823ed123eaa28a34a8a7ab81e9a1837744b7f6c7453aa9a904b019c80a89a988538e267dc0107b3a5d4eeffe4ffb7bb4cf05428fed692bea57c35a41af72810693623718cbfdabf3901cdcafca2d7f7acc89a65403e1ec08d1768ec923a49f698e45f226799ec5f5d371bc7165ca7482fce2f7d2aa849d341ff100aaeb20530388c803066a2ca7c2cb1211359d4746ec101abc8389d9398786f5df8cab5e4bb059e1352b2b51d21e8891941832fea919c8a73e089d6dd42c524bc101b23aad8b75fe0e14b5ea74dc851bc56de71addcbcf9b3a04674492de31594a07fe0147a4ed9bdce0b075bdb56f63236b696cf88f7828c7af7a53495699d4fbdb8b86028e157ee9d7d0c7d6c58423a0a117202144dae87433f0cc4d5e91de9aa7112ae5d9ebf68638def863c6a47024129f86a40908143134979df71fbb8524fb9cbe33d3ac4c3a9f379a65870dfbfad41eb48335a763352206fbba56a564c3800cd89c7a024e5c1abd7e8ec37ffdaa58f76ca28443d86944022d3615d6314609d1bc0c62c242e0c0fc678bbcf3c4a86f4d181239d191b53f38b7e6f9826895c749482a53662d77ae5fe2d813099044290395c15df7fb8d4b60a1c0b5b1d8fbbcdcd4ed58e03f28e2a6c3b1c3403632086f7485179fc773ef427ee56d7191e5da5c12c23924fe65789d70baf7cbfd8e59b4a06aa807bdf05c0ead6a2d2ca90d2289eff28ecb5cd82aec2f65dbbc1df9db331989cfe90eeae70c91927e9c000c5089d9fb5c29da44b0715768e286b93eeaa5463a68274360259f9bddcd06fbaa13b6e9b9d45a4b932a9c26a5491010b641206a4e103193df2a8b8e04dff36c92080413bc6c4c0a7eb72eac8aea8e3aa2f97666849afc95f062dc58f75f4e9aa6c9dc93a2971f6ae437782e01987eedf4d0a8f63897ca5290b20ca746ec787c10ba78dafab105fe798e4aca4d085ac312a116b4e78d4d555fe420165995c50f6cb3ac36de117e1d9ac73fcd247296be0878e825bb8c797653ae2872723275e6cd8760dc2aa4c93fd3c16556c20f36923f6fc6c87b7f596c8f1e742bd51facd7a43a580688138d8752951f997d94c4d4de77767cc6f6a32c56bb167bc97dba7637659e067b7ae255fdc9bc5c0a67c6a9fed23a7a1261813a3b88762ad439d72f5df00b6ecef5748fd13afcb4d50dd4dccc95fdfa01245b99988e4d1294a29eeb9c197268bb6ad57d45448e762e3a34aec07dfeae4204603aacd19beb2ccfaab8eaa77c416ca4f250253375a44</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>超好用的软件记录</title>
     <url>/ee644c56/</url>
     <content><![CDATA[<h1 id="bi-ji-ruan-jian">笔记软件</h1>
@@ -1741,28 +1771,6 @@ MMD区的主战软件。用是很方便用，就是拖拖拖没什么新意。�
       </categories>
       <tags>
         <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>idea整理区</title>
-    <url>/4948c763/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="10ab817d83a0ba4f434504d1edc45f5b14b79670baf9f9a41d0c8d5519f3cfc7">4f9329f92667f126694ae84c350d6ad4a13160df7c95341e837de4bf5863c72f5823a1272391f290db7c882f1402a02a83a347ef0b7005a6ac51cbfe9661f43b702348d7b88254900900b5548aff2ca33f0cc33f983824fd2b9035c4d6091e526edf0801f5096cf464959a33dfec2f7f7aadf6388f58f656f377a6a994fdab0880845984e67f0fc94141b30ad240b2c8d367253dbac609ca7138651e027381e39c9f590b1f1c4ce8cd62edbe883aa5437371b0ad7023d1f4500b6d974d8bf8fee3f75e50355064c72c250c0fe873276314824666b32df25bb6e6b1352bffe06cd666729912b06279c318d0b620e8cd6320049bf059e502cf1fb8fbee81b4e28633a18cd8e7dd45e10398d2346238db974250fee5c7d1ea67adf0a47b7d53946659dff371b5ec1253c2562f0da8584071fc851171c1caf98b6c8d96edf7ccf84f58c1cfd16df323a1955c3e29f5277d95da37276e022d929415c4b6bb417eefa620e0cc8c1f375daa52b04c69e78d393c827bcfbdbeffabe3ffbda1d92264ed0abf3c01eb00b93475e0d0c50599954fe3448df438f0e84d0600d6fb22d5af7c59ad114ee01b530e48c91dc1fb31be23092501b3facef793240aca46b5cee960f01053dcdd953d7d644ff362775a94cf5338d1c7dac29138adfb875033f2fd37fcd382013dd9eba2accf4daf54f5d53391c4f225e51658f64330a6d44ee7c41e22c15da34d64ed89718376a77a6901030523a0413f18bca91a57a9ef095841f73c28bbc3d8158f359b113fdd9442da2c137fe78b5005c06087b28a4410212109e3cba65576f03b495b8db1f67e035b689a36615c9e75cfb7d7a825e9b5050912348af00a16e275e647f07256fe3118ffae11a796bdd007fc2c92c6e6658e84e94b26f880a89a86f03399e54fec606af73a1a2dd44c4c66c056b8d9643ca7c15fab089e5d92c715293977076beaf5f7c3ce44fe38074debf680ec2301762f515d1a684a66ac789e73c69e7afcc8d4bd7dc8609f0dec36601ac335455ab804d597d7488e385ca555845478805529fefef6424d4c212184a218772b1c4e6be880c14e911c664308f31ced52ab39fff7609aa8493b35265c5a52445ac1d14ddf7893115dcc5637b9451c1929029c909a42b4097fac14dab73c937c7d8c4e050c1fecd56ea55e13366c6d48d8aa2974147f6578cf2db3f781ee20aef3d2202bcb177aaca878906161f9ab307f9e0e8d456a4ea2bbe5307d3fc014956459c644a905802f0aac191a9a9502bfb76916af95ead44de3e6c270b97438be8a8e27ceed0cf9a51d66a06c1ebb7278d56cbf8ff292c7e3594ad41f0fa246688eca7be02afc544422299972ca3a6cb0dcd35b9ca3a8e6de2d10cc53610225c941dc6a53372c994e40dc8da3a3528b6b2c162109eef41b3656c957154bbdaf0ffe4920bcae4763ec56b9660ff2f4c6c168d3717b5889a21fa5c2e78a373dc5daccece236a604d89c1afbb457cf5a50ebb99430f8ed4eb34c44f80e5f1945366d75f10c44f4b2518bb774e6490ddfcc1eb26e1de75f7f4aeda139f1ce4c31365ef7b0958d1a6b7203883a75414d10e784b2a6f66826a9e59b4185b0c973504db3205df85c120552a56185556ad152e360a2d734e67dedd313ce45a4108a673c60551ee25689827eeccbb84f940431e089a8c81290ce13882f925c4a4044590334fe7b8fdaefea06b16544fe3ced85896841aa10d62f04450dcc65f96b9c20f809e83ffdf45914df84a124c92bb5d594100116db203bbb1aeae2f9c3785c23ad00f4df50201807a0e7e54c151b71c1d2c909b4e3cbe7b933451313c7c178a0e9ee7bcd5e0f57c3e1254f2ed69272f558b96a2b875e9297ddf17c99df43a39cdbed231882391df144748862714e2958ffd55b1f72c3b575540a916eb5ccf559538be9606e894a8eecea6b1786540ddee5fc671bef83ed1daeb0de3db5e2272875dc33ed0a61d088e0fb3837e79a3f9c6c4ac3ec0fc4fa6f83c660cde92762551605edf44e48483cf7c7268c226eab261556528a179ce342c0a94e7203a8f7df5da103e50b8f1331fd27e2ee91ff3a4a33aa3c97fc7e9059b863069f207af1a11c0782bdeb58c9e86bdaeaa163f93756f18dd9f0226ca32ea2d115a5c6010826bd6f739e78258ade96f09862617f539fe4dc13e871c14a1d73091215a595844ba0ce8b613f88d7a6c6584bfb27d5a443aa0b8c5644476890230470c3c6d1d7d94f2bcfb42f95f7d65df9924cdddddb76ec98bfedce26ee88f3028044c0dc7bf428eb6ced0d122a30205974852b464923218f4e5b6bce623614cee06674dbe7261baee6b57234b7d7a677de5103624d2e5fd7f834c4cae8ce77d795af96269cfc3e9a863ac18629f99886f0c9176d4b4930bd2194f5db4962c839d1db8f61043157cb923af79398304d0c4510590930e0199cb1fc97c4c4b6867e0609237c87b9f0acb28c091a29128ebf185e9f8f4c85e7680ab292855bccfb8fe051ea62eb27cf208a1823ed123eaa28a34a8a7ab81e9a1837744b7f6c7453aa9a904b019c80a89a988538e267dc0107b3a5d4eeffe4ffb7bb4cf05428fed692bea57c35a41af72810693623718cbfdabf3901cdcafca2d7f7acc89a65403e1ec08d1768ec923a49f698e45f226799ec5f5d371bc7165ca7482fce2f7d2aa849d341ff100aaeb20530388c803066a2ca7c2cb1211359d4746ec101abc8389d9398786f5df8cab5e4bb059e1352b2b51d21e8891941832fea919c8a73e089d6dd42c524bc101b23aad8b75fe0e14b5ea74dc851bc56de71addcbcf9b3a04674492de31594a07fe0147a4ed9bdce0b075bdb56f63236b696cf88f7828c7af7a53495699d4fbdb8b86028e157ee9d7d0c7d6c58423a0a117202144dae87433f0cc4d5e91de9aa7112ae5d9ebf68638def863c6a47024129f86a40908143134979df71fbb8524fb9cbe33d3ac4c3a9f379a65870dfbfad41eb48335a763352206fbba56a564c3800cd89c7a024e5c1abd7e8ec37ffdaa58f76ca28443d86944022d3615d6314609d1bc0c62c242e0c0fc678bbcf3c4a86f4d181239d191b53f38b7e6f9826895c749482a53662d77ae5fe2d813099044290395c15df7fb8d4b60a1c0b5b1d8fbbcdcd4ed58e03f28e2a6c3b1c3403632086f7485179fc773ef427ee56d7191e5da5c12c23924fe65789d70baf7cbfd8e59b4a06aa807bdf05c0ead6a2d2ca90d2289eff28ecb5cd82aec2f65dbbc1df9db331989cfe90eeae70c91927e9c000c5089d9fb5c29da44b0715768e286b93eeaa5463a68274360259f9bddcd06fbaa13b6e9b9d45a4b932a9c26a5491010b641206a4e103193df2a8b8e04dff36c92080413bc6c4c0a7eb72eac8aea8e3aa2f97666849afc95f062dc58f75f4e9aa6c9dc93a2971f6ae437782e01987eedf4d0a8f63897ca5290b20ca746ec787c10ba78dafab105fe798e4aca4d085ac312a116b4e78d4d555fe420165995c50f6cb3ac36de117e1d9ac73fcd247296be0878e825bb8c797653ae2872723275e6cd8760dc2aa4c93fd3c16556c20f36923f6fc6c87b7f596c8f1e742bd51facd7a43a580688138d8752951f997d94c4d4de77767cc6f6a32c56bb167bc97dba7637659e067b7ae255fdc9bc5c0a67c6a9fed23a7a1261813a3b88762ad439d72f5df00b6ecef5748fd13afcb4d50dd4dccc95fdfa01245b99988e4d1294a29eeb9c197268bb6ad57d45448e762e3a34aec07dfeae4204603aacd19beb2ccfaab8eaa77c416ca4f250253375a44</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
       </tags>
   </entry>
   <entry>
@@ -2117,24 +2125,6 @@ MMD区的主战软件。用是很方便用，就是拖拖拖没什么新意。�
       </tags>
   </entry>
   <entry>
-    <title>抽卡记录：星穹铁道</title>
-    <url>/b0deba33/</url>
-    <content><![CDATA[<h2 id="qia-chi-ji-lu" id="卡池记录">卡池记录</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>卡池记录</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0上 希儿</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0下 景元</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1上 银狼</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，但当时是第一次玩抽卡游戏，然后歪了姬子好像是。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1下 罗刹</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，歪了姬子后好像没票子了，没出。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2上 刃</strong></p></div></div><div class='timeline-item-content'><p>没抽好像，也在攒票子期间，但是完全不懂什么大保底小保底什么歪啥的专有名词都不懂。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2下 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>桑博 + 1卡芙卡 + 1希露瓦</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_卡芙卡上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3上 饮月君</strong></p></div></div><div class='timeline-item-content'><p>跳了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3下 符玄</strong></p></div></div><div class='timeline-item-content'><p>想不到，30抽中了！！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_符玄上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4上 镜流</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈哈我青雀溢出来了哈哈哈，但是镜流120抽拿下</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_镜流上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4下 托帕</strong></p></div></div><div class='timeline-item-content'><p>下了10抽，无，一张也不剩了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5上 藿藿</strong></p></div></div><div class='timeline-item-content'><p>一张票子也没了，在攒票子ing</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5下 银枝</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈没出哈哈哈哈哈，精神状态良好哈哈哈哈哈哈哈</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_寒鸦上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6上 真理医生</strong></p></div></div><div class='timeline-item-content'><p>邮箱中收到啦哈哈哈哈（仰天长笑）啊😘，但是要说一下，以真理这个名头送角色真的很显大义。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_真理医生.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6下 阮梅 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>有点后悔没抽了，开年第一次十连抽，感觉很适配卡芙卡和黑天鹅。我只能天天蹭别人的用。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/24开年十连抽.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0上 黑天鹅 饮月</strong></p></div></div><div class='timeline-item-content'><p>啊啊啊30抽，没歪没歪哈哈哈啊哈，但是小青龙的池子80抽，就是说我的小青龙怎么变紫了啊 😑</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_黑天鹅上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0下 花火 景元</strong></p></div></div><div class='timeline-item-content'><p>虽然很喜欢，但是跳，因为后面的黄泉能跳怪，我得留着票子，大号攒票子ing。啊啊啊啊啊小号all in了，没有！！根本没有！！</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.1上 waitting</strong></p></div></div><div class='timeline-item-content'><p>等待ing</p></div></div></div>
-              </div>
-            </details>
-<h2 id="shou-ru-nang-zhong-de-jiao-se" id="收入囊中的角色">收入囊中的角色</h2>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0之前角色收藏.png" style="width:350px;"/></div></div>]]></content>
-      <categories>
-        <category>游戏库</category>
-      </categories>
-      <tags>
-        <tag>崩坏系列</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>崩坏：星穹铁道</title>
     <url>/21f17048/</url>
     <content><![CDATA[<p class='p center logo large'>太空轻喜剧</p>
@@ -2236,6 +2226,37 @@ MMD区的主战软件。用是很方便用，就是拖拖拖没什么新意。�
       </tags>
   </entry>
   <entry>
+    <title>抽卡记录：星穹铁道</title>
+    <url>/b0deba33/</url>
+    <content><![CDATA[<h2 id="qia-chi-ji-lu" id="卡池记录">卡池记录</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>卡池记录</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0上 希儿</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0下 景元</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1上 银狼</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，但当时是第一次玩抽卡游戏，然后歪了姬子好像是。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1下 罗刹</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，歪了姬子后好像没票子了，没出。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2上 刃</strong></p></div></div><div class='timeline-item-content'><p>没抽好像，也在攒票子期间，但是完全不懂什么大保底小保底什么歪啥的专有名词都不懂。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2下 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>桑博 + 1卡芙卡 + 1希露瓦</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_卡芙卡上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3上 饮月君</strong></p></div></div><div class='timeline-item-content'><p>跳了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3下 符玄</strong></p></div></div><div class='timeline-item-content'><p>想不到，30抽中了！！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_符玄上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4上 镜流</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈哈我青雀溢出来了哈哈哈，但是镜流120抽拿下</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_镜流上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4下 托帕</strong></p></div></div><div class='timeline-item-content'><p>下了10抽，无，一张也不剩了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5上 藿藿</strong></p></div></div><div class='timeline-item-content'><p>一张票子也没了，在攒票子ing</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5下 银枝</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈没出哈哈哈哈哈，精神状态良好哈哈哈哈哈哈哈</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_寒鸦上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6上 真理医生</strong></p></div></div><div class='timeline-item-content'><p>邮箱中收到啦哈哈哈哈（仰天长笑）啊😘，但是要说一下，以真理这个名头送角色真的很显大义。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_真理医生.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6下 阮梅 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>有点后悔没抽了，开年第一次十连抽，感觉很适配卡芙卡和黑天鹅。我只能天天蹭别人的用。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/24开年十连抽.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0上 黑天鹅 饮月</strong></p></div></div><div class='timeline-item-content'><p>啊啊啊30抽，没歪没歪哈哈哈啊哈，但是小青龙的池子80抽，就是说我的小青龙怎么变紫了啊 😑</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_黑天鹅上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0下 花火 景元</strong></p></div></div><div class='timeline-item-content'><p>虽然很喜欢，但是跳，因为后面的黄泉能跳怪，我得留着票子，大号攒票子ing。啊啊啊啊啊小号all in了，没有！！根本没有！！</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.1上 waitting</strong></p></div></div><div class='timeline-item-content'><p>等待ing</p></div></div></div>
+              </div>
+            </details>
+<h2 id="shou-ru-nang-zhong-de-jiao-se" id="收入囊中的角色">收入囊中的角色</h2>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0之前角色收藏.png" style="width:350px;"/></div></div>]]></content>
+      <categories>
+        <category>游戏库</category>
+      </categories>
+      <tags>
+        <tag>崩坏系列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>那些年我遇到的小动物们</title>
+    <url>/36eb04ce/</url>
+    <content><![CDATA[<h1 id="mao-mi-jie-shao">猫咪介绍</h1>
+<h1 id="gou-gou-jie-shao">狗狗介绍</h1>
+]]></content>
+      <categories>
+        <category>日常日常</category>
+      </categories>
+      <tags>
+        <tag>毛绒绒</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2023年碎碎念归档</title>
     <url>/5835202/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -2255,6 +2276,49 @@ MMD区的主战软件。用是很方便用，就是拖拖拖没什么新意。�
       </categories>
       <tags>
         <tag>观影碎碎念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>年度计划归档</title>
+    <url>/e81b4f42/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="97aee7a243c6bc515f476343934b832a9f1ece49659f364e282c6d4821f537d7">4f9329f92667f126694ae84c350d6ad4a13160df7c95341e837de4bf5863c72f3decb491cd3d5425fe442f307d71f16ad7641a06bbd446bf9e3a766e586a7e2deeba54f36be277fdff7431c2608d6352b95c1c1c92e9c61289bfd0be687454aa73b54dd5b286b71d3180a289eceabd2ee3bb919890459346f89f1df101649c130b51b67f8e8904bad97b7426d8fca4c1158beaeddcf2162501dfb42c090ac22876be7501003916fe5822bc36a5eb86bfec328214e8edee1418142c0c94e61c5f728064071eac60520b2a94c8fc350489cfd4828af214c532ecbbba9c0dbdbc9c54384e8d67911decc93697dffa8f49c9ce71074c402a2aa3fc45a2eb544c4a7a80a10b20c3b2f883c2abde6af769e5f0ae44339aac062f9504e03048233bb5a4c2a7a45aa91b05d617c679b82e165bc5591b8ecb2bfad9437a51a043a7034720e4cd70a323201130c891874b0df83a1a475462b664f76766d6f24c9d69b604bbc0e96513b5c33c3a021ace3e405673037335e7cebe2618e4ab7711cfaa798e96776b572cf9c99b3efb742c26ad2d43fba3c53ddbf7036d6eda1a021da4551c48dda82c1f749b12b69877fbe91d1583395102ef121482c68c99d35039e2e1f2eb4c1ead20bc8b403dca539592c96abd97bd1e952a7bfb719d817faf76ba1634cbe6592ddc36bb10a5a1f3f9f4f3e637df464e2238a2785b0663ad34a6df3a8c00a716b78cca0670eacdade2f0cef2aa053004ec01c67e4eedd62ef3cafcded30f48aa1c0ba88f24e145a0105b1e005af46429cd28b16b92eed65f0e0e7d0c71137a372ad19d8ea73108ee0134ded022586588f0ae60b01e9cbbd9aafecc642afd7517b6d26aa21e636c5b760d258015ce9e4b44fb2742dc1a3d00628f142d8e2a44f1ece02f40d8ed3ed001417f8861632d2ef2956f19293b503b717b074b18dd716551b4f7f5c46be1fefc8edd1166caf5ec88e922db307f3e62bed63a23fd1cb8ae1aabcccf986225dab76ca0dbdd80eecacda567764a22e78101fba7a7400f1813296221788015db81654aa8814cccb899d449f94c882dc30a6bfe731aa5bebaff8aaccd33adfc8d355be2be3a4e3a41f9741ee363fd43ca3592c74db5d42cb6de4204427a0001a35335bf644bb1cf8bc7c7ec3e1bdbcaa9573ea8335f08fe4798a129978b15b92d24512ccc463061e2b04b42da892b913c14505c19eb85dedb64a56925f245dfa3fa6cc7ec0b705fd9dc3d7649b60840fa62684ebe1c369d9968b0435af1593dcfee2ec5d12dfdf91f9e17ae7147fc63b02ee69da36b913c82d814584e70f65009b4ad2b104b6d2334e36a2257b4c1632e893fd359bbb88452e0df6ca388850c0882061ec106de57d781f3c526dae103addf46602b537298d925ef96c8ab9a83c2c72ec936e56b01be57a12d67f03f6311956aff84629c21f6f37a32aa63580949e42bee1d5b033459c12a12ded1da5ad68d00a386de1f1bfb3f0f749775bd54ea353d8d2fe5d15a348c0b3a6412085342ad5e683f39b07902ae71d4f70ad16a014e1102d54f39c833b3288e5df2b588f32cb05f545d26161ca174da31b3069ccf7829ab31d7778eeb459a2acd3198628018318f1a46d5f6b0d657ff786a58abbc23639f8e83c6961b402aa0cc3b3027f601e17f17439a542ee54bc193a1429068c48c2620295373bba891b93ca697a3593c2b016ea4a4f29b493a470d7f8efb4140c53e7a124ca8cccb1b6bf29b02b12e5aa8ce3c8b051079aef1948424230fb352adc852955fa5866553597f0930b6151cf3f4b92378d3cb71ae22c3b0370e71f0f1a8ef57003368928a33c4463be7c3bdd033d9b4f75d65e2f8f7e5eea0ac379432cab27e37bb6668de8b63cdbb522af0941dbd0939e8a253fbaa06ffe04d46e9529039c6a17093a3b48a9619c4415b893b949b7a6f3f48f5b1417f94dd240926f3d461cbc78de314d1577fe778ff2cef7b72b5cdf50421e1529c07be0d4c4fa59a39d75b5391e579371a93081da35cb0e0c93d798a1e00c6ca7e365870378414cf2c983bdd9d696de2014f163a4a7f01fdb81e8df5b6b520839462648ab51b1d7e6e0b9c43a92730e9f27c25ef79f3eac63a275aaf69ad229efaf1848677c82f8f73df9dc4bed4da275534985d8d5a392c10f8a5423625f1bb3f1306ec2cc1b9304ae35527e04e7cbf8947514e045d5aea4f7267d593a0fb2a25fe58a58f23a6945149e8877988e95c299c14deb1b4c67720b598e5ce807c874210bd1f173cb946a6e74d3794cc0d0a75228f73e02254b32e39974de04490d39ec12242cbe5c0f0b9d37cb30a00081bfe639da8df90c18112ae7d80ab430fe16aceb4166a5e502f1688161a169fc0f60ed324110c5d988e817ae4fdea58725acf64dd3d08a964c7ff32edcb47ff7e9d53102e6ab338694d331d5763a67bc235fdb2106395434237af846e6042681848bbe2aa6ee76396788ad2d7056691859efbd82d707308a56a0a2db48dd349d9629754ddc7a8e812d1a2758751b5e4ff8d0748a6cc5bf4f5d7dfd7a34c65d770aedd9c9042dad0d04c52480db3024379e7a1055eb4f2dd769fa919e3664b29832835bb6260db9d72b067a0e88a5de105e8e3295310c22cf95fbe4173e71da16177b2c38be2f307d4f4d095ee9c056539724d40aaf5372f45cacf400925d659ca1c9c9e03382a633e78173e445bde1eec3e20bb8e183713feb8be155ac6ddbe5b716c6041d70d36a2f519319c488da63d8af0c364bd6c6a66c2bae60c978c9890edb66128d4f5f00f04d95942f428e50d68588bb7cd5f295f2b1b9867ec6bd12dfc7b8db6d1953851af15c036b2cb9297fdd562a408be4eadfe44bcb43d4db7b50f826467a3c3f2f4087b7a48cca21bd65d36fd09607144effa6d2c8ba26cb14df8c70bc2c46d35abb0d9ae071f420f102cb32b6baf7375ece0b9bfd2698a4fe74f8d25f0c01701d0eecbd2f71609b6cc0866d9a0081a8a2e3c789a793c5b8952f628c6511175923d7fafc6a3d9a7ab8ecf555affe20aaffa548d10854e37d24ed234c3d27f07ef581a68bbaa96c9065f8e89be8b0c0c9057a486cab4ad431f46d725550538b10b2dba233e4430918128689a9ebafd722572d00436865b76cf2cd5dea28aa48f7e1dcd6f71f4d7d4955c44bf881d8338e907fc8b6dd79293afb86312726803f3185fe857b516ee80bb7080e468215667364df8a898e2ca8be709f6fc5bcdc164cee431fc5272a9726eff23dea81a598886159219e15ab4e05ad3494b0d49ffe004e3fbff0ae0b99b1f8a2e7793d9df54790849d745e3608a319a7116638c34920233d690f28feffa5eb8540d205f3b6f33d5fa09fc05db1006f9978f29defb4ad03c1392b13341508bc822d9d34b8115e03dbb5a1d8b9b6daac9b9f11b0252d709e5a337d624dc3eb91bc4c13a62f23c356e9776867d7be3606f9347c627e393fbf697714e2ae6c17de538d5bf60e20c397c9a7169595fd5df356557bb6fa45c63cf147b8c38f1795529a7a886157d42c0a4e3443aeed827dd3ba9125c3c229c0580545d231048eb64508a93ce1c76f2a13fbec37e483f129ce16d4037d3e830cf4c7aa2c2e4991b56bd7c6f8e87ddd29b6316d948e1445a664f3bf56a88ac19498378904c2353946f93fc7e626f6a156ddac2932d42a1111a2a6a78aac9668620a7310c300317b2fc7c99e932deda8ab689f13a5808bb4413c942231aa89ae5975dab4326963ec96569b4b19eeca9ef1677ae67e64a9c0b14ad7edb5c304205d69f86c6b9249f1bd2a15111496af99b94d767ab985b2540541084fed0bca2479d9db6de477b3d5fbbe0ddd05d391e76515e5240e34554ee3e5d00abd3b6a3926af4d8d274c69e4afa1392e7c339b12ce22a8cb39bd7013d70494c21cd69b86cce62ee2635186f371c66c25a0931358fbcea16962e6773d5703554cdf2282e71c39f2061de06559cd493fd6661fd0efe63c5e6d470edddd2559ddedc3f3182e476c6bbb75bebda7be50292c507123115f0f44de87f9f8063e748e0428f25ccaa147cb2d132c552d9c5f0b2ae7d82251919a7553ed63d9ac5df5826c2ee9c20d006a966bbbfb0fbdd2b9f91b8174eba22be04bd298cb7e624f3eea88cf6b678f4ee84b5f53f6adb9430f649782b3fb1617bfa473448431a6ad460c994e863cd4c308fe47af38b1757cd09f3f683fa42ad758ea26af8b0a22c0e832a3fe278ca9b5a37379a37645ff5ab698c62ae1ec43cf252f479467a95ac85edf1af4a10cab44fbef075e2a784957a20a3d5bc68c60a31f48db4fc639f97f6ce5d935569d85ed8c8858af7970187509e57463745b07f9f04c607e256c30fed10c4ba0a9a5d105fabf7717e8e9cc2ff9f5d5a5797312871ee993fc5be7847223cc0c4597e3c807a433a8541a5e38954d132e91a8ee27fe14bf0a126abe61bcf6eb54bcc912c1bc4c01c0ba6be9f82d2abfc48eed03d87fa97a88b175b971fee1ead76f494ac1183c2ff262428632ef880faf4f16cc30d48edbc59fb757a4b6eb9b0ca28a5188015b3355e7482827fea21a1e3bf2e2faacce17606307e0418575631e2373deefdf841f8c600259522fa031d9e5689489116292b212120e0e19187423bf3b914811c6aa0bba5291b021a2e11bf9bd8508ed962ffa1a62cc85e08413953b6db2c3519074d971f26aa54a324e7280f22c861a00e90de4fec161122556d8e38fb745e6e4c2d66a7cbf0231f3b7d8307fc276fbbd406c084ae8bb48b95ebb0791adfc938ebed05c33f3793111483292a1bb8d7e75c1c087600b4e1a6d04df08d15b3b832718c97a9c8ebc6f1a54ea799e5d9ec375a3cfcf9f8e3d0ae56d8dd22fcfb4b260bdfc485c6132091fff6a7b999b76d3f6b7a7623da183c8a9469b3a0422ac0de016dcb0b071620123dee19317ddc27abba622e6a42627316dccac805f1eb405e0560768f5dca8b07d754240d2f6b0fbeb6e6ce9a7b30fff0668cbacb52c3af2c28b7b5a00b823778838016125ee5f8082b7547069ce60df8481724351feb420e42b31bda1b0f9b87a3bf32e8661614447668d7e2f9af72d21eacf3eab7cc99e1fb9f470fc04338d7e49a66bba4174465951775756b0bbd40ca38ed4b3256cde88eb3b75d7c4a75b87af127f93416c4f5860a9965e361f6256e08cc78f78ab90fa8912575390aa4ee5b2d191387f5130a2a6c63d832b8390df15177e94d743056001eacff0c7e295050a5f070b955c616224e24407012712021fc5c65b78be6e62c50ab9041f7fd175fe97e27913e6dab1f485fbf23dab2244628dbea72ae00780d0bb8ff4608fb869bfed27572698ebe4486ce8920611b1969e0c1d312483492aa5af9bd316720711f8fef21f12eb98da33886b9bf418f13f38472b911925271478647d53d68c379073db1996c5cdbf621e01fedbba6eb93176ff14aaa839c5dfa965e1e4118a19260ab1eef504c98e965584be282a7a417a59f0d7180a4173d4a237abae90b36ca224a141daac336c43f9151997a3c72e1432310128c77b110abd131f54d1ce7e697365af51cda28b19331674fbe8fbdbc50cb20929998f8cd7fbe953bb0d46e728f64c8591a2c5fdd3d1ea7a77612875bec44e13d386c3be1fa21aa3e0403e61d354e35f1e1fd2d3ba3715e0cca120b8860686f52387a5fa1cb1fad7b03c53a5806c61555221c8eca50408a9099964138412f0607bd6dd813362f7af3444676236407be5ca54a786f23515e388bb1b4ed7965c564af85fe450c3e140c3b0a56cc825099e370e6fabcb097665e72a52290e65b2c6385e2fe6949766b7b6046378834bec9db5c6d55932fdb299afd92d8f513effd02726a974790e1a74aebccf303f4bc683bb9865a3bc628fbbfceee2cecb6f00c18c4b7285d3a0266592007a0b75a461130fb9f6deb7fb16a112a1d2757654cfab4e6312c87022a9b03f816bdcfca030d1eaa1f30015dbd6e60fdaf63b257249a73f46d62b5c1ade4a0191d96e9431e30bc1f828f3442a759061a5ec50f1af861b088d207902a5b00956f9ab7ff6523f7eebb6132d58dd15fa7fd36820177a64d703d7313fcc27bc6223f41aeb8020f2d7c8d0fc1ea1a823b984605b0eeda5c92218364e112aedcb19cfdbbffc5c18d3d1f1659f35e40e01a20ea9338b2bc4b03e476589866fb51323f8adaa5eafb7148a3bd1f19d7d1e009e450d64e99ba1e3dad7ce8044f193d4279923b0a43fc30b25143adbe9c8d357e7601ee10dd4e05241f86cc7b982f4cf9b610c03319141f6d0e1bd2169a85360c114a9e32173ff4fb1ec58f27839b7ca688a6c2dcb4347592a50fd5dbd9ae0073cefa17aa839558c34f123cfed7d769f97ec1b7eacd40e1a244340c353c2d35bee88798c91a4d382f233d3dc8a20720d7abd102d3f916954a10f293ab4e4683d97db0f6ab4c9489e445ed6c66ee345838f6a67dc8f404e8c1bf74336df1ad09649c80491b15e8fb52349bf8a02251ea1e03579069ed0c15ed680e6575e72e7d1fc1637bfb781ad0d85d31d8a004bde6f2020994340e4b15ecac44b254bf4bd7e2bb570bd147714eec86a5855f9021e3bd613f5c3a552fd046606e02dca2de1a38f2c416ac7ebf5b0fece72238613052145cef14106e8317c97fd3dbb21204e326e5e5a1e18fae930727b087fb645124fca6fabcf83c75dd25564c5f8980011fbf2bd3a9cc19fedcfbc587ff42e2fe69a41af6c751b6f569a501d49e9b6fd81ddb9110db56d5250ebdaabb9e8f09fa9866bcab95584f9650a8d68c8f02af8a08b505f975a3d472629b013b3e9a0df6103ed971c825f6a8865a6eb80ac609c61be8c8ead41759b3dbc40a507252316d4f91b00441fffe13fac5237f02c9a67c9c54fac953a6eecfdea1e1c57419e2abac89eb7c19709411599c03894ef740a96cd8ddd0affe3c838111a50b54d193f254f778462becdbff5386cf98258e308c87ee2da72cd63f522b6af54cb786d24348239c88935b1786de0b9687312071b3c7eea3a6fc7d0c2713275f628b3456113f7f48d43c196de374e940919e89367a6a833d421d82bf0a293b078529e8c3e3f67fec8b2c371f93efba99a103b2820dbd343863f2b8198ebdfd42b3c2bc0401be5f43bf8000bc3b28b02190b6dcce0725e80cbb1f4d79fc55d87fd8c5b002adcbec3ed763f48b3fb505c79901a1c817aad2b8b13c5c546caa4f88c61eb66d4dc53321aed3b13dddb0b04a84d389b892263184e8dbb5ca4ad9555e8e8786d031bd3398f8aa5473dcb1fcba21f39442c9df374fbf96f577812eae48ba2c680852d7ae582d2244c3a89a1329d7486a2ed7ecb158486f12c445e83b75b982dd265e60d810f92149968a9461cbf9e428ddeee24e428b1bc718f3dd3c5e5da96bdd6f096b5bb43fdf9a5f8ad8cdb14bdc4f7e95771e8166b011fd5f95f72fc1e8ccfc340f35834875c1611cf01416ac0fdb691d6c4f1fa0a601bd53720354a006282d0ff5bf1393e5749daf3a7dda7e045485b813d0461333e0961cb970c633c89782f1c6a4630dd9a844f04089f53fb7493a6457330ab1b434a0f3c4955ecc95ddfcea18ee1de0a9dba1a904b83b36313232d52a272739c65c71f2b0e2b45c659a94e5054d1383af0f0e98c32aa0b8330e68d71e21ad2417ec33239d16ad0b4b666cb2202cad709de1eda86c7baef9c31000c6ab0e78e0036bc402426e90625fcbeabe6da269c84ac4f12e9fbc5baa5ce70c2fbc3bc7a03297f1e37b243b8666cf37a15954a4928e723b07992ab41e311f0dce616436fd26ac4651e36220bda66e47980e8201f80885aa36d3dbc3b9792e126b11991c1e6fb320e568d639ea5c2b326347d4ddf1773bdaac35b042edcecd63179e0828fc9df938e3eff3bf8ff5afc44113798f89c0c89ac535fc74a584eb6f09bc5d86e24315520f1ac054d4bb2c091da3b5b8abc54f16e262670be8113377afe03fad6e486c99645d00a26f9f2e6fd3c8caedc693a8fd2e4765e3bd12507865403dff088da2eef2c95c44f399ba745fe5e21baff037b88e5ee63ecaf54185b9dad24e188f350476d21f94a4a72ed77af3d46749dede12eeaebd06924c8899dd82844e377cc19f826233a88d9e2529c72029effc7aa6b78a33126207abe34669aebb54880e57cf9d4b08789caae484e04fef2cb7c365cae10c945982b6171b42263a810748674b4ac3792e6e9400935301ae4504d11734087af541025d9b27da54ec7cf7cc3b95419128b3b828b9e3e37b0644fe91218e893bb3da0af60072e43cf0b722442110ed8482d3ba7061c83bdc8ca0989b3bc5680e0bffe14117d28f02c457669f8d955de51fb6e803c8c78fbfa81efcd575f58807bba361cc088b5f8933961d7662259dbb5ffd32f12e8f2191febac25434a88d10e3c0de72e4b0853d33c0ed8f70e7fdb6ec6cc028610f2722ce028d14f76be463aaebd0d71f03780db72be509cfe6a19545868891919c358c90a8ec93fa0d9868a944600618f055caf18151a2f3c4652f4ef2620309220993f7b4810fe4ce3508dc8004b6086935eefa4361f5df90c739a39059985f9d194aba4dbd92038509a32bdb9770e9b5c1c628b3caa5fce975800d46aebb804fe422701c6996dde914d9caf58b945c2b10a985d5714e642f0206d86d6dfca0903a7fae5840c56e51caadc9018a8938f0c669822eb2843cb6948fe47cfbc069570eb4e53ba9b941dbe18b1154bda46ae1e0c7591a742ae9bfce077cfb758b074897804fead88cd6f76044d142c0373c2bd8b077f213f774bb15b8c823db5fdeb34b6c02960d23068347f2b5f128bd022637fd8410b74d1ba9568834b478c0e254f49924a60489d1150246396ee9c526c84018577d6d3ebf8312311a0becf032a06188ce7e2bbff7b14409c6a0234718466057f460776b007511dc2f5bf0db56070a3d4c7e6d5c0d9f81e9d69bdffa25ffed7637ba50b5f41a44e2a14f8ef6a4c8a54fa09c66f0ecd702fc906c01c24c3bd3764c301cd4bf4cc4a221a72a19f11a41269dd2ba1db3ad8a1b6a5e7207a6987c03de625cd6408eeadf5f72061e36f20982130884438edb6452fe88872c96e0e0b4697d8d06f91821ff500b5d84b194b470d9032e75b91b6254c82f6060c1505223059a437592c167d7343f4e8d65ec141f4107ab681d2ae4c1adab226fb5018d04c241ad05687284b7df8799330fad4278160f06c458d7edcb3c2094265813921c74de4cfd4125a985149a5583b234d6a42e5b6200840684d146abe020568ffc6b6e8db78b8bb1e883703198b60356a6466d63039f3d7086d49a028c5ad6fbc6bd34d47a5680414f4d7557e01bc104d4e1079b849ae97f069491a08a046fc8894bb96dc02cb0c29a7610625325464204cccc3bc5ea32fc751622825ebb5d34238d91627962d6c6d59a112f85885eba56ad3df21dab373374f9c670d58e6bf08d4deb9e480ba1c7a4b52cb40e4d82f8437fc9ce23cedca29f534a14748e3def23212b443aef1ae336329699ef36774fc54f914fd05886b6c85253fa8a288d3170e34b35f9b3ace93f6963b21bfc956a55b16523a39d7e59de4134564ee8a5847825dc650d9591826499f7d6aada8bd69404859b6b2563f713e149b744629f5827b12fbfbe26438107b0b4cbf35801b0d23f18e16d6485d7a656335c58a092a72e40cfdce99858000ad7eae0981824d73097af10a0beb4252e270f8c02b69f610c8e1b2a026c574c30ba3363bfc3835f72bcc79ed6539ac93c7ed7f49184d53ebf107407a9495ed8f8f058268f439cdb97531cebc667c3b5e34d7c6a64d6e1e70379832eebb91bf844db350895a692fbe18a043d01979a4badbeb5e95a0c3fff561f7c43fc906ffedfe72b7e50b3cdbb0418acfa0a64ae50e325b3a3022b52bd3bc4486f0f889c87d2cd5d33f57a60ab5201ab5c24406a16d3d79e9f54392e2f4ae3603cf7066ce72c9c102795ecbbcfe8ee7401c038535ce381348745a4633ba2670175ff2354a3648e04bae5a8e0fd5c52248eaca05ac66ad595f229ac0e28140df989e14f9ced9040c72286684f42cd3cc1b8ac05eeaf91ef98b44444c81136672857e1c31f9cceb8b2bb8d78cf84c2dfb5629d5cd3cecd2b7d769109e3404892634559ee877914b61bb11b919babf8b73a4c619879412af78548739c70385e73f4bef684ca1b1ea100c720146689592d8c68acf955a160ae8660b17345dc48d72da3d0f76537e9d927f07e6782b6fa6c86c1c878b5575a409aba668b3a8773713a8fd3cd2fa3a42795a5db12bc452a0203f0a4f7ef75ee4cf57c84d4c439e6a755d3ca67556b1ce7711b0b4d107536a69558fe8a37f5fb0656a17fc05616f3cd47f7d0c24ecb2dfe5c2502f50d69adf873ee318bdcc13d989c0f5d5d006e91ca403e47863e81593bc337da25e570aba3d9be95ae2accd1e7646e099e2e47d5d4b2b429bbfdcdd78cac4584d2297881f1871dbfffffaa715de78dbedbd88b0e70ce2051c6e3557bfe33d9121a7ef4f72af5d7fa68e7f117fbd08bbb0422f39afb8041fa0a2373b99bc70aea1828ecf8c374b04f373a3d29356e5b48bd26c1d04d40ccd34fb4480042caee5cd127199f802dbf6b5b3e6f70762d70afbb0ebc09b07a14204fca6287770499479bfb55b901a13b77ee253f89190daa0dcacfdd9aac028b028fdda66e0dacc0ce0f2fcaa5bab4b431076593abf9e5c51193f67b9c1b490003286e06e55b4bab69253d2966c8345ccd5ac56fc533686c76e2e9c7ce840bc53030e571acca677d2ef4eb5f9f90abdada5fa58851f79320fdca9512e6125fc599cd0734c73a2a746e56d48908f15899bc89ddeffb33eb9cf228e5e31da77fcee41eda6cd9f52a79d8d4d81204d1df54c6b4c972dcb74d7992cc7d37156bcc6bcbed24701d5be8186db16a4645761abe65ef153ad85eb25cc84f31a507869f4abb24cfb466142204f7823ce92cd1391e1c1b78ee55f88bf6924af0ab1535199faffe223db423779916e6b45521da29e44d4fab29b4a2add0ad0fc19204b547703b018a8e69f4d0fd093da2981a1dcf7703ca12f2de2fb6a634606d2ffcc13452ec9af4e6634a2016302af966c6a80d3972dc6f2d7d38fb2eb67b087f6ecc669d187d68a8d649a5f900f7e05ff8c1831474cb724eef274e58385a26eb67af5059ba9e6dabf28adda7007651edfc80685e1429c8673eab74581fd4eadf69ec3e7e976a4ce3123939a5661d57d11fd74bd64c28bf5797d035fde024e66b27e095c88120fc83f266bf997190b7c29cc5d17d81cf9897db3e60199d256b4853c09016a3fe5b19674748d8817b380ec466420573a9c4344e70d378c8a0aa78fcc1fea2c3351b4649a16841ecec17297174d9a08281dc60158994a7cda97e645a22e152c05dffccd28fde29fecc15956860ccf494b9f76f9a8b516d792d4a8e5456780bd4985017d81a5fa5ab266b48627afe1acb9cb7cd7d4908bc74ee925d28f9774aed57424eebbc9bb5cb6e581ea2552c512fd3f62e54df3c9577251bfc40895ee840d48744147648b84e9a03c03fd4034d653bba5af5e2141478623689ab0bd06fa2eeb737cdf3503d1704f96aaf0f42186ed5494fd7ce4a3a96753dd46da62dacbfe9b1dad2eefdbf50bc34115544fee772ad76cbd5384154015b5283aa59b4c103cd0b58b59f68cd64208e77e98bce8450dcc4967085c4909728622b41dc3ee6e04c38b7ecd123762f57539e17e46fcaaedf3c49d6ac5d01cdcd67b889f72c580871f134e83838a8eedcd35b27909f3b4c95c1de213f16163079cd13fe179a2eac63f1e53b63eee5c4dadfae182f6038f1d12001f48ee6496108d483b1b737a89e7a993abe2edc3505abcc941660eb58e05380f79571df7fbba272099f1fffd485e7917fac7a200328c8ddf67bdbe61463f32c4db48a5d994c78cccfef5daee7a6a6e3de5d0bcf695ea04d278abd80e8fdb04176a5e95c8517ccace1ba454eb619044ab4b67020f975841e08aa988dd748254645602f474aa7cdcaf92ebbe8243dd6d47587a7890f23f9f9e95175a20c371b324f88f925fbb1df31fc146ecc4687c33c07e4a7f50d5005d7dec3a34e1cda48090f033b7e0ba06c9d2fa79eb0f3f769d55df75e9c5560725642a46bc22859ae75890fb00d9528c3fe7f8e9824fdff4a9e4d1def64bc7aa3f2a6177ea9b8c95727ccb1322b7cf32955179b20949050c82d00342feeece0e44c90e8fc8f5b698cd200feea28302947ffa2ad69997de0c82ab7b70e1586f216fe3d661b3616a718479168ed38666d87b0daa6bccda63ccad4c13149aa822cf34ac0f4f80c5e0a1b939a28d0759d8483af8a6871cbc1d6b8aa4b3e72f304d10c42460b9e91efb8f2326baa60671721c4dfaeb94c75c3349f782911b93e899b8539f73277ad3be8146cee1f592940e0bec18089fad1aa4f8cb6666ef6c8edaff36569c106f248a1b327da760460d087bb66a1ecd9bd102dadc78a212466a4f288a7612387a8f6b00c10348f477a44095748eb56eec21e4b9ec184e58429f1ad22a650c8da3482d6af54d868da98483f613e558995bb0bf6f225f99aa8576b647567df439656f44646989b73af2abe721c66fdae3f6a90b9b1a9e01ace82acaf54a7dd07023f5b52436b5e235827379fc36d8dc53c8ef1021b4bea2b3939bfde8dea759ccce46954ae0a3d97cd53cf86a383f7c98e5e1c6ed505ee4ce72fb3665aba231a2921bb0e2f293eac41e47ee558ad803e90d98f7645fa61ae7cdebaca517457d5e852d205993762c21d9c0f2457156839695aa576adde3fb6227c0019c133ada6a20180bffa075483de4b09be12c09389038507b1760e8f0896d276f3e4d75ab8754c9ce360bd321b3cda0eadede154625a4e2911ca211da35b72cb67f001479f327fe57c15db8b9284a1033aaa1783fac2703942ba1b7d34ce0abf0eef91f63e3b12f3dc7e6aa9a10e412d7e473a752b638903a41f1d800601614cf877005128c3e339c886d8e85e271651fbf7f0758ecb53283269d01eabd7a557c02e0036bcc9b956120251f0bfbaf6f25d40a172e78596e0640bdf1d4ba90053240006ffbd79628942053529f951d0f8fa7537fa81828f4dc1c7a2ead695783a863d56c5d778b230be1bb2011c1e68a7d371428ac3386622f2baea990d364121a8cf6dc2135333feef374f58ba096c2c6fc9d143056033b1a8bcc651479f5719dac4f69073ffb87ce936558d414766b58a907d7af2be21e3bfcb112a4a5c5d720e17af5b421d9b380ab29e5b1d5948d4c921d1d0a60ca8991cf22d4e79787ce28072662d461fbe2995682208b1e0a6eeedd9e16604ac54f3f74a0b604df913cb80bea097e99b8beb58e82804883e4c4fa26b4db21fa610267bb42da4d565dcb4cb971d1a9b4d2a09c13b4681f25dca53e9e1cb918a721b57e87c747aa24723d1186dd0e79aadbf80919fa3eca9462cea52214d8a9ec0c6261749838b7fc07614dcf1e1501b745a1874db914150d30536b95561d55f79945f9eca75cc649deec014944fccb7edc08552b77e4310b7820f670f2d274a9679544ef6894d28cd13a33f4a8663e7e26ce880ff576068b27a94c1c2b8967a9ff196c6388d43a1b05b092193448d13549c87818f98fc2e861a7e88f46ac348597f558b91e943cb01875993d3a27966f3fc0f1e9724710acd8770a0baf649e5fba1a05a5d05abd3d076afe5f90174537b71be305c05e1b905af0f6c328dda885af1d18532d93c1884cd351ee572bb68f117dc9c05e38b6d2570a849e2324540769cee30a2ed3689a9c4efa310d643a61d943a38f0bc25bb560db673760644b7445283385bedc6f6d3aeb44e14c325be4b3c21f5a329eea5b83f156b21ddcaf4db2ed2a83b37d85300ac46f56d99c10ef6160873d1443a52e0237806d2649fec990331b65eeec23f85cd1841790d508970bc895f3bd9eb3e92a4cac031acea8957d10f620c6f993bead14676c07b011a385d95c6542e756c52a729a1d96a902f3f8a1e67539af98117514c0a12cbbfe065bf721d62c7fd41eeb3d3cbac1b036bf7827d4ba2a0bfd4b08bc4fcac488d4db3e80c014961b72ba1e65892cc0b0487340ea1f9851f6ad29f83a0645258f0a5ae0da263365eca123824371317029e654ba0b3230bdffe1c41fc83dc3ea92c3a27dbd8e53dd73ba866d2233fcfca4fd6df710b110ccd9ffb3478b3ace4ed3b437827be96588c5c2b142cfbb242ead814a0b9bdc762b6e1aec7d96bfd088ed5bc6c19421ad5c014b8da4d75e5929ffd7b1f6470f7f71fb5d5587923a115c3127b0f046c767810629c0f38c690ac8152edcf64d05cf21fbce2401ccb4be1abeb7edb28bd77208abd1ae861c94ac715a87b2210f72cd975ed9cf57dac75eba80ef188541fd7047b69430b81e847033892a647a81200f96eca0010c49f509346f5834f5d0b12d05c0e8058ffb1ce3f39930028cc00e27d41df3bbe93e0c450e46a06ec227193cbc01eaf5918df5a43541ed4db4c79c7b82cb4c9c794017fa77d120cd7df2fdb4bc2e528493540485c1946d4b0e451c120019199031f1cc8b1520064b084fae2e69206d51f0b9ce73a605c8e387205d51dde136567abaa9b6e7555887c5694de2022c08b27c42e265c060f9b4f19ea2c386c234a08eb0811a4aab1bb2be13c339be598d147b8f6b33fc52e4eae2b08f01db0cd90dfdb1565b5199209fd057dbdafe0f69c47eee3d6e73846880e3942c25e28e955843f9e5877c32d408e0dc5e8ed6be946d7209e0387d98804cf2e44b63c03824b25b8de03e57f7d37b390a02b1ff3906796a75d51adbf035471cc2024e37b36644878d217edcf2064338dfd6eeeb2fbd55d6b2ad20f0d7a89303dde4dab4592a9814c22e3435ee95b11ef472b1158a7905f619ae8ee451a9bf5dc84264d5e43a28da01203d67dfa1bbf510470d03c573c059ac83fdb82cbb5dbd12223730d19bccb374331688f15a57d804e8d2f0c7066e619abab99867a3abb9aaa1ed29cfe619031563bcab8b76a558b1cd958991c5ffc7f76f91062e8e096d613795c4357038f9fc4cdd8ce175464b1c7f2ab037b0fd76b2d9f9c540f3cdfb0b1fe20489cc9ada38b5c78faa651e30663c138f2cd8940bed9a38b45b50c29bb2173d555edcb907c383cf9927b9bbdc1bbbf257d6f0d8d326c335c967f3212da48bb9eb18961631281ba570723353e26a9f9f63f198d769010e77cf573c8db2ad423542cf40d565afe5969af45719d923e1504934c9add7eba21bee746254c43e8e8e395dcc59c3ea47319acca3c1299b76f29b0566c4e368be5ad583709f10607c69ec31a5ece3bf4c4e9c889f80a39b5fe6cffd8f5684f049f292e06b8ea14c885409aa7aac18a007ab609ec3e3da2f0597b76daa499bb7097f690e56a0fe52ce530eacde428f2b021fe1e4eb123b5d723123a7f6ce12ae847f6fe40769dd85eb3eaa5961a732e0d14e4cd7d150566f5c6b4c67e8025a6fec82267b25d7cea371acd70fdaf857da82ac0ff62b3ff385262f1b52b85c1eff0a145f765cefd584026f0a002dde4b623d563e52b7f9904a29b76b4d2a5ec9cca2688398cf9d1235ec9bef5493113ec5ee9dd5e67bb5c3e19f35e454583810694c58d005b4a530ae1b66a54440e1c53707f6e83feaeae156d39e7b46246bd4f418229e9dd0e71af7d34935ecf2058c90a5454e419863b9648ec245ff291de4bd8db167717b5b398854e065a08a9bc215205f9930e4675ad8c52098c2efcec2412103d85f1ffe776ac6d10d4e084ff7553365794fa9cb1a7ffae6028045804b2b27095fe9bd6c0f33eda23a08a58ed8bcf955f8c9f62f853471acb7a84d51719723969b751d15690407197141ed432349ac98de7193c648088b5aaba099a9ce86d52338aa3b8f58e3335e189c62a1eecd79ea599c500c6676fad2bd90ed24a76e0f36e27d53b5999cb6e67575e11af7e8611ebe865d3b8a690fc7c1f4fe0412eeef6714fa8eb766c8dd5fc4a4c6401bc9951ccaac3801a046314f9553fe14ff121fc5d48838e7c836ebad958c899dfffc9655c38bb229a1347cb402e9626b6fe85ff2627d29b3ddbb63ef3932e8726dcfa38bc0d3da6b52a95d835998afada44d246dbbbf3fd22a9f1ee172981c065e2b81868807c3caf2d228534b8d6c16189a9504f19c6632f136f234470f470bbc06459edd84d562d43b396c330b6022bbba470948ec6159bb0e89e2f10ca00c918abcd7d5e4c62f68952b1e1b90e7df8ababe31a45bc3d52e1ac08c628252cd45af6dd8c5eaab20410d875321be5cbc349c83e890d9351a2afa5bf44daa51c73df22ac371bf8a50fa7e89538fdd330b5637bf59a432ca379670bfab97cb862cc62814f3261d5e6b7d0a53a2b738758c092473866f59cdf301fd74e95f6b457940f0c87e1a72f928432e63655eb7cc3158dd4825c32a99e3bcf309d84f44e4231e54a5d6622618e3b930d04d0ba77dd714386d6956c2b31ba03aba87a8cdfae9c68b26b11dac3d9ccc26150ede603c759652ac26c56524c262c48c0d224fbfeb143095eea05535a4cb222077224fe95b69757a58ec0c6d94b20ad27320dea24eacfd230846e16446a46dfa70d67c50db2094392821a697b85d7c8a2bcc08402b8fa99800c1f81f26fd53b868b7e3553e9fa142742997ae970fa539ef6a86ea1774195df18573ceaf5667abdf03be165464573e6ab3511fa7eeb77ed3aec3bf71e0083e1d718b552893760fe90af6ee7a6bd0a792c4f371e2ff3ad2401cd8d69f4c3e3443f1a809f613898640ead9fd6f14e347bed63085714167d9cf72af902ee639b1a85850a326cb1fe14e368a7d4ada48197d99171eec6e511a77c91dc3e169cfaef1242c9821b01564d8efaebf409a792814a4fee9f7f90ff1213070b5f57485719f74bc22b3173084b54f9c23ae603031e9b361ce5bf8fa11d5cc91c0909efc0252c9f2bb6f17de9920445ea52e5f8fa83859fc5f603c71fa078f301281e360e1f2891e3674a4769444d44ca77ab5fbe7eee101ed1c10f7367f86c66a3098c1683e66c54c23131528d4d95e1cc6fd80761b0d15d30f2fa22c57ab03385404641b50b0a832c8f76af71846bd098865a6b82983fb7ca35c23e47a1a485f30698b54a508ad809c43e383969a20b437bdaa1f35c8228af48b4db5b7c0096821eaff6b66be2c131a4c05680f50cb7ea1432fee6a0f7768fbf9ca5318d505d9bb829c8c31cd283fbec43b5913816c81d1336232db93894576735d32b685cedd28e1533986789b1bac658bc355571af7bbd4cf7856cec403f740a5c4fdcb37cb70c09a50659aa93f042210111a4822319b43d977d61d6cabbbb6c3702ccbc81acf7fe1324e2dd8fe8947952866d2f55505244a67d0701c3acacd298c9107129b712868db215346916c4354d1664be5910c1b7594aed1b688508bdb860366c40129e31509c6a0519745a360fb81e094ca5d151b5cce171b15d8cc87f50c1f3cd11a56b783d8c2580156a653153d6ab6456c16f54fb1db2064c5a8c2057057b276dcd47ffed53b796d3d1ed1f1e69fce257c3fb866fa81fc3d4baa1a5b974a23209f92accfb73707ed96df916107d28236377ccfd43ede2be3b0a27c600fc2d42ca62db240ce94793b447a858d76d98715e826b4288f701a8fbc2e5b2b92f2b6fc30958cf14e8e6cc43732029f465c5f4ee4cb9d2bb3c93e73c8d58f400a8bd96fb04d17d0987d9665760c2afc8ff176d10b223a92bd378a55c129d96374aa2f7080ba7cc19455c94d744eb23a23307cc4fb26575966ffd78e421a6ffa39f203e5557649380373a24b9c601a1d1c4a0b94d482990ddc022453ef62cf119e3869d3e00942606610e7c055c93e580b0f4a0504f42aa030f08cc85a420ebeefba9593f529e808dc31a3c820d729591e5c4e00ea7be4b2603fadf7f218b51adc144e19f2a9be3b4ab96c46a963c5b2608f4ca329bac2cd19254a9f467703354438ed38509a5978d75a35acc7ae2e39b74d3d55fc52362fd6f4b354276a8c4e173dc22856357cfd6cb9033b40456f3b252fcf7b5baf1d6cd8600c5c7c2571aa5bcb5e16c48dc0ee03170664533a02e90526f1b98b1b48a7c24a215307bbff2083b160915dbcb5fc9a03655a8460320d2cc407ea036e39daaf17ab6b7199214bf9b7a3ede783b5c699246b9ab1b2fcdd8074bbe84f9cfcf6cd73cb3d3cb827afe50507254ae383c11e5794521679730c7d070e0a419ae7920f0078a0bc2f2b3c957af06a9c9ea7710e5768599748fffdc84324dbd76ee51e9f9290719daaa7fabdcaa8ff58d5df512b9fcb842e352fe3d696e9cb16422da1ab4c4b00b4d5cd59af4fb172991b650dfb11639bbdd56d7ba6df42997cf722e2e6bdbe59af06243f296299ffc2b9654ec4703681eebbc5e08726cf092ea47359f99ee4c07fabdd3abaa9693247c82292318478e074954f28e4b79d649637dc6e59d9ed4d4b7f994bb55d2a70dff3be5caa58196b8f1f80596aae2cf6cd12f4097548c37b5ea8f56ab9d8eabc6ec7a15691608ea5b145c8b650874d03096f326c2bb76de62ceb3c5c899d81adc2db91ca8b2712696a3b5a7402449a2c043c819540ae0289e79162197c3bd497a61d24e9eb6bc662af0f60ab2cf5e8816fc14b0e9e2cb6b30feea6e9ab4ce9153d399b833523d630a864c5435714eea51c07a38813eeef16d94575437723596c5ecebfb1a033a8e7683a43555c24331a2cc80227777518986df3c0be69dd507d60294218c41dbd222c36b16ff8f67c52a7ec2b3c4521aa95e97fc6d89dd6ec719d8f6b49d170e72b59dbbf12169293b25b6564bd46f920848fb5f52b9610155a3d5d3d4247f023807c003bf27d68307a8450d75e58a2e43692ee21d090ec2151ac00735b1ea433d78491aaf56ec9a7700014e25893b8160112047d78447416364fb10f7a0915f47d0b7b4abd75447c226823c99035c510566b4c4322097111ddbbdacf07b990d64d2cd9a2321e47274638f2fd72147d8b3badaa61a321da25de9dcb4345365e62cc101fefec949365268488aebef995562c9b2cd6b4ac5c69d2702001388e83088d54beae54b54ac8257884d00aa30d37a9a0a66db43e5153eabd6beda9bf696b77f088a6146a8e0c780d1eeb0558cf93b9cd21ede1717666703f5ac2502f73a23a16b59b2eb57ff5d8b2f5d756a3164ed4189a2fc02fdbc012b77349ba13ac8be780cb666a0e6f698dbce86cead1b0288ffa079faff722e2eb4a8980c40decbafef458069975bcd6b9d6ecfb1f6b5aff7b203d6a9b13977aece5311bb7a2be3ff2246814e5ab9272169a174971a86c6ccdf0284ca629474518c4b0544974c11d262e45049bc98d09e7cc824a9468b2f80bc2b0e280cf98f3caf75641c3932c4b17d87f566602f256685dfffd3b4e4c86808d78126a0bf3e0d52e3a86d99dcfa0dbf09732afd2239ae6b79caeb43bd7448c5a5e7ec3468e9a0a2c44db3afd8dc51fa3bcea1f7020bd71262e162eb21221a2eca16cb985d0e775b653e69cf74865d36bab8b9a9a9715926b8f9b40bb1cdd33487df293dfb5aa1c14732b2fc7dc7d3845505fdfc1880eafd51b5077b6da6feda3b20a15e793d852d54da8bb95d45502df6ef76892889f89bf49070eb38115607889c8f947c816d03528ceb25dbed02d389cb10917b05290ce46af86a3bbab0a0abd255822e2212e1c1399044cb4be8163116976c2bf7c95b9eb895486ece1e779980176669a2d6405fe62e397dc34d6b2c52f4c7cd139f7bff94533f15319260736ade3fcbc93e3bd2947e4712c338d508d41873f1a385383cdb517ae97e49d492b010323ed5c59f3aeb081cb5f836a658369f80eeff505c260fb6bf6ce7958c400713e1b29885dd03ab9a21e0253a34b4865b4203edf1b58c66d1dc82b3af307e4a707d144f29d105788cba05602fb313f3399f9fd80ecbb5dd3b5feaa61a80a9c7e4472fbc72a8d0d528fdc05cd1eef95590655721ca0e4811479d45f0d4ed658131198f677b26dc5ca3f2e79fe1bd4b984bf4cc7620677182dcb4820bcbdb334539b8ceef5d606ef42a88f68c2a9fbcf3da921e243de4435d02c29f4fb5d84c8ffccb1d7db0394fef676f3cb7e88a591a4fe5c9c1d1399361e1eb2ecb850561845a07febd4a16aada2a98f7a5686995f28aa6d41f5bb0a71637f4a00b5f36fa8b67d7580068595dc25092304292efb36a6fafa7e646e8e476af31b596f6478bb72ff48a5f0c816eccff5934feb0ca1c684974dbd0c0ea621a4ca99000889cec0d38079d7aa69d63b0f70b5bda56aa8fb8e3d4f1dc496c43045d41b1480e52fc8a34afe806616cef408d5d5f44565fa67f30687e21febda52e31e5356376a2edc77c40635952e1b1eada55ba27d828dcdf5f3930aa8c31be7202b3a48f19017f201dbf02e4c5eccb1df11ed8d6158a0211fc2d951adb711f0ee4f3fa5c70c4daadc41725b06d3221c918873e28947e7841edb7b051f23a47b6f7d133962eaba88bc4e402b340ac82a03fa8b706058d2eaf9fbaff08fb0494fea9511e68cb022e20237dd5a985ccd527b24e32c730385229f0a959ecb45b5d95fdbe1dafc2bac73c398b646177d9464734cdf7b533147f29b068296143b5cb330318a7d398649a5d06337d7d65c42da39f1ae3b2fb9711034d7b2eebfdc781f631a602bf4230c9a138d54f3a20f0812c1cb0868d33b24e96539bf2fd786590f5a1c8f59ec8e5ca27a7746d9f7b3336504f04d105fc8657c884f6fe481928c8d4567899dd6698c96b104b0764bd94ed74de7e8bbf937db9a7dcaa1a224aac01a9c5143a1242b028c1d4d152febb20368d73728e47b0d92f75155f8cfd43724cc131a799c900bf901c1c32f12a9a5f11aa98d9cbb30d45687b92cc47089b53120a7bd6f5c1233ed1a18446f770eba33816030a5ded8907c438f3e2cf9feb1a72a206207b4c462c4b4031fe5f0de64f23e3768f8e4cd4e3c2143010ae6f8d0b5b9e9ea81755e0793c17ebc95cbcb5b27b5e78e99c714c0d1ffcdabf0ef2074c34cbb3913658f1d44297f73f0ffc11e1a2e0c7b1b1be0f06a951350c6557a6bcd11630a784a9e18e6c644f52ff5d0c0384a8d8842d38bc2d5e6c278673ac82f09656bf4959bea36143a603b323d7bf2bb58efffe467e995e599287cfcec1b1603b97fc0fe9b98d22034e47385d16ffd15c00fb7f87b1982a50441ee804ee20a04a7d11ac4436764d67e185ee5322f1203182caec1b95ca6d0a7bbe621523ab2b4637a9a57765eeec85b890a870039da1bd47bb936a6c87883b3662042ad618da24056f51fa465966c0e9fac98b4ee08d237b18ead4255430ec114736b521a15dcd75ca75f5f3e5dccc3e00bf6704aa3ee1e6ed6337cef71b5d2618bfbf51676d12017c651f99005ee77fee5207e5874c5103b0867b5b25593bea6c6ebca8e6dff6b1fc2d07b0f3c9a889923e4f22fc9a382ff3ab743579b07b53ca5fd5f97a97614d0792f1d1ca0a07d66464a2ffb6abda194425d1cb1e9edc677eb810263b1a1e67c8846f737a67f1e8c860abd5cee42f1740233d571058a68a67eeb96bfd6e2782c57a0a06be23db775be81909d709f6bab117a04e5fd5b33eb8262124eb477285728af0c67484fa338ee622b9e1f1f0e52362ec588c8f7bc0b325f48e1ad74cfe442da74cefe73f208a6adac0c35484b1f815fc82dae84a9deb94f31ff0d1651295106f3bef5490632d6415551cbe6c1b1399c7596eec2aa47354f6b06dc27b1b563ed48fc279f97335c6b10bf6a788049d965fecf64cf0e1179dea8348d855456e951d6d431adeed5ee92549953ad976ced1b16c98aca51456cd9a805804232a4f7ba17efe15c4404152de09d461d0680d7be2bce15f41c641ae3c44e750caeaa762eb724847f0e9cf80b536c9db4d256b893d075149c528ec5b708092c9d735c12a433859e8780f2b2b80ca03edf02ec3bb98b63cd277494f809dba74f10c83c9c47878c0682f26df13d3b9e373823fd4350d63c4f3d62617b889abfe17e35bfe709d04254a33e6f30025b97edc9c30dcda984fe487a44614afaf6c6e2915c5bae07b0dbb8ce8f9a655dcaa229c0e9f84292be4e1a7f61598cd507bcefd328b65cf873b0b2afdccecb91d8f0350b853af6966c4feddbaf6e5876bea893fa94abb6304f2102a5c498584426525ec78aab081741990014519f1e2b3cbe8b2bdadc0d41d0a5b1436c70c7a8909b816e4401d767d544f8d748741f77163247d969d032cdfa6a8454cf0a048ddad8545b699f544d4db21776b4efc43848bd80c3ba95f832ac965cea5fa45eb263566df2a1b29c823ffbc2e192e2fc22f0dd2ae83b11a71af474e9f80170a15cd322c303bd6d4a40baa11a418cb36a4f4429b48a4fe1769b3b036306c96b445affc6f0040ac21023cff2dbd8af7453d744ac5e069a872bd992b60be8e597ff1efc7ca803058fd4d5b45891340b7bfb5a6d34d8c937ca0f9e44422e6e4bb53a7effe81b805c8c31aa194e5467e0696c04d56a8f6f490aa15d190b15b4cf066bfcc36057062ca1c111e59238e70f04f74743ffff403e7dcb105818443f898b91da571d5ae1cbac7a47a47aa0e9621cdace80bf18ab3920edaa51dbd6118e47bfa2582bde0dc41b9a0d9d318b3ebc27cfded022a1356cdeada0606468b64bbbd6f5f25ad5376baabaf58fcb19a399ceb49213109f2a3d126b7ba06e83403d010e8522358130f0db16dd2d7255530a81e2992fca6bcd324de8ff71cb371f6389a61caf82f17379a195d4efd7b764960c345995c3ff1f07853e9096bb70ab7d4d136cf9ff9c3b0da3ac0a27a287e3ec704c0fa94c246e235542eb7bdfecd48cc12e915c3c78443fb40a8a3a75128534d3ecf4e64b2208b5cf5d4d50e68a8f7585ca631be565ea1483dbfc71e15cbb731395b6d53b89310e1855e1d8a69b9c683a5d72be3a0218775805daa6e836f44a92c0e09c131d9ef323fb5060913f1de02ee5aaf9e778f55eff9a549e11e72ec84b9058aad1ec34191641013cf22592710f75a94b7b874fae6e143c98ca84eef5325193537ce64101d97da37fe54bca5f279f757a79151e518c9f56a8ed55a2c1721cd4a96c3b3a43b4d5b35303b135de32cd5453efce62dfc6b4fdc03a2fa12a07eef2f7fd1fc4df70516c33fe8576c9a656582c740d68316a71d2ef072c7016532641ecede3def902c31d4e93f4043b6d4c59a097d1fbe9b6154a5176c99f2770da34dfb242c397110e4a54e07618943040c300094b3240ce9a4d83662055bb5e66b5d25afb4d376f90e844a9bc968f55b64291974f47269dd5cf0cad81916a7a5ee9680af9115ddfe49004dea2ac4bbda41587ff9ff96551c7d01bcbe6dd77053ab66252e2a093f6d6b36a11cfebe6f2832a6a32eb224bfc45260f25f368fd312d8956a57b0c3f9d3024f5bb8dc60cbd45d102e2af164807c4ccea4b50ef3407273aa9f077708fffe54f3588b0a6be77a2ce5e05fe675612efa5b466281d20ad3e865e8bf51dd173ec3323728098992a33074eb520058ef79506a3afe4463e203eaa8d524652ca4841bcbc86b5b2406b4fb228fae4a0f28f9f70da00e19ccbafa3ddff08d2fa1a97f9200299c8c0f4f8cc164a6c4372660d72c53839169b0086c86e99ad51eee75189ded9c77a645a9821c6a140bb110f6b75ebb86ba0d3d589308c4df7f8dba1083ee4e1eb86f12451c52cc4512c28b7b7fa39f6939ed1ea4388dc33564bbd6c14bba63986d6e27a784de3e09ab66c73a93469c11d9769fe2f595aae54afb313484b7aaf237b2d8ee28b3014eef4d702c88f66763e1ccb74b9923e698122b6a6ab88998407c92f150881f3898453ffd783493508812d0c660bb8043c596aa2e475af09480f54540ce9ba6435abc6c6c41c20307c79d0509a6c9fbbb3bc8c5a4e788f3c762b2061881a946e31eeb1b6abf6f4df405535ebcb29e68a837f5ceefcdc1b6eb6951008c87f6c3fd20e98b8d906b474115f4e5ca99ccd9d897a2d3f4548fe9e9c7e9faf3f5a89c05373fb53986fa0606d1242c3ed4e0935c69e5783957046b6d4989248abfa50c93ab13518e58bb0111e5edd5b0643c63c0c494fbf555e5c492e73cb98a86d79acafd3f489bf01898e9a899bfdc04295b20aa093c781e6e6541807b11b202f9a0dffc8701db00d623ca5f286a363f5289fc872f51a994f8d359e950426567dc07ad4272379cb1bfbacded8a84e366276c1f8d5720311e8fbba8a54c5f646b3bdebafedf6835ab107b5f8e22d00eaadb0e6df2724e6454d079f78d8aa8df6dde94c2b013820a0242c3813b47ac0a50d0f479129ccad7df4ce0a46137becfaa5c81ce989e3ef576e3447117fab00119edf4d8c0917a7b2ce99954877b92bb8ae3fdcc3b87d89a7470a5483101922adb25a0cd7ecad456ef2c6c574f88af2b1c957791003ac1fe1159337b64ca61cab529f7e14e1435a19616334182a514ba1ae34866cee88dd092d598aee2cda020159e759299331ae34164046a428d82eda4336cdbe5727b5078b1441f61cd5e2dd9caa9780a6464f8294da826ab65445f450da4a70a717f699d87bcdfabe806d8a1ebe11fed6af179de0a4d43ff3197bdae00aa2133d7eed6a1e51fa8728db6fb2f99d11a034fb47a5d201b708272a43bbbd93aff77cbb1abfc60e0dd3243faad8fd9205272ac17379a3beb61093c807a6e462c6e404cf5ded49dc0a271bf9d1b33585293692973b2d98cc2a1629816027c016fe979f0a215abd07a5769399d94796e7a1011a4fbcd3a84bfec145335c3b086aaca34878019b82c637e46c182137201f2a30307fa33887d92803131ab32603f2e8e04f454135dedbf6227defd173929d96035e192edd8dffed4ec3849a25d02e204e0f5e7ef41cecf243d31e6c6600a4e1e275370f7cb1e92bd393be9622a743e76dcc605b0e3fe826b4b6ac1bd33eb53be1b256ce042991fb3cb719b9f0db78ba8083751bafdb8cbd314cdfc0f6b3ad2d2b925a343b36d82f080ff40396651549eae3b7ce894abe92668e5612f6d21996a8d4c7c65b626b6f4652a18f06edce03450081c02f94121160b74915873c4004590a769f9edb05ab4ffe5518011c17ff9c276c9eba8d412faefe244e5275512427a1ad4f41eafb9771a6b319c5647608ad38bf1a799b81012c171eae6c9ebefe637f40a3507dc0e1f8a6ca01056fe2b906529b2f2f8aa232e703e1ecb57d822cf7bd9732d83cab6b28914796be2493d8c582f8fc378da6aeb7acea547154368ec46ddaa9c0a3da5ede7e834a22bb2d427c073ebddac8517df54b9c075986f4ae46d57682c3e7e11930d44b1ff66fe137b56a55afd78c9df46343c209ec9e494d4f6c602068d2cc79d45483431d35af64fedb72bd835905a96158a50db66ece3fa2ce988580db42abf1973f9d51256d95d6819404f10c7cbaa88ad262e4edcdfa204e681036a7fa2099e99dffc445d32d5a768933141221c1e6f05c7f6e88b5fe13b6f8b8a8c521417c90b581b5dbe5967683cb0c79d98fce9dfd0c909339c712afe6344351d02a57b37e82caa1c6bc7163182309f2c190b16db97a77d02ce6a8424bb776fed1165e2c1f2b92b58a8114aa87ce68df6e84d6197b882086c3bba831e95ebd24d9d126e819793044174b743961153c11c93afbf2c824fe0df485f7bbab9df91250773c10ad713b19ad45873f4906c67bdf677490dd89ec7dc9e5993a7c01bdebe50b59b08d9b8185da6a9ac6774c244ebf31767cbde34e396b3e3e799dae3b0cd43cf8e01b69fb3aa3cf1ba7d2c275ae7c1c8ea8e9cd9aa8bb91d6f0bae59b5ddf6e0254cd8ea98f073e47637266fe721b117572419062f2cdf3845d15ac2b5920db547f03f476e23668b618b44acb6a1d55d7add7d20496fe15fa5dfdb6640c29e5336c458b943b7b1c6bdc3b87905c91568bf5c76f85af77bcbaa6f9a83a52c3526d9a9a91b604899f0c1d0c541fd754f547f862f175d7987d9c6e0534858a64fa70342f2ede948ab1b0ca398fa1f5d81a0bfd59f9fbc6f43f3809c9312665ec6fa105162ce6fb5b6ec1864d5cea371a9752020cc343e41b2d93dd0be66ceb882cd69b0657e3ce5c2dac38b75359c4300d9464489fd0d33e330e93c65d218d6ff5c926ff2c85a4fa87b27f388f10bb4d247b505ab8b830c35b6736b73291dac4887283e547abbf024060543ac04ee9dd53850c0a006f5aca8759573f0f81fe05653633898ed3108294ba44aac20e05ff273dbf1552811f8208c79c17cccee1ad02c2b26f41347a3353aa84e678fa1283e1ab89bee10d9ce7bb4b38427646b5aa8ac610fe08b7348352935c51a5ed056a1b83630d7dc2bc331eb2f21c02ce290e11ce0ce10e55b066677b93300a03759b9b8a3c4e9a5ed733e524f9894e6201f76671ab005e3e6410920109ed918f7a815883e45be9ee2ef0225d3de157f530ff80eee24a71543a37b544fee9c343d61307664df53d0917af35e651a00c38259a7b30409de676a350331e85c210fda9f758736b864e282cb5b930cdbce9686284d023a125464b9363af682c97039249fd729675a1cf14960365e08b62f56584f473da5da1d73a0c36395ff6b43dc6e5805a9047a6eff4f5920c90d2656335e26edcc7b4ec6af883578f7db49d1eb0c3a4eaa13ec1f02f97c3091e09534c9437d5900b8c8ac836bd494e2b85f8b9a8fb132a70e80192afccfd9fe32fe227b43622498bac7b4d39abfd234fe7dd174fd57f5bd2d25fa4260a5f8a94b15c57124ffb3102625d9879b47657053d01e20b5c20d51f68022e1fe5e41b0eedd093dc83d652937e85c2aab1cb771d44e32e65337de6a149d0f3632d7cd847974f1cf430e3464515f87bae2b51b6be74a37d86de0f9d720c9888bc2a57f14d5b0fedea5dcb40b35bb299baef02184dc21ca824a77da06d2fb50bff0d138312a5bdda6a402319c7862234b00ee7a26795d6d3f653e603a824b9264e4b714155ee1d07b3aab8776a655c5bb7a0bcab5cd712d42a76a84e9b6c3bd9f51017338d3a0b8e0d340e37cfd028c4303496f5f6aaf71af73b35f55be1ad3c1ea80d2c46a411de23360d2c50556ae7fb0e3a1edbcd39a4ca50ca2d65acad2f86b31dc5227915743f37f17eca89a5661c5bd23c75d4c3e2dd3ae0355b1a34e7829bd8dfcbd4a0d93e7c7e9fc6ed98e7373b3abd6a4449c0b38256660e80307fcae7fd22e9dba59da360e77a6f7280f79b3f19d7855cf863f46a5d991a478e4bcfc39edadd588d058c554d87e27c867fe0494d02151028b114253f82e459f61d4456276da129dbfe6ec2917680956e385c27d7da6c8d7098cf0ed401e7d81e6f809f70aed3a8e91692102defc7c467b23519b1b53a33dc4a75edfc5bfaa274e905ef609a3ae44859b4feb6b59213b9afb1d5a5e9be05247d5019bb76e28b2966114dc0d86646fec9231c7d7f2983e3be30a7971079a43148625f995bbb42815aa52d5240db2589d2e6539215d780948aff2b3140c81cbf85cbfedc5468e59a3dc989a5795ed655fc3bee6ec736d222e6c0bcb025e1ca28ac6decea8286ff9d40b6139e7af6fadf4171bfca4ca05880e3931799f1882df11f6172af48461848bcfd5092a246c6358b2855e4f1a8e131356b6e437db662d379c3117c8e0f3e33acdf8387eb206bbbb7c5a350ad1e5ea0a304104c5dc3292b386a4e3fa4402049af5b666feef0a601fc68ca933b557e7c0ebceb8988a521c65157cd113f248c4dede39b0f7a630b2923d3997c773a47ff3f6e945df6dfe6f0b7e40091a3a25446be74ebfd2562d1e012b6433c00fcd317352c692087282fb8b0339660b176ecfd3fe92900dcd2dd89811d2aaa52d51bc0e1b3646d75a96fb784af13f30ad2d8b1d99b9aa80e74a6ec8f9ab6727892be917f7ca01b3de609b022c83bf0e18d11d5c97ba62702d2a58d356ddcccf2d6780cfd02a9b2f54e3cc845d5ed9b1742c72ae91e952cad342a0ce25938047826d2574d0927a720ca5a9ab04db081bd8d19a624c9b5cc174c56a56b662a4685cfc38f530698f69a24f5d8f0dc14f91548b16f524c95dcd407ff41d78a896e436cd2be449fa742e695ef2dfc80f4bef72b4f5abc0fee1d078be697055aa2ec48c3c6c3e5f2b259966bd67dd9f9a02d4a4b52b87067a2d8de6c9b7a1bb868faabf8095248cf6cef36d3ec868ec342cde0207cad4633d0b3e581049c223793fced479095389b72802c068fd5891c1e8f6c8c91c757791a7979254f6eb3b95caa2072650fb6bf8e7d6f061e7d95ffa9d616eeb2e9b28525429be3232ea7f90afa011cbc4c33f1515287f560cab378da3a87730e6609b154ede616187339b9fa3e899a123eb68ca811e942efc9f097bf9eb3112e442ccf4ed56057b27726c63113671a21db74f77795ede3e3ad11f75e5f28c075ea2acd4be7274e11d15993d2bf270dd62ccccd3b6bcf426b4f0a89e7278d103c9f1cc35df07f14b212e5a1cd9befdaf7df69202f5cab25325dcfb82ac78352572ee8d0ee965d0c3b1263e76e66b6b073e8ff61d9f85712764f161868d873ae11a8f7cacb074454ac223796bf91909dfd4b45f7d870d4d9165959bbb4806a36fdefe36ffd4953157cdf75765c866b79f6ff130edf647cb389885d77af66a4d94a50069165b4ef792c592581e9f53bafeac44a2ccb34550726b8f688b5989b6dfc691df76230b82278e0925dbcd3ae70fc31e5f4cd6530b8cdde3143c4f5ad0abb3c9c7a36d5345bb139c6db143c5563e75b2004d3150236a015cfd9dcc728442649f0a7c8b3b5658ea08c759ea065e7ad512d2a0173ea50a3f815816c50130c783ac7c1c2648cce175e199e438bf9ba7994664240313511fdc68fb8c9c7ac0ff7a01a8d4a14c0b3f2b103d8c2f9a27ae02a7dfdf9dd96d07a730af9e61b9327061e76ba9a7fbaf3e0f59f07448a1e8e2a76f784de588940d4b7f262b8f7c1a52db4b7c1a04d4030d7893cad737c46b213b990f513de339be475dba2f02582c50c1c850f88a7b54002d31533e2a8112d58f48575fdf59c36f42a9c9ab0774a0ad99b8ce7ff1b056fdd5049ced0ab5af988591ac929fc72d5ce3546b75326f21b8745e9fe0ba705b3fb1f323c666532d762e0fec1f7d0400762f81339e4b0bae89460640b87485acce8de2e1cee7244d36082648612d01c7e86da197ba85652225fcd00fd2bf207dcb9b353fa731ee4dc7bbafcbed231ee1d999d30bc96527cdb69948baf36cb1976d04dd1f55c7f3a03a6ae82ceeba5527d977b0732758d6bc268c197d589a5f86517376969016bb64071a5dec9de0bdfb90bab43d494dd7e02d6f5782e51b5b273776371e0d826d8c19a191bae051c40ab727d0c6c3ee461601d6090f7878dde28fb9244eeda5214256acfc19e51fdac5c3ec18bb600dfe02386343a58a77b230d154df82b1011453a7ff38034fb9774dd462ee3a65b37521eff26b871f00735d55eae5ecea6eb63012af90cc8ef0d2b2e95fef225cc2100cfe46bbacd4fe0c5eee8374a9de41f7f2f74ed041c2902504fad255fe9e8f46634b2f33910bdfe0db082d159c5e32d6a2310d20a8893c00b6a0b3742dc77d5211d7194284caf647ebda59d5b7f8ab32010de2b24d39c2fad4c613f485da6f4433804e6186d48d4749b35166e65d8e98182430653e262460245ae569ad8735190086af79e36cf358175b5dfb484df218250a9f36e343d8bf10068a0f1de12e86a3e5ab090a73178bbaa2eb335573f46e3a27266641c5ca9491c9fba952fbb4176f696643797d631ce6d17f0e68fddab918bc7d0ebbc50036f4c776f646c57e707a1d93716e6ece1cbb81aa988aed436dddd5097bd61f0fc47e5f885ff0f3061cde58ecd0ed9521333e76ffad1a402fd4cba7a465e883483de58cdc572b5f25c25dfa6305331c33f4ea527c545b59fffda565a51ee28bad9e96ed491c8daf8954ac2ed60b3294c4f8210d8ce0232e5d17064b6c8eb5257eac4eb358d4066cc55e9a5aa36aecbb93ee8673e5a97e5ff67d7bf52df3e9e1ac8bbb1cacb92faa260da7e656c0995452eb71b75c572a316ec5ca21fab59801815a6a75ba4a62e321ffcbb9d299ea7762e1b5ea9f93dbd77da33880a1a556621fc034b388c381e65b9165b87d88a21a777218edce8dcb47c203c75ac130d03603b99d019f64e195604db823cf1245bb4c95c02ccd16c57a4bc7bb0160f89ec7fb2f89ec73d9e0756a7da7949739cfc9db96ea3fec66cfc9fef4f55234e52d23b7f12c1f3008e58c5f9c3c06407a1cf9f1e165178fe907d056788c9b86adf829e1cbb2e70ce8b2d2d64374b2a18686d7d80fb8cbe2fa8f852ce199d09a598d33f60855e83bc7fb6b4ec9458b35f0f09e3c52087609bc1aedc05f27baeef4ce192c0703b831440a5097bf21e3319df69e30b00b34b56d05dea7f55789d34ed0620d8aee82147015dcca11a5bea63cfc9d28aa9e651b55341b15ef1c161e2b1cad57585e2747dd4b041832fe55121bac803c25d90bc923db086042fed669ef5f9c84c087476cbccfb4e1ec6b9464a67cbe2cfe386bb0ca9310e210002d8e5f4c68915030b7690d5f7479ea4294b6059c7782b5b6f0a976ca3f8398c506c9748d432c957e362f373ac53e77e921643c655dbcc99ba3a207fbc66994e403c0d51a9c6804a51fefe8d711dabb69de2fbdfe06b96152786209a400dd57f1a78735daa2e52e5e3c7f7217e3072ee73ab077bc29d73629d74f90f05965e54d108a0024263d3687f64d0fddf2c42430cb647887d0d68ff82952a162ead55b41973a01261c9d1e09307c7a54732adbcd01a38afe1533a864be8afc853b41c578df89c30d3d730d0dbaebe2049598a5e0bfdc13af059ddd635df429191d879544fc8d4e40a021cb9457c118f979fbb69e70ccb7049738af4261d5966fd92b49d4c315339efbc47d3adeb96195c83f0e16c178ca4836837ba8a448acb67f88ff2150a16d126075e9d19cec49c708e14b03c7cc5f4dbdc00ccee3e0e35feb51a35414c9460bdc6b57f08e0a44f071e0ed8e86fafdb15fd0bb6e511180573ef7bc6ecd29076321ab366c6d3a76de68582ac6f1671b3edd7f5fd1896fe217a95e623a42e5cfa6bc23b3e79567bf8b04ae0ac74db23fca6f977e16e5eb96853153ba6817d81f129973e86d4e2865f85cf235014d57e596423fa2704f1e5d803a81bff3170ce422a73fa2a6e97ee89975574f8928e317ddf0eb5c8a2214729d48237f1e08c27afec342f4abe7d4cfc32880ef3b8397179db44956dea4f973dbdc857d6a60152b2f940a765bfc6be6a75105e5c3e3dea9d2bce32c598629896cef0f4243f3367439d93ff9ffea212efa4c75649084c337b7143f49a9614f96547f578f17bcbff7d4e1783402a7f10d9ee97d88213faa7fb821567b6a55d2546abb1af2027b975b19d482aa5956abf81469c035daa6e6322b6f670a0d3bf251810687cbe11113471538e020bbe88be94a5a519773bbeb5980568bbca47aa9338dc40f2986e1e813483cc1a8e364652757013b3bb91771d83e252db2eacb</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>日常日常</category>
+      </categories>
+      <tags>
+        <tag>计划任务清单</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>本人创造的历代雪人简介</title>
+    <url>/ac95b5ce/</url>
+    <content><![CDATA[<p>初代雪人，本人创造于2023.01.14在北河沿边。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/初代雪人.jpg" style="width:300px;"/></div></div>
+<p>二代目雪人，于今日（2024.02.05）在楼下。二代目的雪人，不羁的面容中流露出三分不屑，那冷毅的脸庞中隐藏着丝丝冷意，让人不敢靠近。剑眉星目，目光中缀着三分凉薄四分讥笑五分漫不经心。（欸嘿，忘了点鼻子了…）那嘴边叼着的烟头已然慢慢燃尽。啊！多么美丽的雪人啊啊啊哈哈哈哈哈哈哈哈哈编不下去了。</p>
+<p>一开始我搭了个雪人的底座，我弄不上头，妈妈和老弟一人团了一个雪人头，然后他俩团的头合二为一了，我又给整了下造型，我觉得今年的雪人要有所创意，所以给他整了点刘海哈啊哈哈哈，然后爸爸从旁边找了几个木炭，想给他当眼睛。但是眼睛已经被我用雪怼上去了，所以正好拿它当眉毛，抽了一半的烟也给它安上了。再然后我弟说它缺两个手，又给他捡了俩木棍。最终构成了它的最终形态。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人01.jpg" style="width:300px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人02.jpg" style="width:300px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人03.jpg" style="width:300px;"/></div></div>
+<p>还有这个堆在我旁边的可爱派雪人。但是这个雪人经历了它这个年纪不该经历的…</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/别人家的雪人.jpg" alt="可爱流派的雪人" style="width:300px;"/></div><span class="image-caption">可爱流派的雪人</span></div>
+<p>事件是这样的，我下楼的时候这个雪人是已经堆好了的，然后我在离他不远的地方创造的二代目雪人。我刚感叹这个脑袋真的真的好难弄的时候，一个小屁孩飞快地跑向我身后的可爱派雪人，起初我以为他可能只是想拿走这个雪人身上的萝卜，但是我真的没有想到，他竟然给雪人的头给拔了，然后就抱着跑了，最后发现他竟然把这个可爱的雪人的脑袋按到了他自己搭的雪人身上，最后的雪人变成了这个形态。（虽然很不道德，但是还有点可爱(●’◡’●)）</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/缝合雪人.jpg" alt="缝合怪版雪人" style="width:300px;"/></div><span class="image-caption">缝合怪版雪人</span></div>]]></content>
+      <categories>
+        <category>日常日常</category>
+      </categories>
+      <tags>
+        <tag>雪王的诞生</tag>
       </tags>
   </entry>
   <entry>
@@ -2335,38 +2399,6 @@ MMD区的主战软件。用是很方便用，就是拖拖拖没什么新意。�
       </categories>
       <tags>
         <tag>观影碎碎念</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>那些年我遇到的小动物们</title>
-    <url>/36eb04ce/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>日常日常</category>
-      </categories>
-      <tags>
-        <tag>毛绒绒</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>历代雪人介绍</title>
-    <url>/ac95b5ce/</url>
-    <content><![CDATA[<p>初代雪人，本人创造于2023.01.14在北河沿边。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/初代雪人.jpg" style="width:300px;"/></div></div>
-<p>二代目雪人，于今日（2024.02.05）在楼下。二代目的雪人，不羁的面容中流露出三分不屑，那冷毅的脸庞中隐藏着丝丝冷意，让人不敢靠近。剑眉星目，目光中缀着三分凉薄四分讥笑五分漫不经心。（欸嘿，忘了点鼻子了…）那嘴边叼着的烟头已然慢慢燃尽。啊！多么美丽的雪人啊啊啊哈哈哈哈哈哈哈哈哈编不下去了。</p>
-<p>一开始我搭了个雪人的底座，我弄不上头，妈妈和老弟一人团了一个雪人头，然后他俩团的头合二为一了，我又给整了下造型，我觉得今年的雪人要有所创意，所以给他整了点刘海哈啊哈哈哈，然后爸爸从旁边找了几个木炭，想给他当眼睛。但是眼睛已经被我用雪怼上去了，所以正好拿它当眉毛，抽了一半的烟也给它安上了。再然后我弟说它缺两个手，又给他捡了俩木棍。最终构成了它的最终形态。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人01.jpg" style="width:300px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人02.jpg" style="width:300px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/二代目雪人03.jpg" style="width:300px;"/></div></div>
-<p>还有这个堆在我旁边的可爱派雪人。但是这个雪人经历了它这个年纪不该经历的…</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/别人家的雪人.jpg" alt="可爱流派的雪人" style="width:300px;"/></div><span class="image-caption">可爱流派的雪人</span></div>
-<p>事件是这样的，我下楼的时候这个雪人是已经堆好了的，然后我在离他不远的地方创造的二代目雪人。我刚感叹这个脑袋真的真的好难弄的时候，一个小屁孩飞快地跑向我身后的可爱派雪人，起初我以为他可能只是想拿走这个雪人身上的萝卜，但是我真的没有想到，他竟然给雪人的头给拔了，然后就抱着跑了，最后发现他竟然把这个可爱的雪人的脑袋按到了他自己搭的雪人身上，最后的雪人变成了这个形态。（虽然很不道德，但是还有点可爱(●’◡’●)）</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/日常/缝合雪人.jpg" alt="缝合怪版雪人" style="width:300px;"/></div><span class="image-caption">缝合怪版雪人</span></div>]]></content>
-      <categories>
-        <category>日常日常</category>
-      </categories>
-      <tags>
-        <tag>雪王的诞生</tag>
       </tags>
   </entry>
 </search>
