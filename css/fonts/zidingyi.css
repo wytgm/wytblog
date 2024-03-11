@@ -1,16 +1,3 @@
-
-
-
-body {
-  cursor:url(../themes/anzhiyu/source/img/爱心.cur),
-        default;
-}
-a,
-img {
-  cursor:url(../themes/anzhiyu/source/img/爱心.cur),
-        default;
-}
-
 /* -------------------------------段落设置：首行缩进2字符--------------------------------------- */
 p {
  /* text-indent: 2em;  首行缩进2个字符 */

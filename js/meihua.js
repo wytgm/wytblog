@@ -7,8 +7,8 @@ if (localStorage.getItem("reset_2") == undefined) {
     new Vue({
       data: function () {
         this.$notify({
-          title: "提示🍒",
-          message: " (｡･∀･)ﾉﾞ由于网站部分设置项更新，当前已为您重置所有设置，祝您愉快！",
+          title: "Tips",
+          message: " (｡･∀･)ﾉﾞ祝您观看愉快！",
           position: 'top-left',
           offset: 50,
           showClose: true,
@@ -217,29 +217,29 @@ function createWinbox() {
 
 <h3>二次元</h3>
 <div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/ai)" class="imgbox" onclick="changeBg('url(https\://t.mwm.moe/ai)')"></a>
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/ys)" class="imgbox" onclick="changeBg('url(https\://t.mwm.moe/ys)')"></a>
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/ycy)" class="imgbox" onclick="changeBg('url(https\://t.mwm.moe/ycy)')"></a>
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/pc)" class="imgbox" onclick="changeBg('url(https\://t.mwm.moe/pc)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/ai)" class="imgbox" onclick="changeBg('url(https\://t.mwm.moe/ai)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/ys)" class="imgbox" onclick="changeBg('url(https\://t.mwm.moe/ys)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/ycy)" class="imgbox" onclick="changeBg('url(https\://t.mwm.moe/ycy)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/pc)" class="imgbox" onclick="changeBg('url(https\://t.mwm.moe/pc)')"></a>
 </div>
 
 <hr>
 
 <h3>渐变色</h3>
 <div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a>
-<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a>
-<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a>
-<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a>
 </div>
 
 <hr>
 
 <h3>纯色</h3>
 <div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #f7eff5" onclick="changeBg('#f7eff5')"></a>  
-<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #e9ccd3" onclick="changeBg('#e9ccd3')"></a>  
-<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #619ac3" onclick="changeBg('#619ac3')"></a>  
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" class="box" style="background: #f7eff5" onclick="changeBg('#f7eff5')"></a>  
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" class="box" style="background: #e9ccd3" onclick="changeBg('#e9ccd3')"></a>  
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" class="box" style="background: #619ac3" onclick="changeBg('#619ac3')"></a>  
 <input type="color" id="colors" href="javascript:;" rel="noopener external nofollow" class="box" autocomplete="on" value="${defineColor}" oninput="changeBgColor()"></input>
 </div>
 
@@ -248,10 +248,10 @@ function createWinbox() {
 <h3>适配手机</h3>
 
 <div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/moemp)" class="pimgbox" onclick="changeBg('url(https\://t.mwm.moe/moemp)')"></a>
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/mp)" class="pimgbox" onclick="changeBg('url(https\://t.mwm.moe/mp)')"></a>
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/ysmp)" class="pimgbox" onclick="changeBg('url(https\://t.mwm.moe/ysmp)')"></a>
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/aimp)" class="pimgbox" onclick="changeBg('url(https\://t.mwm.moe/aimp)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/moemp)" class="pimgbox" onclick="changeBg('url(https\://t.mwm.moe/moemp)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/mp)" class="pimgbox" onclick="changeBg('url(https\://t.mwm.moe/mp)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/ysmp)" class="pimgbox" onclick="changeBg('url(https\://t.mwm.moe/ysmp)')"></a>
+<a style="margin-right:3px" href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://t.mwm.moe/aimp)" class="pimgbox" onclick="changeBg('url(https\://t.mwm.moe/aimp)')"></a>
 </div>
 
 <hr>
