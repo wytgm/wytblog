@@ -282,6 +282,13 @@ p {
 #recent-posts > .recent-post-item {
   border-radius: 25px;
 }
+/* 和风天气插件位置 */
+#he-plugin-simple a, #he-plugin-simple br, #he-plugin-simple div, #he-plugin-simple footer, #he-plugin-simple h1, #he-plugin-simple h2, #he-plugin-simple h3, #he-plugin-simple h4, #he-plugin-simple h5, #he-plugin-simple h6, #he-plugin-simple header, #he-plugin-simple hr, #he-plugin-simple li, #he-plugin-simple ol, #he-plugin-simple p, #he-plugin-simple span, #he-plugin-simple ul {
+  box-sizing: border-box;
+  line-height: 1.42857143!important;  
+  margin-left: 50px;
+  margin-top: 4px;
+}
 
 /* ---------------------------------------头像呼吸灯--------------------------------------- */
 
@@ -312,28 +319,6 @@ p {
   100% {
     box-shadow: 0px 0px 1px 1px #39c5bb;
   }
-}
-
-
-/* ---------------------------------------帧率检测--------------------------------------- */
-#fps {
-  position: fixed;
-  /* 指定位置 */
-  right: 0px;
-  bottom: 10px;
-  z-index: 1919810;
-}
-[data-theme="light"] #fps {
-  background-color: rgba(255, 255, 255, 0.85);
-  backdrop-filter: var(--backdrop-filter);
-  padding: 14px;
-  border-radius: 4px;
-}
-[data-theme="dark"] #fps {
-  background-color: rgba(0, 0, 0, 0.72);
-  backdrop-filter: var(--backdrop-filter);
-  padding: 4px;
-  border-radius: 4px;
 }
 /*----------------------------------切换背景与字体------------------------------------- */
 
@@ -435,7 +420,7 @@ input#pic-link {
 
 /* 导航栏颜色 */
 #page-header.nav-fixed #nav {
-  background: linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%);
+  /* background: linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%); */
   opacity: 0.9;
 }
 [data-theme="dark"] #page-header.nav-fixed #nav {
