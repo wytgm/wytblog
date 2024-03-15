@@ -458,3 +458,22 @@ input#pic-link {
   background: var(--text-bg-hover);
 }
 /*----------------------------------切换背景与字体结束------------------------------------- */
+
+
+
+/*----------------------------------列表li样式更改------------------------------------- */
+
+#article-container ul > li:not(.tab)::before {
+  top: 0.78em;
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 0.6em;
+  content: "♥";
+  line-height: 0.6em;
+}
+
+#article-container ul li::before {
+  color: rgb(255, 255, 255);
+
+}
+/*----------------------------------列表li样式更改结束------------------------------------- */

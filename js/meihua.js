@@ -8,7 +8,7 @@ if (localStorage.getItem("reset_2") == undefined) {
       data: function () {
         this.$notify({
           title: "Tips",
-          message: " (｡･∀･)ﾉﾞ祝您观看愉快！",
+          message: " (｡･∀･)ﾉﾞ祝您浏览愉快！",
           position: 'top-left',
           offset: 50,
           showClose: true,
@@ -38,7 +38,7 @@ function clearItem() {
 
 // 设置字体
 if (localStorage.getItem("font") == undefined) {
-  localStorage.setItem("font", "也字工厂弗吉亚体");
+  localStorage.setItem("font", "漫画体");
 }
 setFont(localStorage.getItem("font"));
 function setFont(n) {
@@ -204,10 +204,12 @@ function createWinbox() {
 
 <h2><center>字体设置</center></h2>
 <p id="swfs">
-<a class="swf"  href="javascript:;" rel="noopener external nofollow" style="font-family:'霞鹜臻楷'!important;color:black" onclick="setFont('霞鹜臻楷')">筑紫A丸标准体2.0</a>
-<a class="swf"  href="javascript:;" rel="noopener external nofollow" style="font-family:'也字工厂青梅手迹'!important;color:black" onclick="setFont('也字工厂青梅手迹')">也字工厂青梅手迹</a>
-<a class="swf"  href="javascript:;" rel="noopener external nofollow" style="font-family:'也字工厂弗吉亚体'!important;color:black" onclick="setFont('也字工厂弗吉亚体')">也字工厂弗吉亚体</a>
+<a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan'!important;color:black" onclick="setFont('ZhuZiAWan')">筑紫A丸标准体2.0</a>
 <a class="swf" id="swf_default" href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('default')">系统默认</a>
+<a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'漫画体'!important;color:black" onclick="setFont('漫画体')">漫画体</a>
+<a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'也字工厂弗吉亚体'!important;color:black" onclick="setFont('也字工厂弗吉亚体')">也字工厂弗吉亚体</a>
+
+
 </p>
 
 <hr>

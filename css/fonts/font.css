@@ -34,4 +34,12 @@
     font-weight:bold
 }
 
+@font-face { 
+    font-family: '漫画体'; 
+    src: url('../fonts/也字工厂漫画体.ttf') format('truetype');
+    /* font-weight: 100; */
+    font-style: normal;
+    font-weight:bold
+}
+
 
