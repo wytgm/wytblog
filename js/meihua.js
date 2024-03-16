@@ -206,8 +206,8 @@ function createWinbox() {
 <p id="swfs">
 <a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan'!important;color:black" onclick="setFont('ZhuZiAWan')">筑紫A丸标准体2.0</a>
 <a class="swf" id="swf_default" href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('default')">系统默认</a>
-<a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'漫画体'!important;color:black" onclick="setFont('漫画体')">漫画体</a>
-<a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'也字工厂弗吉亚体'!important;color:black" onclick="setFont('也字工厂弗吉亚体')">也字工厂弗吉亚体</a>
+<a class="swf"  href="javascript:;" rel="noopener external nofollow" style="font-family:'漫画体'!important;color:black" onclick="setFont('漫画体')">漫画体</a>
+<a class="swf"  href="javascript:;" rel="noopener external nofollow" style="font-family:'也字工厂弗吉亚体'!important;color:black" onclick="setFont('也字工厂弗吉亚体')">也字工厂弗吉亚体</a>
 
 
 </p>
