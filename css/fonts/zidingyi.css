@@ -5,69 +5,6 @@ p {
  /* text-justify: newspaper;  悬挂缩进 */ 
 }
 
-
-/* ----------------------------------------页脚渐变---------------------------------------- */
-@-webkit-keyframes Gradient {
-    0% {
-        background-position: 0 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0 50%;
-    }
-}
-
-@-moz-keyframes Gradient {
-    0% {
-        background-position: 0 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0 50%;
-    }
-}
-
-@keyframes Gradient {
-    0% {
-        background-position: 0 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0 50%;
-    }
-}
- #footer {
-    background: linear-gradient(-45deg, #FFED46, #FF7EC7, #7cf7ff, #4b73ff);
-    background: transparent !important; 
-    /* background-size: 400% 400%; */
-    opacity: 0.3; 
-    -webkit-animation: Gradient 10s ease infinite;
-    -moz-animation: Gradient 10s ease infinite;
-    animation: Gradient 10s ease infinite;
-    -o-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-#footer:before {
-    background-color: rgba(0, 0, 0, 0);
-} 
-
 /* ----------------------------------------滚动条---------------------------------------- */
 ::-webkit-scrollbar {
     width: 8px;
@@ -288,6 +225,13 @@ p {
   line-height: 1.42857143!important;  
   margin-left: 50px;
   margin-top: 4px;
+}
+#nav-music .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
+  /* position: absolute; */
+  /* height: 100%; */
+  background: 0 0;
+  position: absolute;
+  top: 50%;
 }
 
 /* ---------------------------------------头像呼吸灯--------------------------------------- */
