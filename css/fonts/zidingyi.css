@@ -388,13 +388,13 @@ input#pic-link {
 }
 .swf {
   position: fixed;
-  padding: 15px;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 17px;
   background-color: white;
   /* 字体选择框边界由js指定 */
-  /* border: 2px solid var(--border-color); */
+  border: 2px solid var(--border-color);
   border-radius: 20px !important;
-  margin: 15px;
+  margin: 8px;
 }
 
 .swf:hover {
