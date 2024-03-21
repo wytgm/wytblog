@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Blender 动画</title>
+    <url>/e2dd2f20/</url>
+    <content><![CDATA[<h1 id="bone-dynamics-pro-cha-jian-de-shi-yong">BoneDynamics Pro插件的使用</h1>
+<p>关于动画物理的插件。</p>
+<h1 id="dong-zuo-k-zheng">动作K帧</h1>
+<p>面部表情形态键：<br>
+あ 张大嘴巴<br>
+お 张大嘴巴（圆）<br>
+い 笑口（全齿）<br>
+う 小口漏下齿<br>
+え 笑口（漏上齿）<br>
+にこり 向上挑眉</p>
+<p>口型动画一定要隔两三帧一个，不要10帧，5帧这样的隔，总之一定要隔得短，必要的时候一帧一个，否则会很奇怪</p>
+<p>裙子大腿穿模问题：可能是权重原因</p>
+<p>动作卡顿解决方法：blender里曲线编辑器-全选关键帧（选中面板，按快捷键A）-关键帧菜单-插值模式-贝塞尔曲线，再关键帧菜单-控制柄类型-自动钳制（自动钳制或自动都可，看喜好）<br>
+<a href="https://www.bilibili.com/read/cv22552921/">https://www.bilibili.com/read/cv22552921/</a></p>
+<h1 id="dong-hua-dao-chu-fu-yong-de-wen-ti-mihayo-mo-xing">动画导出复用的问题（Mihayo模型）：</h1>
+<p>K完动画后打开MMDTool面板，在VMD当中选择导出,导出后，在另一个文件的模型中选择导入VMD即可使用，注意注意！模型身高最好差不多这样的数据不会有太大问题！比如说刃的身高动作K完后导入到停云身上，动作数据就会出现紊乱，四肢乱飞的情况，套到景元身上就完全没有问题这样子。</p>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于Blender中的插件推荐与记录</title>
+    <url>/eeb9c3/</url>
+    <content><![CDATA[<p>打光技巧 + 动画K帧技巧 + Blender物理方面 + 修改器 + 几何节点</p>
+<h1 id="qia-tong-xuan-ran-npr">卡通渲染npr</h1>
+<h2 id="mmd-tools" id="😎-MMD-Tools">😎 MMD-Tools</h2>
+<p>GitHub下载地址：<a class="btn-anzhiyu " href="https://github.com/powroupi/blender_mmd_tools" 
+  title="MMD-TOOLS"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>MMD-TOOLS</span></a></p>
+<details class="folding-tag" ><summary> 点击查看介绍 </summary>
+              <div class='content'>
+              <p>mmd_tools插件是一款专为Blender设计的插件，旨在帮助用户导入、编辑和渲染MikuMikuDance（MMD）模型和动画。用于导入 MMD （MikuMikuDance）模型数据（.pmd、.pmx）、运动数据 （.vmd） 和姿势数据 （.vpd）。它还支持导出模型数据（.pmx）、运动数据（.vmd）和姿态数据（.vpd）。通过这个插件，用户可以轻松地将MMD模型导入到Blender中进行进一步的编辑和渲染，同时还能保留MMD模型的特有表现风格和动画效果。mmd_tools插件提供了一系列功能，包括骨骼控制、形状关键帧、材质编辑等，使用户可以更灵活地处理MMD模型和动画。此外，mmd_tools还支持与MMD软件的兼容性，可以很好地保持MMD模型在Blender中的原有外观和动作。总的来说，mmd_tools插件为Blender用户提供了一个便捷的方式来处理MMD模型和动画，为他们带来更多的创作可能性。</p>
+              </div>
+            </details>
+<h2 id="cheng-xu-hua-qia-tong-dong-man-tian-kong" id="🌄程序化卡通动漫天空">🌄程序化卡通动漫天空</h2>
+<h2 id="toon-spells-qia-xuan-mi-zhou" id="😲-Toon-Spells卡渲密咒">😲 Toon Spells卡渲密咒</h2>
+<details class="folding-tag" ><summary> 点击查看介绍 </summary>
+              <div class='content'>
+              <p>Toon Spells是一款专为Blender设计的渲染插件，旨在为用户提供高质量的卡通风格渲染效果。该插件通过简化工作流程和提供专业级的渲染参数，帮助用户轻松实现生动且富有表现力的卡通风格渲染效果。Toon Spells插件具有直观的用户界面和丰富的渲染选项，用户可以通过调整材质、光照、阴影等参数来实现不同风格的卡通渲染效果。此外，Toon Spells还支持多种渲染技术，包括描边渲染、平面着色和阴影处理，让用户可以根据需要进行灵活的调整和定制。无论是制作动画、插图还是游戏场景，Toon Spells都为用户提供了强大的渲染功能，让他们可以轻松地创作出各种独特而引人注目的卡通风格作品。</p>
+              </div>
+            </details>
+<p><a href="https://blenderco.cn/49551.html">https://blenderco.cn/49551.html</a></p>
+<h2 id="npr-face-shader-main" id="npr-face-shader-main">npr-face-shader-main</h2>
+<h2 id="qatm-cha-jian-yu-yu-she-gong-cheng-v-0-1" id="QATM插件与预设工程-v0-1">QATM插件与预设工程_v0.1</h2>
+<h2 id="goo-engine-v-4-0" id="Goo-Engine-V4-0">Goo Engine V4.0</h2>
+<h1 id="auto-rig-pro">🤓 Auto-Rig Pro</h1>
+<p>下载地址：<a class="btn-anzhiyu " href="https://blender.kim/58184.html" 
+  title="Auto-Rig Pro"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Auto-Rig Pro</span></a></p>
+<details class="folding-tag" ><summary> 点击查看介绍 </summary>
+              <div class='content'>
+              <p>Blender Market Auto-Rig Pro是一套Blender角色绑定工具，可以快速制作三维绑定动画，用于自动为角色添加骨骼绑定，重新定位动画，并为Unity和虚幻引擎提供Fbx导出。通过智能功能快速绑定，放置参考骨骼，使它们与您的角色比例相匹配，只需点击几下即可自定义绑定定义：手指，脚趾数量，脊柱骨骼，多个颈骨，尾巴，耳朵等等。而且还可以自定义的UI： 完全可编辑的布局，按钮位置，颜色，背景图片…Quick Rig是依赖Auto-Rig Pro的一个插件，必须先安装Auto-Rig Pro，才能在Auto-Rig Pro里使用Quick Rig插件。</p><p>插件特征：</p><ul><li>基于对两足动物角色的网格识别的自动骨骼放置求解器，支持非对称模型。</li><li>编辑参考骨骼功能可随时更改装备，如果骨骼不在想要的位置，则无需重做所有内容</li><li>应用“姿势作为休息姿势”功能可快速更改角色的休息姿势，在其上对齐参考骨骼并单击即可应用电枢修改器</li><li>模块化：手指，脚趾，耳朵，LUFANG，可调节量的脊柱，颈部，扭曲骨骼，尾巴和颈部骨骼，复制，移除四肢以绑定具有多条胳膊和腿的生物</li><li>手指自动旋转选项：缩放第一个指骨时弯曲，预定义的拳头姿势</li><li>简易控制器形状版</li><li>骨骼选择器：可以打开/关闭，导入/导出预设</li><li>颜色定制</li><li>符合卡通规范：可拉伸的脊椎，腿部，手臂</li><li>兼容IK-FK捕捉自动键，在解锁所有腿部/前臂旋转轴时可正确捕捉</li><li>IK-FK控制器自动隐藏</li><li>混合IK极点/ IK箭头向量</li><li>腿部2或3条骨骼IK链</li><li>膝盖和肘部固定</li><li>头部旋转锁定或自由旋转</li><li>一键弯曲所有手指（手指抓住），拳头预先定义的姿势，手指指骨从刻度自动旋转</li><li>IK / FK眼睛</li><li>自动眼睑旋转</li><li>多个Child-Of约束支持IK手脚随时更改其父级空间</li><li>整套辅助控制器，用于精细造型</li><li>先进的面部设置和自动放置</li><li>基于Blender的热图改进了外观，自动拆分多个元素+体素化，符合Voxel Heat Diffuse Skinning附加组件</li><li>形状键驱动程序创建工具</li><li>游戏引擎支持，FBX，Unity，虚幻引擎通用绑定类型</li><li>骨骼重映射器可将任何电枢动作重新定向到具有不同骨骼名称和骨骼方向的另一个，IK支持，符合BVH，FBX文- 件，例如Mixamo动画。</li><li>符合X-Muscle的逼真的肌肉模拟</li></ul><p>介绍页参考：<a href="https://www.forcger.com/6453.html">https://www.forcger.com/6453.html</a></p>
+              </div>
+            </details>
+<h1 id="bone-dynamics-pro">🧐 Bone Dynamics Pro</h1>
+<p>下载地址：<a class="btn-anzhiyu " href="https://blender.kim/70532.html" 
+  title="Auto-Rig Pro"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Auto-Rig Pro</span></a></p>
+<details class="folding-tag" ><summary> 点击查看介绍 </summary>
+              <div class='content'>
+              <p>Blender插件-骨骼真实物理模拟效果 Bonedynamics Pro，插件允许您将一些物理属性添加到骨骼上。</p><p>插件特征：</p><ul><li>动态调整一个或多个骨骼物理参数</li><li>对整个骨骼的碰撞</li><li>骨骼对运动和碰撞做出反应。</li><li>超级容易设置。</li><li>伸展骨骼的能力。</li><li>制造骨链的能力。</li><li>易于调整（它在引擎盖下使用柔软的身体）。</li></ul>
+              </div>
+            </details>
+<h1 id="m-3-jian-mo-gong-ju-machin-3-tools">👻 M3建模工具（MACHIN3tools）</h1>
+<h1 id="geo-scatter-5-40-hua-cao-zhi-wu-san-bu-cha-jian">Geo-Scatter 5.40 花草植物散布插件</h1>
+<h1 id="gobos-light-textures-deng-guang-tou-ying">Gobos Light Textures灯光投影</h1>
+<h1 id="vera-product-light-v-1-2-deng-guang-yu-she">Vera Product Light v1.2 灯光预设</h1>
+<h1 id="zi-dai-de-gong-ju">自带的工具</h1>
+<p>Loop<br>
+NodePreview</p>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>Blender</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blender 常用快捷键收录</title>
     <url>/44a07547/</url>
     <content><![CDATA[<h1 id="yi-guan-yu-shi-tu-shi-jiao">一、关于视图视角</h1>
@@ -138,85 +220,146 @@
       </tags>
   </entry>
   <entry>
-    <title>关于Blender中的插件推荐与记录</title>
-    <url>/eeb9c3/</url>
-    <content><![CDATA[<p>打光技巧 + 动画K帧技巧 + Blender物理方面 + 修改器 + 几何节点</p>
-<h1 id="qia-tong-xuan-ran-npr">卡通渲染npr</h1>
-<h2 id="mmd-tools" id="😎-MMD-Tools">😎 MMD-Tools</h2>
-<p>GitHub下载地址：<a class="btn-anzhiyu " href="https://github.com/powroupi/blender_mmd_tools" 
-  title="MMD-TOOLS"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>MMD-TOOLS</span></a></p>
-<details class="folding-tag" ><summary> 点击查看介绍 </summary>
+    <title>卡通渲染系列（一）：了解并跟着B站UP主的教程开始动手</title>
+    <url>/c433415d/</url>
+    <content><![CDATA[<h1 id="liao-jie-xiang-guan-zhi-shi-ing">🦝 了解相关知识ing</h1>
+<p>常见的渲染风格：</p>
+<ul>
+<li>基于物理的渲染PBR（Physically Based Rendering）（再议）。</li>
+<li>非真实渲染NPR（Non-Photorealistic Rendering）风格化渲染。包括素描风格、水彩风格、卡通渲染等。</li>
+</ul>
+<p>卡通渲染（cel shading/toon shading）最常见的风格又分为美式卡通（阴影渐变的层次色彩丰富）与日式卡通（阴影二分化明显，大色块铺色）。要想一个人物好看，最最最主要的还是得贴图好看</p>
+<p>按我自己的理解：三渲二中的光影和描边是两大关键。</p>
+<ul>
+<li>有关光的细节有：边缘光、高光（兰伯特）、金属光泽、直接光照、间接光照</li>
+<li>阴影：脸部SDF平滑阴影</li>
+</ul>
+<h1 id="cha-jian-xuan-ran">🐾 插件渲染</h1>
+<details class="folding-tag" ><summary> 强烈推荐卡渲密咒 </summary>
               <div class='content'>
-              <p>mmd_tools插件是一款专为Blender设计的插件，旨在帮助用户导入、编辑和渲染MikuMikuDance（MMD）模型和动画。用于导入 MMD （MikuMikuDance）模型数据（.pmd、.pmx）、运动数据 （.vmd） 和姿势数据 （.vpd）。它还支持导出模型数据（.pmx）、运动数据（.vmd）和姿态数据（.vpd）。通过这个插件，用户可以轻松地将MMD模型导入到Blender中进行进一步的编辑和渲染，同时还能保留MMD模型的特有表现风格和动画效果。mmd_tools插件提供了一系列功能，包括骨骼控制、形状关键帧、材质编辑等，使用户可以更灵活地处理MMD模型和动画。此外，mmd_tools还支持与MMD软件的兼容性，可以很好地保持MMD模型在Blender中的原有外观和动作。总的来说，mmd_tools插件为Blender用户提供了一个便捷的方式来处理MMD模型和动画，为他们带来更多的创作可能性。</p>
+              <p class='p center logo large'>卡渲秘咒</p><p>真的超级好用，感谢大佬！插件使用的前置条件：</p><p>1.插件下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1RMeD86bWSt5XSN3-zcz3WQ"   title="提取码：KXMZ"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：KXMZ</span></a><br>2.星穹铁道贴图下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1YanzLjNbp4JUb4wOhtpouw"   title="提取码：XQTD"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：XQTD</span></a><br>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取或找大佬整理好的）。<br>3.一键仿星穹铁道功能详解视频：<a class="btn-anzhiyu " href="https://b23.tv/ELfl2Rs"   title="详细讲解地址"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>详细讲解地址</span></a></p><p>插件安装：<wavy>编辑——偏好设置——插件——安装——选择下载的压缩包</wavy></p><p>这个插件的使用主要是这样的：导入模型后，打开界面，<wavy>选择贴图</wavy>（贴图一定要正确），点击星铁咒，就OK了。</p><p>这是渲染好的效果图：阴影，SDF，采样，高光，金属质感都还不错的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/卡渲密咒测试.png" style="width:650px;"/></div></div><p>除了星铁咒，还有一个通用毛毛豆的咒语，用了一段时间也很好用，但因为是群组的关系，一改整个都该了，不适合单个工程中出现多人物渲染。也可能是我不会用，再摸索摸索，基本单人物MMD比较好用，一键解决所有麻烦啊啊真的很方便！！</p>
               </div>
             </details>
-<h2 id="cheng-xu-hua-qia-tong-dong-man-tian-kong" id="🌄程序化卡通动漫天空">🌄程序化卡通动漫天空</h2>
-<h2 id="toon-spells-qia-xuan-mi-zhou" id="😲-Toon-Spells卡渲密咒">😲 Toon Spells卡渲密咒</h2>
-<details class="folding-tag" ><summary> 点击查看介绍 </summary>
+<h1 id="yu-she-xuan-ran">🐸 预设渲染</h1>
+<details class="folding-tag" ><summary> Blender仿原神渲染预设5.0 </summary>
               <div class='content'>
-              <p>Toon Spells是一款专为Blender设计的渲染插件，旨在为用户提供高质量的卡通风格渲染效果。该插件通过简化工作流程和提供专业级的渲染参数，帮助用户轻松实现生动且富有表现力的卡通风格渲染效果。Toon Spells插件具有直观的用户界面和丰富的渲染选项，用户可以通过调整材质、光照、阴影等参数来实现不同风格的卡通渲染效果。此外，Toon Spells还支持多种渲染技术，包括描边渲染、平面着色和阴影处理，让用户可以根据需要进行灵活的调整和定制。无论是制作动画、插图还是游戏场景，Toon Spells都为用户提供了强大的渲染功能，让他们可以轻松地创作出各种独特而引人注目的卡通风格作品。</p>
+              <p>这个是UP小二今天吃啥啊的自制仿原神的三渲二的预设，允许使用，需要自己去模之屋进行下载。我理解的简单使用预设的流程是这样：</p><ul><li>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取贴图有专门的工具，但是建议直接从网上找大佬整理好的）。为了方便，相同材质的合并到一起。</li><li>找一些渲染预设，里面的必要的且常用的节点会<strong>被打成组</strong>，然后文件—追加—仿原神渲染渲染预设.blender—NodeTree——追加。里面主要是分为头发、衣服、脸部、边缘光、金属、ramp等效果。</li><li>接下来就是材质节点的一些<strong>连线</strong>。主要是将贴图接入，会实现神奇的效果，真的很方便。</li></ul><p>测试效果如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染预设测试1.png" style="width:650px;"/></div></div>
               </div>
             </details>
-<p><a href="https://blenderco.cn/49551.html">https://blenderco.cn/49551.html</a></p>
-<h2 id="npr-face-shader-main" id="npr-face-shader-main">npr-face-shader-main</h2>
-<h2 id="qatm-cha-jian-yu-yu-she-gong-cheng-v-0-1" id="QATM插件与预设工程-v0-1">QATM插件与预设工程_v0.1</h2>
-<h2 id="goo-engine-v-4-0" id="Goo-Engine-V4-0">Goo Engine V4.0</h2>
-<h1 id="auto-rig-pro">🤓 Auto-Rig Pro</h1>
-<p>下载地址：<a class="btn-anzhiyu " href="https://blender.kim/58184.html" 
-  title="Auto-Rig Pro"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Auto-Rig Pro</span></a></p>
-<details class="folding-tag" ><summary> 点击查看介绍 </summary>
+<p>如果想实现比较好的效果，需要从0开始自己搭建完整的工程。这样能够理解整个三渲二的流程。要想人物渲染的好看，贴图的绘制必须精美，除此之外，其实光影贴图也是非常重要的。</p>
+<details class="folding-tag" ><summary> komikaze动漫风格化渲染预设 </summary>
               <div class='content'>
-              <p>Blender Market Auto-Rig Pro是一套Blender角色绑定工具，可以快速制作三维绑定动画，用于自动为角色添加骨骼绑定，重新定位动画，并为Unity和虚幻引擎提供Fbx导出。通过智能功能快速绑定，放置参考骨骼，使它们与您的角色比例相匹配，只需点击几下即可自定义绑定定义：手指，脚趾数量，脊柱骨骼，多个颈骨，尾巴，耳朵等等。而且还可以自定义的UI： 完全可编辑的布局，按钮位置，颜色，背景图片…Quick Rig是依赖Auto-Rig Pro的一个插件，必须先安装Auto-Rig Pro，才能在Auto-Rig Pro里使用Quick Rig插件。</p><p>插件特征：</p><ul><li>基于对两足动物角色的网格识别的自动骨骼放置求解器，支持非对称模型。</li><li>编辑参考骨骼功能可随时更改装备，如果骨骼不在想要的位置，则无需重做所有内容</li><li>应用“姿势作为休息姿势”功能可快速更改角色的休息姿势，在其上对齐参考骨骼并单击即可应用电枢修改器</li><li>模块化：手指，脚趾，耳朵，LUFANG，可调节量的脊柱，颈部，扭曲骨骼，尾巴和颈部骨骼，复制，移除四肢以绑定具有多条胳膊和腿的生物</li><li>手指自动旋转选项：缩放第一个指骨时弯曲，预定义的拳头姿势</li><li>简易控制器形状版</li><li>骨骼选择器：可以打开/关闭，导入/导出预设</li><li>颜色定制</li><li>符合卡通规范：可拉伸的脊椎，腿部，手臂</li><li>兼容IK-FK捕捉自动键，在解锁所有腿部/前臂旋转轴时可正确捕捉</li><li>IK-FK控制器自动隐藏</li><li>混合IK极点/ IK箭头向量</li><li>腿部2或3条骨骼IK链</li><li>膝盖和肘部固定</li><li>头部旋转锁定或自由旋转</li><li>一键弯曲所有手指（手指抓住），拳头预先定义的姿势，手指指骨从刻度自动旋转</li><li>IK / FK眼睛</li><li>自动眼睑旋转</li><li>多个Child-Of约束支持IK手脚随时更改其父级空间</li><li>整套辅助控制器，用于精细造型</li><li>先进的面部设置和自动放置</li><li>基于Blender的热图改进了外观，自动拆分多个元素+体素化，符合Voxel Heat Diffuse Skinning附加组件</li><li>形状键驱动程序创建工具</li><li>游戏引擎支持，FBX，Unity，虚幻引擎通用绑定类型</li><li>骨骼重映射器可将任何电枢动作重新定向到具有不同骨骼名称和骨骼方向的另一个，IK支持，符合BVH，FBX文- 件，例如Mixamo动画。</li><li>符合X-Muscle的逼真的肌肉模拟</li></ul><p>介绍页参考：<a href="https://www.forcger.com/6453.html">https://www.forcger.com/6453.html</a></p>
+              <p>最近找到一个非常好用的预设资产：<p class='p center logo large'>komikaze动漫风格化渲染预设</p></p><p>地址：<a class="btn-anzhiyu " href="https://www.gfxcamp.com/komikaze/"   title="Komikaze V2"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Komikaze V2</span></a></p><p>真的一键解决上述所有问题，还附赠各种金木水火土风，星空等各种卡通材质，真的非常好用！墙裂推荐！！好用值：⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  Max！！！</p><p>Komikaze渲染测试：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/cover/卡渲封面.png" style="width:600px;"/></div></div>
               </div>
             </details>
-<h1 id="bone-dynamics-pro">🧐 Bone Dynamics Pro</h1>
-<p>下载地址：<a class="btn-anzhiyu " href="https://blender.kim/70532.html" 
-  title="Auto-Rig Pro"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Auto-Rig Pro</span></a></p>
-<details class="folding-tag" ><summary> 点击查看介绍 </summary>
+<h1 id="b-zhan-mhy-shi-xuan-ran-cong-ling-kai-shi-wan-zheng-gong-cheng-da-jian-pian">💐 B站MHY式渲染（从零开始完整工程搭建篇）</h1>
+<p>前提：按Tab进入编辑模式，数字键盘1进入正视图，将相同的材质合并到一起，但是为了方便后期调节，眼睛1、眼睛、金属、黑丝这些不要合并。</p>
+<h2 id="tie-tu-de-zheng-he" id="🌰-贴图的整合">🌰 贴图的整合</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <p>Blender插件-骨骼真实物理模拟效果 Bonedynamics Pro，插件允许您将一些物理属性添加到骨骼上。</p><p>插件特征：</p><ul><li>动态调整一个或多个骨骼物理参数</li><li>对整个骨骼的碰撞</li><li>骨骼对运动和碰撞做出反应。</li><li>超级容易设置。</li><li>伸展骨骼的能力。</li><li>制造骨链的能力。</li><li>易于调整（它在引擎盖下使用柔软的身体）。</li></ul>
+              <p>需要先准备四个贴图后面方便使用</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/四个贴图组.png" style="width:400px;"/></div></div><div class="tip bell"><p>组：基本贴图</p><p>主要原理是混合两张图片，用参数调节，0代表第一个贴图；1代表第二个贴图；</p><p>主要是衣服的切换（衣服or衣服1）、是否为脸部、是否为头发。有的可能需要加一个衣服内侧。节点连接如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/基础贴图设置.png" style="width:600px;"/></div></div></div><div class="tip home"><p>组：光照贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/光照图设置.png" style="width:600px;"/></div></div></div><div class="tip sync"><p>组：脸部阴影贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/脸部阴影.png" style="width:600px;"/></div></div></div><div class="tip cogs"><p>组：Ramp贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/Ramp贴图.png" style="width:600px;"/></div></div></div>
               </div>
             </details>
-<h1 id="m-3-jian-mo-gong-ju-machin-3-tools">👻 M3建模工具（MACHIN3tools）</h1>
-<h1 id="geo-scatter-5-40-hua-cao-zhi-wu-san-bu-cha-jian">Geo-Scatter 5.40 花草植物散布插件</h1>
-<h1 id="gobos-light-textures-deng-guang-tou-ying">Gobos Light Textures灯光投影</h1>
-<h1 id="vera-product-light-v-1-2-deng-guang-yu-she">Vera Product Light v1.2 灯光预设</h1>
-<h1 id="zi-dai-de-gong-ju">自带的工具</h1>
-<p>Loop<br>
-NodePreview</p>
+<h2 id="xiang-liang-de-zhun-bei" id="🌰-向量的准备">🌰 向量的准备</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="note primary modern"><p>灯光向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/灯光向量.png" style="width:600px;"/></div></div></div><div class="note info modern"><p>摄像机向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/摄像机向量.png" style="width:600px;"/></div></div></div><div class="note warning modern"><p>法线向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/法线向量.png" style="width:600px;"/></div></div></div><div class="note danger modern"><p>头部向量的搭建<br>① 新建三个空物体（添加——空物体——立方体），不用管位置，先命名为中心、右方、前方<br>② 选中三个空物体和人物骨骼，ctrl+P 选父级为物体<br>③ 依次点选空物体，将设置改为如下：<br>然后，位置全部清零，设置相应位置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量设置.png" style="width:600px;"/></div></div>选中三个空物体，物体→集合→移动到相应的人物集合中即可，开始连接节点<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量驱动器.png" style="width:600px;"/></div></div></div>
+              </div>
+            </details> 
+<p>完成此步骤后可以先连接基本贴图看看效果。</p>
+<h2 id="jian-jie-guang" id="🌰-间接光">🌰 间接光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>间接光混合漫射的节点连接情况：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/间接光.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="yin-ying" id="🌰-阴影">🌰 阴影</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>身体阴影（ilm贴图）和面部阴影（SDF贴图）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/身体阴影.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/面部阴影.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="yin-ying-ramp-cai-yang" id="🌰-阴影ramp采样">🌰 阴影ramp采样</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/采样颜色.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="zhu-guang" id="🌰-主光">🌰 主光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>绑定灯光颜色，使身体颜色随灯光发生变化。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取组.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="gao-guang" id="🌰-高光">🌰 高光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>兰伯特高光设置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/高光设置.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="matcap-bian-yuan-guang" id="🌰-matcap边缘光">🌰 matcap边缘光</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主要利用菲涅尔节点：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光1.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="miao-bian-dong-tai-miao-bian" id="🌰-描边（动态描边）">🌰 描边（动态描边）</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>方法很多，目前使用的是卡渲密咒的描边咒，方便快捷，具体使用方法如下，需要自己调教调教才能绘制出比较合适的线条</p><ul><li>先选择头发，在绿色小三角的属性里，把它的名字改为“头发轮廓”，默认是叫“描边权重”</li></ul><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改1.png" style="width:600px;"/></div></div>- 然后选择“描边咒”，更改一些属性，定点组那里是代表线条的粗细，定点组的名字一定要和上面的名字是一样的<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改2.png" style="width:600px;"/></div></div>- 进入“权重模式”，更改不合理的线条，自己看情况改一下。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改3.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果4.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h2 id="xi-jie-chu-li" id="🌰-细节处理">🌰 细节处理</h2>
+<h3 id="jin-shu-xiao-guo" id="🍬-金属效果">🍬 金属效果</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/金属明暗对比.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="hei-si-xiao-guo" id="🍬-黑丝效果">🍬 黑丝效果</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div>2、增加漫反射使光照变换时产生二分光影效果。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div>有贴图or无贴图都可：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="yan-jing-chu-li-bu-ling-bu-ling" id="🍬-眼睛处理（布灵布灵）">🍬 眼睛处理（布灵布灵）</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主要是伽马节点。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛高光单独处理.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="yan-jing-tou-guo-liu-hai" id="🍬-眼睛透过刘海">🍬 眼睛透过刘海</h3>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
+              </div>
+            </details>
+<h3 id="tou-fa-tou-ying" id="🍬-头发投影">🍬 头发投影</h3>
+<h3 id="tou-fa-gao-guang-chu-li" id="🍬-头发高光处理">🍬 头发高光处理</h3>
+<h3 id="biao-qing-dan-du-chu-li" id="🍬-表情单独处理">🍬 表情单独处理</h3>
+<p>透明处理即可</p>
+<h3 id="dan-xian-bi-zi" id="🍬-单显鼻子">🍬 单显鼻子</h3>
+<h2 id="lai-ba-zhan-shi" id="🌰-来吧，展示">🌰 来吧，展示</h2>
+<p>边缘光加强版，总之要有布灵布灵的感觉，灯光的颜色有一点偏黄</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果1.png" style="width:400px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果2.png" style="width:400px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果3.png" style="width:400px;"/></div></div>
+<h1 id="yi-xie-xuan-ran-si-lu-can-kao">一些渲染思路参考</h1>
+<p>Merlin的卡渲思路：（吃打光，总之就是要亮）<br>
+整体处理：<br>
+漫射+阴影分层+主光+辅光+环境遮蔽+高光+左边缘光+右边缘光<br>
+小二吃啥的卡渲思路：（自带的阴影贴图，吃人物自身的光照贴图）<br>
+分部分进行处理：<br>
+衣服：基础色叠加本人的阴影叠加金属<br>
+脸部：面部阴影控制SDF+调色<br>
+头发：高光加阴影（均需调色处理）控制器移动光照，需要头发阴影贴图</p>
 ]]></content>
       <categories>
         <category>点亮技能树</category>
       </categories>
       <tags>
         <tag>Blender</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Blender 动画</title>
-    <url>/e2dd2f20/</url>
-    <content><![CDATA[<h1 id="bone-dynamics-pro-cha-jian-de-shi-yong">BoneDynamics Pro插件的使用</h1>
-<p>关于动画物理的插件。</p>
-<h1 id="dong-zuo-k-zheng">动作K帧</h1>
-<p>面部表情形态键：<br>
-あ 张大嘴巴<br>
-お 张大嘴巴（圆）<br>
-い 笑口（全齿）<br>
-う 小口漏下齿<br>
-え 笑口（漏上齿）<br>
-にこり 向上挑眉</p>
-<p>口型动画一定要隔两三帧一个，不要10帧，5帧这样的隔，总之一定要隔得短，必要的时候一帧一个，否则会很奇怪</p>
-<p>裙子大腿穿模问题：可能是权重原因</p>
-<p>动作卡顿解决方法：blender里曲线编辑器-全选关键帧（选中面板，按快捷键A）-关键帧菜单-插值模式-贝塞尔曲线，再关键帧菜单-控制柄类型-自动钳制（自动钳制或自动都可，看喜好）<br>
-<a href="https://www.bilibili.com/read/cv22552921/">https://www.bilibili.com/read/cv22552921/</a></p>
-<h1 id="dong-hua-dao-chu-fu-yong-de-wen-ti-mihayo-mo-xing">动画导出复用的问题（Mihayo模型）：</h1>
-<p>K完动画后打开MMDTool面板，在VMD当中选择导出,导出后，在另一个文件的模型中选择导入VMD即可使用，注意注意！模型身高最好差不多这样的数据不会有太大问题！比如说刃的身高动作K完后导入到停云身上，动作数据就会出现紊乱，四肢乱飞的情况，套到景元身上就完全没有问题这样子。</p>
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>Blender</tag>
+        <tag>渲染</tag>
       </tags>
   </entry>
   <entry>
@@ -854,146 +997,57 @@ $$Specular = Dot(N,H)$$<br>
       </tags>
   </entry>
   <entry>
-    <title>卡通渲染系列（一）：了解并跟着B站UP主的教程开始动手</title>
-    <url>/c433415d/</url>
-    <content><![CDATA[<h1 id="liao-jie-xiang-guan-zhi-shi-ing">🦝 了解相关知识ing</h1>
-<p>常见的渲染风格：</p>
-<ul>
-<li>基于物理的渲染PBR（Physically Based Rendering）（再议）。</li>
-<li>非真实渲染NPR（Non-Photorealistic Rendering）风格化渲染。包括素描风格、水彩风格、卡通渲染等。</li>
-</ul>
-<p>卡通渲染（cel shading/toon shading）最常见的风格又分为美式卡通（阴影渐变的层次色彩丰富）与日式卡通（阴影二分化明显，大色块铺色）。要想一个人物好看，最最最主要的还是得贴图好看</p>
-<p>按我自己的理解：三渲二中的光影和描边是两大关键。</p>
-<ul>
-<li>有关光的细节有：边缘光、高光（兰伯特）、金属光泽、直接光照、间接光照</li>
-<li>阴影：脸部SDF平滑阴影</li>
-</ul>
-<h1 id="cha-jian-xuan-ran">🐾 插件渲染</h1>
-<details class="folding-tag" ><summary> 强烈推荐卡渲密咒 </summary>
-              <div class='content'>
-              <p class='p center logo large'>卡渲秘咒</p><p>真的超级好用，感谢大佬！插件使用的前置条件：</p><p>1.插件下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1RMeD86bWSt5XSN3-zcz3WQ"   title="提取码：KXMZ"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：KXMZ</span></a><br>2.星穹铁道贴图下载地址：<a class="btn-anzhiyu " href="https://pan.baidu.com/s/1YanzLjNbp4JUb4wOhtpouw"   title="提取码：XQTD"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>提取码：XQTD</span></a><br>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取或找大佬整理好的）。<br>3.一键仿星穹铁道功能详解视频：<a class="btn-anzhiyu " href="https://b23.tv/ELfl2Rs"   title="详细讲解地址"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>详细讲解地址</span></a></p><p>插件安装：<wavy>编辑——偏好设置——插件——安装——选择下载的压缩包</wavy></p><p>这个插件的使用主要是这样的：导入模型后，打开界面，<wavy>选择贴图</wavy>（贴图一定要正确），点击星铁咒，就OK了。</p><p>这是渲染好的效果图：阴影，SDF，采样，高光，金属质感都还不错的！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/卡渲密咒测试.png" style="width:650px;"/></div></div><p>除了星铁咒，还有一个通用毛毛豆的咒语，用了一段时间也很好用，但因为是群组的关系，一改整个都该了，不适合单个工程中出现多人物渲染。也可能是我不会用，再摸索摸索，基本单人物MMD比较好用，一键解决所有麻烦啊啊真的很方便！！</p>
-              </div>
-            </details>
-<h1 id="yu-she-xuan-ran">🐸 预设渲染</h1>
-<details class="folding-tag" ><summary> Blender仿原神渲染预设5.0 </summary>
-              <div class='content'>
-              <p>这个是UP小二今天吃啥啊的自制仿原神的三渲二的预设，允许使用，需要自己去模之屋进行下载。我理解的简单使用预设的流程是这样：</p><ul><li>先准备好必要的<strong>ramp</strong>和<strong>lightmap</strong>贴图（提取贴图有专门的工具，但是建议直接从网上找大佬整理好的）。为了方便，相同材质的合并到一起。</li><li>找一些渲染预设，里面的必要的且常用的节点会<strong>被打成组</strong>，然后文件—追加—仿原神渲染渲染预设.blender—NodeTree——追加。里面主要是分为头发、衣服、脸部、边缘光、金属、ramp等效果。</li><li>接下来就是材质节点的一些<strong>连线</strong>。主要是将贴图接入，会实现神奇的效果，真的很方便。</li></ul><p>测试效果如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/渲染预设测试1.png" style="width:650px;"/></div></div>
-              </div>
-            </details>
-<p>如果想实现比较好的效果，需要从0开始自己搭建完整的工程。这样能够理解整个三渲二的流程。要想人物渲染的好看，贴图的绘制必须精美，除此之外，其实光影贴图也是非常重要的。</p>
-<details class="folding-tag" ><summary> komikaze动漫风格化渲染预设 </summary>
-              <div class='content'>
-              <p>最近找到一个非常好用的预设资产：<p class='p center logo large'>komikaze动漫风格化渲染预设</p></p><p>地址：<a class="btn-anzhiyu " href="https://www.gfxcamp.com/komikaze/"   title="Komikaze V2"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Komikaze V2</span></a></p><p>真的一键解决上述所有问题，还附赠各种金木水火土风，星空等各种卡通材质，真的非常好用！墙裂推荐！！好用值：⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  Max！！！</p><p>Komikaze渲染测试：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/cover/卡渲封面.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h1 id="b-zhan-mhy-shi-xuan-ran-cong-ling-kai-shi-wan-zheng-gong-cheng-da-jian-pian">💐 B站MHY式渲染（从零开始完整工程搭建篇）</h1>
-<p>前提：按Tab进入编辑模式，数字键盘1进入正视图，将相同的材质合并到一起，但是为了方便后期调节，眼睛1、眼睛、金属、黑丝这些不要合并。</p>
-<h2 id="tie-tu-de-zheng-he" id="🌰-贴图的整合">🌰 贴图的整合</h2>
+    <title>一篇初次尝试MMD舞蹈的记录</title>
+    <url>/6665e68b/</url>
+    <content><![CDATA[<h1 id="chu-ci-jian-dan-zhi-zuo-mmd">💖 初次简单制作MMD</h1>
+<p>最近对MMD产生了浓厚的兴趣，尤其是对多人跳舞的场景，觉得肯定有一些技巧才能使每个角色都能跳同一舞蹈，总不能一个角色一个角色的手K吧。现在了解完才发现。原来有种东西叫动作（姿态）文件.vmd，一键拖入，人物就能动起来。当然它的源头数据也是各个大佬连夜K出来供大家使用的。神仙！</p>
+<p>MMD的全称<wavy>MikuMikuDance</wavy>，是一款简易3D动画软件。一般在电脑端使用，可以用来导入MMD模型场景动作渲染插件等素材。联合MME——MikuMikuEffect（特效）、MMM——MikuMikuMoving（动作？）、Ray-Ray-mmd（渲染器）。梳理下制作流程，除去必须的制作软件之外，主要是<wavy>模型 → 动作 → 场景 → 镜头 → 特效 → 音乐 → 渲染</wavy>。简单制作的话，这些都有素材，可直接用。也可升级为自己建模、K帧、镜头运用…，感觉里面还包含很多知识，比如<wavy>布料、头发、渲染、K帧</wavy>等吧很多…一定要有耐心，一步步的来不要着急（对自己说的（<sup>_</sup>））。</p>
+<h1 id="xia-zai-pian">💓 下载篇</h1>
+<h2 id="ruan-jian-de-xia-zai" id="软件的下载">软件的下载</h2>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <p>需要先准备四个贴图后面方便使用</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/四个贴图组.png" style="width:400px;"/></div></div><div class="tip bell"><p>组：基本贴图</p><p>主要原理是混合两张图片，用参数调节，0代表第一个贴图；1代表第二个贴图；</p><p>主要是衣服的切换（衣服or衣服1）、是否为脸部、是否为头发。有的可能需要加一个衣服内侧。节点连接如下：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/基础贴图设置.png" style="width:600px;"/></div></div></div><div class="tip home"><p>组：光照贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/光照图设置.png" style="width:600px;"/></div></div></div><div class="tip sync"><p>组：脸部阴影贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/脸部阴影.png" style="width:600px;"/></div></div></div><div class="tip cogs"><p>组：Ramp贴图</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/Ramp贴图.png" style="width:600px;"/></div></div></div>
+              <p>主体软件MMD，V9.26版本（MikuMikuDance 926 CHS）是汉化之后的，没法与其它软件联动；十周年版本（MikuMikuDance 10th Anniversary Version MMD）UP主推荐使用的，可以导出调节文件与Blender或其它3D软件联动;所以使用十周年版本是最好的选择。但是使用之后发现有的十周年的版本MME不能使用，在转回到926版本，发现MME能用，但是不能桥接BLender 啊 这该如何破局啊…</p><p>PE（PmxEditor）软件，是用来编辑模型的，可以换头改衣服；（还没使用过）</p><p>Ray—mmd渲染插件：其实也可以全流程在Blender里面制作渲染。（之后就迈入了Blender）</p>
               </div>
             </details>
-<h2 id="xiang-liang-de-zhun-bei" id="🌰-向量的准备">🌰 向量的准备</h2>
+<h2 id="mo-xing-de-xia-zai" id="模型的下载">模型的下载</h2>
+<p>国内的推荐模之屋；国外的推荐B碗。</p>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <div class="note primary modern"><p>灯光向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/灯光向量.png" style="width:600px;"/></div></div></div><div class="note info modern"><p>摄像机向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/摄像机向量.png" style="width:600px;"/></div></div></div><div class="note warning modern"><p>法线向量：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/法线向量.png" style="width:600px;"/></div></div></div><div class="note danger modern"><p>头部向量的搭建<br>① 新建三个空物体（添加——空物体——立方体），不用管位置，先命名为中心、右方、前方<br>② 选中三个空物体和人物骨骼，ctrl+P 选父级为物体<br>③ 依次点选空物体，将设置改为如下：<br>然后，位置全部清零，设置相应位置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量设置.png" style="width:600px;"/></div></div>选中三个空物体，物体→集合→移动到相应的人物集合中即可，开始连接节点<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头部向量驱动器.png" style="width:600px;"/></div></div></div>
-              </div>
-            </details> 
-<p>完成此步骤后可以先连接基本贴图看看效果。</p>
-<h2 id="jian-jie-guang" id="🌰-间接光">🌰 间接光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>间接光混合漫射的节点连接情况：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/间接光.png" style="width:600px;"/></div></div>
+              <p>下模型时，有些专业术语得搞懂，要不然会出问题的…还有制作完视频一定要署名借物表。毕竟素材都不是自己制作的。自己只是一个搬运工。<br>配布：指素材创作者将素材分发给其他人使用。<br>二次配布：不能二次传播模型。<br>借物表：这意思应该就是下载下来的模型都是正规渠道，能溯源的，要在视频标注作者，从哪里引用来的模型。<br>下载下来的压缩包里XXX.pmx后缀是人物的主体文件，使用的话就是这个文件；</p>
               </div>
             </details>
-<h2 id="yin-ying" id="🌰-阴影">🌰 阴影</h2>
+<h1 id="mmd-jian-dan-shi-yong">💙 MMD简单使用</h1>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <p>身体阴影（ilm贴图）和面部阴影（SDF贴图）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/身体阴影.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/面部阴影.png" style="width:600px;"/></div></div>
+              <p>一句话说来就是：拖拖拖…</p><p>① 在 To model模式下，将下载的人物模型中的.pmx文件拖入MMD，下载的动作文件.vmd文件拖入，下载的场景模型中的.pmx文件拖入MMD。</p><p>② 先点击 to model 转到To Camera 镜头模式下，将镜头文件.vmd拖入。</p><p>③ 音乐最后拖入支持.wav。</p><p>④ 右上角MME，加点特效</p><p>⑤ 导出视频即可</p>
               </div>
             </details>
-<h2 id="yin-ying-ramp-cai-yang" id="🌰-阴影ramp采样">🌰 阴影ramp采样</h2>
+<h2 id="blender-jian-dan-zhi-zuo-mmd-zhong-zhi" id="💙-Blender简单制作MMD（重置）">💙 Blender简单制作MMD（重置）</h2>
 <details class="folding-tag" ><summary> 点击查看内容 </summary>
               <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/采样颜色.png" style="width:600px;"/></div></div>
+              <p>前置条件：要完成.pmx模型的导入，必须要有blender_mmd_tools这个插件。<br>下载地址：<a class="btn-anzhiyu " href="https://github.com/UuuNyaa/blender_mmd_tools/releases"   title="blender_mmd_tools"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>blender_mmd_tools</span></a><br>安装插件：编辑-偏好设置-（左侧）插件-安装-下载下来的blender插件压缩包，完成后，搜索栏搜“MMD”，打上对勾。</p><div class="note primary modern"><p>1、导入模型</p><ul><li>方法①：安装完成后，快捷键N出现mmd面板，导入模型（人物＆场景）</li><li>方法②：文件——导入——pmx模型</li></ul></div><div class="note primary modern"><p>2、导入动作<br>导入动作：先把骨骼绑定（新版本可不绑）<br>导入动作文件：在模型视图下，导入之前一定要选父级，不要点人物。<br>在姿态模式下（ctrl+tab），修改穿模问题。</p></div><div class="note primary modern"><p>3、打开物理：MMDtools里面的物理点一下，如果模型有问题，物理也是有问题的，而且物理一开，电脑会变得很慢~~这一点上MMD有绝对的优势</p></div>最后调整材质效果，开始渲染
               </div>
             </details>
-<h2 id="zhu-guang" id="🌰-主光">🌰 主光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>绑定灯光颜色，使身体颜色随灯光发生变化。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取组.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/主光颜色获取.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="gao-guang" id="🌰-高光">🌰 高光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>兰伯特高光设置</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/高光设置.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="matcap-bian-yuan-guang" id="🌰-matcap边缘光">🌰 matcap边缘光</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主要利用菲涅尔节点：</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/边缘光1.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="miao-bian-dong-tai-miao-bian" id="🌰-描边（动态描边）">🌰 描边（动态描边）</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>方法很多，目前使用的是卡渲密咒的描边咒，方便快捷，具体使用方法如下，需要自己调教调教才能绘制出比较合适的线条</p><ul><li>先选择头发，在绿色小三角的属性里，把它的名字改为“头发轮廓”，默认是叫“描边权重”</li></ul><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改1.png" style="width:600px;"/></div></div>- 然后选择“描边咒”，更改一些属性，定点组那里是代表线条的粗细，定点组的名字一定要和上面的名字是一样的<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改2.png" style="width:600px;"/></div></div>- 进入“权重模式”，更改不合理的线条，自己看情况改一下。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/描边修改3.png" style="width:600px;"/></div></div><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果4.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h2 id="xi-jie-chu-li" id="🌰-细节处理">🌰 细节处理</h2>
-<h3 id="jin-shu-xiao-guo" id="🍬-金属效果">🍬 金属效果</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/金属明暗对比.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="hei-si-xiao-guo" id="🍬-黑丝效果">🍬 黑丝效果</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>整体的思路是：利用层权重绘制丝袜的基础颜色，再添加光影。最后再添加丝袜的细节效果。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/丝袜整体节点图.png" style="width:600px;"/></div></div>1、主要利用层权重节点和颜色渐变节点绘制丝袜的基础颜色<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝颜色基础设置.png" style="width:600px;"/></div></div>2、增加漫反射使光照变换时产生二分光影效果。<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝受光.png" style="width:600px;"/></div></div>3、添加细节，利用沃罗沃伊节点效果绘制出凹凸的丝袜纹理<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节1.png" style="width:600px;"/></div></div>有贴图or无贴图都可：<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/黑丝细节2.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="yan-jing-chu-li-bu-ling-bu-ling" id="🍬-眼睛处理（布灵布灵）">🍬 眼睛处理（布灵布灵）</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主要是伽马节点。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛高光单独处理.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="yan-jing-tou-guo-liu-hai" id="🍬-眼睛透过刘海">🍬 眼睛透过刘海</h3>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>1、先选中前发，快捷操作L或者CTRL + L；单独分离出来给一个材质。前发单独进行处理，把混合模式改为Blend。</p><p>2、节点连接：纹理坐标的生成连接分离xyz，Z端连接颜色渐变，然后接一个混合着色器，连到系数上，混合着色器的A端连接透明BSDF节点，B端连接头发贴图。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/眼睛透刘海细节.png" style="width:600px;"/></div></div><p>3、将眉毛单独分离出来，混合模式改为hash，强度不够时，在颜色渐变后面加一个伽马来增强透明。</p><p>4、描边之后，还能显示透明的妙计就是，把生成的描边材质的模式改为Blend的模式，就会形成描边不透，头发透的效果哦。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/头发透明描边不透明.png" style="width:600px;"/></div></div>
-              </div>
-            </details>
-<h3 id="tou-fa-tou-ying" id="🍬-头发投影">🍬 头发投影</h3>
-<h3 id="tou-fa-gao-guang-chu-li" id="🍬-头发高光处理">🍬 头发高光处理</h3>
-<h3 id="biao-qing-dan-du-chu-li" id="🍬-表情单独处理">🍬 表情单独处理</h3>
-<p>透明处理即可</p>
-<h3 id="dan-xian-bi-zi" id="🍬-单显鼻子">🍬 单显鼻子</h3>
-<h2 id="lai-ba-zhan-shi" id="🌰-来吧，展示">🌰 来吧，展示</h2>
-<p>边缘光加强版，总之要有布灵布灵的感觉，灯光的颜色有一点偏黄</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果1.png" style="width:400px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果2.png" style="width:400px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/最终渲染效果3.png" style="width:400px;"/></div></div>
-<h1 id="yi-xie-xuan-ran-si-lu-can-kao">一些渲染思路参考</h1>
-<p>Merlin的卡渲思路：（吃打光，总之就是要亮）<br>
-整体处理：<br>
-漫射+阴影分层+主光+辅光+环境遮蔽+高光+左边缘光+右边缘光<br>
-小二吃啥的卡渲思路：（自带的阴影贴图，吃人物自身的光照贴图）<br>
-分部分进行处理：<br>
-衣服：基础色叠加本人的阴影叠加金属<br>
-脸部：面部阴影控制SDF+调色<br>
-头发：高光加阴影（均需调色处理）控制器移动光照，需要头发阴影贴图</p>
+<h2 id="jian-dan-cheng-pin" id="💜-简单成品">💜 简单成品</h2>
+<div class="note primary modern"><p>primary 由于时间问题没有渲染全部，只渲染了几张作为留念…</p>
+</div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品1.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品2.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品3.png" style="width:600px;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品4.png" style="width:600px;"/></div></div>
+<h2 id="zeng-jia-liao-mme-de-jian-dan-cheng-pin" id="💦-增加了MME的简单成品">💦 增加了MME的简单成品</h2>
+<p>这个作品目前来说只有拖拖拖，maya，上传后就没仔细看，糊糊糊！画质怎么会这么糊啊😱😱😱！！！下次渲染一定要把画质调高！忘了B站会压缩画质了。。。</p>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; ">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1qg4y197Tc&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
+</div>
+
 ]]></content>
       <categories>
         <category>点亮技能树</category>
       </categories>
       <tags>
-        <tag>Blender</tag>
-        <tag>渲染</tag>
+        <tag>MMD</tag>
       </tags>
   </entry>
   <entry>
@@ -1033,6 +1087,254 @@ $$Specular = Dot(N,H)$$<br>
 <h2 id="da-pei-picgo-shi-yong" id="搭配picgo使用">搭配picgo使用</h2>
 <h1 id="gou-mai-fu-wu-qi-zi-ji-da-jian-yi-ge-zhuan-shu-tu-chuang">购买服务器自己搭建一个专属图床</h1>
 <p>经济能力不允许💔，暂时不考虑，以后有经济实力后再考虑一下。</p>
+]]></content>
+      <categories>
+        <category>点亮技能树</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>部署</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从零开始的Hexo网站搭建+部署到GitHub+绑定自定义域名</title>
+    <url>/5d1ae377/</url>
+    <content><![CDATA[<h1 id="da-jian">搭建</h1>
+<h2 id="xia-zai-hexo" id="下载hexo">下载hexo</h2>
+<ul>
+<li>
+<p>首先进行环境下载：<code>node</code>，<code>npm</code>，<code>git</code>。</p>
+</li>
+<li>
+<p>新建文件夹，<code>shift+右击</code>，选择<strong>在此处打开命令窗口</strong>命令，出现命令窗口，输入：</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo：npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>安装完成后进行查看检查下：</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">git --version</span><br><span class="line">hexo --version</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>初始化文件夹（博客项目）,输入命令后开始加载文件。</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="zhu-ti-de-xia-zai-yu-ying-yong" id="主题的下载与应用">主题的下载与应用</h2>
+<p>目前这个网站使用的是基于<code>Butterfly主题</code>改进的<code>安知鱼主题</code>。</p>
+<ul>
+<li>
+<p>下载主题：</p>
+<p>进入vscode，进入上面的初始化后的文件夹，打开终端（<strong>shift + `</strong>）。</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b dev https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu</span><br><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>windows系统：复制<code>/themes/anzhiyu/_config.yml</code>此文件到 hexo 根目录，并重命名为<code>_config.anzhiyu.yml</code>。<code>_config.anzhiyu.yml中</code>的配置优先级大于<code>_config.yml</code>。</p>
+</blockquote>
+</li>
+<li>
+<p>应用主题</p>
+<p>在根目录下的<code>_config.yml</code>，拉到最底下，把<code>theme：lan...</code>改成<code>thenme：anzhiyu</code>。</p>
+</li>
+<li>
+<p>最后安装两个渲染插件</p>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>Hexo启动三件套</p>
+<p>//部署上传版</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>//本地启动预览版</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<hr>
+<p>一些基础站点配置参考：<a class="btn-anzhiyu " href="https://docs.anheyu.com/" 
+  title="基础站点配置"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>基础站点配置</span></a>,里面的装备页面给改成了游戏页面。</p>
+<p>配置好后出现的一些问题：</p>
+<ul>
+<li>如果local search开启后报错是因为没有安装相应的插件，网上找到安装上即可。<br>
+在_config.yml中粘贴代码后就开启了。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb</span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<div class="tip cogs"><p>配置音乐页面时的一些问题→音乐馆: /music/?id=390191755&amp;server=netease || anzhiyu-icon-music</p>
+</div>
+<blockquote>
+<ul>
+<li>server=[netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐],必须参数</li>
+<li>id是歌单的id，网易云找到自己的歌单或者自己喜欢的歌单，选择分享按钮会复制一个连接，粘贴连接会有歌单的id</li>
+</ul>
+</blockquote>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#id=&#x27;外链播放器id&#x27;,必须参数</span></span><br><span class="line">   <span class="comment"># type=[song=单曲, playlist=歌单, album=专辑, search=搜索结果, artist=艺术家],必须参数</span></span><br><span class="line">   <span class="comment"># server=[netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐],必须参数</span></span><br><span class="line">   <span class="comment"># fixed=启用固定模式，固定在左下角,默认false</span></span><br><span class="line">   <span class="comment"># mini=启用迷你模式,默认false</span></span><br><span class="line">   <span class="comment"># preload=[none,metadata,auto]</span></span><br><span class="line">   <span class="comment"># mutex=[互斥锁，默认true],默认false</span></span><br><span class="line">   <span class="comment"># order=[random=随机播放,list=列表播放]</span></span><br><span class="line">   <span class="comment"># loop=[all=全部循环, one=循环一次 ,none=不循环]</span></span><br><span class="line">   <span class="comment"># volume=[音量，默认0.7]</span></span><br><span class="line">   <span class="comment"># lrc-type=[歌词类型，默认0]</span></span><br><span class="line">   <span class="comment"># list-folded=[列表是否折叠，默认false]</span></span><br><span class="line">   <span class="comment"># list-max-height=列表最大高度,默认340px</span></span><br><span class="line">   <span class="comment"># storage-name=本地存储存储密钥，用于存储播放器设置,默认metingjs</span></span><br></pre></td></tr></table></figure>
+<h1 id="bu-shu-dao-git-hub-shang">部署到GitHub上</h1>
+<p>前提：要注册一个github账号。</p>
+<h2 id="git-hub-xin-jian-cang-ku" id="GitHub新建仓库">GitHub新建仓库</h2>
+<p>先在github中新建一个仓库，点击头像，进入仓库，点击新建仓库，进入新建仓库页面。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/新建仓库01.png" style="width:1000px;"/></div></div>
+<p>对新建的仓库进行一些配置：仓库名、简介描述、私有库or公有库。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/新建仓库02.png" style="width:1000px;"/></div></div>
+<h2 id="shi-yong-git-lian-jie-github-zhang-hao" id="使用git连接github账号">使用git连接github账号</h2>
+<p>打开git命令(前提：安装git-bash)，准备连接github账号。<a class="btn-anzhiyu " href="https://gitforwindows.org/" 
+  title="git for Windows"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>git for Windows</span></a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 配置用户名和邮箱</span></span><br><span class="line">$ git config --global user.name <span class="string">&quot;注册github的用户名&quot;</span></span><br><span class="line">$ git config --global user.email <span class="string">&quot;注册github的邮箱&quot;</span></span><br><span class="line"><span class="comment"># 举例</span></span><br><span class="line">$ git config --global user.name <span class="string">&quot;wytgm&quot;</span></span><br><span class="line">$ git config --global user.email <span class="string">&quot;2971837355@qq.com&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="mi-yao-ssh-de-sheng-cheng-ji-pei-zhi" id="密钥SSH的生成及配置">密钥SSH的生成及配置</h2>
+<ul>
+<li>
+<mark class="hl-label orange">生成</mark> 
+<p>输入如下命令后直接三次回车即可，一般不需要设置密码；</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 生成 ssh 密钥</span></span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">&quot;注册github的邮箱&quot;</span></span><br><span class="line"><span class="comment"># 举例</span></span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">&quot;2971837355@qq.com&quot;</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>执行上述命令之后，会生成 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 两个文件，前者是我们私有的，而后者则是对外开放的。接着找到生成的 <code>.ssh</code> 的文件夹中的 <code>id_rsa.pub</code> 密钥，将内容复制；</p>
+</blockquote>
+<blockquote>
+<p>生成完后可以进行验证：git中输入命令<code>ssh -T git@github.com </code>,并且输入yes之后，行末尾会显示你的用户名</p>
+</blockquote>
+</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/git命令部署.png" style="width:1000px;"/></div></div>
+<ul>
+<li>
+<mark class="hl-label orange">配置</mark> 
+<p>在GitHub主页的头像下找到<code>setting</code>， 然后点击左侧的<code>SSH and GPG keys</code>，点击<code>New SSH key</code>。</p>
+  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/生成ssh01.png" style="width:1000px;"/></div></div>
+<p>填写 <code>Title</code> 和 <code>Key</code>，<code>Title</code> 可以随意填写，而 <code>Key</code> 的内容则是我们刚才复制的 <code>id_rsa.pub</code> 中的内容(注意空格)，最后点击 <code>Add SSH key</code> 即可。</p>
+  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/生成ssh02.png" style="width:1000px;"/></div></div>
+</li>
+</ul>
+<h2 id="chuang-jian-blog-yuan-wen-jian" id="创建blog源文件">创建blog源文件</h2>
+<p>npm创建hexo，或者新建文件夹后进行初始化加载文件（<code>hexo init</code>） 本地能够正常运行预览。</p>
+<p>完成上面的步骤后，接下来就是推送到 Github 了，然后网站就能被其他人访问了。</p>
+<h2 id="dai-ma-shang-chuan-dao-git-hub" id="代码上传到-GitHub">代码上传到 GitHub</h2>
+<p>部署前在hexo中要安装一个必要的部署插件<code>hexo-deployer-git</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<p>① 找到之前创建仓库生成的Github仓库Http或SSH地址（推荐SSH）</p>
+<blockquote>
+<p>如果没有保存,点击仓库主页的 Clone or download 可重新查看 .</p>
+</blockquote>
+<p>② 打开<code>blog源文件夹</code>下的<code>_config.yml</code>，添加如下代码：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span> <span class="string">https://github.com/username/repository.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>repo还可这样填：<code>https://github.com/用户名/仓库名.git </code>,但是这个方会出现<code>Authentication failed for 'https://github.com/用户名/仓库名.git/'</code>的麻烦，也就是要在vscode中登录github账号，有时候登录不对，部署就进行不下去。所以推荐SSH，git开头的连接方式。</p>
+</blockquote>
+<div class="note primary modern"><p>当时出错时，gpt给出的解决方案：出现 “Authentication failed” 错误通常是由于 GitHub 认证失败引起的。您可以尝试以下步骤来解决这个问题：</p>
+<ul>
+<li>
+<p>检查 GitHub 认证信息：</p>
+<p>确保您在本地计算机上设置了正确的 GitHub 账户认证信息。您可以使用以下命令来检查和更新 GitHub 认证信息：</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;YourGitHubUsername&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;youremail@example.com&quot;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>使用 SSH 连接：<br>
+一种解决方案是使用 SSH 连接而不是 HTTPS 连接。这样可以避免认证失败的问题。您可以按照以下步骤设置 SSH 连接：<br>
+生成 SSH 密钥：</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">&quot;your_email@example.com&quot;</span></span><br></pre></td></tr></table></figure>
+<p>将 SSH 密钥添加到您的 GitHub 帐户：将<code> ~/.ssh/id_rsa.pub</code> 文件中的内容添加到 GitHub 帐户的 SSH 密钥设置中。<br>
+将存储库的远程 URL 更改为 SSH：</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote set-url origin git@github.com:username/repository.git</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>更新 GitHub 访问令牌：</p>
+<p>如果您使用了访问令牌来访问 GitHub 存储库，请确保令牌仍然有效。您可以在 GitHub 设置中生成新的访问令牌，并将其用于访问存储库。</p>
+</li>
+<li>
+<p>确认权限：<br>
+确保您有权限向存储库推送更改。如果存储库是私有的，并且您没有相应的访问权限，您将无法将更改推送到存储库。<br>
+尝试上述步骤后，再次尝试部署到 GitHub，看看问题是否解决。如果问题仍然存在，请提供更多详细信息，以便我能够更好地帮助您解决问题。</p>
+</li>
+</ul>
+</div>
+<p>③ 在vscode命令终端中输入以下命令，将博客源文件推送到github新建的仓库上。命令从上往下是清除hexo之前执行过的命令、全局配置生成html文件。部署上传到github。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo cl</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<h2 id="fang-wen-wang-zhi" id="访问网址">访问网址</h2>
+<p>在github的仓库里，点击setting，左侧的pages就会显示网址。</p>
+<p>使用 SSH 连接将 Hexo 部署到 GitHub 后，您可以通过以下网址来访问您的博客页面：<code>https://username.github.io/repository/</code></p>
+<p>其中：</p>
+<ul>
+<li>username 是您的 GitHub 用户名。</li>
+<li>repository 是您在 GitHub 上存储 Hexo 博客内容的存储库名称。</li>
+</ul>
+<p>请确保在替换上述 URL 中的 username 和 repository 部分时使用正确的用户名和存储库名称。这个 URL 将指向您的 Hexo 博客在 GitHub Pages 上托管的页面。</p>
+<h2 id="shang-chuan-fang-wen-hou-hui-chu-xian-yi-xi-lie-wen-ti" id="上传访问后会出现一系列问题">上传访问后会出现一系列问题</h2>
+<p>访问前一定要清除浏览器的缓存——清除历史记录</p>
+<ul>
+<li>
+<mark class="hl-label red">CSS样式全部丢失</mark> 
+<p>原因：没有设置库的路径</p>
+<p>解决：_config.yml中设置url</p>
+  <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://wytgm.github.io/wytblog</span> <span class="comment">#自己的网站地址（自定义域名后要更改为自己的域名）</span></span><br><span class="line"><span class="comment"># root:/wytblog/  网上的教程是要加这个，但是我的会出bug，直接不加了</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line"><span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line"><span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<mark class="hl-label red">部分css、js没显示不起作用，或者说找不到</mark> 
+<p>原因：路径引入不对;</p>
+<p>解决：在本地文件的inject里引入css是这样写的：<code>src=/css/xxx.css</code> 或者 <code>src=/js/sss.js</code></p>
+<p>但是上传到github后，所有的自己引入的css\js都要转变为：在前面加入自己的网站地址比如，我的网站网址是<code>https://wytgm.github.io/wytblog/</code>。（自定义域名后要更改为自己的域名）<br>
+自定义引入css后，地址路径改为(举个例子🌰)</p>
+ <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 原：</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">type=&quot;text/css&quot;</span> <span class="string">href=&quot;/css/fonts/zidingyi.css&quot;</span> <span class="string">media=&quot;defer&quot;</span> <span class="string">onload=&quot;this.media=&#x27;all&#x27;&quot;&gt;</span></span><br><span class="line"><span class="comment"># 改：</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">type=&quot;text/css&quot;</span> <span class="string">href=&quot;https://wytgm.github.io/wytblog/css/fonts/zidingyi.css&quot;</span> <span class="string">media=&quot;defer&quot;</span> <span class="string">onload=&quot;this.media=&#x27;all&#x27;&quot;&gt;</span></span><br><span class="line"><span class="comment"># 原：</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;/js/sun_moon.js&quot;</span> <span class="string">async&gt;&lt;/script&gt;</span> </span><br><span class="line"><span class="comment"># 改：</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://wytgm.github.io/wytblog/js/sun_moon.js&quot;</span> <span class="string">async&gt;&lt;/script&gt;</span> </span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="zi-ding-yi-yu-ming">自定义域名</h1>
+<h2 id="a-li-yun-yu-ming-gou-mai-liu-cheng" id="阿里云域名购买流程">阿里云域名购买流程</h2>
+<p>前提：注册阿里云账号（第三方登录支付宝和淘宝都行）+ 账号实名认证</p>
+<ul>
+<li>
+<p>选择<br>
+常见的后缀名很多，像com、cn、top、xyz、xin等等等等。选择适合自己的域名，要看域名的新注册费用和续费，综合对比，选择最合适的后缀名。对比下来感觉.top还算合适，续费一年甚至三年十年的价格都还能承受，而且首年只需1元。</p>
+</li>
+<li>
+<p>查询</p>
+  <a class="btn-anzhiyu " href="https://wanwang.aliyun.com/help/price.html?spm=a2c4g.11186623.0.0.235227d0mbRL8c" 
+  title="查询购买价格包括续费价格"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>查询购买价格包括续费价格</span></a> 
+  <a class="btn-anzhiyu " href="https://wanwang.aliyun.com/domain/?source=5176.11533457&userCode=pfwe55hh&type=copy" 
+  title="查询是否被注册掉"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>查询是否被注册掉</span></a>    
+  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名00.png" style="width:800px;"/></div></div>
+</li>
+<li>
+<p>购买+实名认证</p>
+<p>查询好后，进入新用户首购福利进行购买，首年只要1元。购买时需要创建模板信息，创建完成后会发现没有进行实名，之前的实名只是个人信息的实名认证，还要进行购买域名的实名认证。点击“模板未实名”，根据提示进行填写相关信息，提交后会显示：此类审核需要42分钟，然后只需等待。</p>
+  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名01.png" style="width:800px;"/></div></div>
+  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名02.png" style="width:800px;"/></div></div>
+<p>如果没有实名认证，可以先购买，然后再认证。会给你一个公共模板，但是认证完要尽快过户。也可以等注册局审核完再认证。</p>
+  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名03.png" style="width:800px;"/></div></div>
+<blockquote>
+<p>阿里云已完成初审，并已提交至注册局进行审核，实际审核完成时间以注册局结果为准。审核完成您的账号手机会收到短信通知，请您注意查收。根据注册局近期审核结果，该证件类型的审核时长约42分钟，请您耐心等待。一般一小时左右即可。</p>
+</blockquote>
+<p>第一次认证失败，身份证没有拍反面，所以提交身份证的时候，拼图成一张提交。</p>
+<p>最后进入阿里云的域名控制台，进行查看。完成购买之后还需要对新购买的域名进行解析，添加解析记录。</p>
+</li>
+</ul>
+<h2 id="tian-jia-jie-xi-ji-lu" id="添加解析记录">添加解析记录</h2>
+<p>进入阿里云控制台找到域名管理，点击“解析”。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名04.png" style="width:800px;"/></div></div>
+<p>进入解析设置页面——点击添加记录即可；要添加两个记录值，记录类型分别为 A 和 CNAME ，填写如下：</p>
+<ul>
+<li>第一个<br>
+记录类型：<code>A</code><br>
+主机记录为：<code>@</code><br>
+记录值为自己git.io那个ip地址。IP地址在cmd中ping一下即可; <strong>一般都是这个:<code>185.199.110.153</code></strong></li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解析记录01.png" style="width:800px;"/></div></div>
+<ul>
+<li>第二个<br>
+记录类型：<code>CNAME</code><br>
+主机记录：<code>www</code><br>
+记录值为自己的github访问地址：<code>用户名.github.io</code></li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解析记录02.png" style="width:800px;"/></div></div>
+<p>再返回控制台发现解析设置页面添加了两条解析记录，状态均为正常。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解析记录03.png" style="width:800px;"/></div></div>
+<p>到这里阿里云上的配置就结束了</p>
+<h2 id="hexo-pei-zhi-yu-ming" id="Hexo-配置域名">Hexo 配置域名</h2>
+<p>在自己博客的跟目录source文件夹下创建一个名字CNAME记事本，内容输入自己的个人域名（例如我的：sonderwyt.top），保存关闭。删除后缀.txt。</p>
+<h2 id="git-hub-cang-ku-bang-ding-yu-ming" id="GitHub仓库绑定域名">GitHub仓库绑定域名</h2>
+<p>进入博客源文件仓库，点击setting，选择左侧的pages<br>
+在Custom domain输入自己的域名save一下即可，效果如下就说明配置成功了</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/github自定义域名.png" style="width:800px;"/></div></div>
+<h2 id="xiu-gai-js-css-yin-ru-di-zhi" id="修改js-css引入地址">修改js/css引入地址</h2>
+<p>之前的是引入的是<code>https://用户名.github.io/</code> ，要改为新的域名引入。不然访问时css样式会全部丢失。</p>
+<p>_config.yml</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://sonderwyt.top/</span></span><br><span class="line"><span class="comment"># permalink: :year/:month/:day/:title/</span></span><br><span class="line"><span class="comment"># permalink_defaults:</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:abbrlink/</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line"><span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line"><span class="attr">rep:</span> <span class="string">hex</span>    <span class="comment"># 进制：dec(default) and hex</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line"><span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line"><span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br></pre></td></tr></table></figure>
+<p>_zhuticonfig.yml</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Inject</span></span><br><span class="line"><span class="comment"># Insert the code to head (before &#x27;&lt;/head&gt;&#x27; tag) and the bottom (before &#x27;&lt;/body&gt;&#x27; tag)</span></span><br><span class="line"><span class="comment"># 插入代码到头部 &lt;/head&gt; 之前 和 底部 &lt;/body&gt; 之前</span></span><br><span class="line"><span class="comment"># Inject</span></span><br><span class="line"><span class="comment"># Insert the code to head (before &#x27;&lt;/head&gt;&#x27; tag) and the bottom (before &#x27;&lt;/body&gt;&#x27; tag)</span></span><br><span class="line"><span class="comment"># 插入代码到头部 &lt;/head&gt; 之前 和 底部 &lt;/body&gt; 之前</span></span><br><span class="line"><span class="attr">inject:</span></span><br><span class="line"><span class="attr">head:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css&quot;&gt;</span> <span class="comment"># 引入组件库(f12)</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">type=&quot;text/css&quot;</span> <span class="string">href=&quot;https://sonderwyt.top/css/fonts/font.css&quot;</span> <span class="string">media=&quot;defer&quot;</span> <span class="string">onload=&quot;this.media=&#x27;all&#x27;&quot;&gt;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">type=&quot;text/css&quot;</span> <span class="string">href=&quot;https://sonderwyt.top/css/fonts/zidingyi.css&quot;</span> <span class="string">media=&quot;defer&quot;</span> <span class="string">onload=&quot;this.media=&#x27;all&#x27;&quot;&gt;</span></span><br><span class="line"><span class="attr">bottom:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">defer</span> <span class="string">type=&quot;text/javascript&quot;</span> <span class="string">src=&quot;https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 节日弹窗依赖</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">defer</span> <span class="string">src=&quot;https://cdn1.tianli0.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># winbox支持</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">async</span> <span class="string">src=&quot;https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 引入VUE(f12)</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">async</span> <span class="string">src=&quot;https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 引入ElementUI(f12)</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://sonderwyt.top/js/sun_moon.js&quot;</span> <span class="string">async&gt;&lt;/script&gt;</span> <span class="comment"># 昼夜切换动画</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://sonderwyt.top/s/readPercent.js&quot;&gt;&lt;/script&gt;</span>  <span class="comment"># 右下角阅读模式</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://sonderwyt.top/js/imgloaded.js?1&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 首页图片渐进式加载 async data-pjax </span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://sonderwyt.top/js/fullscreen.js&quot;&gt;&lt;/script&gt;4</span> <span class="comment"># 全屏切换</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">defer</span> <span class="string">src=&quot;https://sonderwyt.top/js/lunar.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 农历计算</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">defer</span> <span class="string">src=&quot;https://sonderwyt.top/js/day.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 节日弹窗</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://sonderwyt.top/js/meihua.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 美化模块 </span></span><br></pre></td></tr></table></figure>
+<p>最后访问域名进行查看：大功告成！</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名完成.png" style="width:800px;"/></div></div>
 ]]></content>
       <categories>
         <category>点亮技能树</category>
@@ -1591,371 +1893,6 @@ $$Specular = Dot(N,H)$$<br>
       </tags>
   </entry>
   <entry>
-    <title>vercel一键部署网站</title>
-    <url>/c541d0bf/</url>
-    <content><![CDATA[<p>听说vercel现在被墙了，需要绑定自定义域名，也就是前提要需要拥有一个自己的域名。</p>
-<h1 id="di-san-fang-dao-ru-li-yong-github">第三方导入（利用github）：</h1>
-<p>在vercel页面中新建项目 通过GitHub仓库进行导入。</p>
-<h1 id="zhi-jie-dao-ru-shi-yong-ming-ling-bu-shu">直接导入（使用命令部署）</h1>
-<p>墙裂推荐这个，没有git那样多的命令输入，像git add\git commit\git push 等一系列命令。才会导入完成。</p>
-<p>可以使用 Vercel 的命令行工具 Vercel CLI。以下是一些简单的步骤：</p>
-<p>首先，确保您已经安装了 Vercel CLI。您可以通过在终端中输入以下命令来安装它：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g vercel</span><br></pre></td></tr></table></figure>
-<p>在终端中，切换到您的静态网站目录，并使用以下命令登录到 Vercel：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vercel login</span><br></pre></td></tr></table></figure>
-<p>在您的静态网站目录中，运行以下命令以部署您的网站到 Vercel：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vercel</span><br></pre></td></tr></table></figure>
-<p>按照提示完成部署过程，包括选择项目的名称、环境等。</p>
-<p>具体命令一览：</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/vercel部署命令.png" style="width:800px;"/></div></div>
-<h1 id="zi-ding-yi-yu-ming">自定义域名：</h1>
-<p>在项目中的setting的左侧Domains中：添加自定义的域名，也就是在购买的域名前随意填写：例如主域名：sonderwyt.top，可以填写为mtb.sonder.top。会自动解析出一条记录:</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/修改记录01.png" style="width:800px;"/></div></div>
-<p>进入到域名解析平台，阿里云为例，添加记录，头部、主机值和记录值填写完后，返回vercel等待一小小会儿，就成功了。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/修改记录.png" style="width:800px;"/></div></div>
-<h1 id="hui-chu-xian-de-wen-ti">会出现的问题</h1>
-<p>vercel 部署后出现：一般都是没有配置主路由造成的</p>
-<blockquote>
-<p>404: NOT_FOUND;Code: NOT_FOUND</p>
-</blockquote>
-<p>如果您在 Vercel 部署后遇到了 404: NOT_FOUND 错误，这通常意味着 Vercel 在尝试找到您的静态资源时未找到相应的文件或路径。以下是一些建议，帮助您解决这个问题：</p>
-<ul>
-<li>
-<p>配置路由：<br>
-如果您的静态网站使用了前端路由，需要在 Vercel 中配置路由以确保正确的页面导航。您可以在项目根目录下创建一个 vercel.json 文件，并添加路由配置，例如：</p>
-  <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// (把所有html文件放在根目录下)；这样配置可以将所有路由指向根路径。</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="string">&quot;rewrites&quot;</span>: [</span><br><span class="line">    &#123; <span class="string">&quot;source&quot;</span>: <span class="string">&quot;/(.*)&quot;</span>, <span class="string">&quot;destination&quot;</span>: <span class="string">&quot;/主页.html&quot;</span> &#125;</span><br><span class="line">]</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// (把所有html文件放在自定义文件夹下)</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="string">&quot;rewrites&quot;</span>: [&#123; <span class="string">&quot;source&quot;</span>: <span class="string">&quot;/:path*&quot;</span>, <span class="string">&quot;destination&quot;</span>: <span class="string">&quot;/index.html&quot;</span> &#125;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>检查静态资源路径：<br>
-确保您的静态网站文件都位于正确的路径中。Vercel 默认会查找 public、out、dist 或 build 文件夹作为静态资源的存放位置。如果您的静态资源位于其他路径，可以尝试将其移动到这些默认文件夹中。</p>
-</li>
-<li>
-<p>检查文件名大小写：<br>
-确保文件名的大小写与路径在代码中引用的大小写一致。在某些操作系统中，文件名大小写敏感，可能会导致找不到文件的问题。</p>
-</li>
-<li>
-<p>重新部署：<br>
-尝试重新部署项目，有时候重新部署可以解决一些部署问题。</p>
-</li>
-</ul>
-<h1 id="xiu-gai-dai-ma-hou-de-shang-chuan-ming-ling">修改代码后的上传命令</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vercel --prod</span><br></pre></td></tr></table></figure>
-<p>部署成功：</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/部署成功.png" style="width:800px;"/></div></div>
-<p>最后访问自定义域名： 大功告成!!</p>
-<a class="btn-anzhiyu " href="https://mtb.sonderwyt.top" 
-  title="Sonder's MTB_BLOG"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Sonder's MTB_BLOG</span></a>    
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>部署</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一篇初次尝试MMD舞蹈的记录</title>
-    <url>/6665e68b/</url>
-    <content><![CDATA[<h1 id="chu-ci-jian-dan-zhi-zuo-mmd">💖 初次简单制作MMD</h1>
-<p>最近对MMD产生了浓厚的兴趣，尤其是对多人跳舞的场景，觉得肯定有一些技巧才能使每个角色都能跳同一舞蹈，总不能一个角色一个角色的手K吧。现在了解完才发现。原来有种东西叫动作（姿态）文件.vmd，一键拖入，人物就能动起来。当然它的源头数据也是各个大佬连夜K出来供大家使用的。神仙！</p>
-<p>MMD的全称<wavy>MikuMikuDance</wavy>，是一款简易3D动画软件。一般在电脑端使用，可以用来导入MMD模型场景动作渲染插件等素材。联合MME——MikuMikuEffect（特效）、MMM——MikuMikuMoving（动作？）、Ray-Ray-mmd（渲染器）。梳理下制作流程，除去必须的制作软件之外，主要是<wavy>模型 → 动作 → 场景 → 镜头 → 特效 → 音乐 → 渲染</wavy>。简单制作的话，这些都有素材，可直接用。也可升级为自己建模、K帧、镜头运用…，感觉里面还包含很多知识，比如<wavy>布料、头发、渲染、K帧</wavy>等吧很多…一定要有耐心，一步步的来不要着急（对自己说的（<sup>_</sup>））。</p>
-<h1 id="xia-zai-pian">💓 下载篇</h1>
-<h2 id="ruan-jian-de-xia-zai" id="软件的下载">软件的下载</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主体软件MMD，V9.26版本（MikuMikuDance 926 CHS）是汉化之后的，没法与其它软件联动；十周年版本（MikuMikuDance 10th Anniversary Version MMD）UP主推荐使用的，可以导出调节文件与Blender或其它3D软件联动;所以使用十周年版本是最好的选择。但是使用之后发现有的十周年的版本MME不能使用，在转回到926版本，发现MME能用，但是不能桥接BLender 啊 这该如何破局啊…</p><p>PE（PmxEditor）软件，是用来编辑模型的，可以换头改衣服；（还没使用过）</p><p>Ray—mmd渲染插件：其实也可以全流程在Blender里面制作渲染。（之后就迈入了Blender）</p>
-              </div>
-            </details>
-<h2 id="mo-xing-de-xia-zai" id="模型的下载">模型的下载</h2>
-<p>国内的推荐模之屋；国外的推荐B碗。</p>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>下模型时，有些专业术语得搞懂，要不然会出问题的…还有制作完视频一定要署名借物表。毕竟素材都不是自己制作的。自己只是一个搬运工。<br>配布：指素材创作者将素材分发给其他人使用。<br>二次配布：不能二次传播模型。<br>借物表：这意思应该就是下载下来的模型都是正规渠道，能溯源的，要在视频标注作者，从哪里引用来的模型。<br>下载下来的压缩包里XXX.pmx后缀是人物的主体文件，使用的话就是这个文件；</p>
-              </div>
-            </details>
-<h1 id="mmd-jian-dan-shi-yong">💙 MMD简单使用</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>一句话说来就是：拖拖拖…</p><p>① 在 To model模式下，将下载的人物模型中的.pmx文件拖入MMD，下载的动作文件.vmd文件拖入，下载的场景模型中的.pmx文件拖入MMD。</p><p>② 先点击 to model 转到To Camera 镜头模式下，将镜头文件.vmd拖入。</p><p>③ 音乐最后拖入支持.wav。</p><p>④ 右上角MME，加点特效</p><p>⑤ 导出视频即可</p>
-              </div>
-            </details>
-<h2 id="blender-jian-dan-zhi-zuo-mmd-zhong-zhi" id="💙-Blender简单制作MMD（重置）">💙 Blender简单制作MMD（重置）</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>前置条件：要完成.pmx模型的导入，必须要有blender_mmd_tools这个插件。<br>下载地址：<a class="btn-anzhiyu " href="https://github.com/UuuNyaa/blender_mmd_tools/releases"   title="blender_mmd_tools"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>blender_mmd_tools</span></a><br>安装插件：编辑-偏好设置-（左侧）插件-安装-下载下来的blender插件压缩包，完成后，搜索栏搜“MMD”，打上对勾。</p><div class="note primary modern"><p>1、导入模型</p><ul><li>方法①：安装完成后，快捷键N出现mmd面板，导入模型（人物＆场景）</li><li>方法②：文件——导入——pmx模型</li></ul></div><div class="note primary modern"><p>2、导入动作<br>导入动作：先把骨骼绑定（新版本可不绑）<br>导入动作文件：在模型视图下，导入之前一定要选父级，不要点人物。<br>在姿态模式下（ctrl+tab），修改穿模问题。</p></div><div class="note primary modern"><p>3、打开物理：MMDtools里面的物理点一下，如果模型有问题，物理也是有问题的，而且物理一开，电脑会变得很慢~~这一点上MMD有绝对的优势</p></div>最后调整材质效果，开始渲染
-              </div>
-            </details>
-<h2 id="jian-dan-cheng-pin" id="💜-简单成品">💜 简单成品</h2>
-<div class="note primary modern"><p>primary 由于时间问题没有渲染全部，只渲染了几张作为留念…</p>
-</div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品1.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品2.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品3.png" style="width:600px;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/Blender/首次简单成品4.png" style="width:600px;"/></div></div>
-<h2 id="zeng-jia-liao-mme-de-jian-dan-cheng-pin" id="💦-增加了MME的简单成品">💦 增加了MME的简单成品</h2>
-<p>这个作品目前来说只有拖拖拖，maya，上传后就没仔细看，糊糊糊！画质怎么会这么糊啊😱😱😱！！！下次渲染一定要把画质调高！忘了B站会压缩画质了。。。</p>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%; ">
-    <iframe src="//player.bilibili.com/player.html?bvid=BV1qg4y197Tc&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
-</div>
-
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>MMD</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从零开始的Hexo网站搭建+部署到GitHub+绑定自定义域名</title>
-    <url>/5d1ae377/</url>
-    <content><![CDATA[<h1 id="da-jian">搭建</h1>
-<h2 id="xia-zai-hexo" id="下载hexo">下载hexo</h2>
-<ul>
-<li>
-<p>首先进行环境下载：<code>node</code>，<code>npm</code>，<code>git</code>。</p>
-</li>
-<li>
-<p>新建文件夹，<code>shift+右击</code>，选择<strong>在此处打开命令窗口</strong>命令，出现命令窗口，输入：</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo：npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>安装完成后进行查看检查下：</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">git --version</span><br><span class="line">hexo --version</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>初始化文件夹（博客项目）,输入命令后开始加载文件。</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="zhu-ti-de-xia-zai-yu-ying-yong" id="主题的下载与应用">主题的下载与应用</h2>
-<p>目前这个网站使用的是基于<code>Butterfly主题</code>改进的<code>安知鱼主题</code>。</p>
-<ul>
-<li>
-<p>下载主题：</p>
-<p>进入vscode，进入上面的初始化后的文件夹，打开终端（<strong>shift + `</strong>）。</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b dev https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu</span><br><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>windows系统：复制<code>/themes/anzhiyu/_config.yml</code>此文件到 hexo 根目录，并重命名为<code>_config.anzhiyu.yml</code>。<code>_config.anzhiyu.yml中</code>的配置优先级大于<code>_config.yml</code>。</p>
-</blockquote>
-</li>
-<li>
-<p>应用主题</p>
-<p>在根目录下的<code>_config.yml</code>，拉到最底下，把<code>theme：lan...</code>改成<code>thenme：anzhiyu</code>。</p>
-</li>
-<li>
-<p>最后安装两个渲染插件</p>
-  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>Hexo启动三件套</p>
-<p>//部署上传版</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>//本地启动预览版</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<hr>
-<p>一些基础站点配置参考：<a class="btn-anzhiyu " href="https://docs.anheyu.com/" 
-  title="基础站点配置"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>基础站点配置</span></a>,里面的装备页面给改成了游戏页面。</p>
-<p>配置好后出现的一些问题：</p>
-<ul>
-<li>如果local search开启后报错是因为没有安装相应的插件，网上找到安装上即可。<br>
-在_config.yml中粘贴代码后就开启了。<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb</span><br></pre></td></tr></table></figure>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<div class="tip cogs"><p>配置音乐页面时的一些问题→音乐馆: /music/?id=390191755&amp;server=netease || anzhiyu-icon-music</p>
-</div>
-<blockquote>
-<ul>
-<li>server=[netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐],必须参数</li>
-<li>id是歌单的id，网易云找到自己的歌单或者自己喜欢的歌单，选择分享按钮会复制一个连接，粘贴连接会有歌单的id</li>
-</ul>
-</blockquote>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment">#id=&#x27;外链播放器id&#x27;,必须参数</span></span><br><span class="line">   <span class="comment"># type=[song=单曲, playlist=歌单, album=专辑, search=搜索结果, artist=艺术家],必须参数</span></span><br><span class="line">   <span class="comment"># server=[netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐],必须参数</span></span><br><span class="line">   <span class="comment"># fixed=启用固定模式，固定在左下角,默认false</span></span><br><span class="line">   <span class="comment"># mini=启用迷你模式,默认false</span></span><br><span class="line">   <span class="comment"># preload=[none,metadata,auto]</span></span><br><span class="line">   <span class="comment"># mutex=[互斥锁，默认true],默认false</span></span><br><span class="line">   <span class="comment"># order=[random=随机播放,list=列表播放]</span></span><br><span class="line">   <span class="comment"># loop=[all=全部循环, one=循环一次 ,none=不循环]</span></span><br><span class="line">   <span class="comment"># volume=[音量，默认0.7]</span></span><br><span class="line">   <span class="comment"># lrc-type=[歌词类型，默认0]</span></span><br><span class="line">   <span class="comment"># list-folded=[列表是否折叠，默认false]</span></span><br><span class="line">   <span class="comment"># list-max-height=列表最大高度,默认340px</span></span><br><span class="line">   <span class="comment"># storage-name=本地存储存储密钥，用于存储播放器设置,默认metingjs</span></span><br></pre></td></tr></table></figure>
-<h1 id="bu-shu-dao-git-hub-shang">部署到GitHub上</h1>
-<p>前提：要注册一个github账号。</p>
-<h2 id="git-hub-xin-jian-cang-ku" id="GitHub新建仓库">GitHub新建仓库</h2>
-<p>先在github中新建一个仓库，点击头像，进入仓库，点击新建仓库，进入新建仓库页面。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/新建仓库01.png" style="width:1000px;"/></div></div>
-<p>对新建的仓库进行一些配置：仓库名、简介描述、私有库or公有库。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/新建仓库02.png" style="width:1000px;"/></div></div>
-<h2 id="shi-yong-git-lian-jie-github-zhang-hao" id="使用git连接github账号">使用git连接github账号</h2>
-<p>打开git命令(前提：安装git-bash)，准备连接github账号。<a class="btn-anzhiyu " href="https://gitforwindows.org/" 
-  title="git for Windows"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>git for Windows</span></a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 配置用户名和邮箱</span></span><br><span class="line">$ git config --global user.name <span class="string">&quot;注册github的用户名&quot;</span></span><br><span class="line">$ git config --global user.email <span class="string">&quot;注册github的邮箱&quot;</span></span><br><span class="line"><span class="comment"># 举例</span></span><br><span class="line">$ git config --global user.name <span class="string">&quot;wytgm&quot;</span></span><br><span class="line">$ git config --global user.email <span class="string">&quot;2971837355@qq.com&quot;</span></span><br></pre></td></tr></table></figure>
-<h2 id="mi-yao-ssh-de-sheng-cheng-ji-pei-zhi" id="密钥SSH的生成及配置">密钥SSH的生成及配置</h2>
-<ul>
-<li>
-<mark class="hl-label orange">生成</mark> 
-<p>输入如下命令后直接三次回车即可，一般不需要设置密码；</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 生成 ssh 密钥</span></span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">&quot;注册github的邮箱&quot;</span></span><br><span class="line"><span class="comment"># 举例</span></span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">&quot;2971837355@qq.com&quot;</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>执行上述命令之后，会生成 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 两个文件，前者是我们私有的，而后者则是对外开放的。接着找到生成的 <code>.ssh</code> 的文件夹中的 <code>id_rsa.pub</code> 密钥，将内容复制；</p>
-</blockquote>
-<blockquote>
-<p>生成完后可以进行验证：git中输入命令<code>ssh -T git@github.com </code>,并且输入yes之后，行末尾会显示你的用户名</p>
-</blockquote>
-</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/git命令部署.png" style="width:1000px;"/></div></div>
-<ul>
-<li>
-<mark class="hl-label orange">配置</mark> 
-<p>在GitHub主页的头像下找到<code>setting</code>， 然后点击左侧的<code>SSH and GPG keys</code>，点击<code>New SSH key</code>。</p>
-  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/生成ssh01.png" style="width:1000px;"/></div></div>
-<p>填写 <code>Title</code> 和 <code>Key</code>，<code>Title</code> 可以随意填写，而 <code>Key</code> 的内容则是我们刚才复制的 <code>id_rsa.pub</code> 中的内容(注意空格)，最后点击 <code>Add SSH key</code> 即可。</p>
-  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/生成ssh02.png" style="width:1000px;"/></div></div>
-</li>
-</ul>
-<h2 id="chuang-jian-blog-yuan-wen-jian" id="创建blog源文件">创建blog源文件</h2>
-<p>npm创建hexo，或者新建文件夹后进行初始化加载文件（<code>hexo init</code>） 本地能够正常运行预览。</p>
-<p>完成上面的步骤后，接下来就是推送到 Github 了，然后网站就能被其他人访问了。</p>
-<h2 id="dai-ma-shang-chuan-dao-git-hub" id="代码上传到-GitHub">代码上传到 GitHub</h2>
-<p>部署前在hexo中要安装一个必要的部署插件<code>hexo-deployer-git</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
-<p>① 找到之前创建仓库生成的Github仓库Http或SSH地址（推荐SSH）</p>
-<blockquote>
-<p>如果没有保存,点击仓库主页的 Clone or download 可重新查看 .</p>
-</blockquote>
-<p>② 打开<code>blog源文件夹</code>下的<code>_config.yml</code>，添加如下代码：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span> <span class="string">https://github.com/username/repository.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>repo还可这样填：<code>https://github.com/用户名/仓库名.git </code>,但是这个方会出现<code>Authentication failed for 'https://github.com/用户名/仓库名.git/'</code>的麻烦，也就是要在vscode中登录github账号，有时候登录不对，部署就进行不下去。所以推荐SSH，git开头的连接方式。</p>
-</blockquote>
-<div class="note primary modern"><p>当时出错时，gpt给出的解决方案：出现 “Authentication failed” 错误通常是由于 GitHub 认证失败引起的。您可以尝试以下步骤来解决这个问题：</p>
-<ul>
-<li>
-<p>检查 GitHub 认证信息：</p>
-<p>确保您在本地计算机上设置了正确的 GitHub 账户认证信息。您可以使用以下命令来检查和更新 GitHub 认证信息：</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;YourGitHubUsername&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;youremail@example.com&quot;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>使用 SSH 连接：<br>
-一种解决方案是使用 SSH 连接而不是 HTTPS 连接。这样可以避免认证失败的问题。您可以按照以下步骤设置 SSH 连接：<br>
-生成 SSH 密钥：</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">&quot;your_email@example.com&quot;</span></span><br></pre></td></tr></table></figure>
-<p>将 SSH 密钥添加到您的 GitHub 帐户：将<code> ~/.ssh/id_rsa.pub</code> 文件中的内容添加到 GitHub 帐户的 SSH 密钥设置中。<br>
-将存储库的远程 URL 更改为 SSH：</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git remote set-url origin git@github.com:username/repository.git</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>更新 GitHub 访问令牌：</p>
-<p>如果您使用了访问令牌来访问 GitHub 存储库，请确保令牌仍然有效。您可以在 GitHub 设置中生成新的访问令牌，并将其用于访问存储库。</p>
-</li>
-<li>
-<p>确认权限：<br>
-确保您有权限向存储库推送更改。如果存储库是私有的，并且您没有相应的访问权限，您将无法将更改推送到存储库。<br>
-尝试上述步骤后，再次尝试部署到 GitHub，看看问题是否解决。如果问题仍然存在，请提供更多详细信息，以便我能够更好地帮助您解决问题。</p>
-</li>
-</ul>
-</div>
-<p>③ 在vscode命令终端中输入以下命令，将博客源文件推送到github新建的仓库上。命令从上往下是清除hexo之前执行过的命令、全局配置生成html文件。部署上传到github。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo cl</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<h2 id="fang-wen-wang-zhi" id="访问网址">访问网址</h2>
-<p>在github的仓库里，点击setting，左侧的pages就会显示网址。</p>
-<p>使用 SSH 连接将 Hexo 部署到 GitHub 后，您可以通过以下网址来访问您的博客页面：<code>https://username.github.io/repository/</code></p>
-<p>其中：</p>
-<ul>
-<li>username 是您的 GitHub 用户名。</li>
-<li>repository 是您在 GitHub 上存储 Hexo 博客内容的存储库名称。</li>
-</ul>
-<p>请确保在替换上述 URL 中的 username 和 repository 部分时使用正确的用户名和存储库名称。这个 URL 将指向您的 Hexo 博客在 GitHub Pages 上托管的页面。</p>
-<h2 id="shang-chuan-fang-wen-hou-hui-chu-xian-yi-xi-lie-wen-ti" id="上传访问后会出现一系列问题">上传访问后会出现一系列问题</h2>
-<p>访问前一定要清除浏览器的缓存——清除历史记录</p>
-<ul>
-<li>
-<mark class="hl-label red">CSS样式全部丢失</mark> 
-<p>原因：没有设置库的路径</p>
-<p>解决：_config.yml中设置url</p>
-  <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://wytgm.github.io/wytblog</span> <span class="comment">#自己的网站地址（自定义域名后要更改为自己的域名）</span></span><br><span class="line"><span class="comment"># root:/wytblog/  网上的教程是要加这个，但是我的会出bug，直接不加了</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line"><span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line"><span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<mark class="hl-label red">部分css、js没显示不起作用，或者说找不到</mark> 
-<p>原因：路径引入不对;</p>
-<p>解决：在本地文件的inject里引入css是这样写的：<code>src=/css/xxx.css</code> 或者 <code>src=/js/sss.js</code></p>
-<p>但是上传到github后，所有的自己引入的css\js都要转变为：在前面加入自己的网站地址比如，我的网站网址是<code>https://wytgm.github.io/wytblog/</code>。（自定义域名后要更改为自己的域名）<br>
-自定义引入css后，地址路径改为(举个例子🌰)</p>
- <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 原：</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">type=&quot;text/css&quot;</span> <span class="string">href=&quot;/css/fonts/zidingyi.css&quot;</span> <span class="string">media=&quot;defer&quot;</span> <span class="string">onload=&quot;this.media=&#x27;all&#x27;&quot;&gt;</span></span><br><span class="line"><span class="comment"># 改：</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">type=&quot;text/css&quot;</span> <span class="string">href=&quot;https://wytgm.github.io/wytblog/css/fonts/zidingyi.css&quot;</span> <span class="string">media=&quot;defer&quot;</span> <span class="string">onload=&quot;this.media=&#x27;all&#x27;&quot;&gt;</span></span><br><span class="line"><span class="comment"># 原：</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;/js/sun_moon.js&quot;</span> <span class="string">async&gt;&lt;/script&gt;</span> </span><br><span class="line"><span class="comment"># 改：</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://wytgm.github.io/wytblog/js/sun_moon.js&quot;</span> <span class="string">async&gt;&lt;/script&gt;</span> </span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h1 id="zi-ding-yi-yu-ming">自定义域名</h1>
-<h2 id="a-li-yun-yu-ming-gou-mai-liu-cheng" id="阿里云域名购买流程">阿里云域名购买流程</h2>
-<p>前提：注册阿里云账号（第三方登录支付宝和淘宝都行）+ 账号实名认证</p>
-<ul>
-<li>
-<p>选择<br>
-常见的后缀名很多，像com、cn、top、xyz、xin等等等等。选择适合自己的域名，要看域名的新注册费用和续费，综合对比，选择最合适的后缀名。对比下来感觉.top还算合适，续费一年甚至三年十年的价格都还能承受，而且首年只需1元。</p>
-</li>
-<li>
-<p>查询</p>
-  <a class="btn-anzhiyu " href="https://wanwang.aliyun.com/help/price.html?spm=a2c4g.11186623.0.0.235227d0mbRL8c" 
-  title="查询购买价格包括续费价格"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>查询购买价格包括续费价格</span></a> 
-  <a class="btn-anzhiyu " href="https://wanwang.aliyun.com/domain/?source=5176.11533457&userCode=pfwe55hh&type=copy" 
-  title="查询是否被注册掉"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>查询是否被注册掉</span></a>    
-  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名00.png" style="width:800px;"/></div></div>
-</li>
-<li>
-<p>购买+实名认证</p>
-<p>查询好后，进入新用户首购福利进行购买，首年只要1元。购买时需要创建模板信息，创建完成后会发现没有进行实名，之前的实名只是个人信息的实名认证，还要进行购买域名的实名认证。点击“模板未实名”，根据提示进行填写相关信息，提交后会显示：此类审核需要42分钟，然后只需等待。</p>
-  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名01.png" style="width:800px;"/></div></div>
-  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名02.png" style="width:800px;"/></div></div>
-<p>如果没有实名认证，可以先购买，然后再认证。会给你一个公共模板，但是认证完要尽快过户。也可以等注册局审核完再认证。</p>
-  <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名03.png" style="width:800px;"/></div></div>
-<blockquote>
-<p>阿里云已完成初审，并已提交至注册局进行审核，实际审核完成时间以注册局结果为准。审核完成您的账号手机会收到短信通知，请您注意查收。根据注册局近期审核结果，该证件类型的审核时长约42分钟，请您耐心等待。一般一小时左右即可。</p>
-</blockquote>
-<p>第一次认证失败，身份证没有拍反面，所以提交身份证的时候，拼图成一张提交。</p>
-<p>最后进入阿里云的域名控制台，进行查看。完成购买之后还需要对新购买的域名进行解析，添加解析记录。</p>
-</li>
-</ul>
-<h2 id="tian-jia-jie-xi-ji-lu" id="添加解析记录">添加解析记录</h2>
-<p>进入阿里云控制台找到域名管理，点击“解析”。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名04.png" style="width:800px;"/></div></div>
-<p>进入解析设置页面——点击添加记录即可；要添加两个记录值，记录类型分别为 A 和 CNAME ，填写如下：</p>
-<ul>
-<li>第一个<br>
-记录类型：<code>A</code><br>
-主机记录为：<code>@</code><br>
-记录值为自己git.io那个ip地址。IP地址在cmd中ping一下即可; <strong>一般都是这个:<code>185.199.110.153</code></strong></li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解析记录01.png" style="width:800px;"/></div></div>
-<ul>
-<li>第二个<br>
-记录类型：<code>CNAME</code><br>
-主机记录：<code>www</code><br>
-记录值为自己的github访问地址：<code>用户名.github.io</code></li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解析记录02.png" style="width:800px;"/></div></div>
-<p>再返回控制台发现解析设置页面添加了两条解析记录，状态均为正常。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/解析记录03.png" style="width:800px;"/></div></div>
-<p>到这里阿里云上的配置就结束了</p>
-<h2 id="hexo-pei-zhi-yu-ming" id="Hexo-配置域名">Hexo 配置域名</h2>
-<p>在自己博客的跟目录source文件夹下创建一个名字CNAME记事本，内容输入自己的个人域名（例如我的：sonderwyt.top），保存关闭。删除后缀.txt。</p>
-<h2 id="git-hub-cang-ku-bang-ding-yu-ming" id="GitHub仓库绑定域名">GitHub仓库绑定域名</h2>
-<p>进入博客源文件仓库，点击setting，选择左侧的pages<br>
-在Custom domain输入自己的域名save一下即可，效果如下就说明配置成功了</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/github自定义域名.png" style="width:800px;"/></div></div>
-<h2 id="xiu-gai-js-css-yin-ru-di-zhi" id="修改js-css引入地址">修改js/css引入地址</h2>
-<p>之前的是引入的是<code>https://用户名.github.io/</code> ，要改为新的域名引入。不然访问时css样式会全部丢失。</p>
-<p>_config.yml</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://sonderwyt.top/</span></span><br><span class="line"><span class="comment"># permalink: :year/:month/:day/:title/</span></span><br><span class="line"><span class="comment"># permalink_defaults:</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:abbrlink/</span></span><br><span class="line"><span class="attr">abbrlink:</span></span><br><span class="line"><span class="attr">alg:</span> <span class="string">crc32</span>  <span class="comment"># 算法：crc16(default) and crc32</span></span><br><span class="line"><span class="attr">rep:</span> <span class="string">hex</span>    <span class="comment"># 进制：dec(default) and hex</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line"><span class="attr">trailing_index:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;index.html&#x27; from permalinks</span></span><br><span class="line"><span class="attr">trailing_html:</span> <span class="literal">true</span> <span class="comment"># Set to false to remove trailing &#x27;.html&#x27; from permalinks</span></span><br></pre></td></tr></table></figure>
-<p>_zhuticonfig.yml</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Inject</span></span><br><span class="line"><span class="comment"># Insert the code to head (before &#x27;&lt;/head&gt;&#x27; tag) and the bottom (before &#x27;&lt;/body&gt;&#x27; tag)</span></span><br><span class="line"><span class="comment"># 插入代码到头部 &lt;/head&gt; 之前 和 底部 &lt;/body&gt; 之前</span></span><br><span class="line"><span class="comment"># Inject</span></span><br><span class="line"><span class="comment"># Insert the code to head (before &#x27;&lt;/head&gt;&#x27; tag) and the bottom (before &#x27;&lt;/body&gt;&#x27; tag)</span></span><br><span class="line"><span class="comment"># 插入代码到头部 &lt;/head&gt; 之前 和 底部 &lt;/body&gt; 之前</span></span><br><span class="line"><span class="attr">inject:</span></span><br><span class="line"><span class="attr">head:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css&quot;&gt;</span> <span class="comment"># 引入组件库(f12)</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">type=&quot;text/css&quot;</span> <span class="string">href=&quot;https://sonderwyt.top/css/fonts/font.css&quot;</span> <span class="string">media=&quot;defer&quot;</span> <span class="string">onload=&quot;this.media=&#x27;all&#x27;&quot;&gt;</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">type=&quot;text/css&quot;</span> <span class="string">href=&quot;https://sonderwyt.top/css/fonts/zidingyi.css&quot;</span> <span class="string">media=&quot;defer&quot;</span> <span class="string">onload=&quot;this.media=&#x27;all&#x27;&quot;&gt;</span></span><br><span class="line"><span class="attr">bottom:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">defer</span> <span class="string">type=&quot;text/javascript&quot;</span> <span class="string">src=&quot;https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 节日弹窗依赖</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">defer</span> <span class="string">src=&quot;https://cdn1.tianli0.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># winbox支持</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">async</span> <span class="string">src=&quot;https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 引入VUE(f12)</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">async</span> <span class="string">src=&quot;https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 引入ElementUI(f12)</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://sonderwyt.top/js/sun_moon.js&quot;</span> <span class="string">async&gt;&lt;/script&gt;</span> <span class="comment"># 昼夜切换动画</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://sonderwyt.top/s/readPercent.js&quot;&gt;&lt;/script&gt;</span>  <span class="comment"># 右下角阅读模式</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://sonderwyt.top/js/imgloaded.js?1&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 首页图片渐进式加载 async data-pjax </span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://sonderwyt.top/js/fullscreen.js&quot;&gt;&lt;/script&gt;4</span> <span class="comment"># 全屏切换</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">defer</span> <span class="string">src=&quot;https://sonderwyt.top/js/lunar.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 农历计算</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">defer</span> <span class="string">src=&quot;https://sonderwyt.top/js/day.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 节日弹窗</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://sonderwyt.top/js/meihua.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 美化模块 </span></span><br></pre></td></tr></table></figure>
-<p>最后访问域名进行查看：大功告成！</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/自定义域名完成.png" style="width:800px;"/></div></div>
-]]></content>
-      <categories>
-        <category>点亮技能树</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>部署</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>超好用的软件记录</title>
     <url>/ee644c56/</url>
     <content><![CDATA[<h1 id="bi-ji-ruan-jian">笔记软件</h1>
@@ -2039,14 +1976,67 @@ MMD区的主战软件。用是很方便用，就是拖拖拖没什么新意。�
       </tags>
   </entry>
   <entry>
-    <title>那些年我遇到的小动物们</title>
-    <url>/36eb04ce/</url>
-    <content><![CDATA[<h1 id="mao-mi-jie-shao">猫咪介绍</h1>
-<h1 id="gou-gou-jie-shao">狗狗介绍</h1>
+    <title>vercel一键部署网站</title>
+    <url>/c541d0bf/</url>
+    <content><![CDATA[<p>听说vercel现在被墙了，需要绑定自定义域名，也就是前提要需要拥有一个自己的域名。</p>
+<h1 id="di-san-fang-dao-ru-li-yong-github">第三方导入（利用github）：</h1>
+<p>在vercel页面中新建项目 通过GitHub仓库进行导入。</p>
+<h1 id="zhi-jie-dao-ru-shi-yong-ming-ling-bu-shu">直接导入（使用命令部署）</h1>
+<p>墙裂推荐这个，没有git那样多的命令输入，像git add\git commit\git push 等一系列命令。才会导入完成。</p>
+<p>可以使用 Vercel 的命令行工具 Vercel CLI。以下是一些简单的步骤：</p>
+<p>首先，确保您已经安装了 Vercel CLI。您可以通过在终端中输入以下命令来安装它：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g vercel</span><br></pre></td></tr></table></figure>
+<p>在终端中，切换到您的静态网站目录，并使用以下命令登录到 Vercel：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vercel login</span><br></pre></td></tr></table></figure>
+<p>在您的静态网站目录中，运行以下命令以部署您的网站到 Vercel：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vercel</span><br></pre></td></tr></table></figure>
+<p>按照提示完成部署过程，包括选择项目的名称、环境等。</p>
+<p>具体命令一览：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/vercel部署命令.png" style="width:800px;"/></div></div>
+<h1 id="zi-ding-yi-yu-ming">自定义域名：</h1>
+<p>在项目中的setting的左侧Domains中：添加自定义的域名，也就是在购买的域名前随意填写：例如主域名：sonderwyt.top，可以填写为mtb.sonder.top。会自动解析出一条记录:</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/修改记录01.png" style="width:800px;"/></div></div>
+<p>进入到域名解析平台，阿里云为例，添加记录，头部、主机值和记录值填写完后，返回vercel等待一小小会儿，就成功了。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/修改记录.png" style="width:800px;"/></div></div>
+<h1 id="hui-chu-xian-de-wen-ti">会出现的问题</h1>
+<p>vercel 部署后出现：一般都是没有配置主路由造成的</p>
+<blockquote>
+<p>404: NOT_FOUND;Code: NOT_FOUND</p>
+</blockquote>
+<p>如果您在 Vercel 部署后遇到了 404: NOT_FOUND 错误，这通常意味着 Vercel 在尝试找到您的静态资源时未找到相应的文件或路径。以下是一些建议，帮助您解决这个问题：</p>
+<ul>
+<li>
+<p>配置路由：<br>
+如果您的静态网站使用了前端路由，需要在 Vercel 中配置路由以确保正确的页面导航。您可以在项目根目录下创建一个 vercel.json 文件，并添加路由配置，例如：</p>
+  <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// (把所有html文件放在根目录下)；这样配置可以将所有路由指向根路径。</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="string">&quot;rewrites&quot;</span>: [</span><br><span class="line">    &#123; <span class="string">&quot;source&quot;</span>: <span class="string">&quot;/(.*)&quot;</span>, <span class="string">&quot;destination&quot;</span>: <span class="string">&quot;/主页.html&quot;</span> &#125;</span><br><span class="line">]</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// (把所有html文件放在自定义文件夹下)</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="string">&quot;rewrites&quot;</span>: [&#123; <span class="string">&quot;source&quot;</span>: <span class="string">&quot;/:path*&quot;</span>, <span class="string">&quot;destination&quot;</span>: <span class="string">&quot;/index.html&quot;</span> &#125;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>检查静态资源路径：<br>
+确保您的静态网站文件都位于正确的路径中。Vercel 默认会查找 public、out、dist 或 build 文件夹作为静态资源的存放位置。如果您的静态资源位于其他路径，可以尝试将其移动到这些默认文件夹中。</p>
+</li>
+<li>
+<p>检查文件名大小写：<br>
+确保文件名的大小写与路径在代码中引用的大小写一致。在某些操作系统中，文件名大小写敏感，可能会导致找不到文件的问题。</p>
+</li>
+<li>
+<p>重新部署：<br>
+尝试重新部署项目，有时候重新部署可以解决一些部署问题。</p>
+</li>
+</ul>
+<h1 id="xiu-gai-dai-ma-hou-de-shang-chuan-ming-ling">修改代码后的上传命令</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vercel --prod</span><br></pre></td></tr></table></figure>
+<p>部署成功：</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/hexo/部署成功.png" style="width:800px;"/></div></div>
+<p>最后访问自定义域名： 大功告成!!</p>
+<a class="btn-anzhiyu " href="https://mtb.sonderwyt.top" 
+  title="Sonder's MTB_BLOG"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>Sonder's MTB_BLOG</span></a>    
 ]]></content>
       <categories>
-        <category>日常日常</category>
+        <category>点亮技能树</category>
       </categories>
+      <tags>
+        <tag>部署</tag>
+      </tags>
   </entry>
   <entry>
     <title>自己动手配置一台电脑之路</title>
@@ -2066,6 +2056,16 @@ MMD区的主战软件。用是很方便用，就是拖拖拖没什么新意。�
       <tags>
         <tag>电脑硬件</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>那些年我遇到的小动物们</title>
+    <url>/36eb04ce/</url>
+    <content><![CDATA[<h1 id="mao-mi-jie-shao">猫咪介绍</h1>
+<h1 id="gou-gou-jie-shao">狗狗介绍</h1>
+]]></content>
+      <categories>
+        <category>日常日常</category>
+      </categories>
   </entry>
   <entry>
     <title>本人创造的历代雪人简介</title>
@@ -2103,160 +2103,6 @@ MMD区的主战软件。用是很方便用，就是拖拖拖没什么新意。�
       <categories>
         <category>日常日常</category>
       </categories>
-  </entry>
-  <entry>
-    <title>崩坏3</title>
-    <url>/27398571/</url>
-    <content><![CDATA[<h1 id="qian-yan">前言</h1>
-<p>是这样的，前段时间在家养病，无聊的时候开始观看了《崩坏3》的剧情，在玩《星穹铁道》的时候，我很喜欢姬子的建模（颜控！真的好好看！）看相关视频的时候总是会出现崩坏3的姬子的弹幕，怀着一颗好奇心，开始了漫漫的追番之路…</p>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/主角团.png width=600px"/></div></div>
-<p>大概这一个星期除了吃饭睡觉都在看《崩坏3》的剧情。里面有几个篇章我觉得真心不错，比如千人律者篇和往事乐土篇，这两篇章的内容是我最喜欢的剧情！尤其是乐土篇，到现在还没有走出这段剧情，带给我很多的情感与思考，像是看了一部漫长的电影。</p>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.zhihu.com/question/62803049">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/www.zhihu.com/question/62803049.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">剧情梳理包括前文明</div>
-            <div class="tag-link-sitename">引用知乎上的，字太多了...</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-<h1 id="zhu-jiao-tuan-de-zhu-xian-pian">主角团的主线篇</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>游戏的故事延续了《崩坏学园2》的主线剧情【<strong>等着去补补崩坏2的剧情</strong>】，讲述了在不远的未来，神秘的灾害“崩坏”侵蚀了世界，被崩坏感染的人类，变成了没有思维，只懂破坏的“死士”，它们和从崩坏中诞生的巨大怪物“崩坏兽”，一同对这个世界造成了巨大的威胁。</p><p>唯一可以抵抗崩坏的，只有一些拥有“崩坏抗体”的少女，只有由她们组成的“女武神”部队。勇敢的少女们穿上冰冷的机甲，拿起沉重的武器，与崩坏战斗着。为世界上所有的美好而战，在被崩坏侵蚀的世界中，由勇敢的少女组成的女武神部队，为守护世界而展开了战斗。玩家可扮演炽翎、白夜执事、第六夜想曲、月下初拥、极地战刃、空之律者、原罪猎人等女武神，去保护这个世界。</p><div class="timeline pink"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>成长线</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>琪亚娜</p></div></div><div class='timeline-item-content'><p>每个人都有自己的成长线，作为主角的琪亚娜，成长线描述的是最详细的，在圣芙蕾雅学院时被很多人保护着，所以是性格最单纯开朗的时候。姬子死后，她自己一个人在陌生城市时，迷茫无助包围了她，性格内敛了许多，姬子的死亡和无助使她在这段时间成长了许多，以前要德莉莎看管着的琪亚娜现在学会承担起了责任，从逃避姬子的死亡到接受再到勇于面对，最后主动承担起接管终焉的权能，从一个活泼天真的小女孩成长为了成熟稳重但不失活泼的大人。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>雷电芽衣</p></div></div><div class='timeline-item-content'><p>雷电芽衣，这个角色在乐土篇的时候显得好御，好有理智，成为了相当成熟的大人…在往世乐土中芽衣有一段经历一遍自己的所有经历，这之中能了解到芽衣也是从胆小单纯到成熟的变化，好想变得像她这么理智沉稳。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>布洛妮娅</p></div></div><div class='timeline-item-content'><p>布洛妮娅的成长线，小时候由于崩坏，失去了父母，父母的好友将她带大，为了生存把她带入战场，小小年纪成为了杀手【乌拉尔银狼】，后被可可利亚收养进入可可利亚孤儿院，在里面认识了萝拉利亚和莉莉娅、希儿。（这段时光有漫画，我没看…）应该是经历了一些事情后遇见芽衣和琪亚娜（应该是2的剧情，我没看…）最后进入千羽学园，（等我组织好语言后…）</p><p>看完回来了，绀海组，怪不得叫这个名字，在布洛妮娅这条线来看，小时候因为羽兔的原因，家乡遭到毁灭，但在羽兔的视角下，小布洛妮娅还未出生，出生后的布洛妮娅由父亲的朋友带着长大，环境原因参入了少年军，在与可可利亚的战斗中，可可利亚将布洛妮娅带回了孤儿院，然后让希儿来带领她熟悉环境。有一次，希儿被绑架，布洛妮娅去救她，但是在那种情况下，布洛妮娅在希儿面前杀了人。当时的希儿很胆小也很单纯，看到这种情形，对布洛妮娅多少产生了一点害怕的感情（我认为的）。孤儿院里还有一个喜欢欺负人的杏大爷，有一次，杏大爷在欺负布洛妮娅的时候，希儿在墙后面偷偷看到了，还是因为懦弱的性子，没有出来一直躲在墙后。在这之后，希儿一直在后悔没有去帮助布洛妮娅，也是因为这，黑希出场了，教育了杏大爷一顿。（嘿嘿，其中有一段好像是，希儿一胆小就躲到了箱子里，只有布洛妮娅找到她还安慰了她）之后可可利亚要进行实验，一开始是定的布洛妮娅，但是这个实验的死亡率很高，希儿知道后主动去找可可利亚说自己有圣痕的体质是最合适的。然后在试验中卷入了量子之海不见踪影。布洛妮娅发现不对劲后及时找了可可利亚要求她要再次实验，用自己的生命威胁可可利亚，可可利亚没办法后就让她参加了，在她快要出事的时候，希儿出现了，帮助她后把重装小兔留给了布洛妮娅，之后就消散了，布洛妮娅醒后不相信，一直在找希儿。布洛妮娅进入千羽学园，因为崩坏遇到了琪亚娜和芽衣，之后的剧情就是我们熟知的了。还有还有，我看的是未删减版dddd，好磕。布洛妮娅的没有感情是因为感情芯片在那次实验中烧坏了。在然后一步步成长到现在的大鸭鸭，呜呜呜，可爱。</p></div></div></div>
-              </div>
-            </details>
-<h1 id="zui-hou-yi-ke">《最后一课》</h1>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
-    <iframe src="//player.bilibili.com/player.html?bvid=BV1Ut411v74a&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
-</div>
-
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>主线第九章（<strong>通往明日的旅途</strong>）：在天命总部，符华使用羽渡尘治疗了被俘的姬子，从丽塔口中，符华得知空之律者已经觉醒，而德丽莎正在与之战斗。符华决定去帮助德丽莎拖延空之律者，却被丽塔拦下，幽兰黛尔赶到现场放走了符华。另一处战场，德丽莎和芽衣被崩坏兽所困，布洛尼亚苏醒，爱因斯坦送给她第九神之键伊甸之星，前来解围。空之律者从芽衣体内取出了征服宝石，击败了德丽莎。此时符华赶到，却被空之律者击败。此时，奥托突然出现，用虚空万藏的威力逼走了空之律者，并向符华坦白了自己的计划：让空之律者杀死曾经的朋友，感情的力量将会促使琪亚娜的人格觉醒，从而以人类的灵魂控制律者的力量。符华怒斥奥托的虚伪行径，坚决反对他的计划，被奥托用拟态天火圣裁杀死。（符华被杀死的一瞬间，发动了羽渡尘的第零额定功率，将自己的意识转移到了一片羽毛上，进入琪亚娜的身体，帮她封印律者意识）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/姬子2.webp" style="width:600px;"/></div></div><p>在赫尔海姆实验室，姬子从昏睡中醒来，符华用羽渡尘留下的意识浮现在她的脑海。此时的姬子即将走向女武神生涯的终点，女武神的身体改造在大大提高崩坏能抗性的同时也削减了她的生命。之前，符华为她留下了一支HSN-B46血清，这种血清可以中和崩坏能，让女武神回归正常人类，救姬子一命。符华指引姬子找到了特斯拉，两人进入了实验室的制造工厂。在实验记录中，特斯拉了解到，玛基博士的血清与沙尼亚特圣血混合，可以逆向崩坏过程，甚至可以使得律者失去力量，是为“弑神之枪”，是奥托的底牌。姬子交出了唯一的血清，让特斯拉仿制。与此同时，姬子根据浮华的指引来到了最底层，找到了前文明纪元的遗产，弑神装甲：真红骑士·月蚀（疑似前文明空白之键），奥托将疾疫宝石融合进了机甲，使其具有与律者匹敌的能力。在符华的帮助下，姬子战胜了心魔，穿上了装甲。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/姬子1.jpg" style="width:600px;"/></div></div><p>根据特斯拉留下的信号，休伯利安找到了姬子和特斯拉。空之律者也在此时赶到，姬子与之对决。<strong>爱因斯坦抓住机会，使用休伯利安的主炮，大型崩坏能转化装置“月光王座”一击命中空之律者，但匆忙发射威力不足，将其击伤后逃跑。休伯利安返程中，被贝纳勒斯袭击，姬子再次与之对决，进入律者空间与空之律者决一死战，为琪亚娜上了“最后一课”，要琪亚娜“把这个不完美的世界变成你所期望的样子”。姬子拼死使用了弑神之枪，压制了空之律者人格，但自己也力竭沉入虚空之中，生死不明（目前可当做已经牺牲）。</strong> 琪亚娜漂流到某处海滩上，而奥托的计划还在继续。此后的剧情分为两支，琪亚娜的故事在第十一章间章和第十三、十四章。而同时，其他人追寻琪亚娜的下落。</p><div class="note primary modern"><p>primary 看完第九章的剧情，再去看这个动画短片，真的要感动死了，我哭没了一包纸！</p></div>
-              </div>
-            </details>
-<h1 id="zhi-pei-ju-chang">《支配剧场》</h1>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
-    <iframe 
-      src="//player.bilibili.com/player.html?bvid=BV1b44y1q7Cb&page=1&autoplay=0" allowfullscreen="allowfullscreen" 
-      width="100%" 
-      height="500" 
-      scrolling="no" 
-      frameborder="0" 
-      sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls>
-    </iframe>
-</div>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/支配剧场.png" style="width:600px;"/></div></div><p>主线第二十三章（<strong>一人的剧场</strong>）：（此时的时间为2017年11月左右）为了筹备逆熵成立60周年派对，琪亚娜与希儿离开盐湖基地外出采购。采购途中，用来负责烟花表演的机器人突然暴走。两人解决骚乱后，在一件发传单的员工穿着的玩偶服中找到了一把钥匙以及门牌，而玩偶服中的人却失踪了。根据这些线索，两人了解到失踪者名叫约翰·多伊，并找到了他的学校。从同学口中得知，此人已经一个多月没来过学校了。二人随后找到了约翰·多伊的公寓，并在公寓门口进入了某种空间，与提线傀儡发生了战斗。房东告诉他们约翰·多伊已经在一个月前死了（但希儿刚刚还见过他）。在约翰·多伊的公寓中发现了一具坏掉的提线木偶，手中握着“<strong>支配剧场</strong>”的剧院门票。</p><p>另一边，瓦尔特对布洛尼亚的训练结束后，发现了附近有崩坏兽雕塑的展览。察觉异样的两人正准备叫停展览，崩坏兽的雕塑突然开始袭击人类。通过对剧院门票上土壤样本残留的分析，以及崩坏兽雕塑的供货渠道，爱因斯坦定位了名为米拉·里默的雕塑家的工坊。打开房门的瞬间希儿进入了名为“支配剧场”的另一个空间。在剧场的中心，希儿找到了变为人偶的米拉·里默。它切断了希儿两个人格之间额关系，并试图利剑二人让希儿的里人格加入人偶的行列，但最终里人格将希儿拉出了支配剧场。在工坊内，两人发现了坏掉的里拉·里默的人偶，手中握着另一张剧院门票“老鼠与老鹰”。</p><p>此后又接连发生了几起这样的事件。通过比对，逆熵确认人偶内的核心来自第十律者“支配之律者”，也就是“千人律者”。有证据表明天命与世界蛇也发现了类似的事件。而根据剧院门票的土壤样本分析，下一个地点就是盐湖基地。布洛尼亚与希儿在作战时发现了空间裂缝，被分别引入了支配剧场。在布洛尼亚使用了理之律者的权能后，支配之律者切断了布洛尼亚与律者核心的联系，接管了理之律者核心。最终，希儿将身体控制权完全交给里人格，带着失去全能的布洛尼亚全力逃出了支配剧场。</p><p>主线第二十四章（<strong>千人的舞台</strong>）：世界蛇方面，芽衣与渡鸦一同调查几间被人偶侵犯的仓库。从仓库主人的口中得知，人偶有其他人类协助。渡鸦动用自己的人脉确认了人偶可能出现的位置，随后两人也被分开引入了支配剧场。芽衣发觉人偶在引诱自己使用律者权能，从而提高了警惕。人偶向芽衣展示了自己的理之律者能力，并声称自己如果获得雷之律者的权能，就可以挑战琪亚娜并切断律者核心的联系，让琪亚娜变为常人，但被芽衣拒绝。最终渡鸦赶到摧毁了人偶，两人脱离支配剧场。</p><p>逆熵。爱因斯坦追踪到第一位支配律者是新泽西州大学的一名医学教授。在调查的过程中，符华与德莉莎见到了他的人偶，并回收了其核心。通过解析这颗核心，逆熵掌握了千人律者网络的构造。但是，自从千人律者被消灭了一半（即500个）后，便突然停止了活动。为此，逆熵决定以琪亚娜为诱饵，将其用休伯利安号送往北极的收容设施，以此引诱千人律者夺取空之律者的权能。如计划一样，运送途中，人偶入侵了休伯利安的发电系统，解除了琪亚娜周围的屏障，将其拉入了支配剧场。随后，琪亚娜按照计划，在远离人后后使用空之律者的力量将整个休伯利安转移进了支配剧场，将剩余的500个人偶一网打尽。随后大家召开了庆功宴暨逆熵60周年纪念晚会。然而，似乎有一个人偶活了下来。</p><p>虽然逆熵认为支配之律者已经被消灭，但是布洛尼亚仍然无法使用理之律者的能力，琪亚娜也发觉在上次进入支配剧场后人偶并没有全力抢夺自己的律者权能。而这天晚上琪亚娜在梦境中以西琳的视角重温了空之律者的一生。某日晚上，琪亚娜再次被独自拉入支配剧场，原来支配之律者的目的是唤醒西琳并与之同盟。为了摧毁琪亚娜的意志，支配之律者拿出了本属于姬子的疾疫宝石……</p><p>主线第二十五章《<strong>点燃明日的火焰</strong>》：盐湖基地。在研究千人律者核心的过程中，核心突然开始瓦解并消失。盐湖基地的机甲随后失控，混乱平息后逆熵才发现琪亚娜已经失踪，并在琪亚娜的房间发现了一个人偶。借助希儿多次进入支配剧场的经验，特斯拉和爱因斯坦反向打开了支配剧场的大门，但布洛尼亚与符华进入后大门突然被关闭。与此同时，芽衣以三颗特殊的千人律者核心为条件与胡狼交换情报，并要求胡狼使用这些核心反向连接并打开支配剧场的大门，但此时核心突然开始瓦解，情急之下芽衣直接加快进程进入了支配剧场。</p><p>……十年前，奥托将空之律者核心植入K423的身体。核心内残存的意识在这具身体中转化为表里两个人格——相信微光的表人格（琪亚娜）和相信黑暗的里人格（空之律者）。支配剧场内，见到疾疫宝石的琪亚娜内心轻微的动摇给了空之律者可乘之机，突破了琪亚娜的压制。但此时的琪亚娜已经明白了自己与空之律者实际上是西琳意识的一体两面，不论面对自己的诞生、六年前自己的失控、还是姬子的牺牲都坚持为美好而战。最终，对善的信念胜过了恶的存在，疾疫宝石的力量流向了琪亚娜，空之律者的落败消散。</p><p>在疾疫宝石创造的幻境中，琪亚娜见到了姬子老师最后的意识残影。两人一起漫步在圣芙蕾雅学园的幻影中，回忆着往日的时光，听取了姬子对大家最后的话。从姬子的口中，琪亚娜得知了姬子的老师拉格纳的遗言：“即使徒劳，也要为美好而战，即使牺牲，也不过是化作希望之花的养料”。人类的薪火在此刻传承到了琪亚娜手中。</p><p>同时，布洛尼亚与符华终于逃脱了人偶创造的无尽回廊，符华连哄带骗得到了识之律者的权能，并切断了人偶与支配律者本体的联系，但识之律者的能力也被支配之律者所掌握。另一边，支配之律者无法夺取完全体的雷之律者权能，“征服的雷电”击败了人偶，进一步削弱了支配律者的力量，律者核心的权能逐渐流回它们的主人。幻境中的琪亚娜感受到了伙伴的支援，与姬子做了最后的道别，回到了现实，展开了与支配之律者的最终决战。决战的过程中，布洛尼亚与符华被支配之律者掳走，二人的律者权能被托付给了琪亚娜。掌握了空之律者核心与疾疫宝石权能的琪亚娜在伙伴的支援下击败了支配之律者，千人律者事件结束。随后圣芙蕾雅众人为无量塔姬子举行了葬礼。</p><div class="note primary modern"><p>从这个篇章起，崩坏3的剧情的地位在我心里就拔高了，真的很精彩，完全可以做成番剧的说！<br>我们同样都有同伴，为什么你们坚不可摧而我们却会被击败呢？（大概是这个意思）<br>千人律者篇里，身处在那个环境中，可能我也会成为千人律者中的一员🙃，因为内心消极，总是在报怨这个社会的各种不公，每天都想着世界毁灭算了。但是这篇引起我思考的是——千律最后说的，为什么我们也有伙伴我们也有同伴也很团结为什么还是会被击溃？琪亚娜的回答是：因为你们是由利益组成的，而我们是由共同的理想与坚定的目标，即使我们不在同一条道路上（芽衣世界蛇——琪亚娜天命——布洛妮娅逆熵），最后终会相遇，因为目标是一致的。</p></div>
-              </div>
-            </details>
-<h1 id="ao-tuo-a-bo-qia-li-si-ru-shi-shuo">《奥托·阿波卡利斯如是说》</h1>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
-    <iframe src="//player.bilibili.com/player.html?bvid=BV1bY411b7k9&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
-</div>
-
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>奥托主教，一开始是从星穹铁道上认识的，很好奇他和杨叔的关系，就来继续看这篇了。按他的话来说愚弄了友人，愚弄了至亲，愚弄了世界之上的规则，为的就是复活卡莲，虽然但是，完全不管卡莲想不想被复活啊。看网上对他的评价也是毁誉参半吧，但是他和杨叔…怪不得杨叔看见这张脸（指罗刹）就认为这个人不是好人呢，有点好笑，毕竟奥托可是说过：“虽然你失去了父亲但是你还有我啊”</p><p>因为总是会有弹幕让奥托主教坚强，所以好奇的我从此知道了樱和卡莲的CP　🍙，然后去补了相关的漫画。嘿嘿好甜…❤️</p><p>对于奥托这个人物，感觉是整个崩坏三里刻画最深刻的人物，还有和他一起出现的卡莲，崩坏三的编剧对他们两个的感情刻画的很深刻，而对于樱莲cp来说，樱只出现在漫画中，根本没在主线中出现过。所以让我一开始以为奥托和卡莲是CP😑 …</p>
-              </div>
-            </details>
-<h1 id="wang-shi-le-tu">《往世乐土》</h1>
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
-    <iframe src="//player.bilibili.com/player.html?bvid=BV1fY4y1F7GL&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
-</div>
-
-<details class="folding-tag" ><summary> 因你而存在的故事 </summary>
-              <div class='content'>
-              <p>世界蛇。在之前与千人律者的战斗中，芽衣似乎进入了崩坏的根源之地，崩坏的神祗似乎想要将某种信息灌入芽衣的脑海，但被芽衣拒绝了。此时的芽衣质问凯文崩坏的真相。凯文为芽衣开启了一条通往世界根源的甬道，在哪里一位神秘的女子等待着她……<br>感触最深的 <strong>【往世乐土】</strong> 篇，是最先带给我思考的一个篇章。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/逐火十三英桀.jpg" style="width:600px;"/></div></div><p class='p red'>爱莉希雅：对于我们这些记忆体生前的记忆重现，所谓的虚拟存在。你是怎么看待的？</p><p class='p purple'>芽衣：看待？</p><p class='p red'>爱莉希雅：不管是早早牺牲的殉道者还是活到未来的先行者，他们终究是与我们无关的真实的存在。</p><p class='p red'>爱莉希雅：留在这里的我们只是一段过往，一道留在过去的影子。</p><p class='p red'>爱莉希雅：我们只能呆在这里触碰不了你所在的现实也无法陪伴你走向未来。</p><p class='p red'>爱莉希雅：当你离开这里之后回到正常的现实的生活中去，你也很清楚这里发生的一切都只是一个故事一个虚拟的故事。</p><p class='p red'>爱莉希雅：可能用不了多久你会忘记这些事忘记这些话忘记我们的存在，你会遇到比我更好的人也可能已经遇见了。</p><p class='p red'>爱莉希雅：你终究还有自己的生活要去拥抱属于你的明天，那样的话我们的情感我们的思考我们的意志我们的行为真的还有意义吗？</p><p class='p red'>爱莉希雅：对你来说对任何人来说，我们...意味着什么呢？</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/逐火十三英桀4.png" style="width:600px;"/></div></div><p>记忆体是本体留下的影像，本体已然不复存在，但是你们让我体会到的情感与羁绊，你们的精神思考意志包括情感带着给我的震撼与情绪是真实的反馈在这个实实在在活在现实中的我的身上的。</p><p>你们对我来说不仅仅是记忆体，而是带我领略与自己世界截然不同的另一个世界的向导，是给予我精神力量和引导我思考的存在，即使本体不复存在，身为记忆体的你们带给我的精神力量是巨大的，也使我能从另一个角度看待这世界。</p><p>我的确会有自己的生活，也清楚明这里发生的一切是个故事，但是在生活中触发和你们在一起时体会的情感，我还是会不由自主的想起与你们在一起的片段，总之是不会忘记你们的。</p><p>让我也见识到了原来世上还会有这样一个性格的人，不是总局限于自己的世界。总之，对我来说，你们的存在就像是精神力量的存在，虽然不在现实世界中，但是在我的世界中，这就是是我的答案。</p><p>这个问题就像是再问，二次元对我来是是个怎样的存在，这些人物既触碰不到又感受不到，完全虚无的存在，故事经历也是人为构造出来的…看了这么久的动漫作品，从小学开始到现在十几年了…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/蛇蛇.jpg" style="width:600px;"/></div></div><p>我是怎么看待这些角色的呢，到如今也有结果了，长大了也学会自己思考了。很神奇，他们带我领略的一个个不同的世界，让我触摸到区别于这个世界的不同的规则，但是他们又有相同的精神内核，保护各个世界的美好，感觉像是在赋予我做梦的权力，主角团的羁绊与信任，让我看到了，这个世界的人际关系也不是只有勾心斗角和小心翼翼。也带给我很多我在现实生活中根本不可能体会到的情感。</p><p>因为我的生活太平凡了，接触不到其它的情感，但是二次元作品以及影视作品小说作品等这些带给我的情感真的丰富多彩，让我平凡的人生真的改变了许多。尽管是虚拟角色与故事，但是带给我的情感体验是真实的，也算是陪伴我的成长。</p><p>对于芽衣来说，继承前文明的意志，将你们留下的意志世代传承，也算另一种方面的永恒？</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/逐火十三英桀5.png" style="width:600px;"/></div></div><p>在这个篇章里，个人认为这十三个角色塑造的很好，都有各自鲜明的特点。</p><ul><li>傲娇的蛇蛇——梅比乌斯。</li></ul><p>乐土中最硬的东西就是蛇蛇的嘴。爱莉希雅教格蕾修叫梅比乌斯奶奶，这两个一个敢教，一个敢学。在看了《梅比乌斯实验室》的活动后，这是什么傲娇御姐，和克莱因好配哦！在实验室里迟到的被罚买奶茶，但是蛇蛇不喜欢喝，克莱因喜欢，而且不管什么事都喜欢找克莱因还经常对她撒娇，啊，在我心里的人设直接拔高了！</p><p>活动里的蛇蛇真的好好看啊啊啊啊啊啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/美丽的蛇蛇.jpg" style="width:600px;"/></div></div><details class="folding-tag" ><summary> 精神稳定的梅比乌斯 </summary>              <div class='content'>              <p>爱莉希雅：梅比乌斯～你现在的样子真可爱。<br>梅比乌斯：…<br>爱莉希雅：唉，真羡慕你，小小的，像个孩子。我也想当个长不大的孩子，没有烦恼，也不用负任何责任。<br>爱莉希雅：说起来，最近总觉得·····伊甸做的制服是不是有点紧呀？均码对我们这种人实在太不友好了，唉，这也算是长大的烦恼吧。<br>梅比乌斯：爱莉希雅，是你胖了。<br>爱莉希雅：真的吗？难道不是因为是你又变「瘦」了吗？<br>爱莉希雅：但没关系，「蛇是不会屈服于死亡的生物」，你还能从头再长一次，不是吗？我很期待哦。<br>————————————————————————————————————————<br>爱莉希雅：·····是呀，虽然梅比乌斯对我总是有些不坦率，但我可是一直都很喜欢她呢。<br>樱：······<br>樱：我不是很能理解。<br>爱莉希雅：你看，她从来也没对我做过些什么吧？<br>爱莉希雅：不过·····会让其他人感到恐惧的东西，对梅比乌斯自己来说，也许真的微不足道吧。爱莉希雅：虽然她一直不想让我参观她的实验，但你也知道，根本没有人能拒绝我嘛。<br>爱莉希雅：在看过了她的许多次实验之后，我终于明白了一件事。<br>爱莉希雅：那些会让一般人感到害怕的事情·····发生在别人身上，或者是发生在自己身上，对她来说其实并没有什么区另樱：没有区别？<br>爱莉希雅：是啊，我记得有一次走到她实验室门口的时候，我听到了这样的对话·····<br>爱莉希雅：「梅比乌斯博士，你的手臂断掉了，断掉了啊！」<br>爱莉希雅：「我知道！替换用的肢体已经在做了，你不要再吵了！」<br>樱：··.···<br>爱莉希雅：后来我又一次经过实验室的时候，听到的就变成了…···<br>爱莉希雅：「梅比乌斯博士，我的手臂断掉了！断掉了啊！」<br>爱莉希雅：「我知道！这就给你加一针镇定剂，你不要再吵了！」<br>樱：呃·····这·····可以看作是没有区别吗？<br>爱莉希雅：唔·····至少从态度上来看，她一直都很冷静嘛。<br>樱：…</p>              </div>            </details><div class="tip success"><p>在无限的生命中以及漫长的旅途上，她也曾恐俱崩坏、害怕崩坏，但为了生存。她还是用微笑意盖着恐惧，「<strong>无限</strong>」之铭——她并非是无限，最终还是会迈入终末的旅途。</p></div><ul><li>热情（不是）大男孩千劫。</li></ul><p>和蛇蛇有个小故事也很搞笑，蛇蛇为了实验，让千劫打她，结果在地上砸出了坑，坑里还有蛇鳞，让芽衣发现了哈哈哈哈。最后千劫为了证明樱的清白消亡…有点感伤。</p><div class="tip error"><p>他用死亡证明了清白，他用燃烧自己带来了信息。那带有「<strong>鏖灭</strong>」之铭的人，他的愤怒，他的真仅，永远不会销吸，但他也有想保护的人。</p></div><ul><li>活泼但是胆小的小帕朵——帕朵菲利丝</li></ul><p>“进货”是猫猫的主要工作哈哈哈，虽然猫猫怕死，但是猫猫是第一个战死的…</p><div class="tip warning"><p>人生的理想，那都不过是「<strong>空梦</strong>」一场，人生在世要活得开心自由。虽然她是最弱的人，但是她也能做到力所能及的事。</p></div><ul><li>说话语速超慢二人组阿波尼亚和伊甸</li></ul><p>切身体会一下阿波尼亚确实挺痛苦的，看得见未来，但是却改变不了未来，只能静静等待未来的发生，在乐土里算是一个小boss的角色。伊甸温柔大姐姐类型，爱莉希雅最好的朋友（磕一下）。我现在对她的那句台词还很有感触——“如果我能补全爱莉希雅的记忆，那么我就能成为她的一部分了”</p><ul><li>多（八）重人格的维尔薇。</li></ul><p>其中的每一个人格都是天才，贯穿整个乐土篇的全线，参团率300%，因为她芽衣才能找到爱莉希雅成为始源律者。但是大魔术师V2V总感觉带点沙雕气质，在其它的活动中，V2V的魔术总是在破坏…</p><div class="tip bell"><p>用真实创造虚妄，以矛盾反转意义。拆解自己正是为了成为自己。唯有创造对立，才能步入统一。接受…真正的「<strong>螺旋</strong>」之名。</p></div><ul><li>粉头发、粉耳朵、迷人又强大的女孩——樱。</li></ul><p>想摸摸樱的耳朵嘿嘿，感觉对她的描述不是很多，但是还是有魅力的角色…</p><ul><li>天真无邪的格蕾修和非常内向容易社死的科斯魔</li></ul><p>科斯魔是有点搞笑在身上的，看见爱莉希雅教华的结算动作，科斯魔默默在墙角看着并发出了“…帅”的声音哈哈哈，格蕾修总是让科斯魔社死。</p><details class="folding-tag" ><summary> 虽然但是这本书真的有用！ </summary>              <div class='content'>              <p>爱莉希雅：然后…看你的表情，你应该是遇见科斯魔了，对不对？<br>芽衣：是。听你的意思，他还有不在那里的时候？<br>爱莉希雅：当然啦，科斯魔也有自己的生活呀<br>爱莉希雅：但只要格蕾修想专心画画了，他就会认真起来，扮演好守护山道的骑士。这次…应该算是有些不凑巧吧<br>爱莉希雅：不过，这也是旅途中常见的小惊喜呢。你看，你又认识了一位英桀，交到了新的朋友，还有旭光的刻印一能接受他传承的人可不多哦。<br>芽衣：…关于科斯魔，你还有什么可以告诉我的吗？<br>爱莉希雅：这你就问对人啦。他是个非常温柔，又特别有趣的男孩。虽然话不多，心思却格外细腻呢。<br>爱莉希雅：其实我一眼就能看穿他的想法，但还是喜欢故意不接话，看着他面红耳赤斟酌说法的样子，真是种奇妙的享受呢。<br>爱莉希雅：为了让芽衣也能体会这种快乐…锵锵！《沉默少年一百问》，和之前千劫面具那本是同一系列哦。这一本还要更受欢迎些呢。<br>爱莉希雅：来，送给你啦。芽衣：…不用了。那本《千劫面具一百问》…我还是先把它看完吧。</p>              </div>            </details><details class="folding-tag" ><summary> 画笔，臣服于我！ </summary>              <div class='content'>              <p>爱莉希雅：啊，芽衣，你来的正是时候！我刚想去找你，来帮我「调和」一下呢。<br>芽衣：调和？<br>格蕾修：啊，芽衣姐姐…<strong>嗨，想我了吗？</strong><br>芽衣：爱莉希雅：喏，这就是我和你说的，需要「调和」的地方啦。<br>芽衣：这…是你教的？爱莉希雅：嗯…怎么说呢，是，但也不完全是？<br>爱莉希雅：啊，难道说…芽衣，你还没注意到吗？格蕾修的「特殊之处」。<br>芽衣：格蕾修…她被「保护」得太好了，我能接触到她的机会…的确不多。<br>爱莉希雅：嗯，也是。不过嘛，就算不是这样…芽衣，你也一定要严格控制自己与格蕾修接触的时间哦~<br>爱莉希雅：要是哪天，我听到格蕾修说出什么「<strong>画笔，臣服于我</strong>」之类的话…不行不行，实在太奇怪了。<br>芽衣：听你的意思，格蕾修…她是很容易受到别人的影响吗？还是说她会不自觉地去模仿别人？<br>爱莉希雅：恐怕不只是「影响」和「模仿」这么简单呢<br>爱莉希雅：打个比方的话…你可以把格蕾修看作是一张干净的白纸。<br>爱莉希雅：虽然还拥有自己的材质和特性，但如果不小心在上面沾染了什么东西…它就不再只是一张「白纸」而已了。<br>爱莉希雅：你看，现在就是这样的情况。我只是和她多待了一小会儿，她就快变得和我一模一样了。<br>芽衣：的确…是非常明显的变化。</p>              </div>            </details><ul><li>老实人华。</li></ul><p>被爱莉希雅借走了不下16次羽渡尘，每次爱莉希雅都说是最后一次哈哈。</p><ul><li>总是闭着眼睛的苏美人。</li></ul><p>一个悬壶济世的好人。“我们通常把事情按严重程度分为四个等级：苏没有反映的情况、苏有反应但不会睁眼的情况、苏有反应且眼皮发颤的情况和会让苏也瞪大眼睛的情况。”</p><ul><li>爱嗦面的凯文。<br>已经到了一提到他就想到嗦面的场景的地步 卡斯兰娜家族的祖先，擅长嗦面，团建时会带着大家一起嗦面…</li></ul><details class="folding-tag" ><summary> 凯文 </summary>              <div class='content'>              <p>爱莉希雅：凯文这个人呀，安静极了，从不会和别人谈论自己做过什么。面对肯定或非议，他也只会留下一个背影。<br>爱莉希雅：他是个被命运推操着前进的男孩…不没来得及说些什么，就被催促着做出了行动。<br>爱莉希雅：所以想真正了解他，你只能从他身边的人那得到答案。</p>              </div>            </details><div class="tip cogs"><p>在燃尽的大地上，那个许下悠久承诺，卡斯兰娜家族的命运在此刻做出决定。无论身负着什么命运，无论跨过多少世纪，无论付出多少代价，人类一定会战胜崩坏。</p></div><ul><li>完美无瑕的爱莉希雅。</li></ul><p>一开始让我们怀疑她是带着目的在这出现的，把她认定成坏女人，结果最后她真的，我哭死，对所有人都毫无保留，真诚的对待每一个人，她是这个组合的核心人物！爱莉希雅会回应你的一切期待！这个人物刻画的很好，在现实中我一直没有见过这样性格的人，在游戏中认识，给我一种原来世界上还有这样一种性格的人。</p><details class="folding-tag" ><summary> 摸角名场面 </summary>              <div class='content'>              <p>芽衣：我的帮助？如果是我能做到的事，那当然·····<br>芽衣的话语戛然而止。<br>她注意到了爱莉希雅向自己投来的视线，一如平时。然后，它们慢慢向上，向上·····最后停在了一个恰到好处的角度。那里什么都没有，除了她的双角。<br>芽衣：·····<br>爱莉希雅：嗯哼<br>芽衣：你·····<br>爱莉希雅：我想想，这应该算是…「伏笔回收」？<br>芽衣：·····<br>爱莉希雅：嗯·····<br>芽衣：··<br>爱莉希雅：嗯·····？芽衣：<br>爱莉希雅：哦·····芽衣：·····<br>爱莉希雅：哇·····这可真是····和我想象中完全不同呢····<br>芽衣：·····摸够了吗？<br>爱莉希雅：好啦好啦，可以啦。谢谢你满足了我的好奇心，我能开心一整天呢。<br>芽衣：所以，前往至深之处的方法·····<br>爱莉希雅：放心啦，我会好好加油的，说到做到。等你准备好了就出发吧。<br>芽衣：·····<br>芽衣：（刚才······应该没有人看到吧····）</p>              </div>            </details><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/爱莉希雅.jpg" style="width:400px;"/></div></div><div class="tip ban"><p>那绚丽的花朵、那美丽的少女，已然破碎已然消失。13人的献祭，那飞花般的律者已然诞生，无暇的少女，将人世的美好尽收眼底，拥有「<strong>真我</strong>」之铭的人将善与爱彻始终。</p></div>
-              </div>
-            </details>
-<p><strong>让无人传颂的歌谣，再度启唱。为历史尘封的故事，续写新章。</strong> 高洁而纯真的灵魂，踏上旅途。</p>
-<p>愿掠集之兽爱佑其身，赐予「空梦」的自由。      愿渡尘之羽爱佑其身，赐予「浮生」的坚忍。<br>
-愿绘世之卷爱佑其身，赐予「繁星」的纯真。      愿噬界之蛇爱佑其身，赐予「无限」的渴求。<br>
-愿黎明之哨爱佑其身，赐予「旭光」的意志。      愿寸断之刃爱佑其身，赐予「刹那」的决绝。<br>
-愿善法之瞳爱佑其身，赐予「天慧」的智识。      愿坏劫之焱爱佑其身，赐予「鏖灭」的赤诚。<br>
-愿愚戏之匣爱佑其身，赐予「螺旋」的奇迹。      愿璀耀之歌爱佑其身，赐予「黄金」的光辉。<br>
-愿深罪之槛爱佑其身，赐予「戒律」的慈爱。      愿无烬之剑爱佑其身，赐予「救世」的理想。<br>
-愿无瑕之人爱佑其身，赐予「真我」的回归。</p>
-<p>我们于此赞颂，始源之律者的诞生<br>
-我这支歌将抚摸你的前额，犹如那祝福的亲吻<br>
-当你独自一人时，它会坐在身旁与你耳语<br>
-当你陷入人群时，它又会保护你远离喧嚣<br>
-我的歌将成为你梦想的羽翼，它将载着你的心到那未知的边缘<br>
-当黑夜遮蔽了你的路时，它又成为了照耀在你头顶的忠实星光<br>
-于是，「始源」的故事迎来落幕<br>
-于是，「始源」的故事迎来伊始<br>
-以我为终……<br>
-以我……为始。</p>
-<p>🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼但是还有另一个版本很心痛也很真实🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼</p>
-<p>让那最强大的，遭受救世的孤独。【救世】      让那最真挚的，覆上背叛的面具。【真我】<br>
-让那最悲悯的，受到命运的操弄。【戒律】      让那最优雅的，抹去傲慢的资本。【黄金】<br>
-让那最复杂的，无法于演台起舞。【螺旋】      让那最疯狂的，丢弃生存的意义。【鏖灭】<br>
-让那最觉悟的，陷入我执的困扰。【天慧】      让那最牵挂的，失去唯一的系念。【刹那】<br>
-让那最向往的，打碎过去的理想。【旭光】      让那最好学的，因生死陷落无限。【无限】<br>
-让那最单纯的，漫步黑暗的星海。【繁星】      让那最谦卑的，封闭珍惜的感情。【浮生】<br>
-让那最快活的，感受痛苦的真谛。【空梦】</p>
-<h1 id="shi-yuan-yu-zhong-yan">《始源与终焉》</h1>
- 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
-    <iframe src="//player.bilibili.com/player.html?bvid=BV1Kj411g7Lu&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
-</div>
-
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/始源与终焉.jpeg" style="width:600px;"/></div></div><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV14D4y187vh?p=15&vd_source=c7e9411c7d0668bcdce6b5de74e67c6e">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/www.bilibili.com/video/BV14D4y187vh?p=15&vd_source=c7e9411c7d0668bcdce6b5de74e67c6e.png);"></div>        <div class="tag-link-right">            <div class="tag-link-title">和雷律的对话 深有感触</div>            <div class="tag-link-sitename">07：33开始</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><details class="folding-tag" ><summary> 呜呜呜 </summary>              <div class='content'>              <p>雷律：看吧，那个你拼命想要守护的人，如今她的终局近在咫尺，而你甚至可能亲手为他带上中演的冠冕。<br>雷律：——你，准备好了吗？<br>芽衣：…当然，平静与安宁，那的确使我的愿望，直到现在，我还常常梦到千羽学园，梦到圣芙蕾雅的时光。但世上没有什么理所当然。无论哪个时代，人们都是在同样的道路上负重前行。这并非抛弃或背叛，而是我和她共同的梦想。为了走向自己选定的明天，我们都将竭尽全力。假使真有【终焉的冠冕】…它也不会之落在一个人头上。<br>雷律：…很好。面对这份来自己身的矛盾，你已拥有紧握枷锁的决绝</p>              </div>            </details><p>还有芽衣继承始源律者那里，回顾自己的成长经历，这么一看芽衣真的是在成长，从小时候的怯懦到现在的成熟理智，内心强大，遇到任困境会先提出问题，再冷静的逐步解决问题，然而我败在了第一步上，脑袋空空根本不知道这有什么疑问，要提什么问题呜呜呜呜，所以真的还有点佩服她，毕竟我这么大了也不成熟也不理智还脑袋空空呜呜呜，想成为芽衣这样可靠的大人！</p><p>芽衣与雷律的对话对我很有感触。看这一段的时候在思考一个问题：比如说喜欢的人为了（保护世界？家国大义？）想要承担起相应的责任，这件事是她一直以来的坚持，而且是只有她才能背负起的使命，只有她才能做到的事，代价是一定会牺牲她的生命。这时，我会怎么做？</p><p>其实一开始我和雷律想法一致，但是听到芽衣的想法后才明白，也许放手和陪伴才是唯一的正解。既然她真的想要这么做，那么我会选择放手让她去完成，而不是成为她的锁链去束缚住她。我会尽自己一切努力去完成陪伴这件事，让她明白不论她是怎样的选择，我都会支持她，不会成为她的枷锁，更不会让她独自一人经历这些，虽然我替代不了她背负的使命，虽然结局可能真的会无法挽回，这是她想要的，我……会尊重她的想法，尊重她的选择，也想让她明白这一路她不是自己一人，还有我……想和她并肩前行的我，想要和她一同经历一切事物的我，想要保护她的我和想要被她保护的我。</p><p><strong>喜欢不是自私的保护和占有，而是学会放手与尊重。</strong>　尊重对方的意愿与选择，这才是维系两人感情的最好途径。自私的保护只是感动自己罢了，占有也是给她加了条锁链束缚住她。</p><p>最后，两个人就是要互相保护才能前进的更远！一个人的付出多累，就要既付出又享受！</p><p>一些设定：终焉的权能是使文明轮回，这个观点我第一次听说是在高中的政治课上，我们老师给我们讲的，我们现在的地球可能是经历了很多个文明轮回，因为好像发现了不应在这个时间段出现的什么东西，但是对我来说，这个设定很神奇我一下就记住了，现在再看这个终焉，感觉莫名有些熟悉…还有圣痕计划最后阶段的捕梦计划 这不就是三体人的思想共享透明，感觉编剧看的书一定很多，游戏里有很多世界名著，等有空我得了解一下，尤其是比安卡的成长感觉就是贯穿了各个名著。</p>
-              </div>
-            </details>
-<h1 id="you-lan-dai-er">《幽兰戴尔》</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>看完了幽兰戴尔的视觉小说，小时候的比安卡真的好可爱哦（人物形象有点像妖精的尾巴里初代会长的既视感），幽兰黛尔原来是把剑的名字，别名小幽，形象……很有特点，是不是该说它确实是一把剑的好呢。比安卡小时候的人设真的好傲娇啊啊啊，和崩三里面的幽兰黛尔区别好大啊，小时候和长大后都很可爱。看完之后完全能理解崩三里的幽兰黛尔闲暇时为啥总会在看书了。在世界泡中和幽兰黛尔一起冒险的就是那些世界大文豪。莎士比亚一开始我以为是男生，到最后竟然是女生，怪我有眼无珠了纯属是。</p>
-              </div>
-            </details>
-<h1 id="gan-hai-zu-amp-shuang-xi">《绀海组&amp;双希》</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/绀海2.png" style="width:600px;"/></div></div><p>啊啊啊啊啊磕死我了！怎么会有如此相配得两个人呢！给我在一起！！</p><p>剧情啥的就不说了，详情看漫画。关于主角两人我得发表一下感言，咳咳。</p><p>先说Bronya，一开始在主角团里没有特别关注她，其实当时主要在👀芽衣和琪亚娜，只是觉得个别时候还挺可爱的，毕竟是hanser配音的。但是！看完漫画后好心疼啊啊啊，尤其是她救了希儿后希儿还害怕她，从那以后她就不再使用武力了，被杏玛尔欺负推下楼梯的时候也没有还手，即使她能直接干掉她，但是她！没！有！就因为害怕希儿害怕她，她就宁愿忍着也不出手。后来希儿看到这一幕因为害怕没有出手相助，自责的把自己关在箱子里，bronya也第一时间找到了她！并且还安慰她什么也不做也没关系。呜呜呜bronya你也太爱她啦！你怎么这么好哇。<br>最后希儿参加实验被困于量子之海时，本来实验都撤销了，但是她用自杀威胁可可利亚让她再次参加实验。在里面再次见到希儿，宁愿自己消亡也不愿意去没有希儿的世界呜呜呜好感人，还是希儿给她含泪推出去的，给她留了重装小兔作为陪伴，感情模块也被销毁了，感受不到悲伤……但是一脸(・へ・)那种表情真的很可爱，想rua，而且主线剧情中她们两个相遇了……虽然但是我好想看后崩里面的大鸭鸭和希儿在一起的场面啊啊啊，好在意啊，好在意啊……好想看啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/黑白希儿.png" style="width:600px;"/></div></div><p>希儿，从主线剧情来看，这个角色说实话一开始觉得很怯懦，但是从她的经历角度来看她真的做的不错了，这样一个可爱单纯的小天使，我要是bronya我也离不开她嘿嘿，但是希儿不止一个，还有个傲娇的黑希，完全的保护着小可爱希儿，小可爱希儿虽然害怕也要保护你的设定真的好戳我嘿嘿，而且处处为他人着想情商也很高，认为她怯懦是源于绀海篇的漫画，看到姐姐被欺负不出手而且姐姐救了她她竟然还害怕她呜呜呜呜，但是再仔细想想，从小生活在孤儿院，没有人依靠，这种情况下不害怕才难吧。黑希因为她的自责和想要保护bronya的心情，把杏玛尔教训了一顿。胆小而又敏感大概是希儿前期的代名词？但每个人都是会成长的，主线35章后，希儿去办任务的时候，感觉她真的好冷静好理智还善于思考。这章主要是讲黑白希的故事，黑希被分离出来了，好在意啊好在意啊好想看大鸭鸭和成长后的希儿在一起的画面啊啊啊</p>
-              </div>
-            </details>
-<h1 id="xing-yu-ni-xiao-shi-zhi-ri">《星与你消失之日》</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>他们说很感人，我去看，惭愧，没哭出来…就是舰长无数次轮回去救观星，最后救出来了，但是有些地方我真的觉得很腻歪，是我忍受不了的腻歪，完全没感觉有多甜得感觉……导致我没觉得这篇有多么得感人……是我的问题吧大概。</p>
-              </div>
-            </details>
-<h1 id="yan-xue-sheng-cheng-yu-sha-tie-guo-du">《盐雪圣城与沙铁国度》</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>1.5部：这一篇的主角是可爱的希儿，黑希和白希在这一篇分离开了，唔，只是物理意义上的分离，不是情感上的分离……有一段剧情我认为很不错，在黑希的梦里吧应该是，只活下来了一位希儿——是黑希，但是黑希意识不到是自己活下来了，一直在扮演白希的角色。影子和本我的问题，有点深奥……</p>
-              </div>
-            </details>
-<h1 id="mao-cheng-qi-yu-ji">《猫城奇遇记》</h1>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <p>番外：主角是苏莎娜，在主线中没怎么get到她，但是在这片活动里以她为视角进行得展述中，有一点好戳我啊啊啊啊，就是在她打完那个大机器人后，强装镇定，亚尔薇特以来就绷不住抱着她哭，不知道为啥感觉很可爱。反派史丹哈哈哈哈哈只当它是可爱的小猫咪哈哈哈哈，史丹的配音真的挺可爱的说。</p>
-              </div>
-            </details>
-<h1 id="fu-er-mo-si-hua-xun-yuan-man-lu">《福尔摩斯·华❀》 + 《寻鸢漫录》</h1>
-<p>以符华为结束，这个时代即将落下帷幕。但是符华啊啊为什么要开着崩落形态去买菜呀！！</p>
-<p>寻鸢漫录 活动壁纸：</p>
-<p><a href="https://bbs.mihoyo.com/bh3/wiki/content/2997/detail?bbs_presentation_style=no_header">https://bbs.mihoyo.com/bh3/wiki/content/2997/detail?bbs_presentation_style=no_header</a></p>
-<h1 id="zui-zhong-zhang-yue-suo-ning-wang-zhi-xing">《最终章：月所凝望之星》</h1>
-<p><a href="https://bbs.mihoyo.com/bh3/wiki/content/2982/detail?bbs_presentation_style=no_header">https://bbs.mihoyo.com/bh3/wiki/content/2982/detail?bbs_presentation_style=no_header</a></p>
-]]></content>
-      <categories>
-        <category>游戏库</category>
-      </categories>
-      <tags>
-        <tag>崩坏系列</tag>
-      </tags>
   </entry>
   <entry>
     <title>细数收集崩坏系列涉及的的文学作品</title>
@@ -2437,6 +2283,197 @@ MMD区的主战软件。用是很方便用，就是拖拖拖没什么新意。�
       </tags>
   </entry>
   <entry>
+    <title>崩坏3</title>
+    <url>/27398571/</url>
+    <content><![CDATA[<h1 id="qian-yan">前言</h1>
+<p>是这样的，前段时间在家养病，无聊的时候开始观看了《崩坏3》的剧情，在玩《星穹铁道》的时候，我很喜欢姬子的建模（颜控！真的好好看！）看相关视频的时候总是会出现崩坏3的姬子的弹幕，怀着一颗好奇心，开始了漫漫的追番之路…</p>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/主角团.png width=600px"/></div></div>
+<p>大概这一个星期除了吃饭睡觉都在看《崩坏3》的剧情。里面有几个篇章我觉得真心不错，比如千人律者篇和往事乐土篇，这两篇章的内容是我最喜欢的剧情！尤其是乐土篇，到现在还没有走出这段剧情，带给我很多的情感与思考，像是看了一部漫长的电影。</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.zhihu.com/question/62803049">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/www.zhihu.com/question/62803049.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">剧情梳理包括前文明</div>
+            <div class="tag-link-sitename">引用知乎上的，字太多了...</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<h1 id="zhu-jiao-tuan-de-zhu-xian-pian">主角团的主线篇</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>游戏的故事延续了《崩坏学园2》的主线剧情【<strong>等着去补补崩坏2的剧情</strong>】，讲述了在不远的未来，神秘的灾害“崩坏”侵蚀了世界，被崩坏感染的人类，变成了没有思维，只懂破坏的“死士”，它们和从崩坏中诞生的巨大怪物“崩坏兽”，一同对这个世界造成了巨大的威胁。</p><p>唯一可以抵抗崩坏的，只有一些拥有“崩坏抗体”的少女，只有由她们组成的“女武神”部队。勇敢的少女们穿上冰冷的机甲，拿起沉重的武器，与崩坏战斗着。为世界上所有的美好而战，在被崩坏侵蚀的世界中，由勇敢的少女组成的女武神部队，为守护世界而展开了战斗。玩家可扮演炽翎、白夜执事、第六夜想曲、月下初拥、极地战刃、空之律者、原罪猎人等女武神，去保护这个世界。</p><div class="timeline pink"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>成长线</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>琪亚娜</p></div></div><div class='timeline-item-content'><p>每个人都有自己的成长线，作为主角的琪亚娜，成长线描述的是最详细的，在圣芙蕾雅学院时被很多人保护着，所以是性格最单纯开朗的时候。姬子死后，她自己一个人在陌生城市时，迷茫无助包围了她，性格内敛了许多，姬子的死亡和无助使她在这段时间成长了许多，以前要德莉莎看管着的琪亚娜现在学会承担起了责任，从逃避姬子的死亡到接受再到勇于面对，最后主动承担起接管终焉的权能，从一个活泼天真的小女孩成长为了成熟稳重但不失活泼的大人。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>雷电芽衣</p></div></div><div class='timeline-item-content'><p>雷电芽衣，这个角色在乐土篇的时候显得好御，好有理智，成为了相当成熟的大人…在往世乐土中芽衣有一段经历一遍自己的所有经历，这之中能了解到芽衣也是从胆小单纯到成熟的变化，好想变得像她这么理智沉稳。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>布洛妮娅</p></div></div><div class='timeline-item-content'><p>布洛妮娅的成长线，小时候由于崩坏，失去了父母，父母的好友将她带大，为了生存把她带入战场，小小年纪成为了杀手【乌拉尔银狼】，后被可可利亚收养进入可可利亚孤儿院，在里面认识了萝拉利亚和莉莉娅、希儿。（这段时光有漫画，我没看…）应该是经历了一些事情后遇见芽衣和琪亚娜（应该是2的剧情，我没看…）最后进入千羽学园，（等我组织好语言后…）</p><p>看完回来了，绀海组，怪不得叫这个名字，在布洛妮娅这条线来看，小时候因为羽兔的原因，家乡遭到毁灭，但在羽兔的视角下，小布洛妮娅还未出生，出生后的布洛妮娅由父亲的朋友带着长大，环境原因参入了少年军，在与可可利亚的战斗中，可可利亚将布洛妮娅带回了孤儿院，然后让希儿来带领她熟悉环境。有一次，希儿被绑架，布洛妮娅去救她，但是在那种情况下，布洛妮娅在希儿面前杀了人。当时的希儿很胆小也很单纯，看到这种情形，对布洛妮娅多少产生了一点害怕的感情（我认为的）。孤儿院里还有一个喜欢欺负人的杏大爷，有一次，杏大爷在欺负布洛妮娅的时候，希儿在墙后面偷偷看到了，还是因为懦弱的性子，没有出来一直躲在墙后。在这之后，希儿一直在后悔没有去帮助布洛妮娅，也是因为这，黑希出场了，教育了杏大爷一顿。（嘿嘿，其中有一段好像是，希儿一胆小就躲到了箱子里，只有布洛妮娅找到她还安慰了她）之后可可利亚要进行实验，一开始是定的布洛妮娅，但是这个实验的死亡率很高，希儿知道后主动去找可可利亚说自己有圣痕的体质是最合适的。然后在试验中卷入了量子之海不见踪影。布洛妮娅发现不对劲后及时找了可可利亚要求她要再次实验，用自己的生命威胁可可利亚，可可利亚没办法后就让她参加了，在她快要出事的时候，希儿出现了，帮助她后把重装小兔留给了布洛妮娅，之后就消散了，布洛妮娅醒后不相信，一直在找希儿。布洛妮娅进入千羽学园，因为崩坏遇到了琪亚娜和芽衣，之后的剧情就是我们熟知的了。还有还有，我看的是未删减版dddd，好磕。布洛妮娅的没有感情是因为感情芯片在那次实验中烧坏了。在然后一步步成长到现在的大鸭鸭，呜呜呜，可爱。</p></div></div></div>
+              </div>
+            </details>
+<h1 id="zui-hou-yi-ke">《最后一课》</h1>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1Ut411v74a&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
+</div>
+
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>主线第九章（<strong>通往明日的旅途</strong>）：在天命总部，符华使用羽渡尘治疗了被俘的姬子，从丽塔口中，符华得知空之律者已经觉醒，而德丽莎正在与之战斗。符华决定去帮助德丽莎拖延空之律者，却被丽塔拦下，幽兰黛尔赶到现场放走了符华。另一处战场，德丽莎和芽衣被崩坏兽所困，布洛尼亚苏醒，爱因斯坦送给她第九神之键伊甸之星，前来解围。空之律者从芽衣体内取出了征服宝石，击败了德丽莎。此时符华赶到，却被空之律者击败。此时，奥托突然出现，用虚空万藏的威力逼走了空之律者，并向符华坦白了自己的计划：让空之律者杀死曾经的朋友，感情的力量将会促使琪亚娜的人格觉醒，从而以人类的灵魂控制律者的力量。符华怒斥奥托的虚伪行径，坚决反对他的计划，被奥托用拟态天火圣裁杀死。（符华被杀死的一瞬间，发动了羽渡尘的第零额定功率，将自己的意识转移到了一片羽毛上，进入琪亚娜的身体，帮她封印律者意识）</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/姬子2.webp" style="width:600px;"/></div></div><p>在赫尔海姆实验室，姬子从昏睡中醒来，符华用羽渡尘留下的意识浮现在她的脑海。此时的姬子即将走向女武神生涯的终点，女武神的身体改造在大大提高崩坏能抗性的同时也削减了她的生命。之前，符华为她留下了一支HSN-B46血清，这种血清可以中和崩坏能，让女武神回归正常人类，救姬子一命。符华指引姬子找到了特斯拉，两人进入了实验室的制造工厂。在实验记录中，特斯拉了解到，玛基博士的血清与沙尼亚特圣血混合，可以逆向崩坏过程，甚至可以使得律者失去力量，是为“弑神之枪”，是奥托的底牌。姬子交出了唯一的血清，让特斯拉仿制。与此同时，姬子根据浮华的指引来到了最底层，找到了前文明纪元的遗产，弑神装甲：真红骑士·月蚀（疑似前文明空白之键），奥托将疾疫宝石融合进了机甲，使其具有与律者匹敌的能力。在符华的帮助下，姬子战胜了心魔，穿上了装甲。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/姬子1.jpg" style="width:600px;"/></div></div><p>根据特斯拉留下的信号，休伯利安找到了姬子和特斯拉。空之律者也在此时赶到，姬子与之对决。<strong>爱因斯坦抓住机会，使用休伯利安的主炮，大型崩坏能转化装置“月光王座”一击命中空之律者，但匆忙发射威力不足，将其击伤后逃跑。休伯利安返程中，被贝纳勒斯袭击，姬子再次与之对决，进入律者空间与空之律者决一死战，为琪亚娜上了“最后一课”，要琪亚娜“把这个不完美的世界变成你所期望的样子”。姬子拼死使用了弑神之枪，压制了空之律者人格，但自己也力竭沉入虚空之中，生死不明（目前可当做已经牺牲）。</strong> 琪亚娜漂流到某处海滩上，而奥托的计划还在继续。此后的剧情分为两支，琪亚娜的故事在第十一章间章和第十三、十四章。而同时，其他人追寻琪亚娜的下落。</p><div class="note primary modern"><p>primary 看完第九章的剧情，再去看这个动画短片，真的要感动死了，我哭没了一包纸！</p></div>
+              </div>
+            </details>
+<h1 id="zhi-pei-ju-chang">《支配剧场》</h1>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
+    <iframe 
+      src="//player.bilibili.com/player.html?bvid=BV1b44y1q7Cb&page=1&autoplay=0" allowfullscreen="allowfullscreen" 
+      width="100%" 
+      height="500" 
+      scrolling="no" 
+      frameborder="0" 
+      sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls>
+    </iframe>
+</div>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/支配剧场.png" style="width:600px;"/></div></div><p>主线第二十三章（<strong>一人的剧场</strong>）：（此时的时间为2017年11月左右）为了筹备逆熵成立60周年派对，琪亚娜与希儿离开盐湖基地外出采购。采购途中，用来负责烟花表演的机器人突然暴走。两人解决骚乱后，在一件发传单的员工穿着的玩偶服中找到了一把钥匙以及门牌，而玩偶服中的人却失踪了。根据这些线索，两人了解到失踪者名叫约翰·多伊，并找到了他的学校。从同学口中得知，此人已经一个多月没来过学校了。二人随后找到了约翰·多伊的公寓，并在公寓门口进入了某种空间，与提线傀儡发生了战斗。房东告诉他们约翰·多伊已经在一个月前死了（但希儿刚刚还见过他）。在约翰·多伊的公寓中发现了一具坏掉的提线木偶，手中握着“<strong>支配剧场</strong>”的剧院门票。</p><p>另一边，瓦尔特对布洛尼亚的训练结束后，发现了附近有崩坏兽雕塑的展览。察觉异样的两人正准备叫停展览，崩坏兽的雕塑突然开始袭击人类。通过对剧院门票上土壤样本残留的分析，以及崩坏兽雕塑的供货渠道，爱因斯坦定位了名为米拉·里默的雕塑家的工坊。打开房门的瞬间希儿进入了名为“支配剧场”的另一个空间。在剧场的中心，希儿找到了变为人偶的米拉·里默。它切断了希儿两个人格之间额关系，并试图利剑二人让希儿的里人格加入人偶的行列，但最终里人格将希儿拉出了支配剧场。在工坊内，两人发现了坏掉的里拉·里默的人偶，手中握着另一张剧院门票“老鼠与老鹰”。</p><p>此后又接连发生了几起这样的事件。通过比对，逆熵确认人偶内的核心来自第十律者“支配之律者”，也就是“千人律者”。有证据表明天命与世界蛇也发现了类似的事件。而根据剧院门票的土壤样本分析，下一个地点就是盐湖基地。布洛尼亚与希儿在作战时发现了空间裂缝，被分别引入了支配剧场。在布洛尼亚使用了理之律者的权能后，支配之律者切断了布洛尼亚与律者核心的联系，接管了理之律者核心。最终，希儿将身体控制权完全交给里人格，带着失去全能的布洛尼亚全力逃出了支配剧场。</p><p>主线第二十四章（<strong>千人的舞台</strong>）：世界蛇方面，芽衣与渡鸦一同调查几间被人偶侵犯的仓库。从仓库主人的口中得知，人偶有其他人类协助。渡鸦动用自己的人脉确认了人偶可能出现的位置，随后两人也被分开引入了支配剧场。芽衣发觉人偶在引诱自己使用律者权能，从而提高了警惕。人偶向芽衣展示了自己的理之律者能力，并声称自己如果获得雷之律者的权能，就可以挑战琪亚娜并切断律者核心的联系，让琪亚娜变为常人，但被芽衣拒绝。最终渡鸦赶到摧毁了人偶，两人脱离支配剧场。</p><p>逆熵。爱因斯坦追踪到第一位支配律者是新泽西州大学的一名医学教授。在调查的过程中，符华与德莉莎见到了他的人偶，并回收了其核心。通过解析这颗核心，逆熵掌握了千人律者网络的构造。但是，自从千人律者被消灭了一半（即500个）后，便突然停止了活动。为此，逆熵决定以琪亚娜为诱饵，将其用休伯利安号送往北极的收容设施，以此引诱千人律者夺取空之律者的权能。如计划一样，运送途中，人偶入侵了休伯利安的发电系统，解除了琪亚娜周围的屏障，将其拉入了支配剧场。随后，琪亚娜按照计划，在远离人后后使用空之律者的力量将整个休伯利安转移进了支配剧场，将剩余的500个人偶一网打尽。随后大家召开了庆功宴暨逆熵60周年纪念晚会。然而，似乎有一个人偶活了下来。</p><p>虽然逆熵认为支配之律者已经被消灭，但是布洛尼亚仍然无法使用理之律者的能力，琪亚娜也发觉在上次进入支配剧场后人偶并没有全力抢夺自己的律者权能。而这天晚上琪亚娜在梦境中以西琳的视角重温了空之律者的一生。某日晚上，琪亚娜再次被独自拉入支配剧场，原来支配之律者的目的是唤醒西琳并与之同盟。为了摧毁琪亚娜的意志，支配之律者拿出了本属于姬子的疾疫宝石……</p><p>主线第二十五章《<strong>点燃明日的火焰</strong>》：盐湖基地。在研究千人律者核心的过程中，核心突然开始瓦解并消失。盐湖基地的机甲随后失控，混乱平息后逆熵才发现琪亚娜已经失踪，并在琪亚娜的房间发现了一个人偶。借助希儿多次进入支配剧场的经验，特斯拉和爱因斯坦反向打开了支配剧场的大门，但布洛尼亚与符华进入后大门突然被关闭。与此同时，芽衣以三颗特殊的千人律者核心为条件与胡狼交换情报，并要求胡狼使用这些核心反向连接并打开支配剧场的大门，但此时核心突然开始瓦解，情急之下芽衣直接加快进程进入了支配剧场。</p><p>……十年前，奥托将空之律者核心植入K423的身体。核心内残存的意识在这具身体中转化为表里两个人格——相信微光的表人格（琪亚娜）和相信黑暗的里人格（空之律者）。支配剧场内，见到疾疫宝石的琪亚娜内心轻微的动摇给了空之律者可乘之机，突破了琪亚娜的压制。但此时的琪亚娜已经明白了自己与空之律者实际上是西琳意识的一体两面，不论面对自己的诞生、六年前自己的失控、还是姬子的牺牲都坚持为美好而战。最终，对善的信念胜过了恶的存在，疾疫宝石的力量流向了琪亚娜，空之律者的落败消散。</p><p>在疾疫宝石创造的幻境中，琪亚娜见到了姬子老师最后的意识残影。两人一起漫步在圣芙蕾雅学园的幻影中，回忆着往日的时光，听取了姬子对大家最后的话。从姬子的口中，琪亚娜得知了姬子的老师拉格纳的遗言：“即使徒劳，也要为美好而战，即使牺牲，也不过是化作希望之花的养料”。人类的薪火在此刻传承到了琪亚娜手中。</p><p>同时，布洛尼亚与符华终于逃脱了人偶创造的无尽回廊，符华连哄带骗得到了识之律者的权能，并切断了人偶与支配律者本体的联系，但识之律者的能力也被支配之律者所掌握。另一边，支配之律者无法夺取完全体的雷之律者权能，“征服的雷电”击败了人偶，进一步削弱了支配律者的力量，律者核心的权能逐渐流回它们的主人。幻境中的琪亚娜感受到了伙伴的支援，与姬子做了最后的道别，回到了现实，展开了与支配之律者的最终决战。决战的过程中，布洛尼亚与符华被支配之律者掳走，二人的律者权能被托付给了琪亚娜。掌握了空之律者核心与疾疫宝石权能的琪亚娜在伙伴的支援下击败了支配之律者，千人律者事件结束。随后圣芙蕾雅众人为无量塔姬子举行了葬礼。</p><div class="note primary modern"><p>从这个篇章起，崩坏3的剧情的地位在我心里就拔高了，真的很精彩，完全可以做成番剧的说！<br>我们同样都有同伴，为什么你们坚不可摧而我们却会被击败呢？（大概是这个意思）<br>千人律者篇里，身处在那个环境中，可能我也会成为千人律者中的一员🙃，因为内心消极，总是在报怨这个社会的各种不公，每天都想着世界毁灭算了。但是这篇引起我思考的是——千律最后说的，为什么我们也有伙伴我们也有同伴也很团结为什么还是会被击溃？琪亚娜的回答是：因为你们是由利益组成的，而我们是由共同的理想与坚定的目标，即使我们不在同一条道路上（芽衣世界蛇——琪亚娜天命——布洛妮娅逆熵），最后终会相遇，因为目标是一致的。</p></div>
+              </div>
+            </details>
+<h1 id="ao-tuo-a-bo-qia-li-si-ru-shi-shuo">《奥托·阿波卡利斯如是说》</h1>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1bY411b7k9&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
+</div>
+
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>奥托主教，一开始是从星穹铁道上认识的，很好奇他和杨叔的关系，就来继续看这篇了。按他的话来说愚弄了友人，愚弄了至亲，愚弄了世界之上的规则，为的就是复活卡莲，虽然但是，完全不管卡莲想不想被复活啊。看网上对他的评价也是毁誉参半吧，但是他和杨叔…怪不得杨叔看见这张脸（指罗刹）就认为这个人不是好人呢，有点好笑，毕竟奥托可是说过：“虽然你失去了父亲但是你还有我啊”</p><p>因为总是会有弹幕让奥托主教坚强，所以好奇的我从此知道了樱和卡莲的CP　🍙，然后去补了相关的漫画。嘿嘿好甜…❤️</p><p>对于奥托这个人物，感觉是整个崩坏三里刻画最深刻的人物，还有和他一起出现的卡莲，崩坏三的编剧对他们两个的感情刻画的很深刻，而对于樱莲cp来说，樱只出现在漫画中，根本没在主线中出现过。所以让我一开始以为奥托和卡莲是CP😑 …</p>
+              </div>
+            </details>
+<h1 id="wang-shi-le-tu">《往世乐土》</h1>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1fY4y1F7GL&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
+</div>
+
+<details class="folding-tag" ><summary> 因你而存在的故事 </summary>
+              <div class='content'>
+              <p>世界蛇。在之前与千人律者的战斗中，芽衣似乎进入了崩坏的根源之地，崩坏的神祗似乎想要将某种信息灌入芽衣的脑海，但被芽衣拒绝了。此时的芽衣质问凯文崩坏的真相。凯文为芽衣开启了一条通往世界根源的甬道，在哪里一位神秘的女子等待着她……<br>感触最深的 <strong>【往世乐土】</strong> 篇，是最先带给我思考的一个篇章。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/逐火十三英桀.jpg" style="width:600px;"/></div></div><p class='p red'>爱莉希雅：对于我们这些记忆体生前的记忆重现，所谓的虚拟存在。你是怎么看待的？</p><p class='p purple'>芽衣：看待？</p><p class='p red'>爱莉希雅：不管是早早牺牲的殉道者还是活到未来的先行者，他们终究是与我们无关的真实的存在。</p><p class='p red'>爱莉希雅：留在这里的我们只是一段过往，一道留在过去的影子。</p><p class='p red'>爱莉希雅：我们只能呆在这里触碰不了你所在的现实也无法陪伴你走向未来。</p><p class='p red'>爱莉希雅：当你离开这里之后回到正常的现实的生活中去，你也很清楚这里发生的一切都只是一个故事一个虚拟的故事。</p><p class='p red'>爱莉希雅：可能用不了多久你会忘记这些事忘记这些话忘记我们的存在，你会遇到比我更好的人也可能已经遇见了。</p><p class='p red'>爱莉希雅：你终究还有自己的生活要去拥抱属于你的明天，那样的话我们的情感我们的思考我们的意志我们的行为真的还有意义吗？</p><p class='p red'>爱莉希雅：对你来说对任何人来说，我们...意味着什么呢？</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/逐火十三英桀4.png" style="width:600px;"/></div></div><p>记忆体是本体留下的影像，本体已然不复存在，但是你们让我体会到的情感与羁绊，你们的精神思考意志包括情感带着给我的震撼与情绪是真实的反馈在这个实实在在活在现实中的我的身上的。</p><p>你们对我来说不仅仅是记忆体，而是带我领略与自己世界截然不同的另一个世界的向导，是给予我精神力量和引导我思考的存在，即使本体不复存在，身为记忆体的你们带给我的精神力量是巨大的，也使我能从另一个角度看待这世界。</p><p>我的确会有自己的生活，也清楚明这里发生的一切是个故事，但是在生活中触发和你们在一起时体会的情感，我还是会不由自主的想起与你们在一起的片段，总之是不会忘记你们的。</p><p>让我也见识到了原来世上还会有这样一个性格的人，不是总局限于自己的世界。总之，对我来说，你们的存在就像是精神力量的存在，虽然不在现实世界中，但是在我的世界中，这就是是我的答案。</p><p>这个问题就像是再问，二次元对我来是是个怎样的存在，这些人物既触碰不到又感受不到，完全虚无的存在，故事经历也是人为构造出来的…看了这么久的动漫作品，从小学开始到现在十几年了…</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/蛇蛇.jpg" style="width:600px;"/></div></div><p>我是怎么看待这些角色的呢，到如今也有结果了，长大了也学会自己思考了。很神奇，他们带我领略的一个个不同的世界，让我触摸到区别于这个世界的不同的规则，但是他们又有相同的精神内核，保护各个世界的美好，感觉像是在赋予我做梦的权力，主角团的羁绊与信任，让我看到了，这个世界的人际关系也不是只有勾心斗角和小心翼翼。也带给我很多我在现实生活中根本不可能体会到的情感。</p><p>因为我的生活太平凡了，接触不到其它的情感，但是二次元作品以及影视作品小说作品等这些带给我的情感真的丰富多彩，让我平凡的人生真的改变了许多。尽管是虚拟角色与故事，但是带给我的情感体验是真实的，也算是陪伴我的成长。</p><p>对于芽衣来说，继承前文明的意志，将你们留下的意志世代传承，也算另一种方面的永恒？</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/逐火十三英桀5.png" style="width:600px;"/></div></div><p>在这个篇章里，个人认为这十三个角色塑造的很好，都有各自鲜明的特点。</p><ul><li>傲娇的蛇蛇——梅比乌斯。</li></ul><p>乐土中最硬的东西就是蛇蛇的嘴。爱莉希雅教格蕾修叫梅比乌斯奶奶，这两个一个敢教，一个敢学。在看了《梅比乌斯实验室》的活动后，这是什么傲娇御姐，和克莱因好配哦！在实验室里迟到的被罚买奶茶，但是蛇蛇不喜欢喝，克莱因喜欢，而且不管什么事都喜欢找克莱因还经常对她撒娇，啊，在我心里的人设直接拔高了！</p><p>活动里的蛇蛇真的好好看啊啊啊啊啊啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/美丽的蛇蛇.jpg" style="width:600px;"/></div></div><details class="folding-tag" ><summary> 精神稳定的梅比乌斯 </summary>              <div class='content'>              <p>爱莉希雅：梅比乌斯～你现在的样子真可爱。<br>梅比乌斯：…<br>爱莉希雅：唉，真羡慕你，小小的，像个孩子。我也想当个长不大的孩子，没有烦恼，也不用负任何责任。<br>爱莉希雅：说起来，最近总觉得·····伊甸做的制服是不是有点紧呀？均码对我们这种人实在太不友好了，唉，这也算是长大的烦恼吧。<br>梅比乌斯：爱莉希雅，是你胖了。<br>爱莉希雅：真的吗？难道不是因为是你又变「瘦」了吗？<br>爱莉希雅：但没关系，「蛇是不会屈服于死亡的生物」，你还能从头再长一次，不是吗？我很期待哦。<br>————————————————————————————————————————<br>爱莉希雅：·····是呀，虽然梅比乌斯对我总是有些不坦率，但我可是一直都很喜欢她呢。<br>樱：······<br>樱：我不是很能理解。<br>爱莉希雅：你看，她从来也没对我做过些什么吧？<br>爱莉希雅：不过·····会让其他人感到恐惧的东西，对梅比乌斯自己来说，也许真的微不足道吧。爱莉希雅：虽然她一直不想让我参观她的实验，但你也知道，根本没有人能拒绝我嘛。<br>爱莉希雅：在看过了她的许多次实验之后，我终于明白了一件事。<br>爱莉希雅：那些会让一般人感到害怕的事情·····发生在别人身上，或者是发生在自己身上，对她来说其实并没有什么区另樱：没有区别？<br>爱莉希雅：是啊，我记得有一次走到她实验室门口的时候，我听到了这样的对话·····<br>爱莉希雅：「梅比乌斯博士，你的手臂断掉了，断掉了啊！」<br>爱莉希雅：「我知道！替换用的肢体已经在做了，你不要再吵了！」<br>樱：··.···<br>爱莉希雅：后来我又一次经过实验室的时候，听到的就变成了…···<br>爱莉希雅：「梅比乌斯博士，我的手臂断掉了！断掉了啊！」<br>爱莉希雅：「我知道！这就给你加一针镇定剂，你不要再吵了！」<br>樱：呃·····这·····可以看作是没有区别吗？<br>爱莉希雅：唔·····至少从态度上来看，她一直都很冷静嘛。<br>樱：…</p>              </div>            </details><div class="tip success"><p>在无限的生命中以及漫长的旅途上，她也曾恐俱崩坏、害怕崩坏，但为了生存。她还是用微笑意盖着恐惧，「<strong>无限</strong>」之铭——她并非是无限，最终还是会迈入终末的旅途。</p></div><ul><li>热情（不是）大男孩千劫。</li></ul><p>和蛇蛇有个小故事也很搞笑，蛇蛇为了实验，让千劫打她，结果在地上砸出了坑，坑里还有蛇鳞，让芽衣发现了哈哈哈哈。最后千劫为了证明樱的清白消亡…有点感伤。</p><div class="tip error"><p>他用死亡证明了清白，他用燃烧自己带来了信息。那带有「<strong>鏖灭</strong>」之铭的人，他的愤怒，他的真仅，永远不会销吸，但他也有想保护的人。</p></div><ul><li>活泼但是胆小的小帕朵——帕朵菲利丝</li></ul><p>“进货”是猫猫的主要工作哈哈哈，虽然猫猫怕死，但是猫猫是第一个战死的…</p><div class="tip warning"><p>人生的理想，那都不过是「<strong>空梦</strong>」一场，人生在世要活得开心自由。虽然她是最弱的人，但是她也能做到力所能及的事。</p></div><ul><li>说话语速超慢二人组阿波尼亚和伊甸</li></ul><p>切身体会一下阿波尼亚确实挺痛苦的，看得见未来，但是却改变不了未来，只能静静等待未来的发生，在乐土里算是一个小boss的角色。伊甸温柔大姐姐类型，爱莉希雅最好的朋友（磕一下）。我现在对她的那句台词还很有感触——“如果我能补全爱莉希雅的记忆，那么我就能成为她的一部分了”</p><ul><li>多（八）重人格的维尔薇。</li></ul><p>其中的每一个人格都是天才，贯穿整个乐土篇的全线，参团率300%，因为她芽衣才能找到爱莉希雅成为始源律者。但是大魔术师V2V总感觉带点沙雕气质，在其它的活动中，V2V的魔术总是在破坏…</p><div class="tip bell"><p>用真实创造虚妄，以矛盾反转意义。拆解自己正是为了成为自己。唯有创造对立，才能步入统一。接受…真正的「<strong>螺旋</strong>」之名。</p></div><ul><li>粉头发、粉耳朵、迷人又强大的女孩——樱。</li></ul><p>想摸摸樱的耳朵嘿嘿，感觉对她的描述不是很多，但是还是有魅力的角色…</p><ul><li>天真无邪的格蕾修和非常内向容易社死的科斯魔</li></ul><p>科斯魔是有点搞笑在身上的，看见爱莉希雅教华的结算动作，科斯魔默默在墙角看着并发出了“…帅”的声音哈哈哈，格蕾修总是让科斯魔社死。</p><details class="folding-tag" ><summary> 虽然但是这本书真的有用！ </summary>              <div class='content'>              <p>爱莉希雅：然后…看你的表情，你应该是遇见科斯魔了，对不对？<br>芽衣：是。听你的意思，他还有不在那里的时候？<br>爱莉希雅：当然啦，科斯魔也有自己的生活呀<br>爱莉希雅：但只要格蕾修想专心画画了，他就会认真起来，扮演好守护山道的骑士。这次…应该算是有些不凑巧吧<br>爱莉希雅：不过，这也是旅途中常见的小惊喜呢。你看，你又认识了一位英桀，交到了新的朋友，还有旭光的刻印一能接受他传承的人可不多哦。<br>芽衣：…关于科斯魔，你还有什么可以告诉我的吗？<br>爱莉希雅：这你就问对人啦。他是个非常温柔，又特别有趣的男孩。虽然话不多，心思却格外细腻呢。<br>爱莉希雅：其实我一眼就能看穿他的想法，但还是喜欢故意不接话，看着他面红耳赤斟酌说法的样子，真是种奇妙的享受呢。<br>爱莉希雅：为了让芽衣也能体会这种快乐…锵锵！《沉默少年一百问》，和之前千劫面具那本是同一系列哦。这一本还要更受欢迎些呢。<br>爱莉希雅：来，送给你啦。芽衣：…不用了。那本《千劫面具一百问》…我还是先把它看完吧。</p>              </div>            </details><details class="folding-tag" ><summary> 画笔，臣服于我！ </summary>              <div class='content'>              <p>爱莉希雅：啊，芽衣，你来的正是时候！我刚想去找你，来帮我「调和」一下呢。<br>芽衣：调和？<br>格蕾修：啊，芽衣姐姐…<strong>嗨，想我了吗？</strong><br>芽衣：爱莉希雅：喏，这就是我和你说的，需要「调和」的地方啦。<br>芽衣：这…是你教的？爱莉希雅：嗯…怎么说呢，是，但也不完全是？<br>爱莉希雅：啊，难道说…芽衣，你还没注意到吗？格蕾修的「特殊之处」。<br>芽衣：格蕾修…她被「保护」得太好了，我能接触到她的机会…的确不多。<br>爱莉希雅：嗯，也是。不过嘛，就算不是这样…芽衣，你也一定要严格控制自己与格蕾修接触的时间哦~<br>爱莉希雅：要是哪天，我听到格蕾修说出什么「<strong>画笔，臣服于我</strong>」之类的话…不行不行，实在太奇怪了。<br>芽衣：听你的意思，格蕾修…她是很容易受到别人的影响吗？还是说她会不自觉地去模仿别人？<br>爱莉希雅：恐怕不只是「影响」和「模仿」这么简单呢<br>爱莉希雅：打个比方的话…你可以把格蕾修看作是一张干净的白纸。<br>爱莉希雅：虽然还拥有自己的材质和特性，但如果不小心在上面沾染了什么东西…它就不再只是一张「白纸」而已了。<br>爱莉希雅：你看，现在就是这样的情况。我只是和她多待了一小会儿，她就快变得和我一模一样了。<br>芽衣：的确…是非常明显的变化。</p>              </div>            </details><ul><li>老实人华。</li></ul><p>被爱莉希雅借走了不下16次羽渡尘，每次爱莉希雅都说是最后一次哈哈。</p><ul><li>总是闭着眼睛的苏美人。</li></ul><p>一个悬壶济世的好人。“我们通常把事情按严重程度分为四个等级：苏没有反映的情况、苏有反应但不会睁眼的情况、苏有反应且眼皮发颤的情况和会让苏也瞪大眼睛的情况。”</p><ul><li>爱嗦面的凯文。<br>已经到了一提到他就想到嗦面的场景的地步 卡斯兰娜家族的祖先，擅长嗦面，团建时会带着大家一起嗦面…</li></ul><details class="folding-tag" ><summary> 凯文 </summary>              <div class='content'>              <p>爱莉希雅：凯文这个人呀，安静极了，从不会和别人谈论自己做过什么。面对肯定或非议，他也只会留下一个背影。<br>爱莉希雅：他是个被命运推操着前进的男孩…不没来得及说些什么，就被催促着做出了行动。<br>爱莉希雅：所以想真正了解他，你只能从他身边的人那得到答案。</p>              </div>            </details><div class="tip cogs"><p>在燃尽的大地上，那个许下悠久承诺，卡斯兰娜家族的命运在此刻做出决定。无论身负着什么命运，无论跨过多少世纪，无论付出多少代价，人类一定会战胜崩坏。</p></div><ul><li>完美无瑕的爱莉希雅。</li></ul><p>一开始让我们怀疑她是带着目的在这出现的，把她认定成坏女人，结果最后她真的，我哭死，对所有人都毫无保留，真诚的对待每一个人，她是这个组合的核心人物！爱莉希雅会回应你的一切期待！这个人物刻画的很好，在现实中我一直没有见过这样性格的人，在游戏中认识，给我一种原来世界上还有这样一种性格的人。</p><details class="folding-tag" ><summary> 摸角名场面 </summary>              <div class='content'>              <p>芽衣：我的帮助？如果是我能做到的事，那当然·····<br>芽衣的话语戛然而止。<br>她注意到了爱莉希雅向自己投来的视线，一如平时。然后，它们慢慢向上，向上·····最后停在了一个恰到好处的角度。那里什么都没有，除了她的双角。<br>芽衣：·····<br>爱莉希雅：嗯哼<br>芽衣：你·····<br>爱莉希雅：我想想，这应该算是…「伏笔回收」？<br>芽衣：·····<br>爱莉希雅：嗯·····<br>芽衣：··<br>爱莉希雅：嗯·····？芽衣：<br>爱莉希雅：哦·····芽衣：·····<br>爱莉希雅：哇·····这可真是····和我想象中完全不同呢····<br>芽衣：·····摸够了吗？<br>爱莉希雅：好啦好啦，可以啦。谢谢你满足了我的好奇心，我能开心一整天呢。<br>芽衣：所以，前往至深之处的方法·····<br>爱莉希雅：放心啦，我会好好加油的，说到做到。等你准备好了就出发吧。<br>芽衣：·····<br>芽衣：（刚才······应该没有人看到吧····）</p>              </div>            </details><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/爱莉希雅.jpg" style="width:400px;"/></div></div><div class="tip ban"><p>那绚丽的花朵、那美丽的少女，已然破碎已然消失。13人的献祭，那飞花般的律者已然诞生，无暇的少女，将人世的美好尽收眼底，拥有「<strong>真我</strong>」之铭的人将善与爱彻始终。</p></div>
+              </div>
+            </details>
+<p><strong>让无人传颂的歌谣，再度启唱。为历史尘封的故事，续写新章。</strong> 高洁而纯真的灵魂，踏上旅途。</p>
+<p>愿掠集之兽爱佑其身，赐予「空梦」的自由。      愿渡尘之羽爱佑其身，赐予「浮生」的坚忍。<br>
+愿绘世之卷爱佑其身，赐予「繁星」的纯真。      愿噬界之蛇爱佑其身，赐予「无限」的渴求。<br>
+愿黎明之哨爱佑其身，赐予「旭光」的意志。      愿寸断之刃爱佑其身，赐予「刹那」的决绝。<br>
+愿善法之瞳爱佑其身，赐予「天慧」的智识。      愿坏劫之焱爱佑其身，赐予「鏖灭」的赤诚。<br>
+愿愚戏之匣爱佑其身，赐予「螺旋」的奇迹。      愿璀耀之歌爱佑其身，赐予「黄金」的光辉。<br>
+愿深罪之槛爱佑其身，赐予「戒律」的慈爱。      愿无烬之剑爱佑其身，赐予「救世」的理想。<br>
+愿无瑕之人爱佑其身，赐予「真我」的回归。</p>
+<p>我们于此赞颂，始源之律者的诞生<br>
+我这支歌将抚摸你的前额，犹如那祝福的亲吻<br>
+当你独自一人时，它会坐在身旁与你耳语<br>
+当你陷入人群时，它又会保护你远离喧嚣<br>
+我的歌将成为你梦想的羽翼，它将载着你的心到那未知的边缘<br>
+当黑夜遮蔽了你的路时，它又成为了照耀在你头顶的忠实星光<br>
+于是，「始源」的故事迎来落幕<br>
+于是，「始源」的故事迎来伊始<br>
+以我为终……<br>
+以我……为始。</p>
+<p>🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼但是还有另一个版本很心痛也很真实🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼🌼</p>
+<p>让那最强大的，遭受救世的孤独。【救世】      让那最真挚的，覆上背叛的面具。【真我】<br>
+让那最悲悯的，受到命运的操弄。【戒律】      让那最优雅的，抹去傲慢的资本。【黄金】<br>
+让那最复杂的，无法于演台起舞。【螺旋】      让那最疯狂的，丢弃生存的意义。【鏖灭】<br>
+让那最觉悟的，陷入我执的困扰。【天慧】      让那最牵挂的，失去唯一的系念。【刹那】<br>
+让那最向往的，打碎过去的理想。【旭光】      让那最好学的，因生死陷落无限。【无限】<br>
+让那最单纯的，漫步黑暗的星海。【繁星】      让那最谦卑的，封闭珍惜的感情。【浮生】<br>
+让那最快活的，感受痛苦的真谛。【空梦】</p>
+<h1 id="shi-yuan-yu-zhong-yan">《始源与终焉》</h1>
+ 
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 55%; ">
+    <iframe src="//player.bilibili.com/player.html?bvid=BV1Kj411g7Lu&page=1&autoplay=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts" controls></iframe>
+</div>
+
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/始源与终焉.jpeg" style="width:600px;"/></div></div><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV14D4y187vh?p=15&vd_source=c7e9411c7d0668bcdce6b5de74e67c6e">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/www.bilibili.com/video/BV14D4y187vh?p=15&vd_source=c7e9411c7d0668bcdce6b5de74e67c6e.png);"></div>        <div class="tag-link-right">            <div class="tag-link-title">和雷律的对话 深有感触</div>            <div class="tag-link-sitename">07：33开始</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><details class="folding-tag" ><summary> 呜呜呜 </summary>              <div class='content'>              <p>雷律：看吧，那个你拼命想要守护的人，如今她的终局近在咫尺，而你甚至可能亲手为他带上中演的冠冕。<br>雷律：——你，准备好了吗？<br>芽衣：…当然，平静与安宁，那的确使我的愿望，直到现在，我还常常梦到千羽学园，梦到圣芙蕾雅的时光。但世上没有什么理所当然。无论哪个时代，人们都是在同样的道路上负重前行。这并非抛弃或背叛，而是我和她共同的梦想。为了走向自己选定的明天，我们都将竭尽全力。假使真有【终焉的冠冕】…它也不会之落在一个人头上。<br>雷律：…很好。面对这份来自己身的矛盾，你已拥有紧握枷锁的决绝</p>              </div>            </details><p>还有芽衣继承始源律者那里，回顾自己的成长经历，这么一看芽衣真的是在成长，从小时候的怯懦到现在的成熟理智，内心强大，遇到任困境会先提出问题，再冷静的逐步解决问题，然而我败在了第一步上，脑袋空空根本不知道这有什么疑问，要提什么问题呜呜呜呜，所以真的还有点佩服她，毕竟我这么大了也不成熟也不理智还脑袋空空呜呜呜，想成为芽衣这样可靠的大人！</p><p>芽衣与雷律的对话对我很有感触。看这一段的时候在思考一个问题：比如说喜欢的人为了（保护世界？家国大义？）想要承担起相应的责任，这件事是她一直以来的坚持，而且是只有她才能背负起的使命，只有她才能做到的事，代价是一定会牺牲她的生命。这时，我会怎么做？</p><p>其实一开始我和雷律想法一致，但是听到芽衣的想法后才明白，也许放手和陪伴才是唯一的正解。既然她真的想要这么做，那么我会选择放手让她去完成，而不是成为她的锁链去束缚住她。我会尽自己一切努力去完成陪伴这件事，让她明白不论她是怎样的选择，我都会支持她，不会成为她的枷锁，更不会让她独自一人经历这些，虽然我替代不了她背负的使命，虽然结局可能真的会无法挽回，这是她想要的，我……会尊重她的想法，尊重她的选择，也想让她明白这一路她不是自己一人，还有我……想和她并肩前行的我，想要和她一同经历一切事物的我，想要保护她的我和想要被她保护的我。</p><p><strong>喜欢不是自私的保护和占有，而是学会放手与尊重。</strong>　尊重对方的意愿与选择，这才是维系两人感情的最好途径。自私的保护只是感动自己罢了，占有也是给她加了条锁链束缚住她。</p><p>最后，两个人就是要互相保护才能前进的更远！一个人的付出多累，就要既付出又享受！</p><p>一些设定：终焉的权能是使文明轮回，这个观点我第一次听说是在高中的政治课上，我们老师给我们讲的，我们现在的地球可能是经历了很多个文明轮回，因为好像发现了不应在这个时间段出现的什么东西，但是对我来说，这个设定很神奇我一下就记住了，现在再看这个终焉，感觉莫名有些熟悉…还有圣痕计划最后阶段的捕梦计划 这不就是三体人的思想共享透明，感觉编剧看的书一定很多，游戏里有很多世界名著，等有空我得了解一下，尤其是比安卡的成长感觉就是贯穿了各个名著。</p>
+              </div>
+            </details>
+<h1 id="you-lan-dai-er">《幽兰戴尔》</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>看完了幽兰戴尔的视觉小说，小时候的比安卡真的好可爱哦（人物形象有点像妖精的尾巴里初代会长的既视感），幽兰黛尔原来是把剑的名字，别名小幽，形象……很有特点，是不是该说它确实是一把剑的好呢。比安卡小时候的人设真的好傲娇啊啊啊，和崩三里面的幽兰黛尔区别好大啊，小时候和长大后都很可爱。看完之后完全能理解崩三里的幽兰黛尔闲暇时为啥总会在看书了。在世界泡中和幽兰黛尔一起冒险的就是那些世界大文豪。莎士比亚一开始我以为是男生，到最后竟然是女生，怪我有眼无珠了纯属是。</p>
+              </div>
+            </details>
+<h1 id="gan-hai-zu-amp-shuang-xi">《绀海组&amp;双希》</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/绀海2.png" style="width:600px;"/></div></div><p>啊啊啊啊啊磕死我了！怎么会有如此相配得两个人呢！给我在一起！！</p><p>剧情啥的就不说了，详情看漫画。关于主角两人我得发表一下感言，咳咳。</p><p>先说Bronya，一开始在主角团里没有特别关注她，其实当时主要在👀芽衣和琪亚娜，只是觉得个别时候还挺可爱的，毕竟是hanser配音的。但是！看完漫画后好心疼啊啊啊，尤其是她救了希儿后希儿还害怕她，从那以后她就不再使用武力了，被杏玛尔欺负推下楼梯的时候也没有还手，即使她能直接干掉她，但是她！没！有！就因为害怕希儿害怕她，她就宁愿忍着也不出手。后来希儿看到这一幕因为害怕没有出手相助，自责的把自己关在箱子里，bronya也第一时间找到了她！并且还安慰她什么也不做也没关系。呜呜呜bronya你也太爱她啦！你怎么这么好哇。<br>最后希儿参加实验被困于量子之海时，本来实验都撤销了，但是她用自杀威胁可可利亚让她再次参加实验。在里面再次见到希儿，宁愿自己消亡也不愿意去没有希儿的世界呜呜呜好感人，还是希儿给她含泪推出去的，给她留了重装小兔作为陪伴，感情模块也被销毁了，感受不到悲伤……但是一脸(・へ・)那种表情真的很可爱，想rua，而且主线剧情中她们两个相遇了……虽然但是我好想看后崩里面的大鸭鸭和希儿在一起的场面啊啊啊，好在意啊，好在意啊……好想看啊</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/崩坏3/黑白希儿.png" style="width:600px;"/></div></div><p>希儿，从主线剧情来看，这个角色说实话一开始觉得很怯懦，但是从她的经历角度来看她真的做的不错了，这样一个可爱单纯的小天使，我要是bronya我也离不开她嘿嘿，但是希儿不止一个，还有个傲娇的黑希，完全的保护着小可爱希儿，小可爱希儿虽然害怕也要保护你的设定真的好戳我嘿嘿，而且处处为他人着想情商也很高，认为她怯懦是源于绀海篇的漫画，看到姐姐被欺负不出手而且姐姐救了她她竟然还害怕她呜呜呜呜，但是再仔细想想，从小生活在孤儿院，没有人依靠，这种情况下不害怕才难吧。黑希因为她的自责和想要保护bronya的心情，把杏玛尔教训了一顿。胆小而又敏感大概是希儿前期的代名词？但每个人都是会成长的，主线35章后，希儿去办任务的时候，感觉她真的好冷静好理智还善于思考。这章主要是讲黑白希的故事，黑希被分离出来了，好在意啊好在意啊好想看大鸭鸭和成长后的希儿在一起的画面啊啊啊</p>
+              </div>
+            </details>
+<h1 id="xing-yu-ni-xiao-shi-zhi-ri">《星与你消失之日》</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>他们说很感人，我去看，惭愧，没哭出来…就是舰长无数次轮回去救观星，最后救出来了，但是有些地方我真的觉得很腻歪，是我忍受不了的腻歪，完全没感觉有多甜得感觉……导致我没觉得这篇有多么得感人……是我的问题吧大概。</p>
+              </div>
+            </details>
+<h1 id="yan-xue-sheng-cheng-yu-sha-tie-guo-du">《盐雪圣城与沙铁国度》</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>1.5部：这一篇的主角是可爱的希儿，黑希和白希在这一篇分离开了，唔，只是物理意义上的分离，不是情感上的分离……有一段剧情我认为很不错，在黑希的梦里吧应该是，只活下来了一位希儿——是黑希，但是黑希意识不到是自己活下来了，一直在扮演白希的角色。影子和本我的问题，有点深奥……</p>
+              </div>
+            </details>
+<h1 id="mao-cheng-qi-yu-ji">《猫城奇遇记》</h1>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <p>番外：主角是苏莎娜，在主线中没怎么get到她，但是在这片活动里以她为视角进行得展述中，有一点好戳我啊啊啊啊，就是在她打完那个大机器人后，强装镇定，亚尔薇特以来就绷不住抱着她哭，不知道为啥感觉很可爱。反派史丹哈哈哈哈哈只当它是可爱的小猫咪哈哈哈哈，史丹的配音真的挺可爱的说。</p>
+              </div>
+            </details>
+<h1 id="fu-er-mo-si-hua-xun-yuan-man-lu">《福尔摩斯·华❀》 + 《寻鸢漫录》</h1>
+<p>以符华为结束，这个时代即将落下帷幕。但是符华啊啊为什么要开着崩落形态去买菜呀！！</p>
+<p>寻鸢漫录 活动壁纸：</p>
+<p><a href="https://bbs.mihoyo.com/bh3/wiki/content/2997/detail?bbs_presentation_style=no_header">https://bbs.mihoyo.com/bh3/wiki/content/2997/detail?bbs_presentation_style=no_header</a></p>
+<h1 id="zui-zhong-zhang-yue-suo-ning-wang-zhi-xing">《最终章：月所凝望之星》</h1>
+<p><a href="https://bbs.mihoyo.com/bh3/wiki/content/2982/detail?bbs_presentation_style=no_header">https://bbs.mihoyo.com/bh3/wiki/content/2982/detail?bbs_presentation_style=no_header</a></p>
+]]></content>
+      <categories>
+        <category>游戏库</category>
+      </categories>
+      <tags>
+        <tag>崩坏系列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>抽卡记录：星穹铁道</title>
+    <url>/b0deba33/</url>
+    <content><![CDATA[<h2 id="qia-chi-ji-lu" id="卡池记录">卡池记录</h2>
+<details class="folding-tag" ><summary> 点击查看内容 </summary>
+              <div class='content'>
+              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>卡池记录</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0上 希儿</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0下 景元</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1上 银狼</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，但当时是第一次玩抽卡游戏，然后歪了姬子好像是。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1下 罗刹</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，歪了姬子后好像没票子了，没出。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2上 刃</strong></p></div></div><div class='timeline-item-content'><p>没抽好像，也在攒票子期间，但是完全不懂什么大保底小保底什么歪啥的专有名词都不懂。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2下 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>桑博 + 1卡芙卡 + 1希露瓦</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_卡芙卡上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3上 饮月君</strong></p></div></div><div class='timeline-item-content'><p>跳了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3下 符玄</strong></p></div></div><div class='timeline-item-content'><p>想不到，30抽中了！！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_符玄上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4上 镜流</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈哈我青雀溢出来了哈哈哈，但是镜流120抽拿下</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_镜流上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4下 托帕</strong></p></div></div><div class='timeline-item-content'><p>下了10抽，无，一张也不剩了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5上 藿藿</strong></p></div></div><div class='timeline-item-content'><p>一张票子也没了，在攒票子ing</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5下 银枝</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈没出哈哈哈哈哈，精神状态良好哈哈哈哈哈哈哈</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_寒鸦上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6上 真理医生</strong></p></div></div><div class='timeline-item-content'><p>邮箱中收到啦哈哈哈哈（仰天长笑）啊😘，但是要说一下，以真理这个名头送角色真的很显大义。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_真理医生.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6下 阮梅 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>有点后悔没抽了，开年第一次十连抽，感觉很适配卡芙卡和黑天鹅。我只能天天蹭别人的用。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/24开年十连抽.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0上 黑天鹅 饮月</strong></p></div></div><div class='timeline-item-content'><p>啊啊啊30抽，没歪没歪哈哈哈啊哈，但是小青龙的池子80抽，就是说我的小青龙怎么变紫了啊 😑</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_黑天鹅上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0下 花火 景元</strong></p></div></div><div class='timeline-item-content'><p>虽然很喜欢，但是跳，因为后面的黄泉能跳怪，我得留着票子，大号攒票子ing。啊啊啊啊啊小号all in了，没有！！根本没有！！</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.1上 waitting</strong></p></div></div><div class='timeline-item-content'><p>等待ing</p></div></div></div>
+              </div>
+            </details>
+<h2 id="shou-ru-nang-zhong-de-jiao-se" id="收入囊中的角色">收入囊中的角色</h2>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0之前角色收藏.png" style="width:350px;"/></div></div>]]></content>
+      <categories>
+        <category>游戏库</category>
+      </categories>
+      <tags>
+        <tag>崩坏系列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2023年碎碎念归档</title>
+    <url>/5835202/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="7c4685dba9561269fa9ab567b53e5ab945cff64d12d498f7b61fed54ab93e2d0">0995c06c86accb8f1a6f2e90f5979125cc655942e2ea96fb43962566e91874c109ed089a07d55f141ce9d6efb93598419f362f998f13fcdecb613a95ee46aa11fc049167e90c1b6d32ad2a78cdd126194545ac6841eaf9eb0c7b24109f0ba9ebf3f50eed5e0ba8f641564bad889b5ffe55056150e3eece2c242b59ccca486c00c54bf12c4deaaf346da39179d172c22424ab394b1e830e85cc50888e2702ac2c9f04208d3f2f3933bf9c40e778d8a4e925eeeb9615ffe84d03cc1503ea51ff691534de040602af669d6720ef347e382c1b30812a60e6d001f922ef6e05ab006c92db30971e6e743040505eff64c2e88a029030192aaa399218fbeaf75a4ecd20e2b314ce61dfc516d7332ccf7d72477a55b13529af969419daefb7d4d3ec1fd2824c3e6d7bf79e74585704ad285b52b9bd7bf907a9aa3d06980e99459a5ff0329ef5d279919d560e581b3c226a96da8e68c5b1b2ef2db383a8210e456993ddcc6ee526acbdd448a210749a641c6fe10e13eea822b82c93e4fbbd45dad9e7ec44a6b3a2c43fe90f01b69f5884450bc4f38a3e63d438a3669dbbea52dcda2dfb9e1d082996cbe03753ef1b430e5635fd48c4d0633d29f29e6f67d1ad778c210ec674a6efcefcbfb0fcfe510bfcda282d20bc8c5691ee057169799fbc585c21d579bb38ddf9efbd8824fc877ff3d00e07a3c6b1d2d831d0a1fdd0e3fac1eaa86e799ba7576b4e5167492e5cfcb4826a9683aa5fa52aa9cdb1a9dbd668c70944b7980add7b78916d7dcafaf2a87e7c16dbbdbc348bd4ed7a8fe031098e6891aa620f58be623b8174d0a798755df1e17eb4410fd07440c43b6da89f9b2546477c6f70a55cae53c9640a21f488227a4f949d6c91dcf311118b68e43319a00fa32a8fc339073a138fbfbb37bbe0942b23099afe9d83224d936ebd5cb0253134d1897273a19c73a118226d75d1ead29accf03b775902ad9396fe1c0c5e7b3c6d7b7e08590763b721c4d11f3e25fb9e65cf1f0349493c62b2f61088e60d0d44990063c0ec5fd0d57f5650e808506e510078f62fbff2bf7af079fb2198823afe5d1426adb2acd6638204c0e826a905b91c8095f766b6f201d5bf99956c1f05dae9948edabbe715a7abe82cf9ae916c052142533f5dc790b8112f859581f214067d551473e4873afa21a582c5525fceb8fdc131998f910525ca41a6a5505229394477cb361b0e38981c4b27f42b3ff7dd273f94f3e09a7fa85aab0d9607bc90c3b84eaa2803a0f4f4c2d15b432a6ac5a2a99b29ef2332e15f46d12cc80d9b741bfe6f263615b2c7a276c35c314e6c1fb12920776632f9003bda21475e3bf185a67f277b7fd6f6773d3b0b016a8a236d10ac8c20f909b354356058413b696d935fc639f61c5199e16e975a37cd7b26d902eb1bfdf5d0c93d4acb5677a33a25fe1078af37919d9c8f0e01166821792c38ab29103423bce0f5fa485d119a2878bf0f6883cb5b0015e73fd62fef53900d8a6d51875aa37a9ca2ab29ead550c2d2a6135fe8ecf1003ac841a3f658198439ee27fe597409b6866163f5f34c46b74ef489c98431bedb92b7477313cc87eb976c9a44305ce1cbd662c924b7c20c0428f6cc40feff347c4bfe6e95b7f53af78524597250c849bbf340db63c9a09ab19ec38875facac917c6836d87a3a4ddc0698c23febc47bff5e83acd313091d36be2aebd3e3e4d046888fc7ac329cc7a0c51e097a4f0c7f3d1dbc9f6ee5d365ec1a3d2a3d7fe3ba2757733b006dead43aa51c536b4ed16a75f13d7386fdd266af5dfd3007fb298f72fcc734110d0cb23a48c1768c77c89d3f36ce08d590e4b0ab43d156da587e45e4c0e4a1766a026abeffec6bd24783c7917408a167d9542e5dca88986b2dd23af6d49a24b29b58c447eaa2097d6b60f1036749f71b1a8c6ec6fe8a97fc9813af84bc1ed7a766931bb16e4dc5a01e6bb2839823354762861b2e285eab8657fbef9e64cb7fb935afce1068b938b01976ff788a1dacad9154d7de402aa265b82267f01d9549800330af982354b4a3fc1defd9bf471a2d282b12c9c3e8fa8d7f2782dcca7ea0d49ee976ab9b35a31d38628162b2a1487adfd4fb1bf8cbe78209be4359efda4f818ed85b14e28af5d37d644901df75a8dabeeca14b7b4bfa2d5ec352147e20becd639224de3a16dd74c3374d49f571e9835dd409ca7021d49dcf50b486a3fd5afdcfbd1dca988d525010be515f0d4b12e6c953895f88edf556da762024133ff960bb8d627a90eb6358b4b56131b7a4527c8beef8e56069054c5509903bb806710384018327fb563ed3e33519fe60fc097599d71256e9ec9a47b5d057f818e0a5602af4e20281b3fb404db84f29029b7aac15a1c09f3ce40f1610aab79b187a6aa95b2c4ab42714231b25cc52910fe8bc680e76cf3319dd8b632dc3e08dfa1751debfde80c974806b1f99c44d38612892334875b2c8d16be884fcef5c65b98c28619dc10e8c8df961d33bcb78a9e6d5e974239d99fbed9a7dfd03626ecf1d4561f3df92cb7ac121b9dcc3323c457c4f8dd2496c8a2ab995cbe73592bce8b05291d0a7ac44d44bcf264e71f60922c7405207d55a3179315798edb96be23e68613e541068dea90e2252e6a8aa93d4e41766ea4a2b53820662fd68fe771d6a942d14e948873dfea33d15a43aff6f857780f8fdc76f76e79f4b1bfb66c6c946a589378a59555cb530f01609a59c8ac3529f72ab3bd4325933ba1d0c7128d544d73f75c0aa3d17fdd56be54e73b934252d0c4bd46dc64b77223cbeddb21ae49e854a6f8e688a5ceb4eaabf3ebcf328c9e034b046844859ac568c8de410f30cd8b60e20a0a1ee241965945bfd1d71ac7fdaee4047a534841887b5297356be86999381722c2650ef3100a3c9015edd726bdb09929b81e3ece1eb642af5211811c105b1302bc9ab132dc5ff6f6b389763969e66616502e3cb32b17d42fc6744c09dee10049ec7ae49269531e36aa306f307c8ed7060197f57845baa2b66f2dc9a8a3b763a02e2e43cc9a5f82f66b9cf43fc17141d5f9ec734328b500bbb4d2237bdb93145112abe084824893142982cd8d086ead2562e59bb08be94e8fb62c85127960c1364356d66fc8d070b7ee0659202e580cd7014a3fa805c0c1f7104afc486a08bfeab25b82de7fbacb690c3230dd4a2b7692fd94a5f64302557b44dea9b2a718868766ea990f4e60dd94810ad2d3f56009280fff480617ee631dd0d2d26e43bf8d6b2edad73ff6ccb5c692b3b8e317ab22a28f07d00b55fdd00db21614857b78d89d058da59d17718fbd66670ed8ede28c8de69eb7912cb66fa389dd5f51b50eee09ecc258dcb0a791bf9da2dbe5390904a09570af7e389c9d5f38f6f1c0049e5e518a0091bc6f08624726b08aa9d710b828d281c70f4fb264057f88c7b99877dda2e7a575c313e12362e3c0c6a28f1c6a9542f92030bec741992750f78b4556830b1c1a58a2c1dc8acc7a4abb0d71679b6243c978f47949f65cdd3e28f60eeb0197b9a894a2793fb409b4847f822f4b6f91f717ec9f928d7c59951ab897fd27abd3428d1efeb4e2fb3329d7cc16dc5f6eaec065306bf3553737a0e5e94c029ba1664fbca9f7bfa9590fb4b47f504c4489be746d9313846a12837d01349c8c902dea973791eb433ced8e8a95a7e1038db6e214be5618f4da38a96e831d25fd3c2f1f581c14f23c6136201fba9f4a343762a1d17decf5d51ea014b1e5915e6f44d4f7b7631522965edc0519472942e796e1daab93956df61f0f8f6a2e9bad164d3742c14ce9e9420fade502d2d42b64f68858c3d6638bef9d1496869c02c6464b35f7208bb2eff149b991279f8d14e9e54e65e273caaed153027c8724de4de2ae518097affdeae4ef5a5d5c99adb9759fb6d1a0e80018c0d3840a0db5056e0ddf3ecf3d6424bb7c069d22753b83f65f07e13817b2a3c31d0717feceb6ed40d131a67b5c3cbac4720919c6f669528bc7e1e2c205bb9ef99871246f460680df341af481c5547959539dd890c8a8875af606ec1f1c83e9c27d14edb5fdbaa138de436fd68a3a62749b51e7c179ef43546904c62dce8e67ff31512b596f618901f9506bf2a6b5f51e14b3064b51f1fd636ca4875b1a53113a8b24f8599b831a46e2afe6c9217801bbcddf6db922f6cd5e4419754e152efea3b5efff9ba140a1922c5247005ad48b23e2ed5157866cb05f7666c768fab900937dd7e3f7baff43a468cb65dde444b9bd789307dedf704a074a55a178f8dbcaf60608c698d6025d5ad8466cf675ef6a63463f18638fea6ec35a7470c1d3d10eb0083f49544d5f0345e406b1a89d290e66948ebb92244ce7e563233a693360e13c67326bafcf75157355d9aa2b9cf393493b16578c7345edaf4a1cd0e5bbf824458efd845dd6077ea85d61e2b07c662d32fc2b7cfe9b367a5ab8ae3c5da683cdfed2c7bf032b04687cfd6382792d32844494573694f49b2ea0e23193b58f16620094fa1a625b7d22f3e842da93038dd716a3308c751fab5d31a2656a0bd703b740cf9a650e186649bde625bdb0c44ce819a9e86b21fe7e9bbcf9a197e240686f45dd469ee53ca24e85a2ce4d1048fe612738ee8b97333212d0e0796db0ad6badbbb84df4b37942d72a5a23f9c2b2834108ed9923e9624dd038009638560b79781c0f0a7ecdd11b567a95bf4966b369bf5378eb8f7b0f4187a3aaf69619b29f74d5dc085024f052acfc0134ab62e044c0174576861d9ecc08529e54a10d4e551df4b923cc6b9c8fdedd0c133b8e73234c8f71d0689c2f0058506a8c75cdd6f6496673db882851fdf005f5835ae49fb20fd8013a5d9c71a6cd76f865a91f6d13ce9ed7236c6092f0cb810e65de7bb658d15075ce001f2fbb687808ef7ba19016ac7cfad3f08314d79e0c27f435e03fac0c7f97713ea2b723e782602a508615b488025f78d328b1df6f7be696faa066f723f4d117ada9385eef1fbe13ac29556008735588f0899af9285907e251b6f0e9bd503507f60fe84f93e577d6ffe5d83d8af0a118fd77702181737c2a93444e19771120627e0833d6442d6bc3931b7c6b55a3cc67ba7590af90e2b7d6ecbf637a29906bee986efb41c51289ba367e64059c4715cac988d408351f18229e327203a455910dbfc31f140a98ac09997b9bd95ec683a61641a3c9123969afec8e3563a0cacc315502533d52caaa608f0c50a519d509695565ac5611c31928f9c2654c376d126f57bab7a2c0c1fbfd05fd0acb325e5c307895a52965bf5b0a3d3e9f3278692089a3022e9fc4f5af2976c445f7a350ecdaed7e5709866e0db7a482036ffb361ac7427e612d3d68f90004175a6fe16b11fe461945c18a121657677662ef9908af7814ac911dd0be0235701ce0b0a0843731467f7c7aca52a4a5f3801f8e6ed858d6313d10f0064715264ea8ab22f79103bff2bc41c8a5a3f06467fbf8fbf22bb29cd8ab4afdbcfa7e2cd44c70e5ebe62fe2aa2243e8dfdf1100df94a609e5f9e10ee21d0561146f876b678c96ede023eb88e91ceb279b956c6c6e017e9f4495b7f2ed7ae9d3f808b92a50aa2cd0c6a7887ff3fdcb8a350283a0c647a25a029ca0557185e2d37bd370ed71df0ff476700b88cb7a05edc4d421ee08ac5788c864041a18f3e10afbfc57c474eea4771ed31519673764d0f6bd71fb502f816703512935b0490938218b47ab6950460fc04af1c97af6fa20517c53cf7840afca11296383858e9b5debd77ad6cb94eb6c626501d8c1d79a2cd701ccd6b24171800e033a13f9db8583453183d2bcf4807140a18e3bf0e01518f099c9697a461062c1800c4f3ea8d79bfeaa10d3f3d074c52cc9129ac8132a3a32b331b3cd6ee5174303de524af5816a9d24fb752cc842371814dd3a01d94b9a75a392dac4e6a04ea2ae2713b422c524359a0837ba940994b708b6b2cd08fd04aaf0bfdb9b18443bbdfc530a09e1f62462343406ba5bc1f5b3c9768f494454b3b72c16cb580bc9a951faf79ca39996a236b8e5535153b9e1524e19410aac78bbdb11674bf8bf580b1183e06615936e9a88256e02f0daa37a611aff7f501a7665108ec046ff19d2e739a0965522dfafaa8c9822d2b58b1db6f57010b021a8a35044cebdd936dc29ded3192c48c9ac7513ba424a045a1e9c3e3bb5449eddfb44a493d30375c1d7f68ffe30b1a5c1cc021935152e939b5407c711f8452c8c1bcf4afe515ad2ea1045e3c82e1970a4bfe5d04fda362f32b48584b4803b91eb545c7795db499bf0387e79467736398e420554a56dea8b181bceb36b802bdb9a02c946710419ee7de6e8b0a5c97f76994f92c48c60425ca1f7888276bef96133c6ad372921b0778dc6b973866266f803a1834ce555ea5984d52d661f9b24221397d8d0ff1aa98370742a1109e57d9a4c31a0cbc359848d6517bb4e42e20d73ff98bab835082b2d89c84daaa895813307aa536562e920</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>观影碎碎念</category>
+      </categories>
+  </entry>
+  <entry>
     <title>崩坏：星穹铁道</title>
     <url>/21f17048/</url>
     <content><![CDATA[<p class='p center logo large'>太空轻喜剧</p>
@@ -2536,43 +2573,6 @@ MMD区的主战软件。用是很方便用，就是拖拖拖没什么新意。�
       <tags>
         <tag>崩坏系列</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>抽卡记录：星穹铁道</title>
-    <url>/b0deba33/</url>
-    <content><![CDATA[<h2 id="qia-chi-ji-lu" id="卡池记录">卡池记录</h2>
-<details class="folding-tag" ><summary> 点击查看内容 </summary>
-              <div class='content'>
-              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>卡池记录</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0上 希儿</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.0下 景元</strong></p></div></div><div class='timeline-item-content'><p>1.0的卡池还没登上列车</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1上 银狼</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，但当时是第一次玩抽卡游戏，然后歪了姬子好像是。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.1下 罗刹</strong></p></div></div><div class='timeline-item-content'><p>这个池子，我见过，歪了姬子后好像没票子了，没出。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2上 刃</strong></p></div></div><div class='timeline-item-content'><p>没抽好像，也在攒票子期间，但是完全不懂什么大保底小保底什么歪啥的专有名词都不懂。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.2下 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>桑博 + 1卡芙卡 + 1希露瓦</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_卡芙卡上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3上 饮月君</strong></p></div></div><div class='timeline-item-content'><p>跳了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.3下 符玄</strong></p></div></div><div class='timeline-item-content'><p>想不到，30抽中了！！</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_符玄上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4上 镜流</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈哈我青雀溢出来了哈哈哈，但是镜流120抽拿下</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_镜流上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.4下 托帕</strong></p></div></div><div class='timeline-item-content'><p>下了10抽，无，一张也不剩了</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5上 藿藿</strong></p></div></div><div class='timeline-item-content'><p>一张票子也没了，在攒票子ing</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.5下 银枝</strong></p></div></div><div class='timeline-item-content'><p>哈哈哈哈哈没出哈哈哈哈哈，精神状态良好哈哈哈哈哈哈哈</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_寒鸦上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6上 真理医生</strong></p></div></div><div class='timeline-item-content'><p>邮箱中收到啦哈哈哈哈（仰天长笑）啊😘，但是要说一下，以真理这个名头送角色真的很显大义。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_真理医生.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>1.6下 阮梅 卡芙卡</strong></p></div></div><div class='timeline-item-content'><p>有点后悔没抽了，开年第一次十连抽，感觉很适配卡芙卡和黑天鹅。我只能天天蹭别人的用。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/24开年十连抽.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0上 黑天鹅 饮月</strong></p></div></div><div class='timeline-item-content'><p>啊啊啊30抽，没歪没歪哈哈哈啊哈，但是小青龙的池子80抽，就是说我的小青龙怎么变紫了啊 😑</p><div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/抽卡_黑天鹅上车.jpg" style="width:600px;"/></div></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.0下 花火 景元</strong></p></div></div><div class='timeline-item-content'><p>虽然很喜欢，但是跳，因为后面的黄泉能跳怪，我得留着票子，大号攒票子ing。啊啊啊啊啊小号all in了，没有！！根本没有！！</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p><strong>2.1上 waitting</strong></p></div></div><div class='timeline-item-content'><p>等待ing</p></div></div></div>
-              </div>
-            </details>
-<h2 id="shou-ru-nang-zhong-de-jiao-se" id="收入囊中的角色">收入囊中的角色</h2>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="https://fastly.jsdelivr.net/gh/wytgm/BlogImg/星穹铁道/2.0之前角色收藏.png" style="width:350px;"/></div></div>]]></content>
-      <categories>
-        <category>游戏库</category>
-      </categories>
-      <tags>
-        <tag>崩坏系列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2023年碎碎念归档</title>
-    <url>/5835202/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="7c4685dba9561269fa9ab567b53e5ab945cff64d12d498f7b61fed54ab93e2d0">0995c06c86accb8f1a6f2e90f5979125cc655942e2ea96fb43962566e91874c109ed089a07d55f141ce9d6efb93598419f362f998f13fcdecb613a95ee46aa11fc049167e90c1b6d32ad2a78cdd126194545ac6841eaf9eb0c7b24109f0ba9ebf3f50eed5e0ba8f641564bad889b5ffe55056150e3eece2c242b59ccca486c00c54bf12c4deaaf346da39179d172c22424ab394b1e830e85cc50888e2702ac2c9f04208d3f2f3933bf9c40e778d8a4e925eeeb9615ffe84d03cc1503ea51ff691534de040602af669d6720ef347e382c1b30812a60e6d001f922ef6e05ab006c92db30971e6e743040505eff64c2e88a029030192aaa399218fbeaf75a4ecd20e2b314ce61dfc516d7332ccf7d72477a55b13529af969419daefb7d4d3ec1fd2824c3e6d7bf79e74585704ad285b52b9bd7bf907a9aa3d06980e99459a5ff0329ef5d279919d560e581b3c226a96da8e68c5b1b2ef2db383a8210e456993ddcc6ee526acbdd448a210749a641c6fe10e13eea822b82c93e4fbbd45dad9e7ec44a6b3a2c43fe90f01b69f5884450bc4f38a3e63d438a3669dbbea52dcda2dfb9e1d082996cbe03753ef1b430e5635fd48c4d0633d29f29e6f67d1ad778c210ec674a6efcefcbfb0fcfe510bfcda282d20bc8c5691ee057169799fbc585c21d579bb38ddf9efbd8824fc877ff3d00e07a3c6b1d2d831d0a1fdd0e3fac1eaa86e799ba7576b4e5167492e5cfcb4826a9683aa5fa52aa9cdb1a9dbd668c70944b7980add7b78916d7dcafaf2a87e7c16dbbdbc348bd4ed7a8fe031098e6891aa620f58be623b8174d0a798755df1e17eb4410fd07440c43b6da89f9b2546477c6f70a55cae53c9640a21f488227a4f949d6c91dcf311118b68e43319a00fa32a8fc339073a138fbfbb37bbe0942b23099afe9d83224d936ebd5cb0253134d1897273a19c73a118226d75d1ead29accf03b775902ad9396fe1c0c5e7b3c6d7b7e08590763b721c4d11f3e25fb9e65cf1f0349493c62b2f61088e60d0d44990063c0ec5fd0d57f5650e808506e510078f62fbff2bf7af079fb2198823afe5d1426adb2acd6638204c0e826a905b91c8095f766b6f201d5bf99956c1f05dae9948edabbe715a7abe82cf9ae916c052142533f5dc790b8112f859581f214067d551473e4873afa21a582c5525fceb8fdc131998f910525ca41a6a5505229394477cb361b0e38981c4b27f42b3ff7dd273f94f3e09a7fa85aab0d9607bc90c3b84eaa2803a0f4f4c2d15b432a6ac5a2a99b29ef2332e15f46d12cc80d9b741bfe6f263615b2c7a276c35c314e6c1fb12920776632f9003bda21475e3bf185a67f277b7fd6f6773d3b0b016a8a236d10ac8c20f909b354356058413b696d935fc639f61c5199e16e975a37cd7b26d902eb1bfdf5d0c93d4acb5677a33a25fe1078af37919d9c8f0e01166821792c38ab29103423bce0f5fa485d119a2878bf0f6883cb5b0015e73fd62fef53900d8a6d51875aa37a9ca2ab29ead550c2d2a6135fe8ecf1003ac841a3f658198439ee27fe597409b6866163f5f34c46b74ef489c98431bedb92b7477313cc87eb976c9a44305ce1cbd662c924b7c20c0428f6cc40feff347c4bfe6e95b7f53af78524597250c849bbf340db63c9a09ab19ec38875facac917c6836d87a3a4ddc0698c23febc47bff5e83acd313091d36be2aebd3e3e4d046888fc7ac329cc7a0c51e097a4f0c7f3d1dbc9f6ee5d365ec1a3d2a3d7fe3ba2757733b006dead43aa51c536b4ed16a75f13d7386fdd266af5dfd3007fb298f72fcc734110d0cb23a48c1768c77c89d3f36ce08d590e4b0ab43d156da587e45e4c0e4a1766a026abeffec6bd24783c7917408a167d9542e5dca88986b2dd23af6d49a24b29b58c447eaa2097d6b60f1036749f71b1a8c6ec6fe8a97fc9813af84bc1ed7a766931bb16e4dc5a01e6bb2839823354762861b2e285eab8657fbef9e64cb7fb935afce1068b938b01976ff788a1dacad9154d7de402aa265b82267f01d9549800330af982354b4a3fc1defd9bf471a2d282b12c9c3e8fa8d7f2782dcca7ea0d49ee976ab9b35a31d38628162b2a1487adfd4fb1bf8cbe78209be4359efda4f818ed85b14e28af5d37d644901df75a8dabeeca14b7b4bfa2d5ec352147e20becd639224de3a16dd74c3374d49f571e9835dd409ca7021d49dcf50b486a3fd5afdcfbd1dca988d525010be515f0d4b12e6c953895f88edf556da762024133ff960bb8d627a90eb6358b4b56131b7a4527c8beef8e56069054c5509903bb806710384018327fb563ed3e33519fe60fc097599d71256e9ec9a47b5d057f818e0a5602af4e20281b3fb404db84f29029b7aac15a1c09f3ce40f1610aab79b187a6aa95b2c4ab42714231b25cc52910fe8bc680e76cf3319dd8b632dc3e08dfa1751debfde80c974806b1f99c44d38612892334875b2c8d16be884fcef5c65b98c28619dc10e8c8df961d33bcb78a9e6d5e974239d99fbed9a7dfd03626ecf1d4561f3df92cb7ac121b9dcc3323c457c4f8dd2496c8a2ab995cbe73592bce8b05291d0a7ac44d44bcf264e71f60922c7405207d55a3179315798edb96be23e68613e541068dea90e2252e6a8aa93d4e41766ea4a2b53820662fd68fe771d6a942d14e948873dfea33d15a43aff6f857780f8fdc76f76e79f4b1bfb66c6c946a589378a59555cb530f01609a59c8ac3529f72ab3bd4325933ba1d0c7128d544d73f75c0aa3d17fdd56be54e73b934252d0c4bd46dc64b77223cbeddb21ae49e854a6f8e688a5ceb4eaabf3ebcf328c9e034b046844859ac568c8de410f30cd8b60e20a0a1ee241965945bfd1d71ac7fdaee4047a534841887b5297356be86999381722c2650ef3100a3c9015edd726bdb09929b81e3ece1eb642af5211811c105b1302bc9ab132dc5ff6f6b389763969e66616502e3cb32b17d42fc6744c09dee10049ec7ae49269531e36aa306f307c8ed7060197f57845baa2b66f2dc9a8a3b763a02e2e43cc9a5f82f66b9cf43fc17141d5f9ec734328b500bbb4d2237bdb93145112abe084824893142982cd8d086ead2562e59bb08be94e8fb62c85127960c1364356d66fc8d070b7ee0659202e580cd7014a3fa805c0c1f7104afc486a08bfeab25b82de7fbacb690c3230dd4a2b7692fd94a5f64302557b44dea9b2a718868766ea990f4e60dd94810ad2d3f56009280fff480617ee631dd0d2d26e43bf8d6b2edad73ff6ccb5c692b3b8e317ab22a28f07d00b55fdd00db21614857b78d89d058da59d17718fbd66670ed8ede28c8de69eb7912cb66fa389dd5f51b50eee09ecc258dcb0a791bf9da2dbe5390904a09570af7e389c9d5f38f6f1c0049e5e518a0091bc6f08624726b08aa9d710b828d281c70f4fb264057f88c7b99877dda2e7a575c313e12362e3c0c6a28f1c6a9542f92030bec741992750f78b4556830b1c1a58a2c1dc8acc7a4abb0d71679b6243c978f47949f65cdd3e28f60eeb0197b9a894a2793fb409b4847f822f4b6f91f717ec9f928d7c59951ab897fd27abd3428d1efeb4e2fb3329d7cc16dc5f6eaec065306bf3553737a0e5e94c029ba1664fbca9f7bfa9590fb4b47f504c4489be746d9313846a12837d01349c8c902dea973791eb433ced8e8a95a7e1038db6e214be5618f4da38a96e831d25fd3c2f1f581c14f23c6136201fba9f4a343762a1d17decf5d51ea014b1e5915e6f44d4f7b7631522965edc0519472942e796e1daab93956df61f0f8f6a2e9bad164d3742c14ce9e9420fade502d2d42b64f68858c3d6638bef9d1496869c02c6464b35f7208bb2eff149b991279f8d14e9e54e65e273caaed153027c8724de4de2ae518097affdeae4ef5a5d5c99adb9759fb6d1a0e80018c0d3840a0db5056e0ddf3ecf3d6424bb7c069d22753b83f65f07e13817b2a3c31d0717feceb6ed40d131a67b5c3cbac4720919c6f669528bc7e1e2c205bb9ef99871246f460680df341af481c5547959539dd890c8a8875af606ec1f1c83e9c27d14edb5fdbaa138de436fd68a3a62749b51e7c179ef43546904c62dce8e67ff31512b596f618901f9506bf2a6b5f51e14b3064b51f1fd636ca4875b1a53113a8b24f8599b831a46e2afe6c9217801bbcddf6db922f6cd5e4419754e152efea3b5efff9ba140a1922c5247005ad48b23e2ed5157866cb05f7666c768fab900937dd7e3f7baff43a468cb65dde444b9bd789307dedf704a074a55a178f8dbcaf60608c698d6025d5ad8466cf675ef6a63463f18638fea6ec35a7470c1d3d10eb0083f49544d5f0345e406b1a89d290e66948ebb92244ce7e563233a693360e13c67326bafcf75157355d9aa2b9cf393493b16578c7345edaf4a1cd0e5bbf824458efd845dd6077ea85d61e2b07c662d32fc2b7cfe9b367a5ab8ae3c5da683cdfed2c7bf032b04687cfd6382792d32844494573694f49b2ea0e23193b58f16620094fa1a625b7d22f3e842da93038dd716a3308c751fab5d31a2656a0bd703b740cf9a650e186649bde625bdb0c44ce819a9e86b21fe7e9bbcf9a197e240686f45dd469ee53ca24e85a2ce4d1048fe612738ee8b97333212d0e0796db0ad6badbbb84df4b37942d72a5a23f9c2b2834108ed9923e9624dd038009638560b79781c0f0a7ecdd11b567a95bf4966b369bf5378eb8f7b0f4187a3aaf69619b29f74d5dc085024f052acfc0134ab62e044c0174576861d9ecc08529e54a10d4e551df4b923cc6b9c8fdedd0c133b8e73234c8f71d0689c2f0058506a8c75cdd6f6496673db882851fdf005f5835ae49fb20fd8013a5d9c71a6cd76f865a91f6d13ce9ed7236c6092f0cb810e65de7bb658d15075ce001f2fbb687808ef7ba19016ac7cfad3f08314d79e0c27f435e03fac0c7f97713ea2b723e782602a508615b488025f78d328b1df6f7be696faa066f723f4d117ada9385eef1fbe13ac29556008735588f0899af9285907e251b6f0e9bd503507f60fe84f93e577d6ffe5d83d8af0a118fd77702181737c2a93444e19771120627e0833d6442d6bc3931b7c6b55a3cc67ba7590af90e2b7d6ecbf637a29906bee986efb41c51289ba367e64059c4715cac988d408351f18229e327203a455910dbfc31f140a98ac09997b9bd95ec683a61641a3c9123969afec8e3563a0cacc315502533d52caaa608f0c50a519d509695565ac5611c31928f9c2654c376d126f57bab7a2c0c1fbfd05fd0acb325e5c307895a52965bf5b0a3d3e9f3278692089a3022e9fc4f5af2976c445f7a350ecdaed7e5709866e0db7a482036ffb361ac7427e612d3d68f90004175a6fe16b11fe461945c18a121657677662ef9908af7814ac911dd0be0235701ce0b0a0843731467f7c7aca52a4a5f3801f8e6ed858d6313d10f0064715264ea8ab22f79103bff2bc41c8a5a3f06467fbf8fbf22bb29cd8ab4afdbcfa7e2cd44c70e5ebe62fe2aa2243e8dfdf1100df94a609e5f9e10ee21d0561146f876b678c96ede023eb88e91ceb279b956c6c6e017e9f4495b7f2ed7ae9d3f808b92a50aa2cd0c6a7887ff3fdcb8a350283a0c647a25a029ca0557185e2d37bd370ed71df0ff476700b88cb7a05edc4d421ee08ac5788c864041a18f3e10afbfc57c474eea4771ed31519673764d0f6bd71fb502f816703512935b0490938218b47ab6950460fc04af1c97af6fa20517c53cf7840afca11296383858e9b5debd77ad6cb94eb6c626501d8c1d79a2cd701ccd6b24171800e033a13f9db8583453183d2bcf4807140a18e3bf0e01518f099c9697a461062c1800c4f3ea8d79bfeaa10d3f3d074c52cc9129ac8132a3a32b331b3cd6ee5174303de524af5816a9d24fb752cc842371814dd3a01d94b9a75a392dac4e6a04ea2ae2713b422c524359a0837ba940994b708b6b2cd08fd04aaf0bfdb9b18443bbdfc530a09e1f62462343406ba5bc1f5b3c9768f494454b3b72c16cb580bc9a951faf79ca39996a236b8e5535153b9e1524e19410aac78bbdb11674bf8bf580b1183e06615936e9a88256e02f0daa37a611aff7f501a7665108ec046ff19d2e739a0965522dfafaa8c9822d2b58b1db6f57010b021a8a35044cebdd936dc29ded3192c48c9ac7513ba424a045a1e9c3e3bb5449eddfb44a493d30375c1d7f68ffe30b1a5c1cc021935152e939b5407c711f8452c8c1bcf4afe515ad2ea1045e3c82e1970a4bfe5d04fda362f32b48584b4803b91eb545c7795db499bf0387e79467736398e420554a56dea8b181bceb36b802bdb9a02c946710419ee7de6e8b0a5c97f76994f92c48c60425ca1f7888276bef96133c6ad372921b0778dc6b973866266f803a1834ce555ea5984d52d661f9b24221397d8d0ff1aa98370742a1109e57d9a4c31a0cbc359848d6517bb4e42e20d73ff98bab835082b2d89c84daaa895813307aa536562e920</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">不给看，请输入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>观影碎碎念</category>
-      </categories>
   </entry>
   <entry>
     <title>2023年我追追追的总结</title>
