@@ -205,8 +205,8 @@ function createWinbox() {
 <h2><center>字体设置</center></h2>
 <p id="swfs">
 <a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan'!important;color:black" onclick="setFont('ZhuZiAWan')">筑紫A丸标准体2.0</a>
-<a class="swf" id="swf_default"  href="javascript:;" rel="noopener external nofollow" style="font-family:'漫画体'!important;color:black" onclick="setFont('漫画体')">漫画体</a>
-<a class="swf" id="swf_default"  href="javascript:;" rel="noopener external nofollow" style="font-family:'也字工厂弗吉亚体'!important;color:black" onclick="setFont('也字工厂弗吉亚体')">也字工厂弗吉亚体</a>
+<a class="swf" id="swf_漫画体"  href="javascript:;" rel="noopener external nofollow" style="font-family:'漫画体'!important;color:black" onclick="setFont('漫画体')">漫画体</a>
+<a class="swf" id="swf_也字工厂弗吉亚体"  href="javascript:;" rel="noopener external nofollow" style="font-family:'也字工厂弗吉亚体'!important;color:black" onclick="setFont('也字工厂弗吉亚体')">也字工厂弗吉亚体</a>
 <a class="swf" id="swf_default" href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('default')">系统默认</a>
 
 

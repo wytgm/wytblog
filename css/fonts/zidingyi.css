@@ -421,3 +421,28 @@ input#pic-link {
 
 }
 /*----------------------------------列表li样式更改结束------------------------------------- */
+
+
+
+/*----------------------------------页脚的运行时间样式更改------------------------------------- */
+div#runtimeTextTip {
+  font-size: 20px;
+  font-family: 'comic';
+  /* margin: 15px; */
+}
+.copyright {
+  /* margin: 15px; */
+  font-size: 18px;
+  color: brown;
+  font-family: 'comic';
+}
+img.workSituationImg.boardsign.entered.loaded {
+  margin: 15px;
+}
+@font-face {
+  font-family: 'comic';
+  src: url("https://fastly.jsdelivr.net/gh/wytgm/BlogImg/font/也字工厂漫画体.ttf");
+  font-display: swap;
+}
+
+/*----------------------------------页脚的运行时间样式更改结束------------------------------------- */
