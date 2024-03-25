@@ -38,7 +38,7 @@ function clearItem() {
 
 // 设置字体
 if (localStorage.getItem("font") == undefined) {
-  localStorage.setItem("font", "漫画体");
+  localStorage.setItem("font", "comic");
 }
 setFont(localStorage.getItem("font"));
 function setFont(n) {

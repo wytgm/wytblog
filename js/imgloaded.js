@@ -67,10 +67,10 @@ class ProgressiveLoad {
   };
   
   const config = {
-    smallSrc: 'https://t.mwm.moe/fj/', // 小图链接 尽可能配置小于100k的图片
-    largeSrc: 'https://t.mwm.moe/fj/', // 大图链接 最终显示的图片
-    mobileSmallSrc: 'https://t.mwm.moe/mp/', // 手机端小图链接 尽可能配置小于100k的图片
-    mobileLargeSrc: 'https://t.mwm.moe/mp/', // 手机端大图链接 最终显示的图片
+    smallSrc: 'https://apihome.sonderwyt.top/', // 小图链接 尽可能配置小于100k的图片
+    largeSrc: 'https://apihome.sonderwyt.top/', // 大图链接 最终显示的图片
+    mobileSmallSrc: 'https://apihome.sonderwyt.top/', // 手机端小图链接 尽可能配置小于100k的图片
+    mobileLargeSrc: 'https://apihome.sonderwyt.top/', // 手机端大图链接 最终显示的图片
     enableRoutes: ['/'],
     };
 

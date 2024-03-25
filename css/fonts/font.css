@@ -35,7 +35,7 @@
 }
 
 @font-face { 
-    font-family: 'COMIC'; 
+    font-family: 'comic'; 
     src: url('../fonts/也字工厂漫画体.ttf') format('truetype');
     /* font-weight: 100; */
     font-style: normal;

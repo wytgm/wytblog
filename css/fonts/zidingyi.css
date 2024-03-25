@@ -234,6 +234,14 @@ p {
   top: 50%;
 }
 
+@media screen and (max-width: 768px){
+  #post {
+    /* background: var(--anzhiyu-background) !important; */
+    background: #73bdff;
+    border: none;
+  }
+}
+
 /* ---------------------------------------头像呼吸灯--------------------------------------- */
 
 [data-theme="light"] .avatar-img {
