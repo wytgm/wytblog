@@ -1,0 +1,1 @@
+"use strict";function addLabel(e,a){const l=e[0];return`<mark class="hl-label ${e[1]||"default"}">${l}</mark> `}hexo.extend.tag.register("label",addLabel,{ends:!1});

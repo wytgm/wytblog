@@ -1,0 +1,1 @@
+hexo.extend.helper.register("get_version",(function(){const{version:e}=require("../../package.json");return e}));

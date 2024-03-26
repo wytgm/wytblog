@@ -1,0 +1,1 @@
+hexo.extend.helper.register("catalog_list",(function(e){let t="";return hexo.locals.get(e).map((function(e){t+=`\n    <div class="catalog-list-item" id="/${e.path}">\n      <a href="/${e.path}">\n        ${e.name}\n      </a>\n    </div>\n    `})),t}));

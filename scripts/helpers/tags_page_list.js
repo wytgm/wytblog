@@ -1,0 +1,1 @@
+hexo.extend.helper.register("tags_page_list",(function(n){let a="";return hexo.locals.get(n).map((function(n){a+=`\n      <a href="/${n.path}" id="/${n.path}">\n        <span class="tags-punctuation">#</span>${n.name}\n        <span class="tagsPageCount">${n.length}</span>\n      </a>\n    `})),a}));

@@ -1,0 +1,1 @@
+"use strict";const urlFor=require("hexo-util").url_for.bind(hexo);function inlineImg(e){const i=e[0],n=e[1]?`style="height:${e[1]}"`:"";return`<img class="inline-img" src="${urlFor(i)}" ${n}/>`}hexo.extend.tag.register("inlineImg",inlineImg,{ends:!1});

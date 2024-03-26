@@ -1,32 +1,4 @@
 @font-face { 
-    font-family: 'XWZK'; 
-    src: url('../fonts/筑紫A丸by宁静之雨.woff2') format('woff2');
-    /* font-weight: 100; */
-    font-style: normal;
-}
-
-@font-face { 
-    font-family: 'ZZAW'; 
-    src: url('../fonts/霞鹜臻楷.ttf') format('truetype');
-    /* font-weight: 100; */
-    font-style: normal;
-}
-
-@font-face { 
-    font-family: 'ZQFS'; 
-    src: url('../fonts/朱雀仿宋 .ttf') format('truetype');
-    /* font-weight: 100; */
-    font-style: normal;
-}
-
-@font-face { 
-    font-family: 'QMSJ'; 
-    src: url('../fonts/也字工厂青梅手迹.ttf') format('truetype');
-    /* font-weight: 100; */
-    font-style: normal;
-}
-
-@font-face { 
     font-family: 'FJY'; 
     src: url('../fonts/也字工厂弗吉亚体.ttf') format('truetype');
     /* font-weight: 100; */

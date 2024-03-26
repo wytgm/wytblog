@@ -1,0 +1,1 @@
+"use strict";const{escapeHTML:escapeHTML}=require("hexo-util");function mermaid(e,r){return`<div class="mermaid-wrap"><pre class="mermaid-src" hidden>\n  ${escapeHTML(r)}\n  </pre></div>`}hexo.extend.tag.register("mermaid",mermaid,{ends:!0});

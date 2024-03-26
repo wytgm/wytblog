@@ -1,0 +1,1 @@
+"use strict";function iconFont(e){let t=(e=e.join(" ").split(","))[0],i=e[1]?e[1]:1;return`<svg class="icon" style="width:${i}em; height:${i}em" aria-hidden="true"><use xlink:href="#${t}"></use></svg>`}hexo.extend.tag.register("icon",iconFont);

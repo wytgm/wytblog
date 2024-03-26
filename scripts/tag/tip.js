@@ -1,0 +1,1 @@
+"use strict";function tip(e,n){e&&e.join(" ");return`<div class="tip ${e.join(" ")}">${hexo.render.renderSync({text:n,engine:"markdown"})}</div>`}hexo.extend.tag.register("tip",tip,{ends:!0});

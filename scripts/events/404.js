@@ -1,0 +1,1 @@
+"use strict";hexo.extend.generator.register("404",(function(e){if(hexo.theme.config.error_404.enable)return{path:"404.html",layout:["page"],data:{type:"404",top_img:!1}}}));

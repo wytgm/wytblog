@@ -1,0 +1,1 @@
+"use strict";hexo.extend.filter.register("stylus:renderer",(function(e){const{highlight:i,prismjs:n}=hexo.config;e.define("$highlight_enable",i&&i.enable).define("$highlight_line_number",i&&i.line_number).define("$prismjs_enable",n&&n.enable).define("$prismjs_line_number",n&&n.line_number)}));

@@ -1,0 +1,1 @@
+"use strict";function postP(t){return`<p class='p ${(t=t.join(" ").split(","))[0].trim()}'>${t[1].trim()}</p>`}function postSpan(t){return`<span class='p ${(t=t.join(" ").split(","))[0].trim()}'>${t[1].trim()}</span>`}hexo.extend.tag.register("p",postP),hexo.extend.tag.register("span",postSpan);

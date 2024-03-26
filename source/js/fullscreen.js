@@ -1,0 +1,1 @@
+let rmf={fullScreen:function(){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}};

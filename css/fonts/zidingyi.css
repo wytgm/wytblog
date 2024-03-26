@@ -398,11 +398,11 @@ input#pic-link {
   position: fixed;
   padding: 10px;
   font-size: 17px;
-  background-color: white;
+  background-color: rgb(250, 168, 168);
   /* 字体选择框边界由js指定 */
   border: 2px solid var(--border-color);
   border-radius: 20px !important;
-  margin: 8px;
+  margin: 18px;
 }
 
 .swf:hover {
